@@ -1,0 +1,38 @@
+rules_version = '2';
+// Règles de sécurité de Lampe (Firestore).
+// - users/{uid} : chaque compte ne voit que sa propre fiche (quelle famille il a rejointe).
+// - fam/{fid} : une famille. On en devient membre en créant fam/{fid}/membres/{uid}
+//   soit en étant le créateur, soit avec le code d'invitation du lien.
+// - fam/{fid}/data/users/{uid}/... : données privées (plan de lecture, notes, études) : le propriétaire seul.
+// - le reste de la famille (infos, enfants, envois, couple) : les membres de la famille.
+service cloud.firestore {
+  match /databases/{db}/documents {
+    function signed() { return request.auth != null; }
+    function member(fid) { return signed() && exists(/databases/$(db)/documents/fam/$(fid)/membres/$(request.auth.uid)); }
+    function famDoc(fid) { return get(/databases/$(db)/documents/fam/$(fid)).data; }
+
+    match /users/{uid} {
+      allow read, write: if signed() && request.auth.uid == uid;
+    }
+
+    match /fam/{fid} {
+      allow read: if member(fid);
+      allow create: if signed() && request.resource.data.owner == request.auth.uid;
+      allow update: if member(fid) && request.resource.data.owner == resource.data.owner;
+
+      match /membres/{uid} {
+        allow read: if member(fid);
+        allow create: if signed() && request.auth.uid == uid
+          && (famDoc(fid).owner == uid || request.resource.data.code == famDoc(fid).invite);
+        allow delete: if member(fid);
+      }
+      match /data/users/{uid}/{doc} {
+        allow read, write: if member(fid) && request.auth.uid == uid;
+      }
+      match /famille/{doc} { allow read, write: if member(fid); }
+      match /enfants/{doc} { allow read, write: if member(fid); }
+      match /envois/{doc} { allow read, write: if member(fid); }
+      match /couples/{cid}/{rest=**} { allow read, write: if member(fid); }
+    }
+  }
+}
