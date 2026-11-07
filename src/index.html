@@ -314,6 +314,8 @@ details.set>*:not(summary){margin-left:16px;margin-right:16px}details.set[open]{
 
 .iaopt{display:block;width:calc(100% - 32px);box-sizing:border-box;text-align:left;border:2px solid var(--line);background:var(--card);border-radius:14px;padding:10px 12px;margin:6px 0;color:var(--ink)}
 .iaopt b{display:block;font-size:15px}.iaopt small{color:var(--muted)}.iaopt.on{border-color:#d62976;background:color-mix(in srgb,#d62976 8%,var(--card))}
+
+.bt-prev{border:2px solid #f9a8d4}.bt-prev .big2{font-size:18px;font-weight:900;margin:6px 0 2px}.bt-prev small{color:var(--muted);font-weight:700}
 </style>
 
 </head>
@@ -1139,7 +1141,7 @@ function taskRow(it, mon, t, done){
 function sheepRow(){
   const s = btState(); const t = todayISO();
   if (!s.type) return `<button class="sheeprow" data-a="go" data-v="lire">${sheepSVG('attend', 44)}<div><b>${tx('Mon mouton','Minha ovelha')}</b><small>${tx('Choisis ton plan de lecture de la Bible','Escolha seu plano de leitura')}</small></div><i>›</i></button>`;
-  const st = btStreak(); const c = btDoneCount(); const pct = c.total ? Math.round(c.done * 100 / c.total) : 0;
+  const st = btStreak(); const c = btDoneCount(); const pct = btPctRead();
   return `<button class="sheeprow" data-a="go" data-v="lire">${sheepSVG(btMood(), 44)}<div><b>${esc(s.name || tx('Mon mouton','Minha ovelha'))} ${s.days[t] ? '· ✅ ' + tx('lu aujourd’hui','lido hoje') : ''}</b><small>🔥 ${st} ${tx(st > 1 ? 'jours' : 'jour', st > 1 ? 'dias' : 'dia')} · ${pct} % ${tx('du plan','do plano')}</small></div><i>›</i></button>`;
 }
 /* sélection du jour figée à la première ouverture (sauf si le temps disponible change) */
@@ -2538,27 +2540,60 @@ function splitPortions(chs, n){
   return portions;
 }
 let BT_CACHE = { key:'', val:null };
+/* nombre de chapitres / versets d'une liste de livres (à partir d'une position) */
+const btSize = (bk, from) => { const chs = btChapters(bk, from); return { ch:chs.length, v:chs.reduce((t, x) => t + x[2], 0), chs }; };
+function btPlanFor(s){
+  if (!s || !s.type) return null;
+  const all = Array.from({ length:66 }, (_, i) => i + 1);
+  const days = Math.max(1, Math.round((+s.years || 1) * 365));
+  /* n portions pour une liste de livres : soit la durée choisie (au prorata de ce qui reste), soit X chapitres par jour */
+  const mk = (bk, nDays, cpd) => { const f = s.from && bk.includes(s.from.b) ? s.from : null; const rest = btSize(bk, f), full = btSize(bk, null);
+    const n = cpd ? Math.ceil(rest.ch / cpd) : Math.round(nDays * rest.v / Math.max(1, full.v));
+    return splitPortions(rest.chs, Math.max(1, n)); };
+  const cpd = +s.cpd || 0; let val;
+  if (s.type === 'jours'){
+    val = { jours:{}, streams:Object.values(BT_JOURS).map(j => j.b) };
+    for (const k of Object.keys(BT_JOURS)) val.jours[k] = mk(BT_JOURS[k].b, Math.round((+s.years || 1) * 52), cpd);
+  } else if (s.type === 'mixte'){
+    const OT = all.slice(0, 39), NT = all.slice(39);
+    let ot, nt;
+    if (cpd){ const fo = s.from && OT.includes(s.from.b) ? s.from : null, fn = s.from && NT.includes(s.from.b) ? s.from : null;
+      const ro = btSize(OT, fo), rn = btSize(NT, fn); const n = Math.max(1, Math.ceil((ro.ch + rn.ch) / cpd));
+      ot = splitPortions(ro.chs, n); nt = splitPortions(rn.chs, n); }
+    else { ot = mk(OT, days); nt = mk(NT, days); }
+    const n = Math.max(ot.length, nt.length);
+    val = { seq: Array.from({ length:n }, (_, i) => [...(ot[i] || []), ...(nt[i] || [])]), streams:[OT, NT] };
+  } else {
+    const bk = s.type === 'chrono' ? ORDER_CHRONO : s.type === 'nt' ? all.slice(39) : s.type === 'ot' ? all.slice(0, 39) : s.type === 'perso' ? (s.books && s.books.length ? s.books.slice().sort((a, b) => a - b) : all) : all;
+    val = { seq: mk(bk, days, cpd), books: bk, streams:[bk] };
+  }
+  return val;
+}
 function btPlan(){
   const s = btState(); if (!s.type) return null;
-  const key = JSON.stringify([s.type, s.years, s.from, s.books, s.started]);
+  const key = JSON.stringify([s.type, s.years, s.cpd, s.from, s.books, s.started]);
   if (BT_CACHE.key === key) return BT_CACHE.val;
-  const days = Math.round(s.years * 365);
-  const all = Array.from({ length:66 }, (_, i) => i + 1);
-  const total = bk => btChapters(bk, null).reduce((t, x) => t + x[2], 0);
-  const mk = (bk, nDays) => { const chs = btChapters(bk, s.from && bk.includes(s.from.b) ? s.from : null); const rem = chs.reduce((t, x) => t + x[2], 0); return splitPortions(chs, Math.max(1, Math.round(nDays * rem / Math.max(1, total(bk))))); };
-  let val;
-  if (s.type === 'jours'){
-    val = { jours:{} }; for (const k of Object.keys(BT_JOURS)) val.jours[k] = mk(BT_JOURS[k].b, Math.round(s.years * 52));
-  } else if (s.type === 'mixte'){
-    const ot = mk(all.slice(0, 39), days), nt = mk(all.slice(39), days); const n = Math.max(ot.length, nt.length);
-    val = { seq: Array.from({ length:n }, (_, i) => [...(ot[i] || []), ...(nt[i] || [])]) };
-  } else {
-    const bk = s.type === 'chrono' ? ORDER_CHRONO : s.type === 'nt' ? all.slice(39) : s.type === 'ot' ? all.slice(0, 39) : s.type === 'perso' ? (s.books.length ? s.books.slice().sort((a, b) => a - b) : all) : all;
-    val = { seq: mk(bk, days), books: bk };
-  }
-  BT_CACHE = { key, val }; return val;
+  const val = btPlanFor(s); BT_CACHE = { key, val }; return val;
 }
-/* portion à lire aujourd'hui (ou à une date) */
+/* ce que donne un réglage : par jour, durée totale, date de fin */
+function btPreview(s){
+  const p = btPlanFor(s); if (!p) return null;
+  const seqs = p.jours ? Object.values(p.jours) : [p.seq]; const por = seqs.flat();
+  const v = por.reduce((t, x) => t + x.reduce((a, [, , v1, v2]) => a + v2 - v1 + 1, 0), 0);
+  const bks = [...new Set(por.flat().map(x => x[0]))]; const avgCh = bks.reduce((t, b2) => t + bookVerses(b2), 0) / Math.max(1, bks.reduce((t, b2) => t + BOOKS[b2-1][2], 0));
+  const ch = v / Math.max(1, avgCh);
+  const n = p.jours ? Math.max(...seqs.map(q => q.length)) * 7 : por.length;
+  const per = por.length || 1;
+  return { jours:n, vj:Math.round(v / per), chj:Math.round(ch / per * 10) / 10, min:Math.max(1, Math.round(v / per * 0.17)), fin:addDays(todayISO(), Math.max(0, n - 1)) };
+}
+const btDur = s => +s.cpd ? `${s.cpd} ${tx(+s.cpd > 1 ? 'chapitres/jour' : 'chapitre/jour', +s.cpd > 1 ? 'capítulos/dia' : 'capítulo/dia')}` : BT_DUR_LBL(+s.years || 1);
+const BT_DUR_LBL = y => y === 0.25 ? tx('3 mois','3 meses') : y === 0.5 ? tx('6 mois','6 meses') : `${y} ${tx(y > 1 ? 'ans' : 'an', y > 1 ? 'anos' : 'ano')}`;
+/* part déjà lue de tout le plan (avant le point de départ + portions faites), en % des versets */
+function btPctRead(){
+  const p = btPlan(); if (!p) return 0; const r = btBookProgress(); const books = [...new Set((p.streams || [p.books || []]).flat())];
+  let tot = 0, rd = 0; for (const b of books){ const t = bookVerses(b); tot += t; rd += Math.min(t, r[b] || 0); }
+  return tot ? Math.floor(rd * 100 / tot) : 0;
+}
 function btStream(date){ const s = btState(); const p = btPlan(); if (!p) return null; if (p.jours){ const k = String(dow(date || todayISO())); return { key:k, seq:p.jours[k] || [], idx:s.idxj[k] || 0 }; } return { key:'main', seq:p.seq, idx:s.idx }; }
 function btToday(){ const st = btStream(todayISO()); if (!st) return null; return { ...st, portion: st.seq[st.idx] || null, n: st.seq.length }; }
 const pieceVerses = p => p[3] - p[2] + 1;
@@ -2607,7 +2642,8 @@ function btBookProgress(){
   const add = por => { for (const [b, , v1, v2] of por) read[b] = (read[b] || 0) + v2 - v1 + 1; };
   if (p.jours) for (const k of Object.keys(p.jours)) p.jours[k].slice(0, s.idxj[k] || 0).forEach(add);
   else p.seq.slice(0, s.idx).forEach(add);
-  if (s.from && p.books){ for (const b of p.books){ if (b === s.from.b){ for (let c = 1; c < s.from.c; c++) read[b] = (read[b] || 0) + vcount(b, c); break; } read[b] = (read[b] || 0) + VC[b-1].reduce((a, x) => a + x, 0); } }
+  if (s.from) for (const bk of (p.streams || [p.books || []])){ if (!bk.includes(s.from.b)) continue;
+    for (const b of bk){ if (b === s.from.b){ for (let c = 1; c < s.from.c; c++) read[b] = (read[b] || 0) + vcount(b, c); break; } read[b] = (read[b] || 0) + bookVerses(b); } }
   return read;
 }
 const bookVerses = b => VC[b-1].reduce((a, x) => a + x, 0);
@@ -2709,7 +2745,7 @@ function viewLire(){
   const s = btState(); const th = BT_THEMES[s.theme] || BT_THEMES.aube;
   if (!s.type || SUBVIEW === 'setup') return btSetupView();
   const t = todayISO(); const tod = btToday(); const st = btStreak(); const mood = btMood(); const c = btDoneCount();
-  const pct = c.total ? Math.round(c.done * 100 / c.total) : 0;
+  const pct = btPctRead();
   const done = s.days[t] === 'p'; const autre = s.days[t] === 'a';
   const chunks = tod && tod.portion ? btChunks(tod.portion) : [];
   const taps = s.tap[(tod && tod.key) + ':' + (tod && tod.idx)] || [];
@@ -2718,11 +2754,11 @@ function viewLire(){
   const tabs = [['jour', tx('Aujourd’hui','Hoje')], ['progres', tx('Progrès','Progresso')], ['badges', tx('Badges','Conquistas')], ['cal', tx('Calendrier','Calendário')]];
   let h = `<div class="bt" style="--bt:${th[2]}"><div class="bt-hero"><div class="bt-top"><b>${esc(s.name || tx('Ton mouton','Sua ovelha'))}</b><span>🔥 ${st} · 🏆 ${btBest()}</span></div>
     <div class="bt-sheep" data-a="btname">${sheepSVG(mood, 170)}</div><div class="bt-say big">${esc(tx(...MOOD_TXT[mood]))}</div>
-    <div class="bt-bar"><i style="width:${pct}%"></i></div><div class="bt-small">${BT_PLANS[s.type].e} ${esc(tx(BT_PLANS[s.type].fr, BT_PLANS[s.type].pt))} · ${s.years} ${tx(s.years > 1 ? 'ans' : 'an', s.years > 1 ? 'anos' : 'ano')} · ${pct} % · ${c.done}/${c.total}</div></div>
+    <div class="bt-bar"><i style="width:${pct}%"></i></div><div class="bt-small">${BT_PLANS[s.type].e} ${esc(tx(BT_PLANS[s.type].fr, BT_PLANS[s.type].pt))} · ${btDur(s)} · <b>${pct} % ${tx('lu','lido')}</b> · ${tx('jour','dia')} ${Math.min(c.done + 1, c.total)}/${c.total}</div></div>
    <div class="chips scroll" style="margin:12px 0">${tabs.map(([k, l]) => `<button class="chip ${BT_TAB === k ? 'on' : ''}" data-a="bttab" data-v="${k}">${l}</button>`).join('')}</div>`;
   if (BT_TAB === 'jour'){
     if (memo) h += `<article class="post"><div class="tile g-night" style="min-height:0;padding:20px"><div class="emo">🍷</div><div class="big" style="font-size:20px">${tx('Lecture du Mémorial','Leitura da Celebração')} · ${memo.off === 0 ? tx('jour du Mémorial','dia da Celebração') : (memo.off < 0 ? 'J' + memo.off : 'J+' + memo.off)}</div><div class="bt-chunks">${memoChunks(memo.refs).map(m => `<a class="bt-chunk" href="${m.url}" target="_blank" rel="noopener">📖 ${esc(m.label)} <span>JW Library ↗</span></a>`).join('')}</div>${s.memoDone[t] ? `<div class="sub">✅ ${tx('Lue','Lida')}</div>` : `<button class="pb white" style="margin-top:10px" data-a="btmemo">${tx('Lue','Lida')} ✓</button>`}</div></article>`;
-    h += `<article class="post"><div style="--g:${(BT_THEMES[btState().theme]||BT_THEMES.aube)[2]}" class="tile bt-bg" style="min-height:0;padding:22px 18px"><div class="kk">${s.type === 'jours' ? esc(tx(BT_JOURS[dow(t)].fr, BT_JOURS[dow(t)].pt)) + ' · ' : ''}${tx('Lecture','Leitura')} ${tod ? Math.min(tod.idx + 1, tod.n) : 0}/${tod ? tod.n : 0} · ≈ ${tod && tod.portion ? portionMin(tod.portion) : 0} min</div>
+    h += `<article class="post"><div style="--g:${(BT_THEMES[btState().theme]||BT_THEMES.aube)[2]}" class="tile bt-bg" style="min-height:0;padding:22px 18px"><div class="kk">${s.type === 'jours' ? esc(tx(BT_JOURS[dow(t)].fr, BT_JOURS[dow(t)].pt)) + ' · ' : ''}${tx('Lecture','Leitura')} ${tod ? Math.min(tod.idx + 1, tod.n) : 0}/${tod ? tod.n : 0} · ≈ ${tod && tod.portion ? portionMin(tod.portion) : 0} min${tod && tod.portion ? ' · ' + btInfo(tod.portion) : ''}</div>
       ${tod && tod.portion ? `<div class="bt-chunks">${chunks.map((x, i) => `<a class="bt-chunk ${taps.includes(i) ? 'lu' : ''}" href="${x.url}" target="_blank" rel="noopener" data-bttap="${i}">📖 ${esc(x.label)} <span>JW Library ↗</span></a>`).join('')}</div>` : `<div class="big">🎉 ${tx('Plan terminé !','Plano concluído!')}</div>`}
       ${done ? `<div class="big" style="font-size:19px;margin-top:8px">✅ ${tx('C’est lu pour aujourd’hui','Leitura de hoje feita')}</div><button class="pb glass sm" style="margin-top:8px" data-a="btundo">${tx('Annuler','Desfazer')}</button>` : autre ? `<div class="sub">✅ ${tx('Tu as lu autre chose aujourd’hui : la série continue.','Você leu outra coisa hoje: a sequência continua.')}</div>` : (tod && tod.portion ? `<button class="pb white" style="margin-top:12px" data-a="btdone">${tx('C’est lu !','Já li!')} 🐑</button>` : '')}
       ${done && tod && tod.portion ? `<button class="pb glass sm" style="margin-top:8px" data-a="btnext">${tx('Lire aussi la suivante','Ler também a próxima')} ➜</button>` : ''}</div>
@@ -2754,14 +2790,19 @@ function btCalendar(){
 }
 let BT_DRAFT = null;
 function btSetupView(){
-  const s = btState(); const d = BT_DRAFT = BT_DRAFT || { type:s.type || 'canon', years:s.years || 1, books:(s.books || []).slice(), fb:s.from ? s.from.b : 1, fc:s.from ? s.from.c : 1, deja:!!s.from };
+  const s = btState(); const d = BT_DRAFT = BT_DRAFT || { type:s.type || 'canon', years:s.years || 1, cpd:s.cpd || null, books:(s.books || []).slice(), fb:s.from ? s.from.b : 1, fc:s.from ? s.from.c : 1, deja:!!s.from };
   return `<div class="bt"><h1 style="margin:6px 4px 2px">🐑 ${tx('Mon plan de lecture','Meu plano de leitura')}</h1><p class="muted" style="margin:0 4px 12px">${tx('Choisis comment lire la Bible. Tu pourras changer plus tard.','Escolha como ler a Bíblia. Você pode mudar depois.')}</p>
    <div class="bt-plans">${Object.entries(BT_PLANS).map(([k, p]) => `<button class="bt-plan ${d.type === k ? 'on' : ''}" data-a="btdraft" data-k="type" data-v="${k}"><span class="e">${p.e}</span><b>${esc(tx(p.fr, p.pt))}</b><small>${esc(tx(p.dfr, p.dpt))}</small></button>`).join('')}</div>
    ${d.type === 'perso' ? `<div class="card"><b>${tx('Livres à lire','Livros para ler')}</b><div class="bt-bookpick">${BOOKS.map((b, i) => `<button class="chip ${d.books.includes(i + 1) ? 'on' : ''}" data-a="btbook" data-v="${i + 1}">${esc(tx(b[0], b[1]))}</button>`).join('')}</div></div>` : ''}
-   <div class="card"><label class="f">${tx('Durée pour tout lire','Tempo para ler tudo')}</label><div class="chips">${[1, 2, 3, 4, 5, 6, 7].map(y => `<button class="chip ${d.years === y ? 'on' : ''}" data-a="btdraft" data-k="years" data-v="${y}">${y} ${tx(y > 1 ? 'ans' : 'an', y > 1 ? 'anos' : 'ano')}</button>`).join('')}</div>
+   <div class="card"><label class="f">${tx('Durée pour tout lire','Tempo para ler tudo')}</label><div class="chips">${[0.25, 0.5, 1, 2, 3, 4, 5, 7].map(y => `<button class="chip ${!d.cpd && d.years === y ? 'on' : ''}" data-a="btdraft" data-k="years" data-v="${y}">${BT_DUR_LBL(y)}</button>`).join('')}</div>
+    <label class="f" style="margin-top:10px">${tx('… ou un nombre de chapitres par jour','… ou um número de capítulos por dia')}</label><div class="chips">${[1, 2, 3, 4, 5, 6].map(x => `<button class="chip ${+d.cpd === x ? 'on' : ''}" data-a="btdraft" data-k="cpd" data-v="${x}">${x} ${tx('ch./jour','cap./dia')}</button>`).join('')}</div>
     <label class="f" style="margin-top:12px"><input type="checkbox" id="btdeja" ${d.deja ? 'checked' : ''}> ${tx('J’ai déjà commencé : je reprends à…','Já comecei: continuo a partir de…')}</label>
     <div class="grid2"><select id="btfb">${BOOKS.map((b, i) => `<option value="${i + 1}" ${d.fb === i + 1 ? 'selected' : ''}>${esc(tx(b[0], b[1]))}</option>`).join('')}</select><input id="btfc" type="number" min="1" value="${d.fc}" inputmode="numeric" aria-label="${tx('Chapitre','Capítulo')}"></div>
-    <p class="tiny muted">${tx('Tout ce qui est avant ce chapitre compte comme déjà lu ; le rythme reste celui de la durée choisie.','Tudo antes desse capítulo conta como já lido; o ritmo segue a duração escolhida.')}</p></div>
+    <p class="tiny muted">${tx('Tout ce qui est avant ce chapitre compte comme déjà lu (100 % dans ta progression) ; le rythme reste celui choisi.','Tudo antes desse capítulo conta como já lido (100 % no progresso).')}</p></div>
+   ${(() => { const pv = btPreview({ type:d.type, years:d.years, cpd:d.cpd, books:d.books, from:d.deja ? { b:+d.fb, c:Math.max(1, Math.min(BOOKS[d.fb-1][2], +d.fc || 1)) } : null }); if (!pv) return '';
+     return `<div class="card bt-prev"><b>📏 ${tx('Ton rythme','Seu ritmo')}</b><div class="big2">≈ ${String(pv.chj).replace('.', ',')} ${tx(pv.chj >= 2 ? 'chapitres' : 'chapitre', pv.chj >= 2 ? 'capítulos' : 'capítulo')} · ${pv.vj} ${tx('versets par jour','versículos por dia')}</div>
+       <small>⏱️ ≈ ${pv.min} min ${tx('par jour','por dia')} · 🏁 ${tx('fin prévue le','término previsto em')} ${dateLong(pv.fin)} (${pv.jours} ${tx('jours','dias')})</small>
+       ${pv.chj < 1 ? `<p class="small" style="color:#e11d48;font-weight:800;margin:6px 0 0">${tx('C’est très peu par jour : choisis une durée plus courte ou un nombre de chapitres.','É muito pouco por dia: escolha um prazo menor.')}</p>` : ''}</div>`; })()}
    <button class="pb grad block" data-a="btsave">${tx('C’est parti !','Vamos lá!')} 🐑</button>${s.type ? `<button class="pb block" style="margin-top:8px" data-a="btcancel">${tx('Annuler','Cancelar')}</button>` : ''}</div>`;
 }
 function btOptionsModal(){
@@ -2885,11 +2926,11 @@ document.addEventListener('click', ev => {
     case 'btsetup': btOptionsModal(); break;
     case 'btsetupgo': closeModal(); BT_DRAFT = null; SUBVIEW = 'setup'; render(); break;
     case 'btcancel': BT_DRAFT = null; SUBVIEW = null; render(); break;
-    case 'btdraft': { btKeepDraft(); BT_DRAFT[d.k] = d.k === 'years' ? +d.v : d.v; render(); break; }
+    case 'btdraft': { btKeepDraft(); if (d.k === 'years'){ BT_DRAFT.years = +d.v; BT_DRAFT.cpd = null; } else if (d.k === 'cpd'){ BT_DRAFT.cpd = +d.v; } else BT_DRAFT[d.k] = d.v; render(); break; }
     case 'btbook': { btKeepDraft(); const v = +d.v; BT_DRAFT.books = BT_DRAFT.books.includes(v) ? BT_DRAFT.books.filter(x => x !== v) : BT_DRAFT.books.concat(v); render(); break; }
     case 'btsave': {
       btKeepDraft(); const D = BT_DRAFT; if (D.type === 'perso' && !D.books.length){ toast(tx('Choisis au moins un livre','Escolha pelo menos um livro')); break; }
-      s.type = D.type; s.years = D.years; s.books = D.books; s.from = D.deja ? { b:+D.fb, c:Math.max(1, Math.min(BOOKS[D.fb-1][2], +D.fc || 1)) } : null;
+      s.type = D.type; s.years = D.years; s.cpd = D.cpd || null; s.books = D.books; s.from = D.deja ? { b:+D.fb, c:Math.max(1, Math.min(BOOKS[D.fb-1][2], +D.fc || 1)) } : null;
       s.idx = 0; s.idxj = {}; s.tap = {}; s.started = t; BT_DRAFT = null; SUBVIEW = null; BT_TAB = 'jour'; saveBt(); toast(tx('Plan prêt : bonne lecture !','Plano pronto: boa leitura!')); render(); break; }
     case 'btoptsave': { const nm = ($('#btnm') || {}).value; if (nm != null) s.name = nm.trim().slice(0, 24); saveBt(); closeModal(); render(); break; }
     case 'btopt': s[d.k] = d.v; saveBt(); btOptionsModal(); render(); break;
@@ -3207,6 +3248,10 @@ document.addEventListener('click', ev => {
   else if (a === 'gptok' && GPT_PENDING){ try { const o = extractJSON($('#gptans').value); const pnd = GPT_PENDING; GPT_PENDING = null; closeModal(); pnd.res(o); } catch(e){ toast(aiError({ code:'parse' })); } }
   else if (a === 'gptcancel' && GPT_PENDING){ const pnd = GPT_PENDING; GPT_PENDING = null; closeModal(); pnd.rej({ code:'cancel' }); }
 });
+
+function btInfo(por){ const ch = new Set(por.map(([b, c]) => b + ':' + c)).size; const v = por.reduce((a, [, , v1, v2]) => a + v2 - v1 + 1, 0);
+  return `${ch} ${tx(ch > 1 ? 'chapitres' : 'chapitre', ch > 1 ? 'capítulos' : 'capítulo')} (${v} ${tx('versets','versículos')})`; }
+document.addEventListener('change', ev => { if (['btdeja', 'btfb', 'btfc'].includes(ev.target.id) && BT_DRAFT){ btKeepDraft(); setTimeout(render, 0); } });
 
 window.addEventListener('error', e => { try { toast('⚠️ ' + (e.message || 'erreur')); } catch(x) {} });
 window.addEventListener('unhandledrejection', e => { try { toast('⚠️ ' + ((e.reason && e.reason.message) || 'erreur')); } catch(x) {} });
