@@ -1,1 +1,1 @@
-window.LAMPE_FB = null;
+window.LAMPE_FB = {"apiKey": "AIzaSyBAng1M0JsJES9cz-5jvdP4jXo9ci1i94g", "authDomain": "lampe-famille.firebaseapp.com", "projectId": "lampe-famille", "storageBucket": "lampe-famille.firebasestorage.app", "messagingSenderId": "246517116035", "appId": "1:246517116035:web:02d6709437c88de102ffb6"};
