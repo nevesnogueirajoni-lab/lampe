@@ -500,7 +500,7 @@ async function pump(path){
       if (e && e.code === 'unavailable'){ await new Promise(r => setTimeout(r, 800 + Math.random()*700)); try { await DB.doc(path).set(o); continue; } catch(e2){ e = e2; } }
       console.warn('écriture', path, e); toast(tx('Sauvegarde impossible pour le moment : nouvel essai dans quelques secondes','Não foi possível salvar agora: nova tentativa em instantes') + (e && e.code==='quota_exceeded' ? ' (quota)' : ''));
       st.fails = (st.fails || 0) + 1;
-      if (st.fails <= 6 && !st.next){ st.next = o; await new Promise(r => setTimeout(r, Math.min(30000, 2000 * st.fails))); }   /* on garde la modification et on réessaie */
+      if (!st.next){ st.next = o; await new Promise(r => setTimeout(r, Math.min(60000, 2000 * st.fails))); }   /* on garde la modification et on réessaie tant que Lampe est ouverte */
       continue;
     }
     st.fails = 0;
@@ -2923,7 +2923,7 @@ function btSetPosition(b, c){
   if (p.libre) return false;
   if (p.books && !p.books.includes(b)) return false;
   const stream = (p.streams || []).find(st => st.includes(b)) || null;
-  const i = p.seq.findIndex(por => startsAt(por, stream)); if (i >= 0){ s.idx = i; return true; }
+  const i = p.streams && p.streams.length > 1 ? -1 : p.seq.findIndex(por => startsAt(por, stream)); if (i >= 0){ s.idx = i; return true; }
   /* mixte : on garde la position de l'autre partie (hébraïque ou grecque) */
   if (p.streams && p.streams.length > 1){ const cur = btToday(); const other = p.streams.find(st => !st.includes(b)); const e = cur && cur.portion ? cur.portion.find(x => other.includes(x[0])) : null;
     s.from2 = e ? { b:e[0], c:e[1] } : null; } else s.from2 = null;
@@ -3376,6 +3376,7 @@ document.addEventListener('click', ev => {
 function btInfo(por){ const ch = new Set(por.map(([b, c]) => b + ':' + c)).size; const v = por.reduce((a, [, , v1, v2]) => a + v2 - v1 + 1, 0);
   return `${ch} ${tx(ch > 1 ? 'chapitres' : 'chapitre', ch > 1 ? 'capítulos' : 'capítulo')} (${v} ${tx('versets','versículos')})`; }
 document.addEventListener('change', ev => { if (['btdeja', 'btfb', 'btfc'].includes(ev.target.id) && BT_DRAFT){ btKeepDraft(); setTimeout(render, 0); } });
+document.addEventListener('input', ev => { if (ev.target.id === 'btfc' && BT_DRAFT) btKeepDraft(); });   /* le chapitre tapé est gardé même si l'écran se redessine */
 
 /* =====================  Programme automatique (jw.org)  =====================
    L'API publique des médias de jw.org donne, pour chaque cahier et chaque Tour de Garde d'étude,
@@ -3448,9 +3449,10 @@ function importPBT(o, toutAvant){
   if (toutAvant){ s.idx = pos; }
   else { const g = SBR[start] || SBR[0]; s.from = { b:g[0][0], c:g[0][1] }; s.idx = day * y; }
   s.days = oldDays; let n = 0;                       /* on garde les jours déjà lus dans Lampe (import répétable sans doublon) */
-  for (const hh of (P.history || [])){ const d = pbtDate(hh.date); if (s.days[d] !== 'p' && s.days[d] !== 'h') s.days[d] = hh.index >= 0 ? 'p' : 'a'; n++; }
-  if (P.streakStart && P.lastReadDate){ for (let d = pbtDate(P.streakStart); d <= pbtDate(P.lastReadDate); d = addDays(d, 1)) if (!s.days[d]){ s.days[d] = 'p'; n++; } }
-  s.importJours = Math.max(0, (+P.totalNumberOfDays || 0) - Object.keys(s.days).length);
+  const pbtDates = new Set();
+  for (const hh of (P.history || [])){ const d = pbtDate(hh.date); pbtDates.add(d); if (s.days[d] !== 'p' && s.days[d] !== 'h') s.days[d] = hh.index >= 0 ? 'p' : 'a'; n++; }
+  if (P.streakStart && P.lastReadDate){ for (let d = pbtDate(P.streakStart); d <= pbtDate(P.lastReadDate); d = addDays(d, 1)){ pbtDates.add(d); if (!s.days[d]){ s.days[d] = 'p'; n++; } } }
+  s.importJours = Math.max(0, (+P.totalNumberOfDays || 0) - pbtDates.size);   /* jours PBT sans date connue, en plus de tous les jours datés (PBT + Lampe) */
   const AC = o.Achievements || {};
   s.pbt = { importe:todayISO(), achievements:(AC.achievements || []).length, livres:AC.booksRead || [], declareAvant:!!toutAvant, declare: toutAvant ? { de:'Genèse 1', jusqua:(SBR[pos - 1] ? btChunks(SBR[pos - 1]).map(c => c.label).join(' · ') : ''), le:todayISO() } : null,
     brut:{ achievements:AC.achievements || [], booksRead:AC.booksRead || [], schedule:SD, custom:SC, totalNumberOfDays:P.totalNumberOfDays, streakStart:P.streakStart, lastReadDate:P.lastReadDate, version:o.Version },
