@@ -498,8 +498,12 @@ async function pump(path){
     try { await DB.doc(path).set(o); }
     catch(e){
       if (e && e.code === 'unavailable'){ await new Promise(r => setTimeout(r, 800 + Math.random()*700)); try { await DB.doc(path).set(o); continue; } catch(e2){ e = e2; } }
-      console.warn('écriture', path, e); toast(tx('Sauvegarde impossible pour le moment','Não foi possível salvar agora') + (e && e.code==='quota_exceeded' ? ' (quota)' : ''));
+      console.warn('écriture', path, e); toast(tx('Sauvegarde impossible pour le moment : nouvel essai dans quelques secondes','Não foi possível salvar agora: nova tentativa em instantes') + (e && e.code==='quota_exceeded' ? ' (quota)' : ''));
+      st.fails = (st.fails || 0) + 1;
+      if (st.fails <= 6 && !st.next){ st.next = o; await new Promise(r => setTimeout(r, Math.min(30000, 2000 * st.fails))); }   /* on garde la modification et on réessaie */
+      continue;
     }
+    st.fails = 0;
   }
   st.busy = false;
 }
@@ -671,7 +675,7 @@ function weekPlan(mon){
     const steps = [];
     if (p && p.c && p.c.length) p.c.forEach(c => steps.push({ id:'lec'+c, kind:'lecture', titre:tx('Lecture biblique : ','Leitura da Bíblia: ') + `${bookName(p.b)} ${c}`, sous:pour, links:[[tx('Ouvrir dans JW Library','Abrir no JW Library'), U.bible(p.b, c)]], min:Math.max(4, Math.round(vcount(p.b, c) / 6)) }));
     else steps.push({ id:'lecw', kind:'lecture', titre:tx('Lecture biblique de la semaine','Leitura da Bíblia da semana'), sous:tx('Les chapitres sont en haut du cahier · ','Os capítulos estão no início da apostila · ') + pour, links:L, min:15 });
-    steps.push({ id:'vmA', kind:'prep', titre:tx('Joyaux de la Parole de Dieu','Tesouros da Palavra de Deus'), sous:(p && p.j ? p.j + ' · ' : '') + tx('discours et perles : prépare une réponse','discurso e joias: prepare uma resposta'), links:L, min:Math.round(mv / 2) });
+    steps.push({ id:'vmA', kind:'prep', titre:tx('Joyaux de la Parole de Dieu','Tesouros da Palavra de Deus'), sous:(p && p.j && LANG === 'fr' ? p.j + ' · ' : '') + tx('discours et perles : prépare une réponse','discurso e joias: prepare uma resposta'), links:L, min:Math.round(mv / 2) });
     steps.push({ id:'vmB', kind:'prep', titre:tx('Ministère et Vie chrétienne','Ministério e Vida cristã'), sous:(p && p.p && p.p.length && LANG === 'fr' ? p.p.join(' · ') + ' — ' : tx('Parcours le reste du cahier et prépare tes parties · ','Veja o resto da apostila e prepare suas partes · ')) + pour, links:L, min:mv - Math.round(mv / 2) });
     steps.forEach((st, k) => items.push({ ...st, due, hard, chain:'vm', step:k }));
   }
@@ -988,7 +992,7 @@ const dots = (id, n) => `<div class="dots" data-for="${id}">${Array.from({length
 let SETUP = { prenom:'', langue:'fr', enfant:true, kprenom:'', kage:6, garde:true, jour:0, heure:'18:00', ici:null, vm:3, tg:6 };
 function viewSetup(){
   const s = SETUP; const jSel = (name, val) => `<select data-setup="${name}">${JOURS[LANG].map((j,i) => `<option value="${i}" ${+val===i?'selected':''}>${j}</option>`).join('')}</select>`;
-  return `<article class="post"><div class="tile g-insta"><div class="emo">🪔</div><div class="big">${tx('Bienvenue dans Lampe','Bem-vindo(a) ao Lâmpada')}</div><div class="sub">${tx('Tes études, ton QCM de la semaine et les cultes familiaux, au bon moment. Tout renvoie à jw.org.','Seus estudos, o quiz da semana e a adoração em família, na hora certa. Tudo leva ao jw.org.')}</div></div></article>
+  return `<article class="post"><div class="tile g-insta"><div class="emo">🪔</div><div class="big">${tx('Bienvenue dans Lampe','Bem-vindo(a) ao Lampe')}</div><div class="sub">${tx('Tes études, ton QCM de la semaine et les cultes familiaux, au bon moment. Tout renvoie à jw.org.','Seus estudos, o quiz da semana e a adoração em família, na hora certa. Tudo leva ao jw.org.')}</div></div></article>
   <div class="box">${GUEST ? `<div class="note">📱 ${tx('Pas besoin de compte : ton espace reste sur ce téléphone. Les échanges avec la famille passent par WhatsApp.','Não precisa de conta: seu espaço fica neste celular. As trocas com a família são pelo WhatsApp.')}</div>` : ''}
   <label class="f">Langue · Idioma</label><select data-setup="langue"><option value="fr" ${s.langue !== 'pt' ? 'selected' : ''}>🇫🇷 Français</option><option value="pt" ${s.langue === 'pt' ? 'selected' : ''}>🇧🇷 Português (Brasil)</option></select>
   <label class="f">Ton prénom · Seu nome</label><input type="text" data-setup="prenom" value="${esc(s.prenom)}">
@@ -1000,7 +1004,7 @@ function viewSetup(){
   <div class="row"><button class="chip ${s.ici===true?'on':''}" data-a="setupici" data-v="1">💗 ${tx('Oui','Sim')}</button><button class="chip ${s.ici===false?'on':''}" data-a="setupici" data-v="0">${tx('Non','Não')}</button></div>
   <p class="tiny muted">${tx('Une seule question : ensuite l’app calcule toute seule les semaines où elle est avec toi.','Só uma pergunta: depois o app calcula sozinho as semanas.')}</p>` : ''}` : ''}
   <div class="grid2"><div><label class="f">${tx('Réunion de semaine','Reunião de meio de semana')}</label>${jSel('vm', s.vm)}</div><div><label class="f">${tx('Réunion du week-end','Reunião de fim de semana')}</label>${jSel('tg', s.tg)}</div></div>
-  <p class="tiny muted center" style="margin-top:12px">${tx('Tu avais déjà Lampe ?','Já usava o Lâmpada?')} <label style="text-decoration:underline;cursor:pointer">${tx('Restaurer une sauvegarde','Restaurar um backup')}<input type="file" accept="application/json,.json" id="bkimport" hidden></label></p>
+  <p class="tiny muted center" style="margin-top:12px">${tx('Tu avais déjao Lampe ?','Já usava o Lampe?')} <label style="text-decoration:underline;cursor:pointer">${tx('Restaurer une sauvegarde','Restaurar um backup')}<input type="file" accept="application/json,.json" id="bkimport" hidden></label></p>
   <button class="pb grad block mt" data-a="setupgo" ${s.enfant && s.garde && s.ici===null ? 'disabled' : ''}>${tx('C’est parti ✨','Vamos lá ✨')}</button></div>`;
 }
 function viewClaim(){
@@ -1168,7 +1172,7 @@ function capOf(d){ const b = d === todayISO() ? dispoOf(d) : budgetOf(d); return
 function dispoModal(){
   const t = todayISO(); const cur = dispoOf(t);
   openModal(`<h3>⏱️ ${tx('Combien de temps as-tu aujourd’hui ?','Quanto tempo você tem hoje?')}</h3>
-   <p class="small muted">${tx('Lampe adapte la journée : l’essentiel d’abord, le reste est replacé ou abandonné s’il n’est plus utile.','O Lâmpada adapta o dia: o essencial primeiro.')}</p>
+   <p class="small muted">${tx('Lampe adapte la journée : l’essentiel d’abord, le reste est replacé ou abandonné s’il n’est plus utile.','O Lampe adapta o dia: o essencial primeiro.')}</p>
    <div class="dgrid">${[5, 15, 30, 45, 60, 90].map(x => `<button class="pb ${x === cur ? 'grad' : ''}" data-a="disposet" data-v="${x}">${x} min</button>`).join('')}</div>
    <button class="pb block ${cur === 0 ? 'grad' : ''}" style="margin-top:10px" data-a="disposet" data-v="0">🌙 ${tx('Journée off','Dia de folga')}</button>
    <p class="tiny muted">${tx('Journée off : rien de facultatif, ton mouton est protégé (sa série continue sans compter une lecture), seules les échéances impératives restent.','Dia de folga: nada opcional, sua ovelha é protegida, só ficam os prazos obrigatórios.')}</p>
@@ -1330,7 +1334,7 @@ function viewFamily(){
       ${k.garde && k.garde.actif ? `<details class="mt"><summary>${tx('Garde alternée et exceptions','Guarda alternada e exceções')}</summary>${gardeHTML(k)}</details>` : ''}</div></article>`;
   }
   if (pourKids.length) html += `<div class="sec"><h2>${tx('Envoyé pour les enfants','Enviado para as crianças')}</h2></div><div class="box">${pourKids.slice(0, 10).map(dmRow).join('')}</div>`;
-  if (m.admin) html += `<details class="box"><summary>${tx('Inviter quelqu’un dans la famille','Convidar alguém para a família')}</summary><p class="small"><b>${tx('Sans compte (le plus simple) :','Sem conta (o mais simples):')}</b> ${tx('envoie-lui le lien de Lampe par WhatsApp. Elle crée son espace sur son téléphone en 10 secondes ; ensuite, vous vous envoyez études, QCM et versets par WhatsApp.','envie o link do Lâmpada pelo WhatsApp. A pessoa cria seu espaço no celular em 10 segundos.')} <a href="https://wa.me/?text=${encodeURIComponent(tx('🪔 Voici Lampe, notre appli d’études en famille (sans compte) : ','🪔 Este é o Lâmpada, nosso app de estudos em família (sem conta): ') + appUrl())}" target="_blank" rel="noopener">📲 ${tx('Envoyer le lien','Enviar o link')}</a></p><p class="small muted"><b>${tx('Avec synchro (facultatif) :','Com sincronização (opcional):')}</b> ${tx('1. Touche « Ajouter » (prénom, langue). 2. Sur claude.ai, bouton Partager de cette page : invite son e-mail avec le niveau « Contributeur » (il lui faut un compte Claude). 3. En ouvrant le lien, la personne touche son prénom : elle a son propre espace, ses études, son QCM, et vous pouvez vous envoyer de la matière.','1. Toque em “Adicionar”. 2. No claude.ai, compartilhe esta página com o e-mail da pessoa como “Colaborador”. 3. Ao abrir, ela toca no próprio nome.')}</p></details>`;
+  if (m.admin) html += `<details class="box"><summary>${tx('Inviter quelqu’un dans la famille','Convidar alguém para a família')}</summary><p class="small"><b>${tx('Sans compte (le plus simple) :','Sem conta (o mais simples):')}</b> ${tx('envoie-lui le lien de Lampe par WhatsApp. Elle crée son espace sur son téléphone en 10 secondes ; ensuite, vous vous envoyez études, QCM et versets par WhatsApp.','envie o link do Lampe pelo WhatsApp. A pessoa cria seu espaço no celular em 10 segundos.')} <a href="https://wa.me/?text=${encodeURIComponent(tx('🪔 Voici Lampe, notre appli d’études en famille (sans compte) : ','🪔 Este é o Lampe, nosso app de estudos em família (sem conta): ') + appUrl())}" target="_blank" rel="noopener">📲 ${tx('Envoyer le lien','Enviar o link')}</a></p><p class="small muted"><b>${tx('Avec synchro (facultatif) :','Com sincronização (opcional):')}</b> ${tx('1. Touche « Ajouter » (prénom, langue). 2. Sur claude.ai, bouton Partager de cette page : invite son e-mail avec le niveau « Contributeur » (il lui faut un compte Claude). 3. En ouvrant le lien, la personne touche son prénom : elle a son propre espace, ses études, son QCM, et vous pouvez vous envoyer de la matière.','1. Toque em “Adicionar”. 2. No claude.ai, compartilhe esta página com o e-mail da pessoa como “Colaborador”. 3. Ao abrir, ela toca no próprio nome.')}</p></details>`;
   return html;
 }
 function culteCarousel(k, c, readonly, envId){
@@ -1405,7 +1409,7 @@ function viewSettings(){
    <label class="f">${tx('Semaines spéciales (visite, assemblée, Mémorial…)','Semanas especiais')}</label>${speciesList()}<button class="pb sm" style="margin-top:8px" data-a="spadd">＋ ${tx('Ajouter une semaine spéciale','Adicionar semana especial')}</button>
    <p class="tiny muted">${progCoverage()}</p></details>` : ''}
   <details class="box set"><summary>⏱️ ${tx('Mon temps et mon rythme','Meu tempo e ritmo')}</summary>
-   <p class="small muted" style="margin-top:0">${tx('Le temps que tu peux donner chaque jour. Lampe garde 20 % de marge pour les imprévus.','O tempo que você pode dar por dia. O Lâmpada guarda 20 % de margem.')}</p>
+   <p class="small muted" style="margin-top:0">${tx('Le temps que tu peux donner chaque jour. Lampe garde 20 % de marge pour les imprévus.','O tempo que você pode dar por dia. O Lampe guarda 20 % de margem.')}</p>
    <button class="pb sm" data-a="budget">⏱️ ${tx('Mon temps jour par jour','Meu tempo dia a dia')}</button>
    <label class="f">${tx('Mon rythme d’étude','Meu ritmo de estudo')}</label>
    <div class="chips">${[[0.8, tx('Rapide','Rápido')], [1, tx('Normal','Normal')], [1.3, tx('Approfondi','Aprofundado')]].map(([v, l]) => `<button class="chip ${+(PROF.rythme || 1) === v ? 'on' : ''}" data-a="rythme" data-v="${v}">${l}</button>`).join('')}</div>
@@ -1424,15 +1428,15 @@ function viewSettings(){
    <label class="f">${tx('Vitesse','Velocidade')}</label><select data-prof="vitesse">${[0.85, 1, 1.15, 1.3].map(x => `<option value="${x}" ${+PROF.vitesse === x ? 'selected' : ''}>${x}×</option>`).join('')}</select></details>
   ${m.admin ? `<details class="box set"><summary>💗 ${tx('Famille','Família')}</summary>
    <label class="f">${tx('Jour préféré du culte familial','Dia preferido da adoração')}</label>${jSel('data-fam="culte"', FAM.culte)}
-   <label class="f">🔗 ${tx('Lien public de Lampe (celui que reçoit la famille)','Link público do Lâmpada')}</label><input type="text" id="setlien" data-famtxt="lien" value="${esc(FAM.lien || '')}" placeholder="${APP_URL0}">
-   <p class="tiny muted">${tx('L’adresse de Lampe que reçoit la famille dans les envois WhatsApp.','O endereço do Lâmpada usado nos envios por WhatsApp.')}</p></details>` : ''}
+   <label class="f">🔗 ${tx('Lien public de Lampe (celui que reçoit la famille)','Link público do Lampe')}</label><input type="text" id="setlien" data-famtxt="lien" value="${esc(FAM.lien || '')}" placeholder="${APP_URL0}">
+   <p class="tiny muted">${tx('L’adresse de Lampe que reçoit la famille dans les envois WhatsApp.','O endereço do Lampe usado nos envios por WhatsApp.')}</p></details>` : ''}
   <button class="box set xrow" style="margin:0 0 12px;padding:14px 16px;font-weight:900;font-size:16px" data-a="go" data-v="profil">📚 ${tx('Mes enregistrements, notes et versets','Meus salvos, notas e versículos')}<i style="margin-left:auto">›</i></button>
   ${FB && FID ? `<details class="box set"><summary>🔐 ${tx('Mon compte','Minha conta')}</summary><p class="small">${esc((FB.auth.currentUser || {}).email || '')}</p>
    <div class="row">${m.admin && FB_INVITE ? `<button class="pb sm grad" data-a="fbinvite">💗 ${tx('Inviter quelqu’un','Convidar alguém')}</button>` : ''}<button class="pb sm" data-a="lgout">${tx('Se déconnecter','Sair')}</button></div></details>` : ''}
   <details class="box set"><summary>💾 ${tx('Sauvegarde','Backup')}</summary><p class="small muted" style="margin-top:0">${tx('Un fichier avec ton plan, ta série, tes réglages et ton historique. Garde-le en lieu sûr (iCloud Drive, par exemple).','Um arquivo com seu plano, sequência, ajustes e histórico.')}</p>
    <label class="pb sm block" style="cursor:pointer;margin-bottom:8px">🐑 ${tx('Importer ma progression Personal Bible Trainer (.biblept)','Importar meu progresso do Personal Bible Trainer')}<input type="file" id="pbtfile" hidden></label>${PROG.bt && PROG.bt.pbt && PROG.bt.pbt.avant ? `<button class="pb sm block" style="margin-bottom:8px" data-a="pbtundo">↩️ ${tx('Annuler l’import Personal Bible Trainer','Desfazer a importação')}</button>` : ''}
    <div class="row"><button class="pb sm grad" data-a="bkexport">⬇️ ${tx('Exporter mes données','Exportar meus dados')}</button><label class="pb sm" style="cursor:pointer">⬆️ ${tx('Restaurer','Restaurar')}<input type="file" accept="application/json,.json" id="bkimport" hidden></label></div></details>
-  <div class="box"><p class="small" style="margin-top:0">${LOCAL ? tx('📱 Mode sans compte : ton espace reste sur cet appareil (évite d’effacer les données du navigateur). Les échanges avec la famille passent par WhatsApp.','📱 Modo sem conta: seu espaço fica neste aparelho. As trocas com a família são pelo WhatsApp.') : FB ? tx('✅ Synchronisé avec ton compte Lampe (Mac, iPhone…), même hors connexion. Tes études, notes et ton plan de lecture sont privés.','✅ Sincronizado com sua conta Lâmpada. Seus estudos e notas são privados.') : tx('✅ Synchronisé avec ton compte Claude (Mac, iPhone…). Tes études, notes et réponses sont privées ; seuls les messages sont visibles par la famille.','✅ Sincronizado com sua conta Claude. Seus estudos e notas são privados.')}</p>
+  <div class="box"><p class="small" style="margin-top:0">${LOCAL ? tx('📱 Mode sans compte : ton espace reste sur cet appareil (évite d’effacer les données du navigateur). Les échanges avec la famille passent par WhatsApp.','📱 Modo sem conta: seu espaço fica neste aparelho. As trocas com a família são pelo WhatsApp.') : FB ? tx('✅ Synchronisé avec ton compte Lampe (Mac, iPhone…), même hors connexion. Tes études, notes et ton plan de lecture sont privés.','✅ Sincronizado com sua conta Lampe. Seus estudos e notas são privados.') : tx('✅ Synchronisé avec ton compte Claude (Mac, iPhone…). Tes études, notes et réponses sont privées ; seuls les messages sont visibles par la famille.','✅ Sincronizado com sua conta Claude. Seus estudos e notas são privados.')}</p>
    <p class="tiny muted">Lampe 1.0 · ${tx('conçue par Claude, relue par ChatGPT','criada pelo Claude, revisada pelo ChatGPT')}</p></div>`;
 }
 
@@ -1667,7 +1671,7 @@ document.addEventListener('click', async ev => {
     case 'edel': { try { await DB.doc(P.env(d.id)).delete(); } catch(e){ toast('Erreur'); } break; }
     /* réglages */
     case 'envie': { const i = PROF.envies.indexOf(d.v); i >= 0 ? PROF.envies.splice(i,1) : PROF.envies.push(d.v); saveProf(); render(); break; }
-    case 'vtest': speak(tx('Bonjour ! Je suis la voix de Lampe. Ta parole est une lampe pour mon pied.','Olá! Eu sou a voz da Lâmpada.')); break;
+    case 'vtest': speak(tx('Bonjour ! Je suis la voix de Lampe. Ta parole est une lampe pour mon pied.','Olá! Eu sou a voz do Lampe.')); break;
   }
 });
 async function markRead(e){ const m = me(); e.lu = e.lu || {}; e.lu[m.id] = true; render(); try { await DB.doc(P.env(e.id)).update({ lu:{ [m.id]:true } }); } catch(err){ console.warn(err); } }
@@ -2139,14 +2143,14 @@ function decodeShort(h){
 async function shareModal(p){
   p.v = 1; p.f = (me() || {}).prenom || ''; p.l = LANG; p.a = appUrl();
   const lab = SHARE_LABEL()[p.k] || ''; const short = shortCode(p);
-  const head = tx(`🪔 ${p.f} t’envoie ${lab} dans Lampe`, `🪔 ${p.f} te enviou ${lab} no Lâmpada`) + (p.t ? ` : « ${p.t} »` : '') + (p.m ? `\n${p.m}` : '');
+  const head = tx(`🪔 ${p.f} t’envoie ${lab} dans Lampe`, `🪔 ${p.f} te enviou ${lab} no Lampe`) + (p.t ? ` : « ${p.t} »` : '') + (p.m ? `\n${p.m}` : '');
   if (short) SHARE_MSG = head + `\n\n👉 ${tx('Touche pour l’ouvrir (sans compte) :','Toque para abrir (sem conta):')}\n${appUrl()}#${short}`;
   else {
     let code; try { code = await encodeCode(p); } catch(e){ toast(tx('Partage impossible sur cet appareil','Não foi possível compartilhar')); return; }
-    SHARE_MSG = head + `\n\n👉 ${tx('Pour l’ouvrir : copie tout ce message, ouvre Lampe, puis Messages → Recevoir → colle.','Para abrir: copie toda esta mensagem, abra o Lâmpada e vá em Mensagens → Receber → cole.')}\n${appUrl()}\n\n${code}`;
+    SHARE_MSG = head + `\n\n👉 ${tx('Pour l’ouvrir : copie tout ce message, ouvre Lampe, puis Messages → Recevoir → colle.','Para abrir: copie toda esta mensagem, abra o Lampe e vá em Mensagens → Receber → cole.')}\n${appUrl()}\n\n${code}`;
   }
   openModal(`<h3>📲 ${tx('Envoyer','Enviar')} ${esc(lab)}</h3>
-   <p class="small muted">${shortCode(p) ? tx('Choisis la personne dans WhatsApp : elle touche le lien et ça s’ouvre, sans compte.','Escolha a pessoa no WhatsApp: ela toca no link e abre, sem conta.') : tx('Choisis la personne dans WhatsApp : elle copie le message et le colle dans Lampe (Messages → Recevoir). Pas besoin de compte.','Escolha a pessoa no WhatsApp: ela copia a mensagem e cola no Lâmpada (Mensagens → Receber). Sem conta.')}</p>
+   <p class="small muted">${shortCode(p) ? tx('Choisis la personne dans WhatsApp : elle touche le lien et ça s’ouvre, sans compte.','Escolha a pessoa no WhatsApp: ela toca no link e abre, sem conta.') : tx('Choisis la personne dans WhatsApp : elle copie le message et le colle dans Lampe (Messages → Recevoir). Pas besoin de compte.','Escolha a pessoa no WhatsApp: ela copia a mensagem e cola no Lampe (Mensagens → Receber). Sem conta.')}</p>
    <a class="pb block" style="background:#25D366;color:#fff" href="https://wa.me/?text=${encodeURIComponent(SHARE_MSG)}" target="_blank" rel="noopener">WhatsApp</a>
    <button class="pb block mt" data-a="xcopymsg">📋 ${tx('Copier le message (SMS, Messenger…)','Copiar a mensagem')}</button>
    <textarea id="sharetxt" class="mt" style="min-height:70px;font-size:12px" readonly>${esc(SHARE_MSG)}</textarea>`);
@@ -2249,7 +2253,7 @@ function viewQCMGuest(){
   return `<div class="quiz g-qcm" style="justify-content:center;text-align:center;min-height:380px"><div style="font-size:70px">🧠</div><div class="qq" style="margin:12px 0 6px">${tx('QCM de la semaine','Quiz da semana')}</div>
     <div style="font-weight:800;opacity:.95">${p ? `${esc(bookName(p.b))} ${p.c.join(', ')}` : ''}</div>
     <p style="font-weight:700;opacity:.9">${tx('Les QCM arrivent par WhatsApp. Demande celui de la semaine !','Os quizzes chegam pelo WhatsApp. Peça o desta semana!')}</p>
-    <a class="pb white" style="margin:6px auto 0" href="https://wa.me/?text=${encodeURIComponent(tx('🪔 Tu peux m’envoyer le QCM de la semaine dans Lampe ? 🧠','🪔 Pode me enviar o quiz da semana no Lâmpada? 🧠'))}" target="_blank" rel="noopener">📲 ${tx('Demander le QCM','Pedir o quiz')}</a></div>
+    <a class="pb white" style="margin:6px auto 0" href="https://wa.me/?text=${encodeURIComponent(tx('🪔 Tu peux m’envoyer le QCM de la semaine dans Lampe ? 🧠','🪔 Pode me enviar o quiz da semana no Lampe? 🧠'))}" target="_blank" rel="noopener">📲 ${tx('Demander le QCM','Pedir o quiz')}</a></div>
    ${L.length ? `<div class="sec"><h2>${tx('Mes QCM reçus','Meus quizzes recebidos')}</h2></div><div class="minis">${L.map((x, i) => { const Q = PROG.recus && PROG.recus[x.id]; return `<button class="mini ${PAL[i % PAL.length]}" data-a="xrecu" data-id="${x.id}"><span class="e">${Q && Q.score != null ? '🏆' : '🧠'}</span><div><small>${esc(x.f)}</small><br><b>${esc(x.t)}</b>${Q && Q.score != null ? `<br><small>${Q.score}/${Q.questions.length}</small>` : ''}</div></button>`; }).join('')}</div>` : ''}`;
 }
 
@@ -2406,7 +2410,7 @@ document.addEventListener('click', ev => {
     case 'qzlvl': QZ_PREF.lvl = +d.v; render(); break;
     case 'qzread': { const q = QZ && QZ.qs[QZ.i]; if (q) speak(q.q + ' ' + q.choix.map((c, j) => 'ABCD'[j] + '. ' + c + '.').join(' ')); break; }
     case 'qzdefi': { if (!QZ) break; const code = defiCode(); const from = (me() || {}).prenom || '';
-      SHARE_MSG = tx(`⚔️ ${from} te lance un défi au quiz biblique de Lampe : ${QZ.score} points sur ${QZ.rep.length} questions. Tu fais mieux ?`, `⚔️ ${from} te desafia no quiz bíblico do Lâmpada: ${QZ.score} pontos em ${QZ.rep.length} perguntas. Consegue fazer melhor?`) + `\n\n👉 ${appUrl()}#${code}`;
+      SHARE_MSG = tx(`⚔️ ${from} te lance un défi au quiz biblique de Lampe : ${QZ.score} points sur ${QZ.rep.length} questions. Tu fais mieux ?`, `⚔️ ${from} te desafia no quiz bíblico do Lampe: ${QZ.score} pontos em ${QZ.rep.length} perguntas. Consegue fazer melhor?`) + `\n\n👉 ${appUrl()}#${code}`;
       openModal(`<h3>⚔️ ${tx('Défier quelqu’un','Desafiar alguém')}</h3><p class="small muted">${tx('Mêmes questions, même score à battre. Il suffit de toucher le lien, sans compte.','Mesmas perguntas, mesma pontuação a bater. Basta tocar no link, sem conta.')}</p>
        <a class="pb block" style="background:#25D366;color:#fff" href="https://wa.me/?text=${encodeURIComponent(SHARE_MSG)}" target="_blank" rel="noopener">WhatsApp</a><button class="pb block mt" data-a="xcopymsg">📋 ${tx('Copier le message','Copiar a mensagem')}</button>
        <textarea id="sharetxt" class="mt" style="min-height:60px;font-size:12px" readonly>${esc(SHARE_MSG)}</textarea>`); break; }
@@ -2591,7 +2595,8 @@ function btPlanFor(s){
   const all = Array.from({ length:66 }, (_, i) => i + 1);
   const days = Math.max(1, Math.round((+s.years || 1) * 365));
   /* n portions pour une liste de livres : soit la durée choisie (au prorata de ce qui reste), soit X chapitres par jour */
-  const mk = (bk, nDays, cpd) => { const f = s.from && bk.includes(s.from.b) ? s.from : null; const rest = btSize(bk, f), full = btSize(bk, null);
+  const FR = [s.from, s.from2].filter(Boolean); const fromIn = bk => FR.find(f => bk.includes(f.b)) || null;
+  const mk = (bk, nDays, cpd) => { const f = fromIn(bk); const rest = btSize(bk, f), full = btSize(bk, null);
     const n = cpd ? Math.ceil(rest.ch / cpd) : Math.round(nDays * rest.v / Math.max(1, full.v));
     return splitPortions(rest.chs, Math.max(1, n)); };
   const cpd = +s.cpd || 0; let val;
@@ -2601,7 +2606,7 @@ function btPlanFor(s){
   } else if (s.type === 'mixte'){
     const OT = all.slice(0, 39), NT = all.slice(39);
     let ot, nt;
-    if (cpd){ const fo = s.from && OT.includes(s.from.b) ? s.from : null, fn = s.from && NT.includes(s.from.b) ? s.from : null;
+    if (cpd){ const fo = fromIn(OT), fn = fromIn(NT);
       const ro = btSize(OT, fo), rn = btSize(NT, fn); const n = Math.max(1, Math.ceil((ro.ch + rn.ch) / cpd));
       ot = splitPortions(ro.chs, n); nt = splitPortions(rn.chs, n); }
     else { ot = mk(OT, days); nt = mk(NT, days); }
@@ -2625,7 +2630,7 @@ function btPlanFor(s){
 }
 function btPlan(){
   const s = btState(); if (!s.type) return null;
-  const key = JSON.stringify([s.type, s.years, s.cpd, s.from, s.books, s.started, s.type === 'libre' ? (s.libreSeq || []).length : 0]);
+  const key = JSON.stringify([s.type, s.years, s.cpd, s.from, s.from2, s.books, s.started, s.type === 'libre' ? JSON.stringify(s.libreSeq || []) : 0]);
   if (BT_CACHE.key === key) return BT_CACHE.val;
   const val = btPlanFor(s); BT_CACHE = { key, val }; return val;
 }
@@ -2693,7 +2698,7 @@ function btStreak(){
   while (s.days[t]){ if (s.days[t] !== 'f') n++; t = addDays(t, -1); }
   return n;
 }
-function btBest(){ const s = btState(); const ds = Object.keys(s.days).sort(); let best = 0, cur = 0, prev = null; for (const d of ds){ cur = prev && diffDays(prev, d) === 1 ? cur + 1 : 1; best = Math.max(best, cur); prev = d; } return best; }
+function btBest(){ const s = btState(); const ds = Object.keys(s.days).sort(); let best = 0, cur = 0, prev = null; for (const d of ds){ const v = s.days[d] === 'f' ? 0 : 1; cur = prev && diffDays(prev, d) === 1 ? cur + v : v; best = Math.max(best, cur); prev = d; } return best; }
 function btMood(){
   const s = btState(); const t = todayISO();
   if (s.days[t] === 'f') return 'calme';
@@ -2708,10 +2713,11 @@ function btBookProgress(){
   const s = btState(); const p = btPlan(); const read = {}; if (!p) return read;
   const add = por => { for (const [b, , v1, v2] of por) read[b] = (read[b] || 0) + v2 - v1 + 1; };
   if (p.jours) for (const k of Object.keys(p.jours)) p.jours[k].slice(0, s.idxj[k] || 0).forEach(add);
+  else if (p.libre){ const seen = new Set(); for (const por of p.seq.slice(0, s.idx)) for (const x of por){ const k = x.join(':'); if (!seen.has(k)){ seen.add(k); add([x]); } } }
   else p.seq.slice(0, s.idx).forEach(add);
   if (s.from && p.evts){ p.evts.slice(0, p.evtsFrom).forEach(([b, , v]) => { read[b] = (read[b] || 0) + v; }); return read; }
-  if (s.from && !p.libre) for (const bk of (p.streams || [p.books || []])){ if (!bk.includes(s.from.b)) continue;
-    for (const b of bk){ if (b === s.from.b){ for (let c = 1; c < s.from.c; c++) read[b] = (read[b] || 0) + vcount(b, c); break; } read[b] = (read[b] || 0) + bookVerses(b); } }
+  if (!p.libre) for (const F of [s.from, s.from2].filter(Boolean)) for (const bk of (p.streams || [p.books || []])){ if (!bk.includes(F.b)) continue;
+    for (const b of bk){ if (b === F.b){ for (let c = 1; c < F.c; c++) read[b] = (read[b] || 0) + vcount(b, c); break; } read[b] = (read[b] || 0) + bookVerses(b); } }
   return read;
 }
 const bookVerses = b => VC[b-1].reduce((a, x) => a + x, 0);
@@ -2725,9 +2731,9 @@ const BT_BADGES = [
   ['s30','🏅','30 jours de suite','30 dias seguidos', s => btBest() >= 30],
   ['s100','🏆','100 jours de suite','100 dias seguidos', s => btBest() >= 100],
   ['s365','👑','Un an sans manquer','Um ano sem falhar', s => btBest() >= 365],
-  ['l10','📖','10 lectures','10 leituras', s => btDoneCount().done >= 10],
-  ['l50','📚','50 lectures','50 leituras', s => btDoneCount().done >= 50],
-  ['l100','🎓','100 lectures','100 leituras', s => btDoneCount().done >= 100],
+  ['l10','📖','10 lectures','10 leituras', s => btTotalDays() >= 10],
+  ['l50','📚','50 lectures','50 leituras', s => btTotalDays() >= 50],
+  ['l100','🎓','100 lectures','100 leituras', s => btTotalDays() >= 100],
   ['livre','✅','Un livre terminé','Um livro concluído', s => { const r = btBookProgress(); return Object.keys(r).some(b => r[b] >= bookVerses(+b)); }],
   ['livres10','🧭','10 livres terminés','10 livros concluídos', s => { const r = btBookProgress(); return Object.keys(r).filter(b => r[b] >= bookVerses(+b)).length >= 10; }],
   ['moitie','⛰️','La moitié du plan','Metade do plano', s => { const c = btDoneCount(); return c.total && c.done * 2 >= c.total; }],
@@ -2757,7 +2763,7 @@ function btReadToday(later){
   btAdvance(t); s.days[t] = 'p'; btMarkDay(t, 'p');
   btCheckBadges(); saveBt(); POPID = 'bt'; setTimeout(() => { POPID = null; }, 700); if (later) setTimeout(render, 400); else render();
 }
-function btUndoToday(){ const s = btState(); const t = todayISO(); const lu = s.lu && s.lu.date === t ? s.lu : null; delete s.lu; if (s.days[t] !== 'p') { delete s.days[t]; syncBtDone(t, false); saveBt(); render(); return; } const st = btStream(t); if (st.key === 'main') s.idx = lu && lu.key === 'main' && lu.first != null ? lu.first : Math.max(0, s.idx - 1);   /* annule aussi les portions lues en plus aujourd'hui */ else s.idxj[st.key] = Math.max(0, (s.idxj[st.key] || 0) - 1); delete s.days[t]; syncBtDone(t, false); saveBt(); render(); }
+function btUndoToday(){ const s = btState(); const t = todayISO(); const lu = s.lu && s.lu.date === t ? s.lu : null; delete s.lu; if (s.days[t] !== 'p') { delete s.days[t]; syncBtDone(t, false); saveBt(); render(); return; } const st = btStream(t); if (st.key === 'main') s.idx = lu && lu.key === 'main' && lu.first != null ? lu.first : Math.max(0, s.idx - 1); else if (lu && lu.key === st.key && lu.first != null){ s.idxj[st.key] = lu.first; }   /* annule aussi les portions lues en plus aujourd'hui */ else s.idxj[st.key] = Math.max(0, (s.idxj[st.key] || 0) - 1); delete s.days[t]; syncBtDone(t, false); saveBt(); render(); }
 
 /* ---------- mouton ---------- */
 function sheepSVG(mood, size = 140, seedDay){
@@ -2870,7 +2876,7 @@ function btSetupView(){
   return `<div class="bt"><h1 style="margin:6px 4px 2px">🐑 ${tx('Mon plan de lecture','Meu plano de leitura')}</h1><p class="muted" style="margin:0 4px 12px">${tx('Choisis comment lire la Bible. Tu pourras changer plus tard.','Escolha como ler a Bíblia. Você pode mudar depois.')}</p>
    <div class="bt-plans">${Object.entries(BT_PLANS).map(([k, p]) => `<button class="bt-plan ${d.type === k ? 'on' : ''}" data-a="btdraft" data-k="type" data-v="${k}"><span class="e">${p.e}</span><b>${esc(tx(p.fr, p.pt))}</b><small>${esc(tx(p.dfr, p.dpt))}</small></button>`).join('')}</div>
    ${d.type === 'perso' ? `<div class="card"><b>${tx('Livres à lire','Livros para ler')}</b><div class="bt-bookpick">${BOOKS.map((b, i) => `<button class="chip ${d.books.includes(i + 1) ? 'on' : ''}" data-a="btbook" data-v="${i + 1}">${esc(tx(b[0], b[1]))}</button>`).join('')}</div></div>` : ''}
-   <div class="card"><label class="f">${tx('Durée pour tout lire','Tempo para ler tudo')}</label><div class="chips">${[0.25, 0.5, 1, 2, 3, 4, 5, 7].map(y => `<button class="chip ${!d.cpd && d.years === y ? 'on' : ''}" data-a="btdraft" data-k="years" data-v="${y}">${BT_DUR_LBL(y)}</button>`).join('')}</div>
+   <div class="card"><label class="f">${tx('Durée pour tout lire','Tempo para ler tudo')}</label><div class="chips">${[0.25, 0.5, 1, 2, 3, 4, 5, 6, 7].map(y => `<button class="chip ${!d.cpd && d.years === y ? 'on' : ''}" data-a="btdraft" data-k="years" data-v="${y}">${BT_DUR_LBL(y)}</button>`).join('')}</div>
     <label class="f" style="margin-top:10px">${tx('… ou un nombre de chapitres par jour','… ou um número de capítulos por dia')}</label><div class="chips">${[1, 2, 3, 4, 5, 6].map(x => `<button class="chip ${+d.cpd === x ? 'on' : ''}" data-a="btdraft" data-k="cpd" data-v="${x}">${x} ${tx('ch./jour','cap./dia')}</button>`).join('')}</div>
     <label class="f" style="margin-top:12px"><input type="checkbox" id="btdeja" ${d.deja ? 'checked' : ''}> ${tx('J’ai déjà commencé : je reprends à…','Já comecei: continuo a partir de…')}</label>
     <div class="grid2"><select id="btfb">${BOOKS.map((b, i) => `<option value="${i + 1}" ${d.fb === i + 1 ? 'selected' : ''}>${esc(tx(b[0], b[1]))}</option>`).join('')}</select><input id="btfc" type="number" min="1" value="${d.fc}" inputmode="numeric" aria-label="${tx('Chapitre','Capítulo')}"></div>
@@ -2908,14 +2914,21 @@ function btPosModal(){
 /* reprendre à un chapitre donné dans le plan existant (sans changer la durée) */
 function btSetPosition(b, c){
   const s = btState(); const p = btPlan(); if (!p) return false;
-  const inPor = por => por.some(([pb, pc, v1, v2]) => pb === b && pc === c) ;
+  /* une lecture ne compte comme « point de reprise » que si elle COMMENCE exactement à ce chapitre ; sinon on recalcule le plan à partir de là */
+  const startsAt = (por, stream) => { const e = por.find(x => !stream || stream.includes(x[0])); return !!e && e[0] === b && e[1] === c && e[2] === 1; };
   if (p.jours){
-    for (const k of Object.keys(p.jours)) if (BT_JOURS[k].b.includes(b)){ const i = p.jours[k].findIndex(inPor); if (i >= 0){ s.idxj[k] = i; return true; } s.from = { b, c }; s.started = todayISO(); s.idxj[k] = 0; return true; }
+    for (const k of Object.keys(p.jours)) if (BT_JOURS[k].b.includes(b)){ const i = p.jours[k].findIndex(por => startsAt(por)); if (i >= 0){ s.idxj[k] = i; return true; } s.from = { b, c }; s.started = todayISO(); s.idxj[k] = 0; return true; }
     return false;
   }
+  if (p.libre) return false;
   if (p.books && !p.books.includes(b)) return false;
-  const i = p.seq.findIndex(inPor); if (i >= 0){ s.idx = i; return true; }
-  // chapitre déjà dépassé ou hors du découpage actuel : on recalcule le plan à partir de là, même rythme
+  const stream = (p.streams || []).find(st => st.includes(b)) || null;
+  const i = p.seq.findIndex(por => startsAt(por, stream)); if (i >= 0){ s.idx = i; return true; }
+  /* mixte : on garde la position de l'autre partie (hébraïque ou grecque) */
+  if (p.streams && p.streams.length > 1){ const cur = btToday(); const other = p.streams.find(st => !st.includes(b)); const e = cur && cur.portion ? cur.portion.find(x => other.includes(x[0])) : null;
+    s.from2 = e ? { b:e[0], c:e[1] } : null; } else s.from2 = null;
+  if (!(p.streams && p.streams.length > 1)){ const full = btPlanFor(Object.assign({}, s, { from:null })); const j = full && full.seq ? full.seq.findIndex(por => startsAt(por)) : -1;
+    if (j >= 0){ s.from = null; s.from2 = null; s.idx = j; BT_CACHE = {}; return true; } }
   s.from = { b, c }; s.started = todayISO(); s.idx = 0; return true;
 }
 
@@ -3034,8 +3047,12 @@ document.addEventListener('click', ev => {
     case 'btbook': { btKeepDraft(); const v = +d.v; BT_DRAFT.books = BT_DRAFT.books.includes(v) ? BT_DRAFT.books.filter(x => x !== v) : BT_DRAFT.books.concat(v); render(); break; }
     case 'btsave': {
       btKeepDraft(); const D = BT_DRAFT; if (D.type === 'perso' && !D.books.length){ toast(tx('Choisis au moins un livre','Escolha pelo menos um livro')); break; }
-      s.type = D.type; s.years = D.years; s.cpd = D.cpd || null; s.books = D.books; s.from = D.deja ? { b:+D.fb, c:Math.max(1, Math.min(BOOKS[D.fb-1][2], +D.fc || 1)) } : null;
-      s.idx = 0; s.idxj = {}; s.tap = {}; s.started = t; BT_DRAFT = null; SUBVIEW = null; BT_TAB = 'jour'; saveBt(); toast(tx('Plan prêt : bonne lecture !','Plano pronto: boa leitura!')); render(); break; }
+      s.type = D.type; s.years = D.years; s.cpd = D.cpd || null; s.books = D.books; s.from = D.deja ? { b:+D.fb, c:Math.max(1, Math.min(BOOKS[D.fb-1][2], +D.fc || 1)) } : null; s.from2 = null; s.libreSeq = D.type === 'libre' ? (s.libreSeq || []) : s.libreSeq;
+      s.idx = 0; s.idxj = {}; s.tap = {}; s.started = t;
+      /* si une lecture du programme complet commence pile à ce chapitre, on garde la numérotation officielle (ex. jour 205/364, comme PBT) */
+      if (s.from && !['jours', 'mixte', 'libre'].includes(s.type)){ const full = btPlanFor(Object.assign({}, s, { from:null })); const fb = s.from.b, fc = s.from.c;
+        const i = full && full.seq ? full.seq.findIndex(por => por[0] && por[0][0] === fb && por[0][1] === fc && por[0][2] === 1) : -1; if (i >= 0){ s.from = null; s.idx = i; } }
+      BT_DRAFT = null; SUBVIEW = null; BT_TAB = 'jour'; BT_CACHE = {}; saveBt(); toast(tx('Plan prêt : bonne lecture !','Plano pronto: boa leitura!')); render(); break; }
     case 'btoptsave': { const nm = ($('#btnm') || {}).value; if (nm != null) s.name = nm.trim().slice(0, 24); saveBt(); closeModal(); render(); break; }
     case 'btopt': s[d.k] = d.v; saveBt(); btOptionsModal(); render(); break;
     case 'btname': btOptionsModal(); break;
@@ -3055,7 +3072,8 @@ function btTickDay(date){
   const s = btState(); const t = todayISO();
   if (date === t){ if (s.days[t] === 'p') btUndoToday(); else btReadToday(); return; }
   if (date > t){ toast(tx('Ce jour n’est pas encore arrivé','Esse dia ainda não chegou')); return; }
-  if (s.days[date]){ delete s.days[date]; syncBtDone(date, false); }
+  if (s.days[date]){ if (s.days[date] === 'h'){ const st = btStream(date); if (st && st.key === 'main') s.idx = Math.max(0, s.idx - 1); else if (st) s.idxj[st.key] = Math.max(0, (s.idxj[st.key] || 0) - 1); BT_CACHE = {}; }   /* le rattrapage avait fait avancer le programme : on recule */
+    delete s.days[date]; syncBtDone(date, false); }
   else { btAdvance(date); s.days[date] = 'h'; syncBtDone(date, true); btCheckBadges(); }
   saveBt(); render();
 }
@@ -3164,7 +3182,7 @@ function icsText(){
     'BEGIN:VTIMEZONE','TZID:Europe/Paris','BEGIN:DAYLIGHT','TZOFFSETFROM:+0100','TZOFFSETTO:+0200','TZNAME:CEST','DTSTART:19700329T020000','RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU','END:DAYLIGHT','BEGIN:STANDARD','TZOFFSETFROM:+0200','TZOFFSETTO:+0100','TZNAME:CET','DTSTART:19701025T030000','RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU','END:STANDARD','END:VTIMEZONE'];
   R.slots.forEach((s, i) => { if (!s.j.length) return; const hm = s.h.replace(':', '') + '00';
     L.push('BEGIN:VEVENT', `UID:lampe-${i}-${hm}@lampe`, `DTSTAMP:${now}`, `DTSTART;TZID=Europe/Paris:${t}T${hm}`, 'DURATION:PT15M', `RRULE:FREQ=WEEKLY;BYDAY=${s.j.map(d => ICS_DAYS[d]).join(',')}`,
-      `SUMMARY:${tx('🪔 Lampe · mon moment d’étude','🪔 Lâmpada · meu momento de estudo')}`, `DESCRIPTION:${tx('Ouvre Lampe : elle te dit quoi faire maintenant.','Abra o Lâmpada: ele diz o que fazer agora.')}\\n${url}`, `URL:${url}`,
+      `SUMMARY:${tx('🪔 Lampe · mon moment d’étude','🪔 Lampe · meu momento de estudo')}`, `DESCRIPTION:${tx('Ouvre Lampe : elle te dit quoi faire maintenant.','Abra o Lampe: ele diz o que fazer agora.')}\\n${url}`, `URL:${url}`,
       'BEGIN:VALARM', 'ACTION:DISPLAY', 'TRIGGER:PT0M', 'DESCRIPTION:Lampe', 'END:VALARM', 'END:VEVENT'); });
   L.push('END:VCALENDAR'); return L.join('\r\n') + '\r\n';
 }
@@ -3287,7 +3305,7 @@ document.addEventListener('click', async ev => {
     try { await FB.Au.sendPasswordResetEmail(FB.auth, m); toast(tx('E-mail envoyé : regarde ta boîte de réception','E-mail enviado')); } catch(e){ AUTH.err = AUTH_ERR(e && e.code); render(); } }
   else if (a === 'lgout'){ try { await FB.Au.signOut(FB.auth); } catch(e){} dropSnap(); location.reload(); }
   else if (a === 'fbinvite'){ const url = `${location.origin}${location.pathname}#rejoindre-${FID}-${FB_INVITE}`;
-    const msg = tx(`Rejoins notre famille sur Lampe 🪔 : ${url}`, `Entre na nossa família no Lâmpada 🪔: ${url}`);
+    const msg = tx(`Rejoins notre famille sur Lampe 🪔 : ${url}`, `Entre na nossa família no Lampe 🪔: ${url}`);
     openModal(`<h3>💗 ${tx('Inviter dans la famille','Convidar para a família')}</h3><p class="small">${tx('Envoie ce lien. La personne crée son compte (e-mail + mot de passe) et rejoint votre famille ; ses notes restent privées.','Envie este link. A pessoa cria a conta e entra na família.')}</p><textarea id="sharetxt" style="min-height:90px">${esc(msg)}</textarea>
      <div class="row" style="margin-top:10px"><a class="pb" style="background:#25D366;color:#fff" href="https://wa.me/?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">📲 WhatsApp</a><button class="pb" data-a="close">OK</button></div>`); }
 });
@@ -3335,10 +3353,10 @@ const GPT_API = { json: async (prompt, opts = {}) => {
 function iaBox(){
   const m = AI_MODE(); const inClaude = !!SAMPLE_CLAUDE; const k = oaiKey();
   const opt = (v, t, d) => `<button class="iaopt ${m === v ? 'on' : ''}" data-a="iamode" data-v="${v}"><b>${t}</b><small>${d}</small></button>`;
-  return `<p class="small muted" style="margin-top:0">${tx('Lampe fonctionne sans intelligence artificielle. Si tu veux, ChatGPT peut préparer des études, des cultes pour les enfants et des QCM sur mesure.','O Lâmpada funciona sem IA. Se quiser, o ChatGPT pode preparar estudos, adorações e quizzes.')}</p>
+  return `<p class="small muted" style="margin-top:0">${tx('Lampe fonctionne sans intelligence artificielle. Si tu veux, ChatGPT peut préparer des études, des cultes pour les enfants et des QCM sur mesure.','O Lampe funciona sem IA. Se quiser, o ChatGPT pode preparar estudos, adorações e quizzes.')}</p>
    ${opt('off', tx('Sans IA','Sem IA'), tx('Bibliothèque intégrée et recherche jw.org.','Biblioteca e pesquisa no jw.org.'))}
-   ${opt('chatgpt', tx('ChatGPT avec mon abonnement','ChatGPT com minha assinatura'), tx('Gratuit en plus : Lampe prépare la demande, ChatGPT s’ouvre avec ton compte, tu colles la réponse.','Lâmpada prepara o pedido, o ChatGPT abre com sua conta, você cola a resposta.'))}
-   ${opt('api', tx('ChatGPT intégré (clé OpenAI)','ChatGPT integrado (chave OpenAI)'), tx('Tout se fait dans Lampe. Il faut une clé sur platform.openai.com (quelques centimes par étude, facturés à part de l’abonnement).','Tudo dentro do Lâmpada. Precisa de uma chave da OpenAI (alguns centavos por estudo).'))}
+   ${opt('chatgpt', tx('ChatGPT avec mon abonnement','ChatGPT com minha assinatura'), tx('Gratuit en plus : Lampe prépare la demande, ChatGPT s’ouvre avec ton compte, tu colles la réponse.','Lampe prepara o pedido, o ChatGPT abre com sua conta, você cola a resposta.'))}
+   ${opt('api', tx('ChatGPT intégré (clé OpenAI)','ChatGPT integrado (chave OpenAI)'), tx('Tout se fait dans Lampe. Il faut une clé sur platform.openai.com (quelques centimes par étude, facturés à part de l’abonnement).','Tudo dentro do Lampe. Precisa de uma chave da OpenAI (alguns centavos por estudo).'))}
    ${inClaude ? opt('auto', 'Claude', tx('Uniquement dans la page claude.ai.','Só na página do claude.ai.')) : ''}
    ${m === 'api' ? `<label class="f">${tx('Ma clé API OpenAI (gardée sur cet appareil seulement)','Minha chave API OpenAI (fica só neste aparelho)')}</label>
      <div class="row" style="flex-wrap:nowrap"><input type="password" id="oaikey" placeholder="sk-…" value="${k ? '••••••••' + esc(k.slice(-4)) : ''}" autocomplete="off"><button class="pb sm grad" data-a="oaisave">${tx('Tester','Testar')}</button></div>
@@ -3430,7 +3448,7 @@ function importPBT(o, toutAvant){
   if (toutAvant){ s.idx = pos; }
   else { const g = SBR[start] || SBR[0]; s.from = { b:g[0][0], c:g[0][1] }; s.idx = day * y; }
   s.days = oldDays; let n = 0;                       /* on garde les jours déjà lus dans Lampe (import répétable sans doublon) */
-  for (const hh of (P.history || [])){ const d = pbtDate(hh.date); s.days[d] = hh.index >= 0 ? 'p' : 'a'; n++; }
+  for (const hh of (P.history || [])){ const d = pbtDate(hh.date); if (s.days[d] !== 'p' && s.days[d] !== 'h') s.days[d] = hh.index >= 0 ? 'p' : 'a'; n++; }
   if (P.streakStart && P.lastReadDate){ for (let d = pbtDate(P.streakStart); d <= pbtDate(P.lastReadDate); d = addDays(d, 1)) if (!s.days[d]){ s.days[d] = 'p'; n++; } }
   s.importJours = Math.max(0, (+P.totalNumberOfDays || 0) - Object.keys(s.days).length);
   const AC = o.Achievements || {};
