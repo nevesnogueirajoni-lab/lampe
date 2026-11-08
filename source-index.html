@@ -584,7 +584,9 @@ function defaults(){
 }
 
 let RSOON = 0;
-function renderSoon(){ if (RSOON) return; RSOON = setTimeout(() => { RSOON = 0; render(); }, 30); }
+function renderSoon(){ if (RSOON) return; RSOON = setTimeout(() => { RSOON = 0;
+  const a = document.activeElement; if (a && a.closest && a.closest('#main') && /INPUT|TEXTAREA|SELECT/.test(a.tagName)){ a.addEventListener('blur', () => setTimeout(renderSoon, 50), { once:true }); return; }
+  render(); }, 30); }
 function listen(key, path, apply){
   if (unsubs[key]) unsubs[key]();
   unsubs[key] = DB.doc(path).onSnapshot(s => {
@@ -1538,7 +1540,11 @@ function gardeHTML(k){
 
 document.addEventListener('change', ev => {
   const el = ev.target; if (!el || !el.dataset) return;
-  if (el.dataset.btheure){ const s = btState(); s.heure = (el.value || '').slice(0, 5) || null; saveProg(); saveAgenda(); toast(s.heure ? tx(`Rappel de lecture à ${s.heure} ✓`, `Lembrete às ${s.heure} ✓`) : tx('Rappel de lecture retiré','Lembrete removido')); render(); return; }
+  if (el.dataset.bth){ const s = btState(); const box = el.closest('.card');
+    const h = box.querySelector('[data-bth="h"]').value; const msel = box.querySelector('[data-bth="m"]');
+    s.heure = h ? `${h}:${msel.value || '00'}` : null; msel.disabled = !h;
+    document.querySelectorAll('[data-bthint]').forEach(x => x.textContent = hlHint(s.heure));
+    saveProg(); saveAgenda(); toast(s.heure ? tx(`Rappel de lecture à ${s.heure} ✓`, `Lembrete às ${s.heure} ✓`) : tx('Rappel de lecture retiré','Lembrete removido')); return; }
   if (el.dataset.gj){ const k = member(el.dataset.gj); if (!k || !k.garde) return; setGardeJour(k, el.value); saveFam(); toast(tx(`Récupération le ${JOURS[LANG][+el.value]} ✓`, 'Dia ajustado ✓')); render(); }
   else if (el.dataset.gh){ const k = member(el.dataset.gh); if (!k || !k.garde) return; k.garde.heure = el.value || '18:00'; saveFam(); toast(tx('Heure enregistrée ✓','Hora salva ✓')); }
 });
@@ -3173,10 +3179,15 @@ function btCardHome(){
 }
 let BT_TAB = 'jour';
 /* L'heure à laquelle on veut faire sa lecture : modifiable à tout moment, sert au rappel */
+/* deux listes (heures, minutes) plutôt qu'un champ « heure » : sur iPhone, le champ heure se remplissait avec l'heure actuelle */
+const hlHint = h => h ? tx(`Rappel chaque jour à ${h}. Change-la quand tu veux.`, `Lembrete todo dia às ${h}.`) : tx('Choisis l’heure : tu recevras un rappel.','Escolha a hora para receber um lembrete.');
 function heureLectureHTML(){
-  const s = btState();
-  return `<div class="card row between" style="gap:10px;padding:12px 14px"><label for="bthr" class="small" style="margin:0"><b>🔔 ${tx('Heure de ma lecture','Hora da minha leitura')}</b><br><span class="tiny muted">${s.heure ? tx('Rappel chaque jour à cette heure. Change-la quand tu veux.','Lembrete todo dia nesse horário.') : tx('Choisis l’heure : tu recevras un rappel.','Escolha a hora para receber um lembrete.')}</span></label>
-   <input type="time" id="bthr" data-btheure="1" value="${esc(s.heure || '')}" style="max-width:120px"></div>`;
+  const s = btState(); const [hh, mm] = (s.heure || '').split(':');
+  const hs = [`<option value="" ${!s.heure ? 'selected' : ''}>—</option>`].concat(Array.from({ length:24 }, (_, i) => { const v = String(i).padStart(2, '0'); return `<option value="${v}" ${hh === v ? 'selected' : ''}>${v} h</option>`; }));
+  const ms = Array.from({ length:12 }, (_, i) => { const v = String(i * 5).padStart(2, '0'); return `<option value="${v}" ${(mm || '00') === v ? 'selected' : ''}>${v}</option>`; });
+  return `<div class="card" style="padding:12px 14px"><div class="row between" style="gap:8px"><b class="small">🔔 ${tx('Heure de ma lecture','Hora da minha leitura')}</b>
+   <span class="row" style="gap:4px"><select data-bth="h" aria-label="${tx('Heure','Hora')}" style="width:auto">${hs.join('')}</select><b>:</b><select data-bth="m" aria-label="${tx('Minutes','Minutos')}" style="width:auto" ${!s.heure ? 'disabled' : ''}>${ms.join('')}</select></span></div>
+   <span class="tiny muted" data-bthint="1">${hlHint(s.heure)}</span></div>`;
 }
 function viewLire(){
   const s = btState(); const th = BT_THEMES[s.theme] || BT_THEMES.aube;
