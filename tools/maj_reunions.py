@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Mise à jour du programme des réunions de Lampe depuis wol.jw.org, sans navigateur.
 
-Usage : python3 tools/maj_reunions.py [nb_semaines=20] [--fixtures fichier.json]
+Usage : python3 tools/maj_reunions.py [nb_semaines=20] [--connu 2026-46,2026-47] [--semaines 2027-8] [--fixtures f.json]
 Sortie (stdout) : {"maj": "AAAA-MM-JJ", "source": "wol.jw.org", "w": {"2027-5": {...}}, "erreurs": [...]}
 
 Reprend exactement l'extraction de la version qui tournait dans Chrome.
@@ -152,7 +152,12 @@ def main():
     liste = weeks(NB)
     if "--semaines" in sys.argv:
         liste = [tuple(map(int, k.split("-"))) for k in sys.argv[sys.argv.index("--semaines") + 1].split(",")]
+    connu = set()
+    if "--connu" in sys.argv:  # semaines déjà complètes dans Lampe : on ne les relit pas
+        connu = set(sys.argv[sys.argv.index("--connu") + 1].split(","))
     for y, w in liste:
+        if f"{y}-{w}" in connu:
+            continue
         try:
             o = semaine(y, w)
             if o:
