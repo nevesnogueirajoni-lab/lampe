@@ -248,6 +248,7 @@ nav.tabs button.on .navav{box-shadow:0 0 0 2px var(--card),0 0 0 4px var(--ink)}
 .bt-chunks{display:flex;flex-direction:column;gap:8px;width:100%;margin-top:10px}
 .bt-chunk{display:flex;justify-content:space-between;align-items:center;gap:8px;background:rgba(255,255,255,.95);color:#222;border-radius:14px;padding:12px 14px;font-weight:800;text-align:left}
 .bt-chunk span{font-size:12px;color:#0095f6;white-space:nowrap}
+.nhow{margin:8px 0 2px;padding-left:20px;font-size:14px;line-height:1.45;opacity:.95}div.nhow{padding-left:0;font-weight:700}
 .nch{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.nch .lu{text-decoration:line-through;opacity:.8}
 .bt-chunk.lu{opacity:.65;text-decoration:line-through}
 .bt-book{display:grid;grid-template-columns:130px 1fr 48px;gap:8px;align-items:center;font-size:14px;margin:6px 0}.bt-book b{text-align:right;font-size:13px}
@@ -485,9 +486,43 @@ const loaded = { fam:false, prof:false, prog:false, etudes:false };
 let VIEW = 'accueil', SUBVIEW = null, ERR_DB = '';
 const unsubs = {}; const wq = {};
 
+/* Hors ligne : chaque modification est gardée sur l'appareil tant que la base ne l'a pas reçue.
+   Au retour du réseau (même après avoir fermé Lampe), elle est fusionnée avec ce que les autres appareils ont changé. */
+const PENDK = 'lampe_pend_v1'; const SRV = {};
+let PEND = (() => { try { return JSON.parse(localStorage.getItem(PENDK) || '{}'); } catch(e){ return {}; } })();
+const savePend = () => { try { localStorage.setItem(PENDK, JSON.stringify(PEND)); } catch(e) {} };
+const pendOn = () => !LOCAL && !GUEST && !!UID;
+const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+const isObj = v => v && typeof v === 'object' && !Array.isArray(v);
+/* fusion à trois : base = dernière version reçue, loc = ce qui a été fait ici, srv = ce qui est en ligne maintenant */
+const cl = v => v === undefined ? undefined : clone(v);
+function merge3(base, loc, srv){
+  if (same(loc, base)) return cl(srv);
+  if (same(srv, base) || srv === undefined && base === undefined) return cl(loc);
+  if (isObj(loc) && isObj(srv)){
+    const b = isObj(base) ? base : {}; const out = {};
+    for (const k of new Set([...Object.keys(loc), ...Object.keys(srv), ...Object.keys(b)])){
+      const v = merge3(b[k], loc[k], srv[k]); if (v !== undefined) out[k] = v;
+    }
+    return out;
+  }
+  return cl(loc);   /* même valeur changée des deux côtés : la modification faite ici l'emporte */
+}
+/* appelé à chaque donnée reçue de la base : renvoie ce qu'il faut afficher */
+function fromSrv(path, d){
+  if (!pendOn() || !PEND[path] || PEND[path].uid !== UID){ SRV[path] = d === null ? undefined : clone(d); return d; }
+  const p = PEND[path]; const srv = d === null ? undefined : d;
+  const m = merge3(p.base, p.local, srv);
+  SRV[path] = srv === undefined ? undefined : clone(srv);
+  if (same(m, srv)) { delete PEND[path]; savePend(); return d; }
+  PEND[path] = { uid:UID, base:SRV[path], local:clone(m), ts:Date.now() }; savePend();
+  setTimeout(() => write(path, m), 0);
+  return clone(m);
+}
 function write(path, obj){
   const st = wq[path] || (wq[path] = { busy:false, next:null });
   st.next = clone(obj);
+  if (pendOn()){ const old = PEND[path]; PEND[path] = { uid:UID, base: old ? old.base : SRV[path], local:clone(obj), ts:Date.now() }; savePend(); }
   if (!st.busy) pump(path);
 }
 async function pump(path){
@@ -495,22 +530,48 @@ async function pump(path){
   while (!DB) await new Promise(r => setTimeout(r, 120));
   while (st.next){
     const o = st.next; st.next = null;
-    try { await DB.doc(path).set(o); }
+    let ok = false;
+    try { await DB.doc(path).set(o); ok = true; }
     catch(e){
-      if (e && e.code === 'unavailable'){ await new Promise(r => setTimeout(r, 800 + Math.random()*700)); try { await DB.doc(path).set(o); continue; } catch(e2){ e = e2; } }
-      console.warn('écriture', path, e); toast(tx('Sauvegarde impossible pour le moment : nouvel essai dans quelques secondes','Não foi possível salvar agora: nova tentativa em instantes') + (e && e.code==='quota_exceeded' ? ' (quota)' : ''));
+      if (e && e.code === 'unavailable'){ await new Promise(r => setTimeout(r, 800 + Math.random()*700)); try { await DB.doc(path).set(o); ok = true; } catch(e2){ e = e2; } }
+      if (!ok){
+      console.warn('écriture', path, e); if (navigator.onLine !== false) { const code = String((e && (e.code || e.name || e.status)) || (e && e.message ? String(e.message).slice(0, 60) : 'inconnu'));
+        toast(tx('Sauvegarde impossible pour le moment','Não foi possível salvar agora') + ` (code : ${code} · ${path.split('/').pop()})` + tx(' : nouvel essai dans quelques secondes',': nova tentativa em instantes'));
+        try { localStorage.setItem('lampe_lasterr', JSON.stringify({ at:new Date().toISOString(), path, code, msg:String((e && e.message) || '').slice(0, 300) })); } catch(_) {} }
       st.fails = (st.fails || 0) + 1;
-      if (!st.next){ st.next = o; await new Promise(r => setTimeout(r, Math.min(60000, 2000 * st.fails))); }   /* on garde la modification et on réessaie tant que Lampe est ouverte */
+      if (!st.next){ st.next = o; await new Promise(r => { st.wake = r; setTimeout(r, Math.min(60000, 2000 * st.fails)); }); st.wake = null; }   /* on garde la modification et on réessaie tant que Lampe est ouverte */
       continue;
+      }
     }
-    st.fails = 0;
+    st.fails = 0; SRV[path] = clone(o);
+    if (!st.next && PEND[path] && same(PEND[path].local, o)){ delete PEND[path]; savePend(); if (st.wasOff){ st.wasOff = false; toast(tx('Réseau revenu : tes changements sont enregistrés ✓','Rede de volta: tuas alterações foram salvas ✓')); } }
   }
   st.busy = false;
 }
+/* au retour du réseau : on renvoie tout de suite ce qui attend */
+addEventListener('offline', () => { Object.values(wq).forEach(st => st.wasOff = true); toast(tx('Hors ligne : continue, tes changements seront envoyés au retour du réseau','Sem rede: continua, tuas alterações serão enviadas quando a rede voltar')); });
+addEventListener('online', () => { for (const [path, p] of Object.entries(PEND)){ if (p.uid !== UID) continue; const st = wq[path] = wq[path] || { busy:false, next:null }; st.wasOff = true; st.fails = 0; if (st.busy) { if (st.wake) st.wake(); } else write(path, p.local); } });
 const P = { fam:'famille/info', prof:()=>`data/users/${UID}/profil`, prog:()=>`data/users/${UID}/progres`, etudes:()=>`data/users/${UID}/etudes`, kid:id=>`enfants/${id}`, env:id=>`envois/${id}` };
 const saveFam = () => write(P.fam, FAM);
 const saveProf = () => write(P.prof(), PROF);
 const saveProg = () => write(P.prog(), PROG);
+/* Agenda des 14 prochains jours, lu par les notifications de Claude (tâches planifiées du matin et du soir) */
+let AGENDA_SIG = '';
+function saveAgenda(){
+  try {
+    if (!UID || !FAM || GUEST) return; const t = todayISO(); const out = {};
+    for (const mon of [monday(t), addDays(monday(t), 7)]){
+      const plan = weekPlan(mon); const dm = doneMap(mon); const s = btState();
+      for (const it of plan){ if (it.date < t || it.date > addDays(t, 13) || it.manque) continue;
+        const d = out[it.date] = out[it.date] || { a:[], r:[] };
+        if (it.kind === 'reunion'){ const m = /(\d{1,2}:\d\d)/.exec(it.titre || ''); d.r.push((it.titre || '').replace(/\s*·.*$/, '') + (m ? ' ' + m[1] : '')); continue; }
+        const fait = it.kind === 'bt' ? !!s.days[it.date] : isDoneVal(dm[it.id]);
+        d.a.push([(it.kind === 'bt' ? '🐑 ' : '') + String(it.titre || '').slice(0, 90), it.min || 0, fait ? 1 : 0]); } }
+    const doc = { maj:new Date().toISOString(), lu:!!btState().days[t], jours:out };
+    const sig = JSON.stringify([doc.lu, out]); if (sig === AGENDA_SIG) return; AGENDA_SIG = sig;
+    write(`data/users/${UID}/agenda`, doc);
+  } catch(e){ console.warn('agenda', e); }
+}
 const saveEtudes = () => write(P.etudes(), ETUDES);
 const saveKid = id => write(P.kid(id), KIDDATA[id]);
 
@@ -529,7 +590,7 @@ function listen(key, path, apply){
     if (wq[path] && (wq[path].busy || wq[path].next)) return;
     if (s.metadata && s.metadata.hasPendingWrites) return;
     if (s.metadata && s.metadata.fromCache && !s.exists) return;
-    apply(s.exists ? clone(s.data()) : null);
+    apply(fromSrv(path, s.exists ? clone(s.data()) : null));
     if (!(s.metadata && s.metadata.fromCache)) loaded[key] = true;
     renderSoon();
   }, e => { ERR_DB = e && e.code || 'erreur'; Object.keys(loaded).forEach(k => loaded[k] = true); render(); });
@@ -537,7 +598,7 @@ function listen(key, path, apply){
 function fastGet(key, path, apply){
   try { DB.doc(path).get().then(s => {
     if (loaded[key] || (wq[path] && (wq[path].busy || wq[path].next))) return;
-    apply(s && s.exists ? clone(s.data()) : null); loaded[key] = true; renderSoon();
+    apply(fromSrv(path, s && s.exists ? clone(s.data()) : null)); loaded[key] = true; renderSoon();
   }).catch(() => {}); } catch(e) {}
 }
 function listenKids(){
@@ -546,7 +607,8 @@ function listenKids(){
     const path = P.kid(k.id);
     unsubs['kid'+k.id] = DB.doc(path).onSnapshot(s => {
       if (wq[path] && (wq[path].busy || wq[path].next)) return;
-      KIDDATA[k.id] = s.exists ? clone(s.data()) : (KIDDATA[k.id] || { cultes:[] });
+      const kd = fromSrv(path, s.exists ? clone(s.data()) : null);
+      KIDDATA[k.id] = kd || (KIDDATA[k.id] || { cultes:[] });
       renderSoon();
     }, () => {});
   }
@@ -578,6 +640,7 @@ function dropSnap(){
   UID = null; SNAP_UID = null; FAM = PROF = PROG = ETUDES = PERSO = null; KIDDATA = {}; ENVOIS = []; SUGG = []; CETUDES = []; SOIR = {};
   Object.keys(loaded).forEach(k => loaded[k] = false);
   try { localStorage.removeItem(SNAPK); } catch(e) {}
+  PEND = {}; savePend();
 }
 
 async function init(){
@@ -622,8 +685,15 @@ const me = () => FAM && FAM.membres.find(m => m.uid === UID);
 const kids = () => (FAM ? FAM.membres.filter(m => m.type === 'enfant') : []);
 const adults = () => (FAM ? FAM.membres.filter(m => m.type === 'adulte') : []);
 const member = id => FAM && FAM.membres.find(m => m.id === id);
+/* Garde selon le numéro de semaine du calendrier : la période qui commence le jour du changement
+   compte pour la semaine du lundi qui suit (dimanche 18 h → semaine du lundi). Les vrais numéros sont suivis :
+   une année à 53 semaines donne deux semaines impaires de suite (53 puis 1). */
+const gardeMon = (k, d) => { const ps = periodStart(k, d); return addDays(ps, (8 - dow(ps)) % 7); };
+const gardeSem = (k, d) => isoWeek(gardeMon(k, d)).w;
 function baseHere(k, d){
-  if (!k.garde || !k.garde.actif || !k.garde.ref) return true;
+  if (!k.garde || !k.garde.actif) return true;
+  if (k.garde.parite === 'paire' || k.garde.parite === 'impaire') return (gardeSem(k, d) % 2 === 0) === (k.garde.parite === 'paire');
+  if (!k.garde.ref) return true;
   const n = Math.floor(diffDays(k.garde.ref, d) / 7);
   return ((n % 2) + 2) % 2 === 0;
 }
@@ -633,10 +703,17 @@ function childHere(k, d){
   return baseHere(k, d);
 }
 function periodStart(k, d){ const j = +k.garde.jour; return addDays(d, -((dow(d) - j + 7) % 7)); }
+function setGardeJour(k, j){
+  j = +j; const old = +k.garde.jour; if (j === old) return;
+  if (k.garde.ref){ let delta = (j - old + 7) % 7; if (delta > 3) delta -= 7; k.garde.ref = addDays(k.garde.ref, delta); }
+  k.garde.jour = j;
+}
 function calibrateGarde(k, ceSoirIci){
   const t = todayISO(); const j = +k.garde.jour;
   const last = addDays(t, -((dow(t) - j + 7) % 7));
   k.garde.ref = ceSoirIci ? last : addDays(last, 7);
+  /* réglage par numéro de semaine : on choisit la parité qui donne la bonne réponse pour ce soir */
+  if (k.garde.parite === 'paire' || k.garde.parite === 'impaire'){ const pair = gardeSem(k, t) % 2 === 0; k.garde.parite = pair === !!ceSoirIci ? 'paire' : 'impaire'; }
 }
 
 /* ---------- Programme de la semaine & plan « au bon moment » ---------- */
@@ -675,7 +752,7 @@ function tgChunks(np, heads, n){
 function weakQuiz(){
   const seen = ((PROG && PROG.quiz) || {}).seen || {}; if (!QB_READY) return [];
   const byId = {}; for (const q of QB) byId[q[0]] = q;
-  return Object.entries(seen).map(([id, v]) => [byId[id], (v[0] || 0) - (v[1] || 0), v[0] || 0]).filter(x => x[0] && x[1] > 0)
+  return Object.entries(seen).map(([id, v]) => [byId[id], (v[0] || 0) - (v[1] || 0), v[0] || 0]).filter(x => x[0] && x[1] > 0 && ((seen[x[0][0]] || [])[2] || 0) < 2)
     .sort((a, b) => b[1] - a[1] || b[2] - a[2]).map(x => x[0]);
 }
 function weekPlan(mon){
@@ -690,7 +767,9 @@ function weekPlan(mon){
     const pour = tx('Pour la réunion de ','Para a reunião de ') + jour(vmD);
     const L = [[tx('Cahier de la semaine','Apostila da semana'), p && p.vm ? U.doc(p.vm) : (p && p.c ? U.week(y, w) : U.meet(vmD))]];
     const steps = [];
-    if (p && p.c && p.c.length) p.c.forEach(c => steps.push({ id:'lec'+c, kind:'lecture', titre:tx('Lecture biblique : ','Leitura da Bíblia: ') + `${bookName(p.b)} ${c}`, sous:pour, links:[[tx('Ouvrir dans JW Library','Abrir no JW Library'), U.bible(p.b, c)]], min:Math.max(4, Math.round(vcount(p.b, c) / 6)) }));
+    if (p && p.c && p.c.length) p.c.forEach(c => steps.push({ id:'lec'+c, kind:'lecture', titre:tx('Lecture biblique : ','Leitura da Bíblia: ') + `${bookName(p.b)} ${c}`, sous:pour, links:[[tx('Ouvrir dans JW Library','Abrir no JW Library'), U.bible(p.b, c)]], min:Math.max(4, Math.round(vcount(p.b, c) / 6)),
+      how:[tx('Touche Commencer : JW Library s’ouvre','Toque Começar: abre o JW Library'), tx('Touche ▶ pour écouter le chapitre','Toque ▶ para ouvir o capítulo'), tx('Retiens un verset qui te parle','Guarde um versículo que te toca')],
+      mini:tx(`Écoute seulement les 10 premiers versets de ${bookName(p.b)} ${c}`, `Ouça só os 10 primeiros versículos de ${bookName(p.b)} ${c}`) }));
     else steps.push({ id:'lecw', kind:'lecture', titre:tx('Lecture biblique de la semaine','Leitura da Bíblia da semana'), sous:tx('Les chapitres sont en haut du cahier · ','Os capítulos estão no início da apostila · ') + pour, links:L, min:15 });
     if (p && p.pv && p.pv.length && LANG === 'fr'){
       /* le cahier partie par partie, regroupé par rubrique, dans l'ordre de la réunion */
@@ -704,7 +783,14 @@ function weekPlan(mon){
         ['vmV', '🤝 ' + tx('Vie chrétienne : ','Vida cristã: ') + lab(vie), vie.map(x => x[3].replace(/^\.\s*/, '')).join(' · '), 6],
         ['vmE', '📚 ' + (eba ? `${eba[0]}. ${eba[1]}` : ''), eba ? eba[3] : '', 10]
       ].filter(g => g[1].length > 4 && (g[0] !== 'vmV' || vie.length) && (g[0] !== 'vmM' || min3.length) && (g[0] !== 'vmE' || eba));
-      for (const [id, titre, sous, m] of grp) steps.push({ id, kind:'prep', titre, sous:(sous ? sous.slice(0, 120) + ' — ' : '') + pour, links:L, min:m });
+      const HOW = {
+        vmA:[[ 'Lis ou écoute les versets cités dans le discours', 'Perles : lis la question du cahier', 'Prépare une phrase de réponse' ], 'Lis seulement la question des perles et prépare une phrase'],
+        vmL:[[ 'Écoute le passage dans JW Library', 'Regarde le point de leçon indiqué (th)' ], 'Écoute le passage, rien de plus'],
+        vmM:[[ 'Lis les situations des parties', 'Si tu as une partie : prépare-la', 'Sinon : garde une idée pour ta prédication' ], 'Lis seulement les titres des parties'],
+        vmV:[[ 'Lis le texte de la partie (ou regarde la vidéo indiquée)', 'Prépare une idée à partager' ], 'Lis le premier paragraphe de la partie'],
+        vmE:[[ 'Ouvre la publication indiquée', 'Écoute ou lis la section', 'Souligne la réponse à chaque question' ], 'Lis seulement les questions de la section'] };
+      for (const [id, titre, sous, m] of grp) steps.push({ id, kind:'prep', titre, sous:(sous ? sous.slice(0, 120) + ' — ' : '') + pour, links:L, min:m,
+        how:LANG === 'fr' ? HOW[id][0] : null, mini:LANG === 'fr' ? HOW[id][1] : null });
     } else {
     steps.push({ id:'vmA', kind:'prep', titre:tx('Joyaux de la Parole de Dieu','Tesouros da Palavra de Deus'), sous:(p && p.j && LANG === 'fr' ? p.j + ' · ' : '') + tx('discours et perles : prépare une réponse','discurso e joias: prepare uma resposta'), links:L, min:Math.round(mv / 2) });
     steps.push({ id:'vmB', kind:'prep', titre:tx('Ministère et Vie chrétienne','Ministério e Vida cristã'), sous:(p && p.p && p.p.length && LANG === 'fr' ? p.p.join(' · ') + ' — ' : tx('Parcours le reste du cahier et prépare tes parties · ','Veja o resto da apostila e prepare suas partes · ')) + pour, links:L, min:mv - Math.round(mv / 2) });
@@ -722,7 +808,9 @@ function weekPlan(mon){
       const ch = tgChunks(p.tgp, p.tgh, Math.min(nDays, Math.ceil(p.tgp / 4)));
       ch.forEach(([a, z, hs], k) => items.push({ id:'tgp' + a, kind:'prep', from, due, hard, chain:'tg', step:k,
         titre:`🗼 ${tx('Tour de Garde','A Sentinela')} § ${a}${z > a ? '-' + z : ''}${k === ch.length - 1 ? tx(' + questions de révision',' + recapitulação') : ''}`,
-        sous:(hs.length ? hs.join(' · ') + ' — ' : '') + st, links:L, min:Math.max(5, Math.round(mt * (z - a + 1) / p.tgp)) }));
+        sous:(hs.length ? hs.join(' · ') + ' — ' : '') + st, links:L, min:Math.max(5, Math.round(mt * (z - a + 1) / p.tgp)),
+        how:[tx(`Ouvre l’article et va au paragraphe ${a}`, `Abra o artigo no parágrafo ${a}`), tx(`Écoute ▶ ou lis les § ${a} à ${z}`, `Ouça ▶ ou leia os § ${a} a ${z}`), tx('Souligne la réponse à chaque question', 'Sublinhe a resposta de cada pergunta'), tx('Prépare un commentaire court', 'Prepare um comentário curto')].concat(k === ch.length - 1 ? [tx('Réponds aux questions de révision', 'Responda à recapitulação')] : []),
+        mini:tx(`Écoute les § ${a} à ${Math.min(z, a + 2)} et prépare un seul commentaire`, `Ouça os § ${a} a ${Math.min(z, a + 2)} e prepare um comentário`) }));
     } else {
     items.push({ id:'tg1', kind:'prep', from, due, hard, chain:'tg', step:0, titre:tx('Tour de Garde — 1re moitié des paragraphes','A Sentinela — 1.ª metade dos parágrafos'), sous:st, links:L, min:half });
     items.push({ id:'tg2', kind:'prep', from, due, hard, chain:'tg', step:1, titre:tx('Tour de Garde — 2e moitié + questions de révision','A Sentinela — 2.ª metade + recapitulação'), sous:st, links:L, min:half });
@@ -761,15 +849,26 @@ function weekPlan(mon){
       if (!por && d > t && tod && tod.lu && tod.key === 'main'){ const st0 = btStream(t); por = st0 ? st0.seq[st0.idx + diffDays(t, d) - 1] || null : null; }
       items.push({ id:'bt'+d, date:d, fixe:true, kind:'bt', titre: por ? btChunks(por).map(c => c.label).join(' · ') : tx('Lecture quotidienne','Leitura diária'), sous:tx('Ta lecture de la Bible du jour','Sua leitura diária da Bíblia'), links: isT && tod && tod.portion ? btLinks(tod.portion).map(c => ['📖 ' + c.label, c.url]) : [], go:'lire', min: isT && tod && tod.portion ? portionMin(tod.portion) : avgMin }); }
   }
-  const avec = kids().some(k => k.garde && k.garde.actif && childHere(k, addDays(mon,3)));
+  const avec = kids().some(k => k.garde && k.garde.actif && [0,1,2,3,4,5,6].filter(i => childHere(k, addDays(mon, i))).length >= 4);   /* l'enfant est là la plus grande partie de la semaine */
   const dur = avec ? PROF.duree.avec : PROF.duree.seul;
-  const weak = weakQuiz();
-  (avec ? [1, 2] : [1, 2, 3]).forEach(n => { const q = weak[n - 1]; const tot = avec ? 2 : 3;
+  const weak = weakQuiz(); const CH = ((PROG.persoChoix || {})[mon]) || {}; const byQ = {}; if (QB_READY) for (const x of QB) byQ[x[0]] = x;
+  const fmIt = fmItems(mon); items.push(...fmIt);   /* l'étude Futur mari remplace une étude perso */
+  const persoN = (avec ? [1, 2] : [1, 2, 3]).slice(0, fmIt.length ? (avec ? 1 : 2) : 3);
+  persoN.forEach(n => { const ch = CH['perso' + n]; const q = ch && ch.q ? byQ[ch.q] : null; const tot = persoN.length;
+    if (ch && ch.t){ items.push({ id:'perso'+n, kind:'perso', due:sun, spread:true, ord:n, titre:`🎯 ${tx('Étude perso','Estudo pessoal')} ${n}/${tot} : ${ch.t}`, sous:tx('Ton sujet, choisi par toi','Seu assunto, escolhido por você'),
+      links:[[tx('Chercher sur jw.org','Pesquisar no jw.org'), (LANG === 'pt' ? 'https://www.jw.org/pt/busca/?q=' : 'https://www.jw.org/fr/rechercher/?q=') + encodeURIComponent(ch.t)]], min:dur,
+      how:[tx('Cherche ton sujet sur jw.org','Pesquise seu assunto no jw.org'), tx('Écoute ou lis un article','Ouça ou leia um artigo'), tx('Note une idée que tu veux retenir','Anote uma ideia para lembrar')], mini:tx('Lis seulement le résumé du premier article','Leia só o resumo do primeiro artigo') }); return; }
+    if (!q){ const nb = weak.filter(x => !Object.values(CH).some(c => c.q === x[0])).length;
+      items.push({ id:'perso'+n, kind:'perso', due:sun, spread:true, ord:n, titre:`🎯 ${tx('Étude perso','Estudo pessoal')} ${n}/${tot} : ${tx('choisis ton sujet','escolha seu assunto')}`,
+        sous:nb ? tx(`Lampe te propose ${Math.min(nb, 3)} sujet${nb > 1 ? 's' : ''} d’après tes quiz, ou un sujet à toi`, `O Lampe sugere ${Math.min(nb, 3)} assunto(s) dos seus quizzes, ou um seu`) : tx('Un quiz éclair pour trouver ton sujet, ou un sujet à toi','Um quiz rápido para achar seu assunto, ou um seu'),
+        go:'persochoix', min:dur }); return; }
     if (q){ const kw = String((LANG === 'pt' ? q[11] : q[8]) || '').split(/[;|]/).filter(Boolean).slice(0, 3).join(', ');
       const ref = `${bookName(q[3])} ${q[4]}${q[5] ? ':' + q[5] : ''}`;
       items.push({ id:'perso'+n, kind:'perso', due:sun, spread:true, ord:n, titre:`🎯 ${tx('Étude perso','Estudo pessoal')} ${n}/${tot} : ${kw || ref}`,
         sous:tx(`Raté au quiz : « ${q[6]} » — lis ${ref}, puis approfondis`, `Errou no quiz: « ${q[9]} » — leia ${ref} e aprofunde`),
-        links:[[tx('Lire ','Ler ') + ref, U.bible(q[3], q[4], LANG, q[5])], [tx('Approfondir sur jw.org','Aprofundar no jw.org'), LANG === 'pt' ? 'https://www.jw.org/pt/busca/?q=' + encodeURIComponent(kw || ref) : 'https://www.jw.org/fr/rechercher/?q=' + encodeURIComponent(kw || ref)]], min:dur }); }
+        links:[[tx('Lire ','Ler ') + ref, U.bible(q[3], q[4], LANG, q[5])], [tx('Approfondir sur jw.org','Aprofundar no jw.org'), LANG === 'pt' ? 'https://www.jw.org/pt/busca/?q=' + encodeURIComponent(kw || ref) : 'https://www.jw.org/fr/rechercher/?q=' + encodeURIComponent(kw || ref)]], min:dur,
+        how:[tx(`Écoute ${ref}`, `Ouça ${ref}`), tx('Cherche le sujet sur jw.org (2e lien)', 'Pesquise o assunto no jw.org (2º link)'), tx('Refais le quiz : 2 bonnes réponses et le sujet est acquis', 'Refaça o quiz: 2 acertos e o assunto está dominado')],
+        mini:tx(`Écoute seulement ${ref}`, `Ouça só ${ref}`) }); }
     else items.push({ id:'perso'+n, kind:'perso', due:sun, spread:true, ord:n, titre:`🎮 ${tx('Étude perso','Estudo pessoal')} ${n}/${tot} : ${tx('quiz rapide pour trouver ton sujet','quiz rápido para achar seu assunto')}`,
       sous:tx('10 questions : ce que tu rates devient ton sujet d’étude','10 perguntas: o que você errar vira seu assunto'), go:'qcm', min:dur }); });
   /* préparations liées à une réunion déjà commencée : trop tard, on ne les propose plus */
@@ -781,7 +880,7 @@ function weekPlan(mon){
   const ry = +(PROF.rythme || 1); if (ry !== 1) items.forEach(i => { if (i.min) i.min = Math.max(3, Math.round(i.min * ry)); });
   planWeek(items, mon);
   items.forEach(i => { if (i.tard){ i.manque = true; i.urgent = false; } });
-  const order = { reunion:-1, bt:0, lecture:1, prep:2, perso:4, qcm:3, culte:5 };
+  const order = { reunion:-1, bt:0, lecture:1, prep:2, perso:4, qcm:3, culte:5, fm:6 };
   return items.sort((a,b) => a.date < b.date ? -1 : a.date > b.date ? 1 : (b.urgent ? 1 : 0) - (a.urgent ? 1 : 0) || order[a.kind]-order[b.kind]);
 }
 const doneMap = mon => (PROG.done[mon] = PROG.done[mon] || {});
@@ -975,10 +1074,11 @@ const KIND = {
   qcm:['🧠','g-qcm',()=>tx('QCM de la semaine','Quiz da semana')],
   culte:['💗','g-culte',()=>tx('Culte familial','Adoração em família')],
   perso:['✨','g-perso',()=>tx('Étude perso','Estudo pessoal')],
+  fm:['💍','g-perso',()=>'Futur mari'],
   bt:['🐑','g-mint',()=>tx('Lecture quotidienne','Leitura diária')],
   reunion:['🏛️','g-night',()=>tx('Réunion','Reunião')],
 };
-const kindOf = it => it.id.startsWith('tg') ? 'tg' : (it.id === 'prog' ? 'prep' : it.kind);
+const kindOf = it => it.id.startsWith('fm') ? 'fm' : it.id.startsWith('tg') ? 'tg' : (it.id === 'prog' ? 'prep' : it.kind);
 const THEME_EMO = {'Prière sincère':'🙏','Foi':'🌱','Maîtrise de soi':'🧘','Patience':'⏳','Joie':'😊','Courage':'🦁','Paix intérieure':'🕊️','Amitié avec Jéhovah':'🤝','Qualités de Jéhovah':'💛','Royaume de Dieu':'👑','Prophéties':'📜','Personnages bibliques':'🧔','Prédication':'📣','Famille':'🏡','Éducation des enfants':'🧸','Vie de couple':'💞','Pardon':'🤲','Création':'🌍','Gérer son argent':'💰','Lecture de la Bible':'📖'};
 const BARO_EMO = {'Travail':'💼','Fatigue':'😴','Famille':'🏡','Manque de temps':'⏰','Inquiétudes':'😟','Joie':'😊','Projets':'🚀','Prédication':'📣','Envie d’avancer':'🌱','Besoin de calme':'🕊️'};
 const KID_THEMES = [['Noé et l’arche','Noé e a arca','🚢'],['Jonas','Jonas','🐋'],['David et Goliath','Davi e Golias','🪨'],['Daniel et les lions','Daniel e os leões','🦁'],['La création','A criação','🌍'],['Jésus enfant','Jesus menino','👦'],['Être gentil','Ser bondoso','💗'],['Prier Jéhovah','Orar a Jeová','🙏'],['Obéir','Obedecer','👂'],['Partager','Compartilhar','🍞']];
@@ -1008,11 +1108,12 @@ function render(){
   top.innerHTML = `<div class="logo">Lampe</div>${m ? `<div class="ticons"><button class="ibtn" data-a="go" data-v="reglages" aria-label="${tx('Réglages','Ajustes')}">${IC.gear}</button></div>` : ''}`;
   if (!FAM){ nav.hidden = true; main.innerHTML = viewSetup(); return; }
   if (!m){ nav.hidden = true; main.innerHTML = viewClaim(); return; }
+  clearTimeout(window.__agT); window.__agT = setTimeout(saveAgenda, 1500);   /* agenda pour les notifications, après l'affichage */
   nav.hidden = false;
   const tabs = [['accueil', IC.home, tx('Aujourd’hui','Hoje')], ['lire', IC.book, tx('Bible','Bíblia')], ['etude', IC.explore, tx('Explorer','Explorar')], ['famille', IC.family, tx('Famille','Família')]];
   const g = TAB_OF[VIEW] || 'accueil'; const fb = n + ns;
   nav.innerHTML = tabs.map(([v, ic, l]) => `<button data-a="go" data-v="${v}" class="${g === v ? 'on' : ''}">${ic}<span class="tl">${l}</span>${v === 'famille' && fb ? `<span class="badge-n">${fb}</span>` : ''}</button>`).join('');
-  const views = { accueil:viewHome, semaine:viewWeek, etude:viewStudy, qcm:viewQCM, famille:viewFamily, boite:viewBox, reglages:viewSettings, profil:viewProfil, couple:viewCouple, lire:viewLire };
+  const views = { accueil:viewHome, semaine:viewWeek, etude:viewStudy, qcm:viewQCM, famille:viewFamily, boite:viewBox, reglages:viewSettings, profil:viewProfil, couple:viewCouple, lire:viewLire, fm:viewFM };
   const active = document.activeElement; const keep = active && active.id && main.contains(active) ? { id:active.id, v:active.value, s:active.selectionStart } : null;
   const key = VIEW + '|' + (SUBVIEW || '');
   let body; try { body = subTabs(n, ns) + (views[VIEW] || viewHome)(); } catch(e){ console.error(e); body = `<div class="warn">⚠️ ${tx('Petit souci d’affichage','Pequeno problema de exibição')} (${esc(VIEW)}) : ${esc(e && e.message || e)}</div>`; }
@@ -1138,7 +1239,8 @@ function viewHome(){
   const kidsTags = kids().filter(k => k.garde && k.garde.actif && childHere(k, t)).map(k => `<span class="tag kid">💗 ${tx('Avec','Com')} ${esc(k.prenom)}</span>`).join('');
   const nx = nextMeeting(t); const dispo = dispoOf(t); const cap = capOf(t);
   let html = `<div class="today-h"><div><h1>${tx('Aujourd’hui','Hoje')}</h1><p>${dateLong(t)}${nx ? ` · <b>${esc(nx)}</b>` : ''}</p></div>
-    <button class="dispo ${dispo === 0 ? 'off' : ''}" data-a="dispo">⏱️ ${dispo === 0 ? tx('Journée off','Dia de folga') : dispo + ' min'} <span>▾</span></button></div>${kidsTags ? `<div class="row" style="margin:-4px 0 10px">${kidsTags}</div>` : ''}`;
+    <div class="row" style="gap:6px;align-items:center"><button class="dispo" data-a="briefing" aria-label="${tx('Écouter mon programme','Ouvir meu programa')}">🔊</button><button class="dispo ${dispo === 0 ? 'off' : ''}" data-a="dispo">⏱️ ${dispo === 0 ? tx('Journée off','Dia de folga') : dispo + ' min'} <span>▾</span></button></div></div>${kidsTags ? `<div class="row" style="margin:-4px 0 10px">${kidsTags}</div>` : ''}`;
+  { const cov = progCoverageDate(); if (cov && cov < addDays(t, 21)) html += `<p class="small" style="margin:0 2px 8px;color:#b45309;font-weight:700">⚠️ ${tx(`Programme des réunions connu seulement jusqu’au ${dateLong(cov)} : je le complète à la prochaine mise à jour.`, `Programa das reuniões conhecido só até ${dateLong(cov)}.`)}</p>`; }
   /* tâches du jour, dans l'ordre d'importance */
   const s = btState(); const pr = { prep:0, lecture:1, bt:2, culte:3, qcm:4, perso:5 };
   const open = plan.filter(i => i.kind !== 'reunion' && i.date <= t && !i.manque && !(i.kind === 'bt' ? (s.days[t] || i.date !== t) : isDoneVal(dm[i.id])) && laterOf(dm[i.id]) !== t)
@@ -1191,8 +1293,10 @@ function nowCard2(it, mon, t){
       <div class="nhint">${tx('Ça s’ouvre dans JW Library (touche ▶ pour écouter). Dès que tu touches, la lecture du jour est comptée.','Abre no JW Library (toque ▶ para ouvir). Ao tocar, a leitura do dia é contada.')}</div></div>`;
   }
   const act = link ? `<a class="pb white sm" href="${link}" target="_blank" rel="noopener" data-a="start" data-id="${it.id}">▶ ${tx('Commencer','Começar')}</a>` : it.go ? `<button class="pb white sm" data-a="startgo" data-id="${it.id}" data-v="${it.go}">▶ ${tx('Commencer','Começar')}</button>` : '';
-  const val = `<div class="nval"><button class="pb white sm" data-a="vfait" data-id="${it.id}" data-mon="${mon}">✓ ${tx('Fait','Feito')}</button>${link ? `<button class="pb glass sm" data-a="vecoute" data-id="${it.id}" data-mon="${mon}">🎧 ${tx('Écouté seulement','Só ouvi')}</button>` : ''}<button class="pb glass sm" data-a="vlater" data-id="${it.id}" data-mon="${mon}">${tx('Pas eu le temps','Não deu tempo')}</button></div>`;
-  return `<div class="nowc ${enc ? 'enc' : ''}"><div class="nk">${tx('Maintenant','Agora')}${it.urgent ? ' · ' + tx('prioritaire','prioritário') : ''}${enc ? ' · ' + tx('en cours','em andamento') : ''}</div><div class="nt">${emo} ${esc(it.titre)}</div>${it.sous ? `<div class="ns">${esc(it.sous)}</div>` : ''}
+  const val = `<div class="nval"><button class="pb white sm" data-a="vfait" data-id="${it.id}" data-mon="${mon}">✓ ${tx('Fait','Feito')}</button>${link ? `<button class="pb glass sm" data-a="vecoute" data-id="${it.id}" data-mon="${mon}">🎧 ${tx('J’ai écouté','Ouvi')}</button>` : ''}<button class="pb glass sm" data-a="vlater" data-id="${it.id}" data-mon="${mon}">${tx('Pas eu le temps','Não deu tempo')}</button></div>`;
+  const court = it.mini && dispoOf(t) > 0 && dispoOf(t) <= 10;
+  const howH = court ? `<div class="nhow">⚡ ${tx('Version 5 min','Versão 5 min')} : ${esc(it.mini)}</div>` : it.how ? `<ol class="nhow">${it.how.map(x => `<li>${esc(x)}</li>`).join('')}</ol>` : '';
+  return `<div class="nowc ${enc ? 'enc' : ''}"><div class="nk">${tx('Maintenant','Agora')}${it.urgent ? ' · ' + tx('prioritaire','prioritário') : ''}${enc ? ' · ' + tx('en cours','em andamento') : ''}</div><div class="nt">${emo} ${esc(it.titre)}</div>${howH}${it.sous ? `<div class="ns">${esc(it.sous)}</div>` : ''}
     <div class="nr"><span>⏱️ ${it.min} min</span>${enc ? (link ? `<a class="pb glass sm" href="${link}" target="_blank" rel="noopener">↗ ${tx('Rouvrir','Reabrir')}</a>` : '') : act + `<button class="pb glass sm" data-a="vlater" data-id="${it.id}" data-mon="${mon}">${tx('Plus tard','Mais tarde')}</button>`}</div>
     ${enc ? val : `<button class="nlink" data-a="vfait" data-id="${it.id}" data-mon="${mon}">${tx('Déjà fait ? Touche ici','Já fez? Toque aqui')}</button>`}</div>`;
 }
@@ -1200,7 +1304,7 @@ function taskRow(it, mon, t, done){
   const [emo] = KIND[kindOf(it)]; const link = it.kind === 'bt' ? null : linkOf(it);
   const v = doneMap(mon)[it.id];
   return `<div class="trow ${done ? 'done' : ''}"><button class="tck" data-a="${done ? 'vundo' : 'vfait'}" data-id="${it.id}" data-mon="${mon}" aria-label="${tx('Fait','Feito')}">${done ? '✓' : ''}</button>
-    ${link && !done ? `<a class="tb" href="${link}" target="_blank" rel="noopener" data-a="start" data-id="${it.id}">` : `<div class="tb" ${it.kind === 'bt' || it.go ? `data-a="go" data-v="${it.kind === 'bt' ? 'lire' : it.go}"` : ''}>`}<b>${emo} ${esc(it.titre)}</b><small>${it.min} min${it.urgent ? ' · ' + tx('prioritaire','prioritário') : ''}${v === 'ecoute' ? ' · ' + tx('écouté','ouvido') : ''}${it.sous && !done ? ' · ' + esc(it.sous) : ''}</small>${link && !done ? '</a>' : '</div>'}</div>`;
+    ${link && !done ? `<a class="tb" href="${link}" target="_blank" rel="noopener" data-a="start" data-id="${it.id}">` : `<div class="tb" ${it.kind === 'bt' || it.go ? `data-a="go" data-v="${it.kind === 'bt' ? 'lire' : it.go}" data-id="${it.id}"` : ''}>`}<b>${emo} ${esc(it.titre)}</b><small>${it.min} min${it.urgent ? ' · ' + tx('prioritaire','prioritário') : ''}${v === 'ecoute' ? ' · ' + tx('écouté','ouvido') : ''}${it.sous && !done ? ' · ' + esc(it.sous) : ''}</small>${link && !done ? '</a>' : '</div>'}</div>`;
 }
 function sheepRow(){
   const s = btState(); const t = todayISO();
@@ -1231,7 +1335,7 @@ function dispoModal(){
 }
 function viewWeek(){ return `<button class="backrow" data-a="go" data-v="accueil">‹ ${tx('Aujourd’hui','Hoje')}</button>` + viewPlanning(); }
 /* onglets secondaires des espaces Bible et Famille */
-const TAB_OF = { accueil:'accueil', semaine:'accueil', reglages:'accueil', profil:'accueil', lire:'lire', qcm:'lire', etude:'etude', famille:'famille', couple:'famille', boite:'famille' };
+const TAB_OF = { accueil:'accueil', semaine:'accueil', reglages:'accueil', profil:'accueil', lire:'lire', qcm:'lire', etude:'etude', fm:'etude', famille:'famille', couple:'famille', boite:'famille' };
 function subTabs(n, ns){
   const g = TAB_OF[VIEW]; let L = null;
   if (g === 'lire') L = [['lire', '🐑 ' + tx('Ma lecture','Minha leitura')], ['qcm', '🎮 ' + tx('Quiz','Quiz')]];
@@ -1249,6 +1353,7 @@ document.addEventListener('click', ev => {
     else { const s = btState(); if (s.days && s.days[t] === 'f'){ delete s.days[t]; saveBt(); } }
     saveProg(); closeModal(); render(); }
   else if (a === 'start'){ PROG.encours = { id:d.id, date:t }; saveProg(); setTimeout(render, 400); }
+  else if (a === 'startgo' && d.v === 'persochoix'){ persoModal(d.id); }
   else if (a === 'startgo'){ PROG.encours = { id:d.id, date:t }; saveProg(); VIEW = d.v === 'qcmw' ? 'qcm' : d.v; if (d.v === 'qcmw') QTAB = 'semaine'; window.scrollTo(0, 0); render(); }
   else if (a === 'vfait' || a === 'vecoute' || a === 'vlater' || a === 'vundo'){
     if (/^bt\d/.test(d.id || '')){ btTickDay(d.id.slice(2)); return; }
@@ -1286,6 +1391,7 @@ function viewStudy(){
   if (b && b.envie) tiles.push(`<button class="gt g-berry" data-a="theme" data-v="${esc(b.envie)}"><span class="e">💭</span>${esc(b.envie.slice(0, 40))}</button>`);
   const ordered = PROF.envies.concat(THEMES.map(x => x[0]).filter(x => !PROF.envies.includes(x)));
   if (!SAMPLE){ tiles.length = 1; STUDY_LIB.forEach((it, i) => { const v = it[LANG] || it.fr; tiles.push(`<button class="gt ${PAL[(i + 2) % PAL.length]}" data-a="xlib" data-id="${it.id}"><span class="e">${it.e}</span>${esc(v.titre)}</button>`); }); }
+  if (LANG === 'fr') tiles.splice(1, 0, `<button class="gt g-perso" data-a="go" data-v="fm"><span class="e">💍</span>Futur mari${fmOn() ? ' · ' + (fmWeek(mon) ? 'semaine ' + fmWeek(mon) : 'bilan') : ''}</button>`);
   tiles.splice(1, 0, `<button class="gt g-berry" data-a="qzgo"><span class="e">🎮</span>${tx('Quiz biblique','Quiz bíblico')}</button>`);
   if (SAMPLE) ordered.forEach((th, i) => tiles.push(`<button class="gt ${PAL[(i + 3) % PAL.length]}" data-a="theme" data-v="${esc(themeLabel(th))}"><span class="e">${THEME_EMO[th] || '📖'}</span>${esc(themeLabel(th))}</button>`));
   return `<div class="hello"><h1>${tx('Explorer','Explorar')} ✨</h1><p>${SAMPLE ? tx(`Touche un sujet : ${AI_NAME()} prépare une étude à partir de la Bible.`,`Toque num assunto: o ${AI_NAME()} prepara um estudo a partir da Bíblia.`) : tx('Des études prêtes à partir de la Bible, et toute la recherche de jw.org.','Estudos prontos a partir da Bíblia, e toda a pesquisa do jw.org.')}</p></div>
@@ -1405,12 +1511,20 @@ function culteCarousel(k, c, readonly, envId){
 function gardeHTML(k){
   const t = todayISO(); const s0 = periodStart(k, t);
   const periods = [0, 1, 2, 3, 4, 5].map(i => addDays(s0, i * 7));
-  return `<p class="small muted">${tx('Changement le','Troca na')} ${JOURS[LANG][+k.garde.jour]} ${tx('à','às')} ${esc(k.garde.heure || '')}. ${tx('Touche une période pour créer une exception (vacances, échange). Le cycle normal n’est jamais décalé.','Toque num período para criar uma exceção.')}</p>
+  return `<div class="grid2"><div><label class="f">${tx('Jour où je la récupère','Dia em que busco')}</label><select data-gj="${k.id}">${JOURS[LANG].map((j, i) => `<option value="${i}" ${+k.garde.jour === i ? 'selected' : ''}>${j}</option>`).join('')}</select></div><div><label class="f">${tx('Heure','Hora')}</label><input type="time" data-gh="${k.id}" value="${esc(k.garde.heure || '18:00')}"></div></div>
+   <p class="small muted">${tx('Touche une période pour créer une exception (vacances, échange). Le cycle normal n’est jamais décalé.','Toque num período para criar uma exceção.')}</p>
+   <div class="row mt" style="flex-wrap:wrap;gap:6px"><span class="small"><b>${tx('Je l’ai les semaines :','Fico com ela nas semanas:')}</b></span>${[['paire', tx('Paires','Pares')], ['impaire', tx('Impaires','Ímpares')], ['', tx('Une sur deux (recalage)','Uma sim, uma não')]].map(([v, l]) => `<button class="chip ${(k.garde.parite || '') === v ? 'on' : ''}" data-a="gpar" data-k="${k.id}" data-v="${v}">${l}</button>`).join('')}</div>
+   <p class="tiny muted" style="margin-top:4px;margin-bottom:8px">${tx(`Semaine actuelle : n° ${gardeSem(k, t)} (${gardeSem(k, t) % 2 ? 'impaire' : 'paire'}). La période qui commence le ${JOURS[LANG][+k.garde.jour]} compte pour la semaine du lundi qui suit. Le vrai numéro du calendrier est suivi (après une semaine 53 vient la semaine 1, impaire aussi).`, `Semana atual: nº ${gardeSem(k, t)}.`)}</p>
    ${periods.map(w => { const here = childHere(k, w); const ex = here !== baseHere(k, w);
-     return `<div class="row between" style="padding:6px 0"><span class="small"><b>${dateCourt(w)} → ${dateCourt(addDays(w, 6))}</b></span><button class="chip ${here ? 'on' : ''}" data-a="gex" data-k="${k.id}" data-w="${w}">${here ? '💗 ' + tx('avec toi','com você') : tx('pas avec toi','sem você')}${ex ? ' · ' + tx('exception','exceção') : ''}</button></div>`; }).join('')}
+     return `<div class="row between" style="padding:6px 0"><span class="small"><b>${dateCourt(w)} → ${dateCourt(addDays(w, 6))}</b> <span class="muted">· S${gardeSem(k, w)}</span></span><button class="chip ${here ? 'on' : ''}" data-a="gex" data-k="${k.id}" data-w="${w}">${here ? '💗 ' + tx('avec toi','com você') : tx('pas avec toi','sem você')}${ex ? ' · ' + tx('exception','exceção') : ''}</button></div>`; }).join('')}
    <div class="row mt"><span class="small">${tx('Recaler : ce soir, elle dort chez toi ?','Ajustar: hoje ela dorme com você?')}</span><button class="chip" data-a="grecal" data-k="${k.id}" data-v="1">${tx('Oui','Sim')}</button><button class="chip" data-a="grecal" data-k="${k.id}" data-v="0">${tx('Non','Não')}</button></div>`;
 }
 
+document.addEventListener('change', ev => {
+  const el = ev.target; if (!el || !el.dataset) return;
+  if (el.dataset.gj){ const k = member(el.dataset.gj); if (!k || !k.garde) return; setGardeJour(k, el.value); saveFam(); toast(tx(`Récupération le ${JOURS[LANG][+el.value]} ✓`, 'Dia ajustado ✓')); render(); }
+  else if (el.dataset.gh){ const k = member(el.dataset.gh); if (!k || !k.garde) return; k.garde.heure = el.value || '18:00'; saveFam(); toast(tx('Heure enregistrée ✓','Hora salva ✓')); }
+});
 /* ----- Messages ----- */
 const TYPE_EMO = { etude:'✨', qcm:'🧠', verset:'📖', note:'💬', culte:'💗' };
 function dmRow(e){
@@ -1459,6 +1573,8 @@ function viewSettings(){
    <div class="grid2"><div><label class="f">${tx('Heure','Hora')}</label><input type="time" data-famstr="reunions.hvm" value="${esc(FAM.reunions.hvm || '19:00')}"></div><div><label class="f">${tx('Heure','Hora')}</label><input type="time" data-famstr="reunions.htg" value="${esc(FAM.reunions.htg || '10:00')}"></div></div>
    <label class="f">${tx('Semaines spéciales (visite, assemblée, Mémorial…)','Semanas especiais')}</label>${speciesList()}<button class="pb sm" style="margin-top:8px" data-a="spadd">＋ ${tx('Ajouter une semaine spéciale','Adicionar semana especial')}</button>
    <p class="tiny muted">${progCoverage()}</p></details>` : ''}
+  ${kids().map(k => `<details class="box set" open><summary>👧 ${tx('Garde alternée de','Guarda alternada de')} ${esc(k.prenom)}</summary>
+   ${k.garde && k.garde.actif ? gardeHTML(k) : `<p class="small muted" style="margin-top:0">${tx('Pas de garde alternée : elle est là tous les jours.','Sem guarda alternada.')}</p><button class="pb sm" data-a="gon" data-k="${k.id}">${tx('Activer la garde alternée','Ativar guarda alternada')}</button>`}</details>`).join('')}
   <details class="box set"><summary>⏱️ ${tx('Mon temps et mon rythme','Meu tempo e ritmo')}</summary>
    <p class="small muted" style="margin-top:0">${tx('Le temps que tu peux donner chaque jour. Lampe garde 20 % de marge pour les imprévus.','O tempo que você pode dar por dia. O Lampe guarda 20 % de margem.')}</p>
    <button class="pb sm" data-a="budget">⏱️ ${tx('Mon temps jour par jour','Meu tempo dia a dia')}</button>
@@ -1519,6 +1635,7 @@ function memberModal(id){
    <label class="row" style="margin-top:10px"><input type="checkbox" id="xg" ${x.garde && x.garde.actif ? 'checked' : ''}> ${tx('Garde alternée (enfant)','Guarda alternada (criança)')}</label>
    <label class="row mt"><input type="checkbox" id="xcj" ${me() && me().conjoint && me().conjoint === x.id ? 'checked' : ''}> 💞 ${tx('Mon/ma conjoint(e) — future épouse : relier nos comptes (adulte)','Meu/minha cônjuge — ligar nossas contas (adulto)')}</label>
    <div class="grid2"><div><label class="f">${tx('Jour du changement','Dia da troca')}</label><select id="xj">${JOURS[LANG].map((j,i) => `<option value="${i}" ${x.garde && +x.garde.jour===i ? 'selected' : ''}>${j}</option>`).join('')}</select></div><div><label class="f">${tx('Heure','Hora')}</label><input type="time" id="xh" value="${esc((x.garde && x.garde.heure) || '18:00')}"></div></div>
+   <label class="f">${tx('Semaines de garde','Semanas de guarda')}</label><select id="xpar"><option value="" ${!(x.garde && x.garde.parite) ? 'selected' : ''}>${tx('Une semaine sur deux (recalage)','Uma semana sim, uma não')}</option><option value="paire" ${x.garde && x.garde.parite === 'paire' ? 'selected' : ''}>${tx('Semaines paires (n° du calendrier)','Semanas pares')}</option><option value="impaire" ${x.garde && x.garde.parite === 'impaire' ? 'selected' : ''}>${tx('Semaines impaires (n° du calendrier)','Semanas ímpares')}</option></select>
    <div class="row" style="margin-top:14px"><button class="pb grad" data-a="msave" data-id="${id||''}">${tx('Enregistrer','Salvar')}</button><button class="pb" data-a="close">${tx('Annuler','Cancelar')}</button>
    ${id && x.uid !== UID ? `<button class="pb" style="color:var(--red)" data-a="mdel" data-id="${id}">${tx('Retirer','Remover')}</button>` : ''}</div>
    ${id && x.type==='adulte' && x.uid && x.uid !== UID ? `<p class="tiny muted"><a href="#" data-a="munlink" data-id="${id}">${tx('Délier son compte (pour réinviter)','Desvincular a conta')}</a></p>` : ''}`);
@@ -1533,17 +1650,20 @@ function manuelModal(mon){
 }
 
 /* ---------- Actions ---------- */
+function todayMeeting(plan, t){ const r = plan.find(i => i.kind === 'reunion' && i.date === t); const m = r && /(\d{1,2}:\d\d)/.exec(r.titre || ''); return m ? m[1] : null; }
 function briefingText(){
   const t = todayISO(), mon = monday(t), m = me();
   const plan = weekPlan(mon); const dm = doneMap(mon);
-  const todo = plan.filter(i => i.kind !== 'reunion' && (i.date === t || i.date < t) && !dm[i.id]);
+  const todo = plan.filter(i => i.kind !== 'reunion' && i.date === t && !i.manque && !(i.kind === 'bt' ? btState().days[t] : isDoneVal(dm[i.id]))).sort((a, b) => (a.chain && a.chain === b.chain ? a.step - b.step : 0));
+  const mt = todayMeeting(plan, t);
   const h = new Date().getHours();
   let s = `${h < 12 ? tx('Bonjour','Bom dia') : h < 18 ? tx('Bon après-midi','Boa tarde') : tx('Bonsoir','Boa noite')} ${m.prenom}. ${tx('Nous sommes','Hoje é')} ${dateLong(t)}. `;
   for (const k of kids().filter(k => k.garde && k.garde.actif)) s += childHere(k, t) ? tx(`${k.prenom} est avec toi cette semaine. `, `${k.prenom} está com você esta semana. `) : '';
   if (!todo.length) s += tx('Rien de particulier à préparer aujourd’hui. Si tu as cinq minutes, une petite étude t’attend. ','Nada especial para hoje. ');
-  else { s += tx(`Aujourd’hui, je te propose : `, `Hoje, sugiro: `) + todo.slice(0,4).map(i => i.titre.replace(/·/g, ',')).join(' ; ') + '. '; }
+  else { const tot = todo.reduce((a, i) => a + (i.min || 0), 0); s += tx(`Aujourd’hui, ${todo.length} chose${todo.length > 1 ? 's' : ''}, environ ${tot} minutes : `, `Hoje, ${todo.length} coisa(s), cerca de ${tot} minutos: `) + todo.slice(0,5).map(i => i.titre.replace(/[·§]/g, ' ').replace(/[^\p{L}\p{N}\s:,'’-]/gu, '').trim()).join(' ; ') + '. '; }
+  if (mt) s += tx(`Réunion aujourd’hui à ${mt}. `, `Reunião hoje às ${mt}. `);
   const { p } = weekProg(mon);
-  if (p && LANG === 'fr') s += `Cette semaine, la Tour de Garde s’intitule : ${p.tg}. `;
+
   const n = unread(); if (n) s += tx(`Tu as ${n} envoi${n>1?'s':''} dans ta boîte. `, `Você tem ${n} envio(s) na caixa. `);
   return s + tx('Bonne journée !','Tenha um bom dia!');
 }
@@ -1555,6 +1675,157 @@ async function doSurprise(){
   busy('study', false);
 }
 function setPath(obj, path, val){ const k = path.split('.'); let o = obj; while (k.length > 1){ const x = k.shift(); o = o[x] = o[x] || {}; } o[k[0]] = val; }
+
+/* Étude perso : le sujet se choisit ensemble (propositions tirées des quiz, quiz éclair, ou sujet libre) */
+function persoModal(id){
+  const mon = monday(todayISO()); const CH = ((PROG.persoChoix || {})[mon]) || {};
+  const cands = weakQuiz().filter(x => !Object.values(CH).some(c => c.q === x[0])).slice(0, 3);
+  openModal(`<h3>🎯 ${tx('Choisissons ton sujet','Vamos escolher seu assunto')}</h3>
+    ${cands.length ? `<p class="small muted">${tx('D’après tes quiz, tu pourrais revoir :','Pelos seus quizzes, você poderia rever:')}</p>${cands.map(q => `<button class="xrow" data-a="qzpersopick" data-id="${id}" data-v="${q[0]}"><span>📖</span><b>${esc(LANG === 'pt' ? q[9] : q[6])}<small style="display:block;font-weight:400">${esc(bookName(q[3]) + ' ' + q[4] + (q[5] ? ':' + q[5] : ''))}</small></b><i>›</i></button>`).join('')}`
+      : `<p class="small muted">${tx('Pas encore d’erreur aux quiz pour choisir un sujet.','Ainda sem erros nos quizzes para escolher.')}</p>`}
+    <button class="xrow" data-a="qzgo"><span>🎮</span><b>${tx('Quiz éclair : 10 questions, puis on choisit ensemble','Quiz rápido: 10 perguntas, depois escolhemos juntos')}</b><i>›</i></button>
+    <p class="small muted" style="margin:12px 0 6px">${tx('Ou un sujet qui te tient à cœur :','Ou um assunto do seu interesse:')}</p>
+    <div class="row" style="gap:6px"><input id="persotxt" placeholder="${tx('ex. la patience, le Royaume…','ex. a paciência, o Reino…')}" style="flex:1"><button class="pb sm" data-a="qzpersolibre" data-id="${id}">OK</button></div>`);
+}
+function setPersoChoix(id, v){ const mon = monday(todayISO()); PROG.persoChoix = PROG.persoChoix || {}; for (const k of Object.keys(PROG.persoChoix)) if (k < addDays(mon, -21)) delete PROG.persoChoix[k];
+  (PROG.persoChoix[mon] = PROG.persoChoix[mon] || {})[id] = v; if (PROG.jour) PROG.jour = null; saveProg(); closeModal(); render(); toast(tx('Sujet choisi : c’est noté','Assunto escolhido')); }
+/* ---------- Module « Futur mari » : 24 semaines, une étude par semaine ---------- */
+const FM_BLOCS = [
+  [1, 4, 'La sécurité affective', 'Ton inquiétude en amour (95 sur 100) et ta peur d’être seul sont ce qui te fait perdre le cap : on commence par là.'],
+  [5, 8, 'La communication', '« Dire ce que je ressens » est ta réponse la plus faible (1 sur 5), et « écouter sans couper » est à 2 sur 5.'],
+  [9, 12, 'Les disputes', 'Tu sais très bien réparer après une dispute (5 sur 5), mais l’ironie, le ton qui monte et le repli sont à 4 sur 5 : il s’agit d’abîmer moins avant.'],
+  [13, 16, 'Chef de famille et spiritualité', 'Ta vision du chef de famille est bonne (88 sur 100) ; ton étude personnelle et ton initiative spirituelle (3 sur 5) doivent la rattraper.'],
+  [17, 20, 'La vie pratique', 'Le miroir l’a montré : tu demandes de l’organisation et une bonne gestion de l’argent, alors que ton sérieux est à 31 sur 100 et ta gestion de l’argent à 3 sur 5.'],
+  [21, 24, 'Le cœur et le choix', 'Derniers points : la douceur et la maîtrise de soi (3 sur 5), l’équilibre entre tes moments seul et ta présence, et ta façon de choisir.']];
+const FM = [
+  ['Calmer l’inquiétude', [[50,4,'6,7'],[40,6,'34']], 'Quand tu t’inquiètes pour quelqu’un, écris ce qui te fait peur, prie, et attends une heure avant de chercher à être rassuré.'],
+  ['Maîtriser la jalousie', [[46,13,'4'],[20,14,'30']], 'Note chaque moment de jalousie : ce qui l’a déclenchée, ce que tu as pensé, ce que tu as fait.'],
+  ['Être en paix seul', [[19,55,'22'],[60,5,'7']], 'Écris 5 choses qui te rendent heureux sans être en couple, et fais-en 2 cette semaine.'],
+  ['Faire la paix avec le passé', [[50,3,'13,14'],[19,147,'3']], 'Écris ce qui te pèse encore d’une relation passée, puis parles-en à un ancien ou à un ami mûr.'],
+  ['Dire ce que tu ressens', [[20,20,'5'],[49,4,'25']], 'Chaque jour, dis à un proche une phrase « je me sens… parce que… ».'],
+  ['Écouter sans couper', [[59,1,'19'],[20,18,'13']], 'Avant de répondre, reformule ce que l’autre vient de dire : « Si je comprends bien… ».'],
+  ['Accueillir les émotions de l’autre', [[45,12,'15'],[60,3,'8']], 'Quand quelqu’un est triste, ne cherche pas de solution : demande « Tu veux m’en parler ? » et écoute.'],
+  ['Remercier et complimenter', [[51,3,'15'],[20,31,'28,29']], 'Un compliment sincère et précis par jour, à une personne différente.'],
+  ['Garder un ton calme', [[20,15,'1'],[49,4,'31']], 'Dès que ta voix monte, fais une pause de 20 minutes, puis reprends la discussion.'],
+  ['Des paroles qui bâtissent', [[49,4,'29'],[20,12,'18']], 'Zéro ironie pendant 7 jours : remplace chaque pique par une demande claire.'],
+  ['Rester présent pendant un conflit', [[49,4,'26'],[45,12,'18']], 'Si tu as besoin de te retirer, dis-le (« J’ai besoin de 20 minutes, je reviens ») au lieu de te fermer.'],
+  ['Recevoir un reproche', [[20,12,'15'],[20,19,'20']], 'Avant de te justifier, réponds d’abord : « Tu as peut-être raison, explique-moi. »'],
+  ['Être chef à l’image du Christ', [[49,5,'23,25,28'],[60,3,'7']], 'Écris 3 façons dont Jésus dirigeait avec douceur, et appliques-en une cette semaine.'],
+  ['Savoir changer d’avis', [[1,21,'12'],[59,3,'17']], 'Repère une décision où tu as tenu bon par fierté, et cherche ce que l’autre avait de juste.'],
+  ['Étude personnelle et exemple spirituel', [[19,1,'1-3'],[54,4,'15']], 'Fixe un créneau d’étude (même 20 minutes) et tiens-le 4 jours dans la semaine.'],
+  ['Diriger le culte familial', [[5,6,'6,7'],[49,6,'4']], 'Prépare et dirige un culte familial, un jour sans réunion.'],
+  ['Gérer l’argent', [[42,14,'28'],[20,21,'5'],[20,22,'7']], 'Fais ton budget du mois (revenus, dépenses fixes, épargne) et note chaque dépense pendant 7 jours.'],
+  ['Ne plus remettre à plus tard', [[20,6,'6-8'],[21,11,'4']], 'Chaque soir, fais la tâche que tu repousses depuis le plus longtemps.'],
+  ['Tenir parole', [[40,5,'37'],[19,15,'4']], 'Note chaque promesse faite cette semaine, et coche-la quand elle est tenue.'],
+  ['Maîtriser les écrans', [[49,5,'15,16']], 'Mesure ton temps d’écran, réduis-le d’un tiers, et pas de téléphone pendant les repas.'],
+  ['Douceur et bienveillance', [[51,3,'12'],[49,4,'32']], 'Chaque jour, un geste gentil que personne ne t’a demandé.'],
+  ['Maîtrise de soi quand tu es fatigué', [[48,5,'22,23'],[20,16,'32']], 'Repère tes moments à risque (fatigue, faim, stress) et prévois à l’avance comment réagir.'],
+  ['Présent pour l’autre, tout en gardant tes moments seul', [[41,6,'31'],[50,2,'4']], 'Explique à un proche ton besoin d’être seul ; quand tu es avec lui, range ton téléphone.'],
+  ['Bien choisir', [[24,17,'9'],[20,4,'23'],[20,15,'22'],[46,7,'39']], 'Relis tes 5 critères et écris ta règle : « Aucune décision sous un coup de foudre ou par peur d’être seul. »']];
+const FM_Q = ['Ai-je écouté sans couper la parole ?', 'Ai-je dit clairement ce que je ressentais ?', 'Ai-je pris une initiative sans qu’on me la demande ?'];
+const FM_R = ['Non', 'Un peu', 'Oui'];
+const FM_DEPART = 52;
+const fmRef = r => `${bookName(r[0])} ${r[1]}:${r[2].replace(/,/g, ', ')}`;
+const fmBloc = n => FM_BLOCS.findIndex(b => n >= b[0] && n <= b[1]);
+const fmOn = () => !!(PROG && PROG.fm && PROG.fm.start && !PROG.fm.stop);
+/* semaine du programme pour le lundi « mon » : on avance d'une étude quand le journal de la précédente est rempli */
+function fmWeek(mon){
+  if (!fmOn() || mon < PROG.fm.start) return 0;
+  const W = PROG.fm.w = PROG.fm.w || {}; const cnt = before => Object.values(W).filter(x => x && x.at && x.at < before).length;
+  const tm = monday(todayISO()); let n;
+  if (mon <= tm){
+    n = cnt(mon) + 1;
+    const dmv = (PROG.done[mon] || {}).fmJ;
+    if (n <= 24 && !W[n] && isDoneVal(dmv)){ W[n] = { at:mon, j:null, note:null }; saveProg(); }   /* journal coché sans être rempli : la semaine compte quand même */
+  } else {
+    const nThis = cnt(tm) + 1; const base = Math.max(cnt(addDays(tm, 7)), nThis);
+    n = base + 1 + Math.round(diffDays(addDays(tm, 7), mon) / 7);
+  }
+  return n > 24 ? 0 : n;
+}
+const fmDone = () => Object.values((PROG.fm && PROG.fm.w) || {}).filter(x => x && x.at).length;
+function fmItems(mon){
+  const n = fmWeek(mon); if (!n) return [];
+  const F = FM[n - 1]; const sun = addDays(mon, 6);
+  return [
+    { id:'fmE', kind:'perso', due:addDays(mon, 1), spread:true, ord:0, titre:`Futur mari ${n}/24 : ${F[0]}`, sous:F[1].map(fmRef).join(' · '), go:'fm', min:30,
+      how:['Touche Commencer : Lampe prépare ton étude à partir des versets', 'Lis ou écoute chaque étape, puis les versets dans JW Library', 'Note ce que tu veux retenir', 'Cette semaine, fais l’exercice : ' + F[2]],
+      mini:'Lis seulement les versets (' + F[1].map(fmRef).join(', ') + ') et note une idée' },
+    { id:'fmJ', kind:'fm', date:sun, fixe:true, titre:`Futur mari : journal de la semaine ${n}`, sous:'3 questions et ta note de 1 à 5', go:'fm', min:5 }];
+}
+let FMD = { n:0, j:[null, null, null], note:null, txt:'' };
+function viewFM(){
+  const t = todayISO(), mon = monday(t); const back = `<button class="backrow" data-a="go" data-v="etude">‹ ${tx('Explorer','Explorar')}</button>`;
+  const intro = `<div class="card"><h3 style="margin:0 0 6px">📘 Mode d’emploi</h3><ol class="small" style="margin:0;padding-left:18px">
+    <li>Lampe prépare l’étude de la semaine à partir du thème et des versets (environ 30 minutes).</li><li>Pendant la semaine, tu fais l’exercice.</li><li>Le dernier jour, tu réponds aux 3 questions du journal et tu te notes de 1 à 5 sur le thème.</li></ol></div>`;
+  if (!PROG.fm || !PROG.fm.start || PROG.fm.stop){
+    return back + `<div class="hello"><h1>💍 Futur mari</h1><p>24 semaines, une étude par semaine. Chaque thème vient d’un point faible de ton questionnaire « Ma boussole » (note de départ : ${FM_DEPART} sur 100).</p></div>${intro}
+     <div class="card"><h3 style="margin:0 0 8px">Les 6 blocs</h3>${FM_BLOCS.map(b => `<p class="small" style="margin:4px 0"><b>Semaines ${b[0]} à ${b[1]} · ${esc(b[2])}</b></p>`).join('')}</div>
+     <div class="row"><button class="pb grad" data-a="fmstart" data-v="${mon}">Commencer cette semaine</button><button class="pb" data-a="fmstart" data-v="${addDays(mon, 7)}">La semaine prochaine</button></div>`;
+  }
+  if (PROG.fm.start > mon) return back + `<div class="hello"><h1>💍 Futur mari</h1><p>Ton programme commence le ${esc(dateLong(PROG.fm.start))}. Lampe le placera dans ton planning automatiquement.</p></div>${intro}<button class="pb sm" data-a="fmstop">Annuler le programme</button>`;
+  const n = fmWeek(mon); const W = PROG.fm.w || {};
+  const hist = Object.keys(W).map(Number).filter(k => W[k] && W[k].at).sort((a, b) => a - b);
+  const histH = hist.length ? `<div class="card"><h3 style="margin:0 0 8px">📈 Tes semaines</h3>${hist.map(k => { const x = W[k]; const oui = x.j ? x.j.filter(v => v === 2).length : null;
+      return `<div class="row between small" style="margin:3px 0"><span>${k}. ${esc(FM[k - 1][0])}</span><span>${x.note ? '⭐'.repeat(x.note) : '—'}${oui != null ? ` · ${oui}/3 oui` : ''}</span></div>`; }).join('')}</div>` : '';
+  if (!n){
+    /* bilan après 24 semaines : moyenne des notes par bloc */
+    const moy = FM_BLOCS.map((b, i) => { const ns = hist.filter(k => k >= b[0] && k <= b[1]).map(k => W[k].note).filter(Boolean); return [i, ns.length ? ns.reduce((s, v) => s + v, 0) / ns.length : 0]; });
+    const faibles = moy.slice().sort((a, b) => a[1] - b[1]).slice(0, 2).map(([i]) => FM_BLOCS[i][2]);
+    return back + `<div class="hello"><h1>🎉 Bilan après 6 mois</h1><p>Tu as terminé les 24 semaines du programme Futur mari.</p></div>
+     <div class="card"><ul class="small" style="margin:0;padding-left:18px"><li>Refais l’étape « Toi, futur mari » de Ma boussole et compare avec ta note de départ : ${FM_DEPART} sur 100.</li>
+      <li>Recommence les deux blocs où tu as le moins progressé : <b>${faibles.map(esc).join('</b> et <b>')}</b>.</li>
+      <li>Demande à un proche mûr s’il voit une différence : on se juge souvent plus gentiment que les autres ne nous voient.</li></ul>
+      ${moy.map(([i, m]) => `<div class="row between small" style="margin:3px 0"><span>${esc(FM_BLOCS[i][2])}</span><span>${m ? m.toFixed(1) + ' / 5' : '—'}</span></div>`).join('')}</div>${histH}
+     <button class="pb" data-a="fmredo">Recommencer le programme</button>`;
+  }
+  const F = FM[n - 1]; const B = FM_BLOCS[fmBloc(n)]; const x = W[n] || null; const dm = doneMap(mon);
+  if (FMD.n !== n){ FMD = { n, j:x && x.j ? x.j.slice() : [null, null, null], note:x ? x.note : null, txt:x && x.txt || '' }; }
+  const st = x && x.etude ? ETUDES.list.find(e => e.id === x.etude) : null;
+  const etudeH = st ? `<button class="pb grad" data-a="fmopen" data-id="${st.id}">📖 ${st.faite ? 'Revoir' : 'Continuer'} mon étude : ${esc(st.titre)}</button>`
+    : SAMPLE ? `<button class="pb grad" data-a="fmgen" ${BUSY.study ? 'disabled' : ''}>${BUSY.study ? '⏳ Lampe prépare ton étude…' : '✨ Préparer mon étude de la semaine'}</button>`
+    : `<a class="pb grad" href="https://www.jw.org/fr/rechercher/?q=${encodeURIComponent(F[0])}" target="_blank" rel="noopener">🔎 Étudier « ${esc(F[0])} » sur jw.org</a>`;
+  const journalOk = x && x.at && x.at >= mon;
+  return back + `<div class="hello"><h1>💍 Semaine ${n} sur 24</h1><p><b>${esc(F[0])}</b><br><span class="small">Bloc ${fmBloc(n) + 1} · ${esc(B[2])}</span></p></div>
+   ${n === B[0] ? `<div class="card small">${esc(B[3])}</div>` : ''}
+   <div class="card"><h3 style="margin:0 0 8px">📖 Les versets</h3><div class="nch">${F[1].map(r => `<a class="pb sm" href="${U.bible(r[0], r[1], 'fr', r[2].split(',')[0])}" target="_blank" rel="noopener">${esc(fmRef(r))}</a>`).join('')}</div>
+    <div style="margin-top:10px">${etudeH}</div>${isDoneVal(dm.fmE) ? '<p class="tiny muted">✓ Étude de la semaine faite</p>' : ''}</div>
+   <div class="card"><h3 style="margin:0 0 6px">🎯 L’exercice de la semaine</h3><p style="margin:0">${esc(F[2])}</p></div>
+   <div class="card"><h3 style="margin:0 0 8px">📝 Journal du dernier jour ${journalOk ? '✓' : ''}</h3>
+    ${FM_Q.map((q, i) => `<p class="small" style="margin:8px 0 4px"><b>${esc(q)}</b></p><div class="chips">${FM_R.map((r, v) => `<button class="chip ${FMD.j[i] === v ? 'on' : ''}" data-a="fmj" data-i="${i}" data-v="${v}">${r}</button>`).join('')}</div>`).join('')}
+    <p class="small" style="margin:12px 0 4px"><b>Ta note sur « ${esc(F[0])} »</b> (1 = pas du tout, 5 = très bien)</p>
+    <div class="chips">${[1, 2, 3, 4, 5].map(v => `<button class="chip ${FMD.note === v ? 'on' : ''}" data-a="fmnote" data-v="${v}">${v}</button>`).join('')}</div>
+    <textarea id="fmtxt" rows="2" placeholder="Ce que j’ai appris ou remarqué (facultatif)" style="margin-top:10px;width:100%">${esc(FMD.txt)}</textarea>
+    <button class="pb grad block" style="margin-top:10px" data-a="fmsave">${journalOk ? 'Mettre à jour mon journal' : 'Enregistrer mon journal'}</button>
+    <p class="tiny muted">La semaine suivante commence le lundi qui suit ton journal. Si tu sautes une semaine, tu reprends là où tu en étais.</p></div>
+   ${histH}${intro}<button class="pb sm" data-a="fmstop">Arrêter le programme</button>`;
+}
+function fmSujet(n){ const F = FM[n - 1];
+  return `Programme « Futur mari », semaine ${n} sur 24, thème : ${F[0]}. Versets à étudier en priorité : ${F[1].map(r => fmRef(r)).join(' ; ')}. Exercice qu'il fera cette semaine : ${F[2]} Appuie l'étude sur ces versets et sur ce que les publications de jw.org disent de ce thème pour un homme qui se prépare au mariage : concret, encourageant, sans jugement, avec une idée pratique pour réussir l'exercice.`; }
+document.addEventListener('input', ev => { if (ev.target && ev.target.id === 'fmtxt') FMD.txt = ev.target.value; });
+document.addEventListener('click', async ev => {
+  const el = ev.target.closest('[data-a]'); if (!el || !/^fm/.test(el.dataset.a)) return; const a = el.dataset.a, d = el.dataset;
+  const t = todayISO(), mon = monday(t);
+  if (a === 'fmstart'){ PROG.fm = { start:d.v, w:{} }; FMD = { n:0, j:[null, null, null], note:null, txt:'' }; saveProg(); toast('Programme Futur mari ajouté à ton planning ✓'); render(); }
+  else if (a === 'fmstop'){ if (el.dataset.ok !== '1'){ el.dataset.ok = '1'; el.textContent = 'Touche encore pour confirmer'; return; } PROG.fm.stop = t; saveProg(); render(); }
+  else if (a === 'fmredo'){ PROG.fm = { start:mon, w:{}, avant:PROG.fm }; FMD.n = 0; saveProg(); render(); }
+  else if (a === 'fmj'){ FMD.j[+d.i] = +d.v; render(); }
+  else if (a === 'fmnote'){ FMD.note = +d.v; render(); }
+  else if (a === 'fmsave'){
+    const n = fmWeek(mon); if (!n) return; FMD.txt = (($('#fmtxt') || {}).value || '').trim();
+    if (FMD.j.some(v => v == null) || !FMD.note){ toast('Réponds aux 3 questions et choisis ta note'); return; }
+    const W = PROG.fm.w; const old = W[n] || {}; W[n] = Object.assign({}, old, { at: old.at && old.at >= mon ? old.at : t, j:FMD.j.slice(), note:FMD.note, txt:FMD.txt.slice(0, 600) });
+    doneMap(mon).fmJ = 1; saveProg(); confetti(); toast(n < 24 ? `Semaine ${n} enregistrée ✓ La suivante commence lundi.` : 'Dernière semaine enregistrée ✓ Ton bilan est prêt.'); render(); }
+  else if (a === 'fmopen'){ VIEW = 'etude'; SUBVIEW = d.id; CAR_IDX[d.id] = CAR_IDX[d.id] || 0; window.scrollTo(0, 0); render(); }
+  else if (a === 'fmgen'){
+    const n = fmWeek(mon); if (!n || BUSY.study) return; busy('study', true); render();
+    try { const s = await genStudy({ duree:30, sujet:fmSujet(n) }); s.sujet = `Futur mari · semaine ${n}`; s.fm = n;
+      ETUDES.list.unshift(s); ETUDES.list = ETUDES.list.slice(0, 40); saveEtudes();
+      PROG.fm.w[n] = Object.assign({}, PROG.fm.w[n] || {}, { etude:s.id }); saveProg();
+      VIEW = 'etude'; SUBVIEW = s.id; CAR_IDX[s.id] = 0; window.scrollTo(0, 0); }
+    catch(e){ console.warn(e); toast(aiError(e)); }
+    busy('study', false); render(); }
+});
 
 async function makeStudy(sujet){
   const avec = kids().some(k => k.garde && k.garde.actif && childHere(k, todayISO()));
@@ -1603,7 +1874,7 @@ document.addEventListener('click', async ev => {
   if (el.tagName === 'A' || el.dataset.a) { if (el.getAttribute('href') === '#' || !el.getAttribute('href')) ev.preventDefault(); }
   const t = todayISO();
   switch (a){
-    case 'go': closeModal(); if (STORY){ STORY = null; renderStory(); } if (d.v === 'qcmw') QTAB = 'semaine'; VIEW = d.v === 'qcmw' ? 'qcm' : d.v; SUBVIEW = null; QANS = null; stopSpeak(); window.scrollTo(0,0); render(); break;
+    case 'go': if (d.v === 'persochoix'){ persoModal(d.id); break; } closeModal(); if (STORY){ STORY = null; renderStory(); } if (d.v === 'qcmw') QTAB = 'semaine'; VIEW = d.v === 'qcmw' ? 'qcm' : d.v; SUBVIEW = null; QANS = null; stopSpeak(); window.scrollTo(0,0); render(); break;
     case 'close': closeModal(); break;
     case 'stop': stopSpeak(); break;
     case 'briefing': speak(briefingText()); break;
@@ -1653,7 +1924,7 @@ document.addEventListener('click', async ev => {
     case 'snext': { const s = ETUDES.list.find(x => x.id === d.id); if (s){ s.revele = Math.min(s.etapes.length, s.revele + 1); saveEtudes(); render(); } break; }
     case 'sread': { let st = ETUDES.list.find(x => x.id === d.id); if (!st && d.env){ const e = ENVOIS.find(x => 'env' + x.id === d.id); st = e && e.data; } if (!st){ const ce = CETUDES.find(x => 'cet' + x.id === d.id); st = ce && ce.data; } if (!st) break; if (st.alt && ALTVIEW[d.id]) st = altView(st);
       const i = CAR_IDX[d.id] || 0; speak(i === 0 ? st.question_depart : i <= st.etapes.length ? `${st.etapes[i-1].titre}. ${st.etapes[i-1].texte} ${st.etapes[i-1].question || ''}` : st.application); break; }
-    case 'sdone': case 'sretsave': { const s = ETUDES.list.find(x => x.id === d.id); if (s){ s.retenu = ($('#sretenu')||{}).value || ''; if (a === 'sdone'){ s.faite = true; confetti(); s.revele = s.etapes.length; const mon = monday(t); const it = weekPlan(mon).find(i => i.kind === 'perso' && i.date <= t && !doneMap(mon)[i.id]); if (it){ doneMap(mon)[it.id] = 1; saveProg(); } } saveEtudes(); toast(tx('Enregistré','Salvo')); render(); } break; }
+    case 'sdone': case 'sretsave': { const s = ETUDES.list.find(x => x.id === d.id); if (s){ s.retenu = ($('#sretenu')||{}).value || ''; if (a === 'sdone'){ s.faite = true; confetti(); s.revele = s.etapes.length; const mon = monday(t); const it = weekPlan(mon).find(i => s.fm ? i.id === 'fmE' : (i.kind === 'perso' && i.id !== 'fmE' && i.date <= t && !doneMap(mon)[i.id])); if (it){ doneMap(mon)[it.id] = 1; saveProg(); } } saveEtudes(); toast(tx('Enregistré','Salvo')); render(); } break; }
     /* QCM */
     case 'qgen': {
       const mon = monday(t); busy('qcm', true);
@@ -1683,6 +1954,9 @@ document.addEventListener('click', async ev => {
       for (let i = 0; i < 7; i++){ const x = addDays(d.w, i); if (baseHere(k, x) === target) delete k.garde.exceptions[x]; else k.garde.exceptions[x] = target; }
       const lim = addDays(t, -60); for (const x of Object.keys(k.garde.exceptions)) if (x < lim) delete k.garde.exceptions[x];
       saveFam(); render(); break; }
+    case 'gon': { const k = member(d.k); k.garde = Object.assign({ jour:0, heure:'18:00', exceptions:{} }, k.garde || {}, { actif:true }); if (!k.garde.ref) calibrateGarde(k, true); saveFam(); render(); break; }
+    case 'gpar': { const k = member(d.k); k.garde.parite = d.v || null; if (!d.v && !k.garde.ref) calibrateGarde(k, childHere(k, t));
+      saveFam(); toast(d.v ? tx(`Garde : semaines ${d.v === 'paire' ? 'paires' : 'impaires'} ✓`, 'Guarda ajustada ✓') : tx('Garde : une semaine sur deux ✓','Guarda: uma semana sim, uma não ✓')); render(); break; }
     case 'grecal': { const k = member(d.k); calibrateGarde(k, d.v === '1'); saveFam(); toast(tx('Alternance recalée','Alternância ajustada')); render(); break; }
     case 'madd': memberModal(null); break;
     case 'medit': memberModal(d.id); break;
@@ -1690,7 +1964,7 @@ document.addEventListener('click', async ev => {
       const prenom = $('#xp').value.trim(); if (!prenom){ toast(tx('Prénom requis','Nome obrigatório')); break; }
       const isNew = !d.id; const x = isNew ? { id:'m_'+uidGen(), uid:null } : member(d.id);
       x.prenom = prenom; x.type = $('#xt').value; x.langue = $('#xl').value; x.age = +$('#xa').value || null;
-      if (x.type === 'enfant'){ x.uid = null; const g = !!$('#xg').checked; x.garde = Object.assign({ exceptions:{} }, x.garde || {}, { actif:g, jour:+$('#xj').value, heure:$('#xh').value }); if (g && !x.garde.ref) calibrateGarde(x, true); }
+      if (x.type === 'enfant'){ x.uid = null; const g = !!$('#xg').checked; x.garde = Object.assign({ exceptions:{}, jour:+$('#xj').value }, x.garde || {}, { actif:g, heure:$('#xh').value, parite:(($('#xpar') || {}).value || null) }); setGardeJour(x, $('#xj').value); if (g && !x.garde.ref) calibrateGarde(x, true); }
       else { delete x.garde; }
       if (isNew) FAM.membres.push(x);
       { const me0 = me(); const cj = $('#xcj') && $('#xcj').checked;
@@ -2392,7 +2666,7 @@ function startQuiz(mode, ids, defi){
 }
 function answerQuiz(j){
   if (!QZ || QZ.ans != null || QZ.fin) return; const q = QZ.qs[QZ.i]; QZ.ans = j; const ok = j === q.bonne; const st = quizStats();
-  const sec = (Date.now() - QZ.tq) / 1000; st.seen[q.id] = st.seen[q.id] || [0, 0]; st.seen[q.id][0]++; if (ok) st.seen[q.id][1]++;
+  const sec = (Date.now() - QZ.tq) / 1000; st.seen[q.id] = st.seen[q.id] || [0, 0]; st.seen[q.id][0]++; if (ok){ st.seen[q.id][1]++; st.seen[q.id][2] = (st.seen[q.id][2] || 0) + 1; } else st.seen[q.id][2] = 0;   /* [posées, justes, justes depuis la dernière erreur] */
   if (ok){ QZ.ok++; QZ.combo++; QZ.bestCombo = Math.max(QZ.bestCombo, QZ.combo); QZ.gain = 100 + Math.max(0, 50 - Math.floor(sec * 5)) + (QZ.combo >= 3 ? 25 * Math.min(QZ.combo - 2, 4) : 0); QZ.score += QZ.gain; }
   else { QZ.combo = 0; QZ.gain = 0; }
   QZ.rep.push(j);
@@ -2466,6 +2740,8 @@ document.addEventListener('click', ev => {
        <a class="pb block" style="background:#25D366;color:#fff" href="https://wa.me/?text=${encodeURIComponent(SHARE_MSG)}" target="_blank" rel="noopener">WhatsApp</a><button class="pb block mt" data-a="xcopymsg">📋 ${tx('Copier le message','Copiar a mensagem')}</button>
        <textarea id="sharetxt" class="mt" style="min-height:60px;font-size:12px" readonly>${esc(SHARE_MSG)}</textarea>`); break; }
     case 'qztab': QTAB = d.v; render(); break;
+    case 'qzpersopick': setPersoChoix(d.id, { q:+d.v }); break;
+    case 'qzpersolibre': { const v = (($('#persotxt') || {}).value || '').trim(); if (!v){ toast(tx('Écris ton sujet','Escreva seu assunto')); break; } setPersoChoix(d.id, { t:v.slice(0, 60) }); break; }
     case 'qzgo': closeModal(); VIEW = 'qcm'; QTAB = 'quiz'; SUBVIEW = null; window.scrollTo(0, 0); render(); break;
   }
 });
@@ -2569,7 +2845,7 @@ const BT_THEMES = {
 
 /* ---------- état ---------- */
 function btState(){
-  const def = { type:null, years:1, from:null, books:[], memo:true, idx:0, idxj:{}, days:{}, tap:{}, ch:{}, badges:{}, memoDone:{}, name:'', theme:'aube', gentle:false, autoDone:true, started:null };
+  const def = { type:null, years:1, from:null, books:[], memo:true, idx:0, idxj:{}, days:{}, tap:{}, ch:{}, badges:{}, memoDone:{}, name:'', theme:'aube', gentle:true, autoDone:true, started:null };
   const s = PROG.bt = PROG.bt || {}; for (const k in def) if (!(k in s)) s[k] = def[k];
   return s;
 }
@@ -2850,7 +3126,7 @@ const MOOD_TXT = {
   fete:['fait la fête : quelle belle série !','está em festa: que bela sequência!'],
   attend:['attend sa ration de lecture du jour.','espera a leitura de hoje.'],
   calme:['t’attend tranquillement. On reprend quand tu veux.','espera tranquila. Recomeçamos quando quiser.'],
-  triste:['a faim : il refuse de manger tant que tu n’as pas lu.','está com fome: não quer comer até você ler.']
+  triste:['a un petit creux : une lecture et il repart !','está com fominha: uma leitura e ela se anima!']
 };
 
 /* ---------- vues ---------- */
@@ -3045,6 +3321,9 @@ function planWeek(items, mon){
     if (!pick) pick = win.slice().sort((a, b) => free(b) - free(a))[0];
     it.date = pick; load[pick] += it.min; placed[it.id] = pick;
   }
+  /* pas d'accumulation en fin de semaine : au plus une étude perso par jour ; le reste de la semaine écoulée est laissé de côté */
+  const isDoneP = i => { const v = dm[i.id]; return v === 1 || v === 'skip' || v === 'ecoute'; };
+  for (const d of days){ const ps = items.filter(i => i.kind === 'perso' && i.date === d && !isDoneP(i)); ps.slice(1).forEach(i => { if (d >= t) i.manque = true; }); }
   items.forEach(i => { i.urgent = i.urgent || (i.due && !i.fixe && diffDays(t, i.due) <= 1 && i.date <= t && i.date >= t); });
   return load;
 }
@@ -3208,6 +3487,7 @@ function nowCard(plan, dm, t){
 }
 
 /* ---------- couverture du programme intégré ---------- */
+function progCoverageDate(){ let last = null; const t = todayISO(); for (let k = 0; k < 40; k++){ const mon = addDays(monday(t), 7 * k); const { p } = weekProg(mon); if (p && !p.manuel && (p.vm || p.c)) last = addDays(mon, 6); else if (k > 0) break; } return last; }
 function progCoverage(){
   let last = null; const t = monday(todayISO());
   for (let k = 0; k < 40; k++){ const mon = addDays(t, 7 * k); const { p } = weekProg(mon); if (p && !p.manuel && (p.vm || p.c)) last = addDays(mon, 6); else if (k > 0) break; }
@@ -3317,13 +3597,17 @@ async function fbFamily(user){
   return fid;
 }
 /* même interface que la base de claude.ai : doc(path).get/set/update/delete/onSnapshot, collection(c)… */
+/* Firestore refuse les tableaux dans des tableaux (ex. l'agenda [[titre, min, fait]], les liens des cultes) :
+   on les range dans {__a:[…]} à l'écriture et on les remet en tableaux à la lecture */
+const fsEnc = v => Array.isArray(v) ? v.map(x => Array.isArray(x) ? { __a:fsEnc(x) } : fsEnc(x)) : (v && typeof v === 'object') ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, fsEnc(x)])) : v;
+const fsDec = v => Array.isArray(v) ? v.map(fsDec) : (v && typeof v === 'object') ? (Object.keys(v).length === 1 && Array.isArray(v.__a) ? fsDec(v.__a) : Object.fromEntries(Object.entries(v).map(([k, x]) => [k, fsDec(x)]))) : v;
 function fireDB(pre){
   const { Fs } = FB, db = FB.db;
-  const wd = s => ({ exists: s.exists(), id: s.id, data: () => s.data(), metadata: s.metadata });
+  const wd = s => ({ exists: s.exists(), id: s.id, data: () => fsDec(s.data()), metadata: s.metadata });
   const ref = p => Fs.doc(db, pre + p);
   const docApi = p => ({
     get: async () => wd(await Fs.getDoc(ref(p))),
-    set: o => Fs.setDoc(ref(p), o), update: o => Fs.updateDoc(ref(p), o), delete: () => Fs.deleteDoc(ref(p)),
+    set: o => Fs.setDoc(ref(p), fsEnc(o)), update: o => Fs.updateDoc(ref(p), fsEnc(o)), delete: () => Fs.deleteDoc(ref(p)),
     onSnapshot: (next, err) => Fs.onSnapshot(ref(p), { includeMetadataChanges:true }, s => next(wd(s)), err)
   });
   const coll = c => { const cons = []; const qq = () => Fs.query(Fs.collection(db, pre + c), ...cons);
@@ -3489,7 +3773,7 @@ async function readPBT(file){
   return JSON.parse(txt);
 }
 const pbtDate = n => { const d = new Date(Date.UTC(1970, 0, 1) + n * 864e5); return d.toISOString().slice(0, 10); };
-/* L'utilisateur a tout lu depuis Genèse : on reprend sa position actuelle dans le programme officiel, tout ce qui précède compte comme lu */
+/* Tout a été lu depuis Genèse : on reprend sa position actuelle dans le programme officiel, tout ce qui précède compte comme lu */
 function importPBT(o, toutAvant){
   const P = o.Progress || {}, SC = o.ScheduleCustom || {}, SD = o.Schedule || {};
   const y = Math.max(1, +SC.Years || 1); const start = +SC.StartPosition || 0; const day = +(SD.currentDay != null ? SD.currentDay : P.currentReadingIndex) || 0;
