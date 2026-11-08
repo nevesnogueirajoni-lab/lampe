@@ -1,4 +1,4 @@
-const V = 'lampe-a89ea2442d'; const SHELL = ["./", "index.html", "qb.js", "config.js", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"]; const FBV = 'https://www.gstatic.com/firebasejs/';
+const V = 'lampe-d67319bdcd'; const SHELL = ["./", "index.html", "qb.js", "config.js", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"]; const FBV = 'https://www.gstatic.com/firebasejs/';
 self.addEventListener('install', e => { e.waitUntil(caches.open(V).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== V && k !== 'lampe-fb').map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', e => {

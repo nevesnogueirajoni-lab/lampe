@@ -661,6 +661,23 @@ function meetings(mon){
 }
 /* dernier jour où l'on peut encore préparer : la veille si la réunion est le matin, le jour même si elle est l'après-midi ou le soir */
 const lastPrepDay = (m, mon) => { const d = m.date; const morning = parseInt(m.h, 10) < 13; const x = morning ? addDays(d, -1) : d; return x >= mon ? x : mon; };
+/* Noms propres dans les intertitres de La Tour de Garde (wol les donne en majuscules) */
+function capNames(t){ return String(t || '').replace(/\b(jéhovah|jésus|dieu|christ|abraham|moïse|israël|israélites|josaphat|écritures|daniel|ézéchiel|jérémie|david|paul|pierre)\b/gi, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()); }
+/* Découpe des paragraphes de La Tour de Garde en n morceaux, en coupant si possible aux intertitres */
+function tgChunks(np, heads, n){
+  n = Math.max(1, Math.min(n, np)); const starts = (heads || []).map(h => h[1]).filter(x => x > 1 && x <= np); const cuts = [];
+  for (let k = 1; k < n; k++){ const ideal = Math.round(np * k / n) + 1; const near = starts.filter(x => Math.abs(x - ideal) <= 3 && (!cuts.length || x > cuts[cuts.length - 1] + 1)).sort((a, b) => Math.abs(a - ideal) - Math.abs(b - ideal))[0];
+    const c = near || ideal; if (c > (cuts[cuts.length - 1] || 1) && c <= np) cuts.push(c); }
+  const out = []; let a = 1; for (const c of cuts.concat(np + 1)){ if (c > a){ out.push([a, c - 1, (heads || []).filter(h => h[1] >= a && h[1] <= c - 1).map(h => capNames(h[0]))]); a = c; } }
+  return out;
+}
+/* Ce que tu as raté aux quiz : les sujets à étudier en priorité */
+function weakQuiz(){
+  const seen = ((PROG && PROG.quiz) || {}).seen || {}; if (!QB_READY) return [];
+  const byId = {}; for (const q of QB) byId[q[0]] = q;
+  return Object.entries(seen).map(([id, v]) => [byId[id], (v[0] || 0) - (v[1] || 0), v[0] || 0]).filter(x => x[0] && x[1] > 0)
+    .sort((a, b) => b[1] - a[1] || b[2] - a[2]).map(x => x[0]);
+}
 function weekPlan(mon){
   const items = []; const { y, w, pa:p } = weekProg(mon); const M = meetings(mon); const sun = addDays(mon, 6);
   const before = d => addDays(d, -1) >= mon ? addDays(d, -1) : mon;
@@ -675,8 +692,23 @@ function weekPlan(mon){
     const steps = [];
     if (p && p.c && p.c.length) p.c.forEach(c => steps.push({ id:'lec'+c, kind:'lecture', titre:tx('Lecture biblique : ','Leitura da Bíblia: ') + `${bookName(p.b)} ${c}`, sous:pour, links:[[tx('Ouvrir dans JW Library','Abrir no JW Library'), U.bible(p.b, c)]], min:Math.max(4, Math.round(vcount(p.b, c) / 6)) }));
     else steps.push({ id:'lecw', kind:'lecture', titre:tx('Lecture biblique de la semaine','Leitura da Bíblia da semana'), sous:tx('Les chapitres sont en haut du cahier · ','Os capítulos estão no início da apostila · ') + pour, links:L, min:15 });
+    if (p && p.pv && p.pv.length && LANG === 'fr'){
+      /* le cahier partie par partie, regroupé par rubrique, dans l'ordre de la réunion */
+      const P = p.pv, num = n => P.find(x => x[0] === n), eba = P.find(x => /Étude biblique de l’assemblée/.test(x[1]));
+      const vc = P.filter(x => x[0] > 3 && x !== eba); const min3 = vc.filter(x => (x[2] || 0) <= 5), vie = vc.filter(x => (x[2] || 0) > 5 && x[3]);
+      const lab = xs => xs.map(x => `${x[0]}. ${x[1]}`).join(' · ');
+      const grp = [
+        ['vmA', '💎 ' + lab([num(1), num(2)].filter(Boolean)), (num(2) || [])[3] ? tx('Perles : ','Joias: ') + num(2)[3] : (num(1) || [])[3], 8],
+        ['vmL', '📖 ' + lab([num(3)].filter(Boolean)), (num(3) || [])[3] || '', 4],
+        ['vmM', '🗣️ ' + tx('Applique-toi au ministère : ','Ministério: ') + lab(min3), min3.map(x => x[3]).filter(Boolean).slice(0, 2).join(' · '), 6],
+        ['vmV', '🤝 ' + tx('Vie chrétienne : ','Vida cristã: ') + lab(vie), vie.map(x => x[3].replace(/^\.\s*/, '')).join(' · '), 6],
+        ['vmE', '📚 ' + (eba ? `${eba[0]}. ${eba[1]}` : ''), eba ? eba[3] : '', 10]
+      ].filter(g => g[1].length > 4 && (g[0] !== 'vmV' || vie.length) && (g[0] !== 'vmM' || min3.length) && (g[0] !== 'vmE' || eba));
+      for (const [id, titre, sous, m] of grp) steps.push({ id, kind:'prep', titre, sous:(sous ? sous.slice(0, 120) + ' — ' : '') + pour, links:L, min:m });
+    } else {
     steps.push({ id:'vmA', kind:'prep', titre:tx('Joyaux de la Parole de Dieu','Tesouros da Palavra de Deus'), sous:(p && p.j && LANG === 'fr' ? p.j + ' · ' : '') + tx('discours et perles : prépare une réponse','discurso e joias: prepare uma resposta'), links:L, min:Math.round(mv / 2) });
     steps.push({ id:'vmB', kind:'prep', titre:tx('Ministère et Vie chrétienne','Ministério e Vida cristã'), sous:(p && p.p && p.p.length && LANG === 'fr' ? p.p.join(' · ') + ' — ' : tx('Parcours le reste du cahier et prépare tes parties · ','Veja o resto da apostila e prepare suas partes · ')) + pour, links:L, min:mv - Math.round(mv / 2) });
+    }
     steps.forEach((st, k) => items.push({ ...st, due, hard, chain:'vm', step:k }));
   }
   if (M.tg){
@@ -685,8 +717,16 @@ function weekPlan(mon){
     const st = (p && p.tg) || tx('Article d’étude de la semaine','Artigo de estudo da semana');
     /* la Tour de Garde se prépare après la réunion de semaine, jamais le même jour qu'elle */
     const from = vmD && vmD < tgD && addDays(vmD, 1) <= due ? addDays(vmD, 1) : mon;
+    if (p && p.tgp){
+      const nDays = Math.max(1, diffDays(from, hard < from ? from : hard) + 1); const mt = +(PROF.minTg || 40);
+      const ch = tgChunks(p.tgp, p.tgh, Math.min(nDays, Math.ceil(p.tgp / 4)));
+      ch.forEach(([a, z, hs], k) => items.push({ id:'tgp' + a, kind:'prep', from, due, hard, chain:'tg', step:k,
+        titre:`🗼 ${tx('Tour de Garde','A Sentinela')} § ${a}${z > a ? '-' + z : ''}${k === ch.length - 1 ? tx(' + questions de révision',' + recapitulação') : ''}`,
+        sous:(hs.length ? hs.join(' · ') + ' — ' : '') + st, links:L, min:Math.max(5, Math.round(mt * (z - a + 1) / p.tgp)) }));
+    } else {
     items.push({ id:'tg1', kind:'prep', from, due, hard, chain:'tg', step:0, titre:tx('Tour de Garde — 1re moitié des paragraphes','A Sentinela — 1.ª metade dos parágrafos'), sous:st, links:L, min:half });
     items.push({ id:'tg2', kind:'prep', from, due, hard, chain:'tg', step:1, titre:tx('Tour de Garde — 2e moitié + questions de révision','A Sentinela — 2.ª metade + recapitulação'), sous:st, links:L, min:half });
+    }
   }
   /* révision rapide le jour de la réunion (si elle a lieu l'après-midi ou le soir) */
   if (M.vm && parseInt(M.vm.h, 10) >= 13) items.push({ id:'revvm', kind:'prep', from:vmD, due:vmD, ord:9, titre:tx('Révision rapide avant la réunion','Revisão rápida antes da reunião'), sous:tx('5 minutes pour revoir tes réponses','5 minutos para rever suas respostas'), links:[[tx('Cahier de la semaine','Apostila da semana'), p && LANG==='fr' && p.vm ? U.doc(p.vm) : U.meet(vmD)]], min:5 });
@@ -703,9 +743,12 @@ function weekPlan(mon){
   const qD = tgD && addDays(tgD,1) <= sun ? addDays(tgD,1) : (tgD ? sun : mon);
   items.push({ id:'qcm', kind:'qcm', from:qD, due:sun, titre:tx('QCM de la semaine','Quiz da semana'), sous:tx('10 questions, environ 10 min','10 perguntas, cerca de 10 min'), go:'qcmw', min:10 });
   /* Culte familial : le jour choisi si l'enfant est là, sinon le meilleur autre jour de la semaine où il est là */
-  const prefOrder = [+FAM.culte, 6, 5, 0, 2, 4, 1, 3].filter((x, i, a) => a.indexOf(x) === i);
+  /* jamais un jour de réunion, sauf si c'est le seul jour possible */
+  const pref0 = [+FAM.culte, 6, 5, 0, 2, 4, 1, 3].filter((x, i, a) => a.indexOf(x) === i);
+  const isMeet = d => d === vmD || d === tgD;
   for (const k of kids()){
-    const cd = prefOrder.map(dw => dayInWeek(mon, dw)).find(d => childHere(k, d));
+    const cands = pref0.map(dw => dayInWeek(mon, dw)).filter(d => childHere(k, d));
+    const cd = cands.find(d => !isMeet(d)) || cands[0];
     if (cd) items.push({ id:'culte_'+k.id, date:cd, fixe:true, kind:'culte', titre:tx('Culte familial avec ','Adoração em família com ')+k.prenom, sous:tx('Une histoire, une question, une activité','Uma história, uma pergunta, uma atividade'), go:'famille', min:15 });
   }
   /* Lecture quotidienne du plan (chaque jour) */
@@ -720,7 +763,15 @@ function weekPlan(mon){
   }
   const avec = kids().some(k => k.garde && k.garde.actif && childHere(k, addDays(mon,3)));
   const dur = avec ? PROF.duree.avec : PROF.duree.seul;
-  (avec ? [1, 2] : [1, 2, 3]).forEach(n => items.push({ id:'perso'+n, kind:'perso', due:sun, spread:true, ord:n, titre:tx('Étude perso','Estudo pessoal')+` ${n}/${avec ? 2 : 3} · ${dur} min`, sous:tx('Sur un sujet qui te tient à cœur','Sobre um assunto do seu interesse'), go:'etude', min:dur }));
+  const weak = weakQuiz();
+  (avec ? [1, 2] : [1, 2, 3]).forEach(n => { const q = weak[n - 1]; const tot = avec ? 2 : 3;
+    if (q){ const kw = String((LANG === 'pt' ? q[11] : q[8]) || '').split(/[;|]/).filter(Boolean).slice(0, 3).join(', ');
+      const ref = `${bookName(q[3])} ${q[4]}${q[5] ? ':' + q[5] : ''}`;
+      items.push({ id:'perso'+n, kind:'perso', due:sun, spread:true, ord:n, titre:`🎯 ${tx('Étude perso','Estudo pessoal')} ${n}/${tot} : ${kw || ref}`,
+        sous:tx(`Raté au quiz : « ${q[6]} » — lis ${ref}, puis approfondis`, `Errou no quiz: « ${q[9]} » — leia ${ref} e aprofunde`),
+        links:[[tx('Lire ','Ler ') + ref, U.bible(q[3], q[4], LANG, q[5])], [tx('Approfondir sur jw.org','Aprofundar no jw.org'), LANG === 'pt' ? 'https://www.jw.org/pt/busca/?q=' + encodeURIComponent(kw || ref) : 'https://www.jw.org/fr/rechercher/?q=' + encodeURIComponent(kw || ref)]], min:dur }); }
+    else items.push({ id:'perso'+n, kind:'perso', due:sun, spread:true, ord:n, titre:`🎮 ${tx('Étude perso','Estudo pessoal')} ${n}/${tot} : ${tx('quiz rapide pour trouver ton sujet','quiz rápido para achar seu assunto')}`,
+      sous:tx('10 questions : ce que tu rates devient ton sujet d’étude','10 perguntas: o que você errar vira seu assunto'), go:'qcm', min:dur }); });
   /* préparations liées à une réunion déjà commencée : trop tard, on ne les propose plus */
   const nowHM = new Date().toTimeString().slice(0, 5); const tt = todayISO();
   const started = x => x && (x.date < tt || (x.date === tt && nowHM >= x.h));
@@ -2304,7 +2355,7 @@ function loadQB(){
   if (QB_P) return QB_P;
   QB_P = new Promise(res => {
     const s = document.createElement('script'); s.src = 'qb.js'; s.async = true;
-    s.onload = () => { QB = Array.isArray(window.QB_DATA) ? window.QB_DATA : []; QB_READY = QB.length > 0; res(QB); if (VIEW === 'qcm') render(); };
+    s.onload = () => { QB = Array.isArray(window.QB_DATA) ? window.QB_DATA : []; QB_READY = QB.length > 0; res(QB); render(); };
     s.onerror = () => { QB_P = null; res(QB); };
     document.head.appendChild(s);
   });
