@@ -567,8 +567,9 @@ function saveAgenda(){
         if (it.kind === 'reunion'){ const m = /(\d{1,2}:\d\d)/.exec(it.titre || ''); d.r.push((it.titre || '').replace(/\s*·.*$/, '') + (m ? ' ' + m[1] : '')); continue; }
         const fait = it.kind === 'bt' ? !!s.days[it.date] : isDoneVal(dm[it.id]);
         d.a.push([(it.kind === 'bt' ? '🐑 ' : '') + String(it.titre || '').slice(0, 90), it.min || 0, fait ? 1 : 0]); } }
-    const doc = { maj:new Date().toISOString(), lu:!!btState().days[t], jours:out };
-    const sig = JSON.stringify([doc.lu, out]); if (sig === AGENDA_SIG) return; AGENDA_SIG = sig;
+    const tod = btShown && btShown();
+    const doc = { maj:new Date().toISOString(), lu:!!btState().days[t], heure:btState().heure || null, lecture:tod && tod.portion ? btChunks(tod.portion).map(c => c.label).join(' · ').slice(0, 80) : null, jours:out };
+    const sig = JSON.stringify([doc.lu, doc.heure, doc.lecture, out]); if (sig === AGENDA_SIG) return; AGENDA_SIG = sig;
     write(`data/users/${UID}/agenda`, doc);
   } catch(e){ console.warn('agenda', e); }
 }
@@ -1537,9 +1538,21 @@ function gardeHTML(k){
 
 document.addEventListener('change', ev => {
   const el = ev.target; if (!el || !el.dataset) return;
+  if (el.dataset.btheure){ const s = btState(); s.heure = (el.value || '').slice(0, 5) || null; saveProg(); saveAgenda(); toast(s.heure ? tx(`Rappel de lecture à ${s.heure} ✓`, `Lembrete às ${s.heure} ✓`) : tx('Rappel de lecture retiré','Lembrete removido')); render(); return; }
   if (el.dataset.gj){ const k = member(el.dataset.gj); if (!k || !k.garde) return; setGardeJour(k, el.value); saveFam(); toast(tx(`Récupération le ${JOURS[LANG][+el.value]} ✓`, 'Dia ajustado ✓')); render(); }
   else if (el.dataset.gh){ const k = member(el.dataset.gh); if (!k || !k.garde) return; k.garde.heure = el.value || '18:00'; saveFam(); toast(tx('Heure enregistrée ✓','Hora salva ✓')); }
 });
+/* Version installée sur l'écran d'accueil : elle se met à jour toute seule, sans rien demander.
+   On vérifie quand l'appli revient au premier plan ou passe en arrière-plan, et toutes les 30 minutes. */
+(function autoUpdate(){
+  const BUILD = window.LAMPE_BUILD; if (!BUILD || !('fetch' in window)) return; let checking = false;
+  const calme = () => $('#modal').hidden !== false && !(document.activeElement && /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) && !Object.values(typeof BUSY === 'object' ? BUSY : {}).some(Boolean);
+  const check = force => { if (checking || navigator.onLine === false) return; checking = true;
+    fetch('version.txt?t=' + Date.now(), { cache:'no-store' }).then(r => r.ok ? r.text() : '').then(v => { v = (v || '').trim();
+      if (v && v !== BUILD && (force || calme())) location.reload(); }).catch(() => {}).finally(() => { checking = false; }); };
+  document.addEventListener('visibilitychange', () => check(document.visibilityState === 'hidden'));
+  setInterval(() => check(false), 30 * 60e3); setTimeout(() => check(false), 8000);
+})();
 /* ----- Messages ----- */
 const TYPE_EMO = { etude:'✨', qcm:'🧠', verset:'📖', note:'💬', culte:'💗' };
 function dmRow(e){
@@ -1592,6 +1605,7 @@ function viewSettings(){
    ${k.garde && k.garde.actif ? gardeHTML(k) : `<p class="small muted" style="margin-top:0">${tx('Pas de garde alternée : elle est là tous les jours.','Sem guarda alternada.')}</p><button class="pb sm" data-a="gon" data-k="${k.id}">${tx('Activer la garde alternée','Ativar guarda alternada')}</button>`}</details>`).join('')}
   <details class="box set"><summary>⏱️ ${tx('Mon temps et mon rythme','Meu tempo e ritmo')}</summary>
    <p class="small muted" style="margin-top:0">${tx('Le temps que tu peux donner chaque jour. Lampe garde 20 % de marge pour les imprévus.','O tempo que você pode dar por dia. O Lampe guarda 20 % de margem.')}</p>
+   ${heureLectureHTML()}
    <button class="pb sm" data-a="budget">⏱️ ${tx('Mon temps jour par jour','Meu tempo dia a dia')}</button>
    <label class="f">${tx('Mon rythme d’étude','Meu ritmo de estudo')}</label>
    <div class="chips">${[[0.8, tx('Rapide','Rápido')], [1, tx('Normal','Normal')], [1.3, tx('Approfondi','Aprofundado')]].map(([v, l]) => `<button class="chip ${+(PROF.rythme || 1) === v ? 'on' : ''}" data-a="rythme" data-v="${v}">${l}</button>`).join('')}</div>
@@ -3158,6 +3172,12 @@ function btCardHome(){
     ${done ? `<div class="big" style="font-size:19px;margin-top:10px">✅ ${tx('Lecture faite aujourd’hui','Leitura feita hoje')}</div>` : (tod && tod.portion ? `<button class="pb white" style="margin-top:12px" data-a="btdone">${tx('C’est lu !','Já li!')} 🐑</button>` : '')}</div></article>`;
 }
 let BT_TAB = 'jour';
+/* L'heure à laquelle on veut faire sa lecture : modifiable à tout moment, sert au rappel */
+function heureLectureHTML(){
+  const s = btState();
+  return `<div class="card row between" style="gap:10px;padding:12px 14px"><label for="bthr" class="small" style="margin:0"><b>🔔 ${tx('Heure de ma lecture','Hora da minha leitura')}</b><br><span class="tiny muted">${s.heure ? tx('Rappel chaque jour à cette heure. Change-la quand tu veux.','Lembrete todo dia nesse horário.') : tx('Choisis l’heure : tu recevras un rappel.','Escolha a hora para receber um lembrete.')}</span></label>
+   <input type="time" id="bthr" data-btheure="1" value="${esc(s.heure || '')}" style="max-width:120px"></div>`;
+}
 function viewLire(){
   const s = btState(); const th = BT_THEMES[s.theme] || BT_THEMES.aube;
   if (!s.type || SUBVIEW === 'setup') return btSetupView();
@@ -3173,6 +3193,7 @@ function viewLire(){
     <div class="bt-sheep" data-a="btname">${sheepSVG(mood, 170)}</div><div class="bt-say big">${esc(tx(...MOOD_TXT[mood]))}</div>
     <div class="bt-bar"><i style="width:${pct}%"></i></div><div class="bt-small">${BT_PLANS[s.type].e} ${esc(tx(BT_PLANS[s.type].fr, BT_PLANS[s.type].pt))} · ${btDur(s)} · <b>${pct} % ${tx('lu','lido')}</b> · ${tx('jour','dia')} ${Math.min(c.done + 1, c.total)}/${c.total}</div></div>
    <div class="chips scroll" style="margin:12px 0">${tabs.map(([k, l]) => `<button class="chip ${BT_TAB === k ? 'on' : ''}" data-a="bttab" data-v="${k}">${l}</button>`).join('')}</div>`;
+  if (BT_TAB === 'jour') h += heureLectureHTML();
   if (BT_TAB === 'jour'){
     if (memo) h += `<article class="post"><div class="tile g-night" style="min-height:0;padding:20px"><div class="emo">🍷</div><div class="big" style="font-size:20px">${tx('Lecture du Mémorial','Leitura da Celebração')} · ${memo.off === 0 ? tx('jour du Mémorial','dia da Celebração') : (memo.off < 0 ? 'J' + memo.off : 'J+' + memo.off)}</div><div class="bt-chunks">${memoChunks(memo.refs).map(m => `<a class="bt-chunk" href="${m.url}" target="_blank" rel="noopener">📖 ${esc(m.label)} <span>JW Library ↗</span></a>`).join('')}</div>${s.memoDone[t] ? `<div class="sub">✅ ${tx('Lue','Lida')}</div>` : `<button class="pb white" style="margin-top:10px" data-a="btmemo">${tx('Lue','Lida')} ✓</button>`}</div></article>`;
     if (s.type === 'libre' && !done && !(tod && tod.portion)){ const ob = BOOKS.map((x, i) => `<option value="${i + 1}">${esc(tx(x[0], x[1]))}</option>`).join('');
