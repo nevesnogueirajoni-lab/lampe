@@ -1544,7 +1544,8 @@ document.addEventListener('change', ev => {
     const h = box.querySelector('[data-bth="h"]').value; const msel = box.querySelector('[data-bth="m"]');
     s.heure = h ? `${h}:${msel.value || '00'}` : null; msel.disabled = !h;
     document.querySelectorAll('[data-bthint]').forEach(x => x.textContent = hlHint(s.heure));
-    saveProg(); saveAgenda(); toast(s.heure ? tx(`Rappel de lecture à ${s.heure} ✓`, `Lembrete às ${s.heure} ✓`) : tx('Rappel de lecture retiré','Lembrete removido')); return; }
+    saveProg(); saveAgenda(); toast(s.heure ? tx(`Heure de lecture : ${s.heure} ✓`, `Hora da leitura: ${s.heure} ✓`) : tx('Heure de lecture retirée','Hora removida'));
+    el.blur(); setTimeout(renderSoon, 0); return; }
   if (el.dataset.gj){ const k = member(el.dataset.gj); if (!k || !k.garde) return; setGardeJour(k, el.value); saveFam(); toast(tx(`Récupération le ${JOURS[LANG][+el.value]} ✓`, 'Dia ajustado ✓')); render(); }
   else if (el.dataset.gh){ const k = member(el.dataset.gh); if (!k || !k.garde) return; k.garde.heure = el.value || '18:00'; saveFam(); toast(tx('Heure enregistrée ✓','Hora salva ✓')); }
 });
@@ -3180,14 +3181,26 @@ function btCardHome(){
 let BT_TAB = 'jour';
 /* L'heure à laquelle on veut faire sa lecture : modifiable à tout moment, sert au rappel */
 /* deux listes (heures, minutes) plutôt qu'un champ « heure » : sur iPhone, le champ heure se remplissait avec l'heure actuelle */
-const hlHint = h => h ? tx(`Rappel chaque jour à ${h}. Change-la quand tu veux.`, `Lembrete todo dia às ${h}.`) : tx('Choisis l’heure : tu recevras un rappel.','Escolha a hora para receber um lembrete.');
+const hlHint = h => h ? tx(`Lecture prévue chaque jour à ${h}. Change l’heure quand tu veux.`, `Leitura prevista às ${h}.`) : tx('Choisis l’heure : tu recevras un rappel.','Escolha a hora para receber um lembrete.');
 function heureLectureHTML(){
   const s = btState(); const [hh, mm] = (s.heure || '').split(':');
   const hs = [`<option value="" ${!s.heure ? 'selected' : ''}>—</option>`].concat(Array.from({ length:24 }, (_, i) => { const v = String(i).padStart(2, '0'); return `<option value="${v}" ${hh === v ? 'selected' : ''}>${v} h</option>`; }));
   const ms = Array.from({ length:12 }, (_, i) => { const v = String(i * 5).padStart(2, '0'); return `<option value="${v}" ${(mm || '00') === v ? 'selected' : ''}>${v}</option>`; });
   return `<div class="card" style="padding:12px 14px"><div class="row between" style="gap:8px"><b class="small">🔔 ${tx('Heure de ma lecture','Hora da minha leitura')}</b>
    <span class="row" style="gap:4px"><select data-bth="h" aria-label="${tx('Heure','Hora')}" style="width:auto">${hs.join('')}</select><b>:</b><select data-bth="m" aria-label="${tx('Minutes','Minutos')}" style="width:auto" ${!s.heure ? 'disabled' : ''}>${ms.join('')}</select></span></div>
-   <span class="tiny muted" data-bthint="1">${hlHint(s.heure)}</span></div>`;
+   <span class="tiny muted" data-bthint="1">${hlHint(s.heure)}</span>
+   ${s.heure ? `<button class="pb ${s.heureIcs === s.heure ? 'sm' : 'grad'} block" style="margin-top:8px" data-a="btics">📅 ${s.heureIcs === s.heure ? tx(`Rappel à ${s.heure} dans ton iPhone ✓ (le remettre)`, `Lembrete às ${s.heure} no iPhone ✓`) : s.heureIcs ? tx(`Mettre à jour le rappel de mon iPhone (${s.heureIcs} → ${s.heure})`, 'Atualizar o lembrete do iPhone') : tx(`Mettre le rappel de ${s.heure} dans mon iPhone`, `Colocar o lembrete das ${s.heure} no iPhone`)}</button>
+    <p class="tiny muted" style="margin:6px 0 0">${tx('C’est le Calendrier de ton iPhone qui sonnera, même Lampe fermée. Si tu changes l’heure, touche à nouveau ce bouton : le rappel est remplacé.','É o Calendário do iPhone que vai tocar, mesmo com o Lampe fechado.')}</p>` : ''}</div>`;
+}
+/* un seul événement quotidien, toujours le même identifiant : réimporté, il remplace l'ancien au lieu d'en ajouter un */
+function icsLecture(h){
+  const now = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+/, ''); const t = todayISO().replace(/-/g, ''); const hm = h.replace(':', '') + '00';
+  const L = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Lampe//FR','CALSCALE:GREGORIAN','METHOD:PUBLISH',
+    'BEGIN:VTIMEZONE','TZID:Europe/Paris','BEGIN:DAYLIGHT','TZOFFSETFROM:+0100','TZOFFSETTO:+0200','TZNAME:CEST','DTSTART:19700329T020000','RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU','END:DAYLIGHT','BEGIN:STANDARD','TZOFFSETFROM:+0200','TZOFFSETTO:+0100','TZNAME:CET','DTSTART:19701025T030000','RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU','END:STANDARD','END:VTIMEZONE',
+    'BEGIN:VEVENT', `UID:lampe-lecture-${UID || 'moi'}@lampe`, `SEQUENCE:${Math.floor(Date.now() / 1000)}`, `DTSTAMP:${now}`, `DTSTART;TZID=Europe/Paris:${t}T${hm}`, 'DURATION:PT15M', 'RRULE:FREQ=DAILY',
+    `SUMMARY:${tx('🐑 Lampe · ma lecture de la Bible','🐑 Lampe · minha leitura da Bíblia')}`, `DESCRIPTION:${tx('Ouvre Lampe : ta lecture du jour t’attend.','Abra o Lampe: sua leitura do dia te espera.')}`,
+    'BEGIN:VALARM', 'ACTION:DISPLAY', 'TRIGGER:PT0M', `DESCRIPTION:${tx('C’est l’heure de ta lecture 🐑','Hora da sua leitura 🐑')}`, 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'];
+  return L.join('\r\n') + '\r\n';
 }
 function viewLire(){
   const s = btState(); const th = BT_THEMES[s.theme] || BT_THEMES.aube;
@@ -3590,6 +3603,7 @@ document.addEventListener('click', ev => {
   else if (a === 'slotday'){ const s = PROF.rappels.slots[+d.i]; const v = +d.v; const k = s.j.indexOf(v); k >= 0 ? s.j.splice(k, 1) : s.j.push(v); saveProf(); render(); }
   else if (a === 'slotadd'){ PROF.rappels.slots.push({ h:'12:30', j:[1,2,3,4,5] }); saveProf(); render(); }
   else if (a === 'slotdel'){ PROF.rappels.slots.splice(+d.i, 1); saveProf(); render(); }
+  else if (a === 'btics'){ const s = btState(); if (!s.heure) return; saveFile('Lampe-lecture.ics', icsLecture(s.heure), 'text/calendar').then(ok => { if (ok){ s.heureIcs = s.heure; saveProg(); toast(tx('Ouvre le fichier puis « Ajouter » : ton iPhone sonnera à ' + s.heure, 'Abra o arquivo e toque em “Adicionar”')); render(); } }); }
   else if (a === 'icsget') saveFile('Lampe-rappels.ics', icsText(), 'text/calendar').then(ok => ok && toast(tx('Ouvre le fichier pour l’ajouter à ton calendrier','Abra o arquivo para adicionar ao calendário')));
   else if (a === 'bkexport') saveFile(`Lampe-sauvegarde-${todayISO()}.json`, JSON.stringify(backupData(), null, 1), 'application/json').then(ok => ok && toast(tx('Sauvegarde prête','Backup pronto')));
 });
