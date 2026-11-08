@@ -973,6 +973,18 @@ Format JSON exact :
     etapes, application:String(r.application||'').slice(0,400), plus:cleanKw(r.pour_aller_plus_loin), revele:0, retenu:'', faite:false };
 }
 
+/* QCM sans IA (version installée sur l'iPhone) : 10 questions de la banque vérifiée de Lampe,
+   d'abord sur les chapitres de la semaine, puis sur le même livre, puis sur les livres voisins */
+function bankQCM(mon){
+  const { p } = weekProg(mon); const rnd = seeded(hash('bank' + mon + UID));
+  const deja = new Set(Object.values(PROG.qcm || {}).flatMap(q => (q.questions || []).map(x => x.id)).filter(Boolean));
+  const due = PROG.rev.filter(r => r.due <= mon).slice(0, 3);
+  const score = r => !p ? 0 : (r[3] === p.b && p.c.includes(r[4])) ? 3 : r[3] === p.b ? 2 : Math.abs(r[3] - p.b) <= 3 ? 1 : 0;
+  const pool = QB.filter(r => !deja.has(r[0])).map(r => [r, score(r) + rnd()]).sort((a, b) => b[1] - a[1]).map(x => x[0]);
+  const qs = pool.slice(0, 10 - due.length).map(r => Object.assign(qView(r, rnd), { explication:'' }));
+  const out = due.map(r => Object.assign(clone(r.item), { review:true, revId:r.id })).concat(qs);
+  return { lang:LANG, banque:true, sujet: p ? `${bookName(p.b)} (autour des chapitres ${p.c.join(', ')})` : tx('Questions bibliques','Perguntas bíblicas'), questions:out, rep:[], score:null, signal:[] };
+}
 async function genQCM(mon){
   const { p } = weekProg(mon); const prev = PROG.qcm;
   const scores = Object.keys(prev).sort().slice(-3).map(k => prev[k].score).filter(x => x != null);
@@ -1433,7 +1445,10 @@ let QANS = null;
 function viewQCMWeek(){
   const mon = monday(todayISO()); const Q = PROG.qcm[mon];
   const hist = Object.keys(PROG.qcm).filter(k => k !== mon && PROG.qcm[k].score != null).sort().reverse().slice(0, 8);
-  if (!Q && !SAMPLE) return viewQCMGuest();
+  if (!Q && !SAMPLE){
+    if (!QB_READY){ loadQB(); return `<div class="skel">🧠 ${tx('Chargement des questions…','Carregando as perguntas…')}</div>`; }
+    PROG.qcm[mon] = bankQCM(mon); pruneProg(); saveProg(); QANS = null; return viewQCMWeek();
+  }
   if (!Q){
     const { p } = weekProg(mon); const due = PROG.rev.filter(r => r.due <= mon).slice(0, 3).length;
     return `<div class="quiz g-qcm" style="justify-content:center;text-align:center"><div style="font-size:78px">🧠</div>
