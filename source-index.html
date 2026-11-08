@@ -1266,7 +1266,10 @@ function viewHome(){
   for (const it of open){ const mustToday = it.hard && it.hard <= t && it.kind !== 'bt';   /* dernier jour possible avant la réunion : jamais caché */
     if (!now.length || mustToday || acc + it.min <= Math.max(cap, 1) || (it.kind === 'bt' && dispo > 0)) { now.push(it); acc += it.min; } else plus.push(it); }
   if (dispo === 0){ const keep = now.filter(i => i.urgent && i.hard === t); plus.unshift(...now.filter(i => !keep.includes(i))); now.length = 0; now.push(...keep); }
+  if (PROF.horaires && now.length){ const S = slotsFor(t, now); now.forEach(i => i._h = S[i.id] || null);
+    const sans = now.filter(i => !i._h && !(i.hard && i.hard <= t)); plus.unshift(...sans); const garde = now.filter(i => !sans.includes(i)).sort((a, b) => (a._h || '99').localeCompare(b._h || '99')); now.length = 0; now.push(...garde); }
   const n = unread(); const extras = [];
+  if (!PROF.horaires) extras.push(`<button class="xrow" data-a="horon"><span>🕐</span><b>${tx('Donne tes horaires (travail, repas) : Lampe te dira à quelle heure faire chaque chose','Diga seus horários: o Lampe diz a hora de cada coisa')}</b><i>›</i></button>`);
   if (n) extras.push(`<button class="xrow" data-a="go" data-v="boite"><span>✉️</span><b>${n} ${tx(n > 1 ? 'nouveaux messages' : 'nouveau message', n > 1 ? 'novas mensagens' : 'nova mensagem')}</b><i>›</i></button>`);
   { const req = adults().find(x => x.conjoint === m.id && m.conjoint !== x.id && x.uid); if (req) extras.push(`<button class="xrow" data-a="xaccept" data-id="${req.id}"><span>💞</span><b>${esc(req.prenom)} ${tx('veut relier vos comptes : accepter','quer ligar as contas: aceitar')}</b><i>›</i></button>`); }
   { const p = partner(); if (p && !SOIR[m.id]){ const q = qSoir(t); extras.push(`<button class="xrow" data-a="go" data-v="couple"><span>🌙</span><b>${tx('Question du soir à deux','Pergunta da noite a dois')}</b><i>›</i></button>`); } }
@@ -1296,13 +1299,14 @@ function nextMeeting(t){
   return '';
 }
 function linkOf(it){ return it.links && it.links[0] ? it.links[0][1] : null; }
+const nkLab = it => { if (!it._h) return tx('Maintenant','Agora'); const d = new Date(); return hm2m(it._h) > d.getHours() * 60 + d.getMinutes() + 10 ? `🕐 ${tx('À','Às')} ${it._h}` : `${tx('Maintenant','Agora')} · ${it._h}`; };
 function nowCard2(it, mon, t){
   const [emo] = KIND[kindOf(it)]; const enc = PROG.encours && PROG.encours.id === it.id && PROG.encours.date === t;
   const link = linkOf(it);
   if (it.kind === 'bt'){
     const tod = btShown(); const ch = tod && tod.portion ? btChunks(tod.portion) : []; const lk = tod && tod.portion ? btLinks(tod.portion) : [];
     const taps = (btState().tap || {})[(tod && tod.key) + ':' + (tod && tod.idx)] || [];
-    return `<div class="nowc"><div class="nk">${tx('Maintenant','Agora')} · ${tx('ta lecture du jour','sua leitura do dia')}</div><div class="nt">🐑 ${esc(ch.map(c => c.label).join(' · ') || it.titre)}</div>
+    return `<div class="nowc"><div class="nk">${nkLab(it)} · ${tx('ta lecture du jour','sua leitura do dia')}</div><div class="nt">🐑 ${esc(ch.map(c => c.label).join(' · ') || it.titre)}</div>
       <div class="nr"><span>⏱️ ${it.min} min · ${lk.length} ${tx(lk.length > 1 ? 'chapitres' : 'chapitre', lk.length > 1 ? 'capítulos' : 'capítulo')}</span></div>
       ${lk.length ? `<div class="nch">${lk.map((c, i) => `<a class="pb ${taps.includes(i) ? 'glass lu' : 'white'} sm" href="${c.url}" target="_blank" rel="noopener" data-bttap="${i}">📖 ${esc(c.label)}</a>`).join('')}</div>` : ''}
       <div class="nhint">${tx('Ça s’ouvre dans JW Library (touche ▶ pour écouter). Dès que tu touches, la lecture du jour est comptée.','Abre no JW Library (toque ▶ para ouvir). Ao tocar, a leitura do dia é contada.')}</div></div>`;
@@ -1311,7 +1315,7 @@ function nowCard2(it, mon, t){
   const val = `<div class="nval"><button class="pb white sm" data-a="vfait" data-id="${it.id}" data-mon="${mon}">✓ ${tx('Fait','Feito')}</button>${link ? `<button class="pb glass sm" data-a="vecoute" data-id="${it.id}" data-mon="${mon}">🎧 ${tx('J’ai écouté','Ouvi')}</button>` : ''}<button class="pb glass sm" data-a="vlater" data-id="${it.id}" data-mon="${mon}">${tx('Pas eu le temps','Não deu tempo')}</button></div>`;
   const court = it.mini && dispoOf(t) > 0 && dispoOf(t) <= 10;
   const howH = court ? `<div class="nhow">⚡ ${tx('Version 5 min','Versão 5 min')} : ${esc(it.mini)}</div>` : it.how ? `<ol class="nhow">${it.how.map(x => `<li>${esc(x)}</li>`).join('')}</ol>` : '';
-  return `<div class="nowc ${enc ? 'enc' : ''}"><div class="nk">${tx('Maintenant','Agora')}${it.urgent ? ' · ' + tx('prioritaire','prioritário') : ''}${enc ? ' · ' + tx('en cours','em andamento') : ''}</div><div class="nt">${emo} ${esc(it.titre)}</div>${howH}${it.sous ? `<div class="ns">${esc(it.sous)}</div>` : ''}
+  return `<div class="nowc ${enc ? 'enc' : ''}"><div class="nk">${nkLab(it)}${it.urgent ? ' · ' + tx('prioritaire','prioritário') : ''}${enc ? ' · ' + tx('en cours','em andamento') : ''}</div><div class="nt">${emo} ${esc(it.titre)}</div>${howH}${it.sous ? `<div class="ns">${esc(it.sous)}</div>` : ''}
     <div class="nr"><span>⏱️ ${it.min} min</span>${enc ? (link ? `<a class="pb glass sm" href="${link}" target="_blank" rel="noopener">↗ ${tx('Rouvrir','Reabrir')}</a>` : '') : act + `<button class="pb glass sm" data-a="vlater" data-id="${it.id}" data-mon="${mon}">${tx('Plus tard','Mais tarde')}</button>`}</div>
     ${enc ? val : `<button class="nlink" data-a="vfait" data-id="${it.id}" data-mon="${mon}">${tx('Déjà fait ? Touche ici','Já fez? Toque aqui')}</button>`}</div>`;
 }
@@ -1319,7 +1323,7 @@ function taskRow(it, mon, t, done){
   const [emo] = KIND[kindOf(it)]; const link = it.kind === 'bt' ? null : linkOf(it);
   const v = doneMap(mon)[it.id];
   return `<div class="trow ${done ? 'done' : ''}"><button class="tck" data-a="${done ? 'vundo' : 'vfait'}" data-id="${it.id}" data-mon="${mon}" aria-label="${tx('Fait','Feito')}">${done ? '✓' : ''}</button>
-    ${link && !done ? `<a class="tb" href="${link}" target="_blank" rel="noopener" data-a="start" data-id="${it.id}">` : `<div class="tb" ${it.kind === 'bt' || it.go ? `data-a="go" data-v="${it.kind === 'bt' ? 'lire' : it.go}" data-id="${it.id}"` : ''}>`}<b>${emo} ${esc(it.titre)}</b><small>${it.min} min${it.urgent ? ' · ' + tx('prioritaire','prioritário') : ''}${v === 'ecoute' ? ' · ' + tx('écouté','ouvido') : ''}${it.sous && !done ? ' · ' + esc(it.sous) : ''}</small>${link && !done ? '</a>' : '</div>'}</div>`;
+    ${link && !done ? `<a class="tb" href="${link}" target="_blank" rel="noopener" data-a="start" data-id="${it.id}">` : `<div class="tb" ${it.kind === 'bt' || it.go ? `data-a="go" data-v="${it.kind === 'bt' ? 'lire' : it.go}" data-id="${it.id}"` : ''}>`}<b>${it._h ? `<span style="font-variant-numeric:tabular-nums;color:var(--accent,#d62976);margin-right:4px">${it._h}</span>` : ''}${emo} ${esc(it.titre)}</b><small>${it.min} min${it.urgent ? ' · ' + tx('prioritaire','prioritário') : ''}${v === 'ecoute' ? ' · ' + tx('écouté','ouvido') : ''}${it.sous && !done ? ' · ' + esc(it.sous) : ''}</small>${link && !done ? '</a>' : '</div>'}</div>`;
 }
 function sheepRow(){
   const s = btState(); const t = todayISO();
@@ -1328,6 +1332,67 @@ function sheepRow(){
   return `<button class="sheeprow" data-a="go" data-v="lire">${sheepSVG(btMood(), 44)}<div><b>${esc(s.name || tx('Mon mouton','Minha ovelha'))} ${s.days[t] ? '· ✅ ' + tx('lu aujourd’hui','lido hoje') : ''}</b><small>🔥 ${st} ${tx(st > 1 ? 'jours' : 'jour', st > 1 ? 'dias' : 'dia')} · ${pct} % ${tx('du plan','do plano')}</small></div><i>›</i></button>`;
 }
 /* sélection du jour figée à la première ouverture (sauf si le temps disponible change) */
+/* ---------- Mes horaires : Lampe place chaque chose à une heure précise, dans les moments libres ---------- */
+const hm2m = h => { const m = /^(\d{1,2}):(\d\d)/.exec(h || ''); return m ? +m[1] * 60 + +m[2] : null; };
+const m2hm = n => `${String(Math.floor(n / 60) % 24).padStart(2, '0')}:${String(n % 60).padStart(2, '0')}`;
+let HOR_OPEN = false;
+const HOR_DEF = () => ({ lever:'07:00', coucher:'22:30', travail:{ jours:[1, 2, 3, 4, 5], debut:'08:00', fin:'17:00', trajet:30 }, midi:['12:00', '13:00'], soir:['19:30', '20:15'] });
+function slotsFor(t, items){
+  const H = PROF.horaires; if (!H) return {};
+  const busy = []; const add = (a, b) => { if (a != null && b != null && b > a) busy.push([a, b]); };
+  const lever = hm2m(H.lever) ?? 420, coucher = hm2m(H.coucher) ?? 1350;
+  add(0, lever + 15); add(coucher, 1440);
+  const W = H.travail || {}; const travaille = (W.jours || []).includes(dow(t)); const tr = +W.trajet || 0;
+  if (travaille) add(hm2m(W.debut) - tr, hm2m(W.fin) + tr);
+  for (const r of [H.midi, H.soir]) if (r) add(hm2m(r[0]), hm2m(r[1]));
+  const M = meetings(monday(t)); let meet = null;
+  for (const x of [M.vm, M.tg]) if (x && x.date === t){ const h = hm2m(x.h); add(h - 30, h + 110); if (meet == null || h < meet) meet = h; }
+  if (t === todayISO()){ const d = new Date(); add(0, Math.ceil((d.getHours() * 60 + d.getMinutes() + 5) / 5) * 5); }
+  const out = {};
+  /* la lecture de la Bible garde l'heure choisie */
+  const bt = items.find(i => i.kind === 'bt'); const hb = hm2m(btState().heure);
+  if (bt && hb != null){ out[bt.id] = m2hm(hb); add(hb, hb + (bt.min || 15)); }
+  /* moments libres */
+  busy.sort((a, b) => a[0] - b[0]); const free = []; let c = 0;
+  for (const [a, b] of busy){ if (a > c) free.push([c, a]); c = Math.max(c, b); } if (c < 1440) free.push([c, 1440]);
+  const finTravail = travaille ? hm2m(W.fin) + tr : -1;
+  /* jour de travail : après le travail d'abord ; jour libre : dans l'ordre de la journée */
+  const pref = w => travaille ? (w[0] >= finTravail ? 0 : 1) * 2000 + w[0] : w[0];
+  for (const it of items){
+    if (out[it.id] || it.kind === 'bt' && hb != null) continue;
+    const need = (it.min || 10) + 5; const avantReunion = meet != null && (it.kind === 'prep' || it.kind === 'lecture' || it.hard === t);
+    const cand = free.filter(w => w[1] - w[0] >= need && (!avantReunion || w[0] + need <= meet - 30)).sort((a, b) => pref(a) - pref(b));
+    if (!cand.length){ out[it.id] = null; continue; }
+    const w = cand[0]; out[it.id] = m2hm(w[0]); w[0] += need;
+  }
+  return out;
+}
+function horairesHTML(){
+  const H = PROF.horaires;
+  if (!H) return `<p class="small muted" style="margin-top:0">${tx('Indique quand tu travailles et quand tu manges : Lampe te dira à quelle heure faire chaque chose, dans tes moments libres.','Diga quando você trabalha e come: o Lampe diz a hora de cada coisa.')}</p><button class="pb grad" data-a="horon">🕐 ${tx('Régler mes horaires','Ajustar meus horários')}</button>`;
+  const T = (path, v) => `<input type="time" data-hor="${path}" value="${esc(v || '')}">`; const W = H.travail || {};
+  return `<div class="grid2"><div><label class="f">${tx('Je me lève à','Acordo às')}</label>${T('lever', H.lever)}</div><div><label class="f">${tx('Je me couche à','Deito às')}</label>${T('coucher', H.coucher)}</div></div>
+   <label class="f">${tx('Je travaille le','Trabalho')}</label><div class="chips">${[1, 2, 3, 4, 5, 6, 0].map(j => `<button class="chip ${(W.jours || []).includes(j) ? 'on' : ''}" data-a="horjour" data-v="${j}">${JOURS[LANG][j].slice(0, 3)}</button>`).join('')}</div>
+   <div class="grid2"><div><label class="f">${tx('De','Das')}</label>${T('travail.debut', W.debut)}</div><div><label class="f">${tx('À','Até')}</label>${T('travail.fin', W.fin)}</div></div>
+   <label class="f">${tx('Trajet (aller ou retour)','Trajeto')}</label><select data-hor="travail.trajet">${[0, 15, 30, 45, 60].map(v => `<option value="${v}" ${+W.trajet === v ? 'selected' : ''}>${v} min</option>`).join('')}</select>
+   <div class="grid2"><div><label class="f">${tx('Repas du midi','Almoço')}</label>${T('midi.0', (H.midi || [])[0])}</div><div><label class="f">${tx('jusqu’à','até')}</label>${T('midi.1', (H.midi || [])[1])}</div></div>
+   <div class="grid2"><div><label class="f">${tx('Repas du soir','Jantar')}</label>${T('soir.0', (H.soir || [])[0])}</div><div><label class="f">${tx('jusqu’à','até')}</label>${T('soir.1', (H.soir || [])[1])}</div></div>
+   <p class="tiny muted">${tx('Lampe évite aussi tes réunions (30 min avant pour partir) et garde ta lecture de la Bible à l’heure que tu as choisie. Les préparations sont toujours placées avant la réunion.','O Lampe também evita suas reuniões.')}</p>
+   <button class="pb sm" data-a="horoff">${tx('Ne plus utiliser mes horaires','Não usar meus horários')}</button>`;
+}
+document.addEventListener('change', ev => {
+  const el = ev.target; if (!el || !el.dataset || !el.dataset.hor || !PROF.horaires) return;
+  const [a, b] = el.dataset.hor.split('.'); const v = el.tagName === 'SELECT' ? +el.value : (el.value || '').slice(0, 5);
+  if (b == null) PROF.horaires[a] = v; else { PROF.horaires[a] = PROF.horaires[a] || (/^\d$/.test(b) ? [] : {}); PROF.horaires[a][/^\d$/.test(b) ? +b : b] = v; }
+  saveProf(); toast(tx('Horaires enregistrés ✓','Horários salvos ✓'));
+});
+document.addEventListener('click', ev => {
+  const el = ev.target.closest('[data-a]'); if (!el || !/^hor/.test(el.dataset.a)) return; const a = el.dataset.a;
+  if (a === 'horon'){ HOR_OPEN = true; if (!PROF.horaires) PROF.horaires = HOR_DEF(); saveProf(); VIEW = 'reglages'; render(); toast(tx('Ajuste tes heures : tout s’enregistre tout seul','Ajuste seus horários')); }
+  else if (a === 'horoff'){ if (el.dataset.ok !== '1'){ el.dataset.ok = '1'; el.textContent = tx('Touche encore pour confirmer','Toque de novo'); return; } PROF.horaires = null; saveProf(); render(); }
+  else if (a === 'horjour'){ const W = PROF.horaires.travail = PROF.horaires.travail || { jours:[] }; const j = +el.dataset.v; const k = W.jours.indexOf(j); k >= 0 ? W.jours.splice(k, 1) : W.jours.push(j); saveProf(); render(); }
+});
+
 function freezeToday(plan, t){
   const ds = dispoOf(t);
   if (PROG.jour && PROG.jour.date === t && PROG.jour.dispo === ds) return;
@@ -1610,6 +1675,7 @@ function viewSettings(){
    <p class="tiny muted">${progCoverage()}</p></details>` : ''}
   ${kids().map(k => `<details class="box set" open><summary>👧 ${tx('Garde alternée de','Guarda alternada de')} ${esc(k.prenom)}</summary>
    ${k.garde && k.garde.actif ? gardeHTML(k) : `<p class="small muted" style="margin-top:0">${tx('Pas de garde alternée : elle est là tous les jours.','Sem guarda alternada.')}</p><button class="pb sm" data-a="gon" data-k="${k.id}">${tx('Activer la garde alternée','Ativar guarda alternada')}</button>`}</details>`).join('')}
+  <details class="box set" ${!PROF.horaires || HOR_OPEN ? 'open' : ''}><summary>🕐 ${tx('Mes horaires (travail, repas)','Meus horários')}</summary>${horairesHTML()}</details>
   <details class="box set"><summary>⏱️ ${tx('Mon temps et mon rythme','Meu tempo e ritmo')}</summary>
    <p class="small muted" style="margin-top:0">${tx('Le temps que tu peux donner chaque jour. Lampe garde 20 % de marge pour les imprévus.','O tempo que você pode dar por dia. O Lampe guarda 20 % de margem.')}</p>
    ${heureLectureHTML()}
