@@ -2,44 +2,44 @@ Vérification d'une banque de questions bibliques (lot 008, 56 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Exode 1] Que firent les Égyptiens aux Israélites quand ils devinrent nombreux ? A) Ils les réduisirent en esclavage et leur imposèrent des travaux pénibles B) Ils les nommèrent chefs C) Ils leur donnèrent des terres D) Ils les chassèrent tout de suite d'Égypte
-2. [Exode 1] Comment s'appelaient les deux sages-femmes hébreues ? A) Bila et Zilpa B) Léa et Rachel C) Shiphra et Poua D) Myriam et Tsippora
-3. [Exode 1] Pourquoi les sages-femmes laissèrent-elles vivre les garçons ? A) Parce qu'elles avaient peur des parents B) Parce que Pharaon avait changé d'avis C) Parce qu'elles étaient égyptiennes D) Parce qu'elles craignaient le vrai Dieu
-4. [Exode 2] Dans quoi la mère de Moïse le cacha-t-elle ? A) Dans un panier de pain B) Dans un coffre en papyrus enduit de bitume et de goudron C) Dans le palais D) Dans une grotte
+1. [Exode 1] Que firent les Égyptiens aux Israélites quand ils devinrent nombreux ? A) Ils établirent sur eux des chefs de travail forcé pour les opprimer B) Ils les nommèrent chefs C) Ils leur donnèrent des terres D) Ils les chassèrent tout de suite d'Égypte
+2. [Exode 1] Comment s'appelaient les deux sages-femmes hébreues ? A) Bila et Zilpa B) Léa et Rachel C) Shifra et Poua D) Miriam et Séphora
+3. [Exode 1] Pourquoi les sages-femmes laissèrent-elles vivre les garçons ? A) Parce qu'elles avaient peur des parents B) Parce que Pharaon avait changé d'avis C) Parce qu'elles étaient égyptiennes D) Parce qu'elles craignirent le vrai Dieu
+4. [Exode 2] Dans quoi la mère de Moïse le cacha-t-elle ? A) Dans un panier de pain B) Dans une corbeille en papyrus recouverte de bitume et de poix C) Dans le palais D) Dans une grotte
 5. [Exode 2] Qui trouva le petit Moïse au bord du Nil ? A) La fille de Pharaon B) Une servante hébreue C) Sa sœur D) Un prêtre
-6. [Exode 2] Pourquoi l'enfant fut-il appelé Moïse ? A) Parce qu'il était né en Égypte B) Parce qu'il avait été tiré de l'eau C) Parce qu'il était beau D) Parce qu'il pleurait
+6. [Exode 2] Pourquoi l'enfant fut-il appelé Moïse ? A) Parce qu'il était né en Égypte B) Parce qu'elle l'avait retiré de l'eau C) Parce qu'il était beau D) Parce qu'il pleurait
 7. [Exode 2] Dans quel pays Moïse s'enfuit-il après avoir tué un Égyptien ? A) Édom B) Canaan C) Le pays de Madian D) Moab
-8. [Exode 2] Quelle femme Moïse épousa-t-il à Madian ? A) Agar B) Rahab C) Tsippora D) Myriam
+8. [Exode 2] Quelle femme Moïse épousa-t-il à Madian ? A) Agar B) Bila C) Séphora D) Miriam
 9. [Exode 3] Sous quelle forme l'ange de Jéhovah apparut-il à Moïse ? A) Dans une flamme de feu au milieu d'un buisson épineux B) Dans un rêve C) Dans un nuage D) Dans une colonne de fumée
 10. [Exode 3] Que dut faire Moïse près du buisson ? A) Offrir un agneau B) Allumer un feu C) Construire un autel D) Enlever ses sandales
-11. [Exode 3] Que répondit Dieu quand Moïse demanda son nom en Exode 3:14 ? A) « Je n'ai pas de nom » B) « Je suis le roi d'Égypte » C) « Je suis le Dieu de l'Égypte » D) « Je deviendrai ce que je choisis de devenir »
-12. [Exode 3] Selon Exode 3:15, quel est le nom de Dieu pour toujours ? A) Élohim seulement B) Seigneur C) Jéhovah D) Tout-Puissant
+11. [Exode 3] Que répondit Dieu quand Moïse demanda son nom en Exode 3:14 ? A) « Je n'ai pas de nom » B) « Je suis le roi d'Égypte » C) « Je suis le Dieu de l'Égypte » D) « Je deviendrai ce que je décide de devenir »
+12. [Exode 3] Selon Exode 3:15, quel est le nom de Dieu pour toujours ? A) Adonaï seulement B) Seigneur C) Jéhovah D) Tout-Puissant
 13. [Exode 4] En quoi le bâton de Moïse se transforma-t-il quand il le jeta à terre ? A) En arbre B) En feu C) En serpent D) En épée
-14. [Exode 4] Qui Jéhovah donna-t-il à Moïse pour parler à sa place ? A) Josué B) Aaron, son frère C) Jéthro D) Caleb
-15. [Exode 5] Que répondit Pharaon la première fois que Moïse demanda de laisser partir le peuple ? A) « Je vais y réfléchir » B) « Qui est Jéhovah, pour que je lui obéisse ? » C) « Revenez demain » D) « Partez tout de suite »
+14. [Exode 4] Qui Jéhovah donna-t-il à Moïse pour parler à sa place ? A) Josué B) Aaron, son frère C) Jéthro D) Hour
+15. [Exode 5] Que répondit Pharaon la première fois que Moïse demanda de laisser partir le peuple ? A) « Je vais y réfléchir » B) « Qui est Jéhovah, à qui je devrais obéir ? » C) « Revenez demain » D) « Partez tout de suite »
 16. [Exode 5] Qu'est-ce que Pharaon refusa ensuite de donner aux Israélites pour faire les briques ? A) De l'argile B) Des moules C) De l'eau D) De la paille
 17. [Exode 7] Qu'arriva-t-il aux bâtons des prêtres-magiciens d'Égypte ? A) Le bâton d'Aaron les avala B) Ils se brisèrent C) Ils prirent feu D) Ils devinrent des arbres
-18. [Exode 7] Quelle fut la première plaie d'Égypte ? A) L'eau du Nil changée en sang B) Les poux C) Les grenouilles D) La grêle
+18. [Exode 7] Quelle fut la première plaie d'Égypte ? A) L'eau du Nil transformée en sang B) Les poux C) Les grenouilles D) La grêle
 19. [Exode 8] Quelle plaie couvrit l'Égypte après le sang ? A) Les sauterelles B) Les ténèbres C) Les grenouilles D) Les ulcères
-20. [Exode 8] Quelle région Jéhovah épargna-t-il pendant la plaie des taons ? A) Toute l'Égypte B) La ville d'On C) Le palais de Pharaon D) Le pays de Goshen, où vivait son peuple
+20. [Exode 8] Quelle région Jéhovah épargna-t-il pendant la plaie des taons ? A) Toute l'Égypte B) La ville d'On C) Le palais de Pharaon D) La région de Goshen, où habitait son peuple
 21. [Exode 9] Avec quoi Jéhovah envoya-t-il la grêle ? A) Avec du tonnerre et du feu B) Avec un tremblement de terre C) Avec la neige D) Avec des sauterelles
 22. [Exode 10] Combien de jours dura l'obscurité épaisse en Égypte ? A) Un jour B) Trois jours C) Dix jours D) Sept jours
-23. [Exode 12] Quel animal devait être choisi pour la Pâque ? A) Un mouton ou une chèvre mâle d'un an, sans défaut B) Un taureau C) Un bélier de sept ans D) Une colombe
-24. [Exode 12] Où fallait-il mettre le sang de l'agneau pascal ? A) Sur l'autel seulement B) Dans le Nil C) Sur les vêtements D) Sur les deux montants et le haut de l'entrée des maisons
+23. [Exode 12] Quel animal devait être choisi pour la Pâque ? A) Un mâle d'un an, sans défaut : agneau ou chevreau B) Un taureau C) Un bélier de sept ans D) Une colombe
+24. [Exode 12] Où fallait-il mettre le sang de l'agneau pascal ? A) Sur l'autel seulement B) Dans le Nil C) Sur les vêtements D) Sur les deux montants et le haut de la porte des maisons
 25. [Exode 12] Quelle fut la dixième plaie ? A) Les ténèbres B) La grêle C) La mort de tous les premiers-nés d'Égypte D) Les sauterelles
-26. [Exode 12] Combien d'années les Israélites avaient-ils vécu en tant qu'étrangers jusqu'à la sortie d'Égypte, selon Exode 12:40 ? A) 215 ans B) 430 ans C) 400 ans D) 40 ans
+26. [Exode 12] Combien de temps dura le séjour des Israélites, selon Exode 12:40 ? A) 215 ans B) 430 ans C) 400 ans D) 40 ans
 27. [Exode 13] Comment Jéhovah guidait-il le peuple le jour et la nuit ? A) Par les bergers B) Par une étoile C) Par une colonne de nuage le jour et une colonne de feu la nuit D) Par un ange visible
 28. [Exode 13] Qu'emporta Moïse en quittant l'Égypte, selon une promesse faite autrefois ? A) Les os de Joseph B) La tunique de Joseph C) Le trésor de Pharaon D) Le bâton de Jacob
 29. [Exode 14] Que dit Moïse au peuple effrayé devant la mer Rouge ? A) « Préparez vos armes » B) « Retournez en Égypte » C) « N'ayez pas peur. Restez là et voyez comment Jéhovah va vous sauver » D) « Fuyez dans le désert »
 30. [Exode 14] Quel vent Jéhovah utilisa-t-il pour faire reculer la mer ? A) Un vent du nord B) Un vent du sud C) Un vent d'ouest D) Un fort vent d'est
-31. [Exode 15] Qui prit un tambourin et mena les femmes en dansant après la traversée ? A) Débora B) Rahab C) Myriam la prophétesse D) Tsippora
-32. [Exode 15] Comment l'eau amère de Mara devint-elle douce ? A) Il pleuvit B) Moïse frappa le rocher C) Aaron pria D) Moïse y jeta un morceau de bois
+31. [Exode 15] Qui prit un tambourin et mena les femmes en dansant après la traversée ? A) Shifra B) Poua C) Miriam la prophétesse D) Séphora
+32. [Exode 15] Comment l'eau amère de Mara devint-elle douce ? A) Il pleuvit B) Moïse frappa le rocher C) Aaron pria D) Moïse y jeta un arbre que Jéhovah lui indiqua
 33. [Exode 16] Comment les Israélites appelèrent-ils la nourriture tombée du ciel ? A) Le miel B) Le pain d'Égypte C) La manne D) Les cailles
 34. [Exode 16] Quel jour la manne ne tombait-elle pas ? A) Le jour de la Pâque B) Le dixième jour C) Le septième jour, le sabbat D) Le premier jour
 35. [Exode 17] Que fit Moïse pour donner de l'eau au peuple à Horeb ? A) Il frappa le rocher B) Il pria pour la pluie C) Il creusa un puits D) Il jeta du bois dans l'eau
-36. [Exode 17] Que se passait-il pendant la bataille contre Amalec quand Moïse levait les mains ? A) Amalec l'emportait B) Il pleuvait C) La bataille s'arrêtait D) Israël l'emportait
-37. [Exode 17] Qui soutint les mains de Moïse pendant la bataille contre Amalec ? A) Josué et Caleb B) Aaron et Hour C) Éléazar et Pinehas D) Jéthro et Aaron
-38. [Exode 18] Quel conseil Jéthro donna-t-il à Moïse ? A) Retourner en Égypte B) Construire une ville C) Nommer un roi D) Choisir des hommes capables pour juger avec lui
+36. [Exode 17] Que se passait-il pendant la bataille contre les Amalécites quand Moïse gardait les mains levées ? A) Les Amalécites avaient le dessus B) Il pleuvait C) La bataille s'arrêtait D) Les Israélites avaient le dessus
+37. [Exode 17] Qui soutint les mains de Moïse pendant la bataille contre les Amalécites ? A) Josué et Caleb B) Aaron et Hour C) Éléazar et Ithamar D) Jéthro et Aaron
+38. [Exode 18] Quel conseil Jéthro donna-t-il à Moïse ? A) Retourner en Égypte B) Construire une ville C) Nommer un roi D) Choisir des hommes capables pour l'aider à juger
 39. [Exode 19] Que devait devenir Israël s'il obéissait, selon Exode 19:6 ? A) Un empire B) Une grande armée C) Un royaume de prêtres et une nation sainte D) Le peuple le plus riche
 40. [Exode 20] Quel est le premier des Dix Commandements ? A) Ne pas tuer B) Ne pas avoir d'autres dieux que Jéhovah C) Respecter son père et sa mère D) Ne pas voler
 41. [Exode 20] Quel jour fallait-il se souvenir de garder sacré ? A) Le jour de la moisson B) Le jour de la Pâque C) Le sabbat D) Le premier jour du mois
@@ -47,14 +47,14 @@ Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être jus
 43. [Exode 24] Combien de temps Moïse resta-t-il sur la montagne ? A) 40 jours et 40 nuits B) Un an C) 7 jours D) 3 jours
 44. [Exode 25] En quel bois l'Arche du témoignage devait-elle être faite ? A) En bois résineux B) En bois de cèdre C) En bois d'acacia D) En bois d'olivier
 45. [Exode 25] Qu'y avait-il sur le couvercle de l'Arche ? A) Un chandelier B) Une couronne C) Deux chérubins d'or D) Deux lions d'or
-46. [Exode 25] En quoi le chandelier du tabernacle était-il fait ? A) En cuivre B) En bois C) En or pur D) En argent
-47. [Exode 28] Quels objets le grand prêtre portait-il dans le pectoral du jugement ? A) La manne B) L'ourim et le thoummim C) Les tables de la Loi D) Le bâton d'Aaron
+46. [Exode 25] En quoi le porte-lampes du tabernacle était-il fait ? A) En cuivre B) En bois C) En or pur D) En argent
+47. [Exode 28] Quels objets le grand prêtre portait-il dans le pectoral du jugement ? A) La manne B) L'ourim et le toumim C) Les tables de la Loi D) Le bâton d'Aaron
 48. [Exode 31] Avec quoi les deux tables de pierre furent-elles écrites ? A) Avec un burin de Moïse B) Avec de l'encre C) Avec du feu par Aaron D) Avec le doigt de Dieu
-49. [Exode 32] Quelle idole Aaron fabriqua-t-il pendant l'absence de Moïse ? A) Une statue de Baal B) Un veau en métal fondu C) Un serpent de cuivre D) Un taureau de pierre
+49. [Exode 32] Quelle idole Aaron fabriqua-t-il pendant l'absence de Moïse ? A) Une statue de Baal B) Une statue de veau en or C) Un serpent de cuivre D) Un taureau de pierre
 50. [Exode 32] Que fit Moïse en voyant le veau et les danses ? A) Il pria toute la nuit B) Il s'enfuit C) Il jeta les tables et les brisa au pied de la montagne D) Il les rejoignit
 51. [Exode 33] Pourquoi Moïse ne pouvait-il pas voir le visage de Dieu ? A) Parce qu'il faisait nuit B) Parce que personne ne peut le voir et rester en vie C) Parce qu'il était trop jeune D) Parce qu'il n'avait pas offert de sacrifice
 52. [Exode 34] Comment Jéhovah se décrit-il en Exode 34:6 ? A) Sévère et lointain B) Miséricordieux, compatissant, lent à la colère, abondant en amour fidèle C) Impatient D) Indifférent
-53. [Exode 34] Qu'arriva-t-il au visage de Moïse quand il descendit de la montagne ? A) La peau de son visage rayonnait B) Il était couvert de poussière C) Il avait vieilli D) Il était blessé
-54. [Exode 35] Comment le peuple donna-t-il pour la construction du tabernacle ? A) Seuls les chefs donnèrent B) Chacun donna de bon cœur, poussé par son esprit C) Par un impôt obligatoire D) Par tirage au sort
-55. [Exode 36] Pourquoi Moïse fit-il arrêter les dons pour le tabernacle ? A) Parce que le peuple était pauvre B) Parce que l'or avait été volé C) Parce que le travail était annulé D) Parce que le peuple apportait plus que nécessaire
+53. [Exode 34] Qu'arriva-t-il au visage de Moïse quand il descendit de la montagne ? A) La peau de son visage émettait des rayons B) Il était couvert de poussière C) Il avait vieilli D) Il était blessé
+54. [Exode 35] Comment le peuple donna-t-il pour la construction du tabernacle ? A) Seuls les chefs donnèrent B) Ceux que leur cœur et leur esprit poussaient apportèrent leur contribution C) Par un impôt obligatoire D) Par tirage au sort
+55. [Exode 36] Pourquoi Moïse fit-il arrêter les dons pour le tabernacle ? A) Parce que le peuple était pauvre B) Parce que l'or avait été volé C) Parce que le travail était annulé D) Parce que le peuple apportait beaucoup plus qu'il n'en fallait
 56. [Exode 40] Qu'est-ce qui remplit le tabernacle une fois terminé ? A) De la fumée noire B) De l'eau C) La gloire de Jéhovah D) Les prêtres
