@@ -2,7 +2,7 @@ Vérification d'une banque de questions bibliques (lot 029, 95 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Exode 1] Qu'est-ce qui changea pour les Israélites quand un nouveau roi se leva sur l'Égypte ? A) Il les fit soldats B) Il leur donna des terres C) Il les libéra D) Ce roi n'avait pas connu Joseph
+1. [Exode 1] Que se passa-t-il pour les Israélites quand un nouveau roi qui n'avait pas connu Joseph se mit à régner ? A) Ils devinrent soldats B) Ils reçurent des terres C) Ils furent libérés D) Ils furent opprimés par des chefs de travail forcé
 2. [Exode 1] Quelles villes-entrepôts les Israélites construisirent-ils pour Pharaon ? A) Sodome et Gomorrhe B) Ninive et Kalah C) Our et Harran D) Pitom et Raamsès
 3. [Exode 1] Quel ordre Pharaon donna-t-il à tout son peuple au sujet des garçons hébreux ? A) En faire des soldats B) Jeter dans le Nil les garçons des Hébreux C) Les envoyer en Canaan D) Les adopter
 4. [Exode 2] Qui surveillait de loin le coffre de Moïse sur le Nil ? A) Son père B) Son frère C) Une servante de Pharaon D) Sa sœur
@@ -81,12 +81,12 @@ Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être jus
 77. [Nombres 12] Pourquoi Miriam et Aaron parlèrent-ils contre Moïse ? A) À cause de sa richesse B) À cause de la femme koushite qu'il avait épousée C) À cause de Josué D) À cause de ses enfants
 78. [Nombres 12] Combien de jours Miriam dut-elle rester hors du camp ? A) Un jour B) Sept jours C) Quarante jours D) Trois jours
 79. [Nombres 13] Comment s'appelait Josué, fils de Noun, avant que Moïse change son nom ? A) Hour B) Jéthro C) Osée D) Caleb
-80. [Nombres 13] À quoi les espions se comparèrent-ils devant les Nefilim ? A) À des sauterelles B) À des fourmis C) À des enfants D) À des moutons
+80. [Nombres 13] À quoi les espions se comparèrent-ils devant les habitants de Canaan qu'ils disaient être des Nefilim ? A) À des sauterelles B) À des fourmis C) À des enfants D) À des moutons
 81. [Nombres 14] Comment le peuple réagit-il au mauvais rapport des espions ? A) Il se prépara au combat B) Il resta silencieux C) Il remercia Jéhovah D) Il murmura contre Moïse et Aaron
 82. [Nombres 14] Pourquoi Caleb pourrait-il entrer dans le pays ? A) Il était le plus fort B) Il était le plus âgé C) Il eut un autre état d'esprit et continua à obéir sans réserve D) Il était lévite
 83. [Nombres 15] Que devaient porter les Israélites au bas de leurs vêtements ? A) Des franges, avec un cordon bleu B) Des clochettes C) Des boutons d'or D) Des pierres précieuses
 84. [Nombres 16] Combien d'hommes offrant l'encens furent consumés par le feu lors de la rébellion de Coré ? A) 250 B) 70 C) 12 D) 1 000
-85. [Nombres 20] Où mourut Miriam ? A) Au mont Nébo B) En Égypte C) Au Sinaï D) À Kadesh
+85. [Nombres 20] Où mourut Miriam ? A) Au mont Nébo B) En Égypte C) Au Sinaï D) À Kadèsh
 86. [Nombres 20] Sur quelle montagne mourut Aaron ? A) Le mont Sinaï B) Le mont Nébo C) Le mont Carmel D) Le mont Hor
 87. [Nombres 21] Que devaient faire ceux qui avaient été mordus par un serpent pour rester en vie ? A) Offrir un sacrifice B) Se laver C) Regarder le serpent de cuivre D) Prier toute la nuit
 88. [Nombres 22] Pourquoi l'ânesse de Balaam s'écarta-t-elle du chemin ? A) Elle voulait rentrer B) Elle avait peur d'un lion C) Elle vit l'ange de Jéhovah avec une épée D) Elle était fatiguée
