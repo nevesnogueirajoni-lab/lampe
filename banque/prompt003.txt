@@ -1,0 +1,42 @@
+Vérification d'une banque de questions bibliques (lot 003, 38 questions). Réponds à chaque question avec ta connaissance de la Bible (Traduction du monde nouveau 2018), sans regarder les réponses ailleurs. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, ou si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018). Sois sévère. Aucune autre phrase.
+
+1. [Ézéchiel 27] À quoi Tyr est-elle comparée en Ézéchiel 27 ? A) À un champ de blé B) À un navire magnifique C) À une tour de garde D) À un lion
+2. [Ézéchiel 27] Que devient le « navire » Tyr à la fin d'Ézéchiel 27 ? A) Il fait naufrage au cœur des mers B) Il arrive en Égypte C) Il est offert à Jéhovah D) Il devient le plus grand port du monde
+3. [Ézéchiel 28] Que disait le chef de Tyr dans son cœur ? A) « Je suis un serviteur » B) « Je suis un prophète » C) « Je suis faible » D) « Je suis un dieu »
+4. [Ézéchiel 28] Selon Ézéchiel 28, où le roi de Tyr est-il décrit comme ayant été ? A) Dans le désert du Sinaï B) En Éden, le jardin de Dieu C) À Babylone D) À Jérusalem
+5. [Ézéchiel 28] À quel être céleste le roi de Tyr est-il comparé en Ézéchiel 28 ? A) Un chérubin oint B) Une créature à quatre visages C) Un archange D) Un séraphin
+6. [Ézéchiel 29] À quel animal Pharaon est-il comparé en Ézéchiel 29 ? A) Un ours B) Un grand monstre marin au milieu de ses fleuves C) Un aigle D) Un taureau sauvage
+7. [Ézéchiel 29] Pendant combien d'années l'Égypte devait-elle rester désolée selon Ézéchiel 29 ? A) 400 ans B) 40 ans C) 7 ans D) 70 ans
+8. [Ézéchiel 29] Que reçut Nabuchodonosor comme salaire pour son armée après le siège de Tyr ? A) Le temple de Jérusalem B) Le pays d'Égypte C) La ville de Sidon D) Rien du tout
+9. [Ézéchiel 31] À quel arbre l'Assyrie est-elle comparée en Ézéchiel 31 ? A) Un olivier B) Un figuier C) Un palmier D) Un cèdre du Liban
+10. [Ézéchiel 33] Quel rôle Jéhovah rappelle-t-il à Ézéchiel au chapitre 33 ? A) Chef de l'armée B) Roi de Juda C) Guetteur pour la maison d'Israël D) Grand prêtre
+11. [Ézéchiel 33] Selon Ézéchiel 33:11, en quoi Jéhovah prend-il plaisir ? A) Que le méchant change de conduite et vive B) Que le méchant meure C) Que les nations soient détruites D) Que les prophètes souffrent
+12. [Ézéchiel 33] Quelle nouvelle un rescapé de Jérusalem apporta-t-il à Ézéchiel ? A) La ville a été prise B) La guerre est terminée par une paix C) Le roi est guéri D) Le temple est rebâti
+13. [Ézéchiel 33] À quoi le peuple comparait-il Ézéchiel selon Ézéchiel 33:32 ? A) À un vieux juge B) À un chant d'amour chanté d'une belle voix C) À un marchand D) À un guerrier
+14. [Ézéchiel 34] Que reproche Jéhovah aux bergers d'Israël en Ézéchiel 34 ? A) Ils prient trop longtemps B) Ils travaillent trop C) Ils donnent trop aux pauvres D) Ils se nourrissent eux-mêmes au lieu de nourrir les brebis
+15. [Ézéchiel 34] Que promet Jéhovah au sujet de ses brebis en Ézéchiel 34 ? A) Il les cherchera et s'en occupera lui-même B) Il les vendra C) Il les donnera aux nations D) Il les abandonnera
+16. [Ézéchiel 34] Quel berger unique Jéhovah promet-il d'établir sur ses brebis ? A) « Mon serviteur David » B) « Mon serviteur Cyrus » C) « Mon serviteur Moïse » D) « Mon serviteur Ézéchiel »
+17. [Ézéchiel 35] Contre quelle montagne est la prophétie d'Ézéchiel 35 ? A) La montagne de Séir B) Le mont Sion C) Le mont des Oliviers D) Le mont Carmel
+18. [Ézéchiel 36] Selon Ézéchiel 36:22, pour quelle raison Jéhovah agit-il pour Israël ? A) Parce qu'ils l'ont mérité B) Pour son saint nom C) Pour plaire aux nations D) Pour leur richesse
+19. [Ézéchiel 36] Que promet Jéhovah en Ézéchiel 36:26 ? A) Une armée nouvelle B) Un cœur nouveau et un esprit nouveau C) Une terre nouvelle en Égypte D) Un roi nouveau
+20. [Ézéchiel 37] Que vit Ézéchiel dans la vallée en Ézéchiel 37 ? A) Une armée de chevaux B) Des ossements très secs C) Un temple D) Un fleuve
+21. [Ézéchiel 37] Quelle question Jéhovah posa-t-il à Ézéchiel dans la vallée ? A) « Ces os peuvent-ils revivre ? » B) « Veux-tu les enterrer ? » C) « Combien y en a-t-il ? » D) « Qui a tué ces hommes ? »
+22. [Ézéchiel 37] Que devinrent les ossements quand le souffle entra en eux ? A) Des arbres B) Des oiseaux C) Une très grande armée D) Des pierres
+23. [Ézéchiel 37] Que représentaient les deux bâtons réunis en un seul en Ézéchiel 37 ? A) L'union de Juda et d'Israël en une seule nation B) Deux rois ennemis C) La Loi et les Prophètes D) L'Égypte et Babylone
+24. [Ézéchiel 38] Contre qui est la prophétie d'Ézéchiel 38 ? A) Le roi de Tyr B) Le roi d'Assyrie C) Pharaon, roi d'Égypte D) Gog, du pays de Magog
+25. [Ézéchiel 38] Quel peuple Gog veut-il attaquer selon Ézéchiel 38 ? A) Une armée puissante B) Une ville fortifiée de Babylone C) Un peuple qui vit en sécurité, sans murailles D) Les habitants de l'Égypte
+26. [Ézéchiel 39] Combien de temps faudrait-il à Israël pour enterrer la foule de Gog ? A) 7 mois B) 3 ans C) 7 jours D) 40 jours
+27. [Ézéchiel 39] Pendant combien d'années les armes de Gog serviront-elles de combustible ? A) 3 ans B) 10 ans C) 1 an D) 7 ans
+28. [Ézéchiel 40] Que tenait l'homme qu'Ézéchiel vit au début de la vision du temple ? A) Une corde de lin et un roseau à mesurer B) Une épée et un bouclier C) Un rouleau et une plume D) Une lampe et de l'huile
+29. [Ézéchiel 40] En quelle année de l'exil Ézéchiel eut-il la vision du temple ? A) La 5e année B) La 25e année C) La 40e année D) La 10e année
+30. [Ézéchiel 43] De quelle direction Ézéchiel vit-il revenir la gloire du Dieu d'Israël ? A) Du nord B) Du sud C) De l'ouest D) De l'est
+31. [Ézéchiel 43] Que vit Ézéchiel quand la gloire de Jéhovah entra dans le temple ? A) Elle s'éteignait B) Elle repartait aussitôt C) Elle restait à la porte D) Elle remplissait le temple
+32. [Ézéchiel 44] Selon Ézéchiel 44, que devait-on faire de la porte qui donne vers l'est ? A) La garder fermée B) L'ouvrir tous les jours C) La recouvrir d'or D) La détruire
+33. [Ézéchiel 47] D'où sortait l'eau dans la vision d'Ézéchiel 47 ? A) Du sommet d'une montagne B) D'un puits dans le désert C) De sous le seuil du temple D) Du fleuve Kebar
+34. [Ézéchiel 47] Que devenait l'eau à mesure qu'Ézéchiel avançait ? A) Un torrent si profond qu'il fallait nager B) Une source salée C) Une flaque qui disparaissait D) Un lac gelé
+35. [Ézéchiel 47] Qu'arrivait-il partout où allait l'eau du torrent ? A) Tout ce qui y vivait reprenait vie B) Les poissons mouraient C) La terre devenait du sel D) Tout séchait
+36. [Ézéchiel 47] Que produisaient les arbres au bord du torrent ? A) Du fruit chaque mois et des feuilles pour guérir B) Des épines C) Des fruits une fois tous les sept ans D) Rien du tout
+37. [Ézéchiel 48] Quel nom recevra la ville à la fin du livre d'Ézéchiel ? A) « Ville du roi » B) « Ville de paix » C) « Nouvelle Jérusalem » D) « Jéhovah est là »
+38. [Ézéchiel 48] Combien de portes la ville d'Ézéchiel 48 avait-elle ? A) 4 B) 12 C) 7 D) 40
