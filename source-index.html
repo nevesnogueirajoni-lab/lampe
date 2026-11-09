@@ -3101,6 +3101,12 @@ function btPctRead(){
   let tot = 0, rd = 0; for (const b of books){ const t = bookVerses(b); tot += t; rd += Math.min(t, r[b] || 0); }
   return tot ? Math.floor(rd * 100 / tot) : 0;
 }
+/* date de fin réelle : une lecture par jour à partir de maintenant ; un jour sans lecture la repousse d'un jour */
+function btFin(){
+  const s = btState(); const p = btPlan(); if (!p) return null; const t = todayISO(); const luAuj = !!s.days[t];
+  if (p.jours){ let w = 0; for (const k of Object.keys(p.jours)) w = Math.max(w, p.jours[k].length - (s.idxj[k] || 0)); return w > 0 ? addDays(t, w * 7 - (luAuj ? 0 : 7)) : null; }
+  const reste = p.seq.length - s.idx; return reste > 0 ? addDays(t, reste - (luAuj ? 0 : 1)) : null;
+}
 function btStream(date){ const s = btState(); const p = btPlan(); if (!p) return null; if (p.jours){ const k = String(dow(date || todayISO())); return { key:k, seq:p.jours[k] || [], idx:s.idxj[k] || 0 }; } return { key:'main', seq:p.seq, idx:s.idx }; }
 function btToday(){ const st = btStream(todayISO()); if (!st) return null; return { ...st, portion: st.seq[st.idx] || null, n: st.seq.length }; }
 /* Ce qu'on affiche aujourd'hui : une fois la lecture validée, on garde la portion du jour à l'écran (tous ses chapitres restent ouvrables) */
@@ -3312,7 +3318,7 @@ function viewLire(){
   const tabs = [['jour', tx('Aujourd’hui','Hoje')], ['progres', tx('Progrès','Progresso')], ['badges', tx('Badges','Conquistas')], ['cal', tx('Calendrier','Calendário')]];
   let h = `<div class="bt" style="--bt:${th[2]}"><div class="bt-hero"><div class="bt-top"><b>${esc(s.name || tx('Ton mouton','Sua ovelha'))}</b><span>📅 ${btTotalDays()} · 🔥 ${st} · 🏆 ${btBest()}</span></div>
     <div class="bt-sheep" data-a="btname">${sheepSVG(mood, 170)}</div><div class="bt-say big">${esc(tx(...MOOD_TXT[mood]))}</div>
-    <div class="bt-bar"><i style="width:${pct}%"></i></div><div class="bt-small">${BT_PLANS[s.type].e} ${esc(tx(BT_PLANS[s.type].fr, BT_PLANS[s.type].pt))} · ${btDur(s)} · <b>${pct} % ${tx('lu','lido')}</b> · ${tx('jour','dia')} ${Math.min(c.done + 1, c.total)}/${c.total}</div></div>
+    <div class="bt-bar"><i style="width:${pct}%"></i></div><div class="bt-small">${BT_PLANS[s.type].e} ${esc(tx(BT_PLANS[s.type].fr, BT_PLANS[s.type].pt))} · ${btDur(s)} · <b>${pct} % ${tx('lu','lido')}</b> · ${tx('jour','dia')} ${Math.min(c.done + 1, c.total)}/${c.total}${btFin() ? ` · 🏁 ${tx('fin prévue le','término previsto em')} ${dateLong(btFin())}` : ''}</div></div>
    <div class="chips scroll" style="margin:12px 0">${tabs.map(([k, l]) => `<button class="chip ${BT_TAB === k ? 'on' : ''}" data-a="bttab" data-v="${k}">${l}</button>`).join('')}</div>`;
   if (BT_TAB === 'jour') h += heureLectureHTML();
   if (BT_TAB === 'jour'){
