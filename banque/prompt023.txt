@@ -1,0 +1,25 @@
+Vérification d'une banque de questions bibliques (lot 023, 21 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Marc 1] Que promit Jésus à Simon et André au bord de la mer de Galilée, selon Marc ? A) Il les rendrait riches B) Il les nommerait rois C) Il ferait d'eux des pêcheurs d'hommes D) Il leur donnerait un bateau neuf
+2. [Marc 2] Comment les amis du paralysé le firent-ils parvenir jusqu'à Jésus ? A) Ils ouvrirent le toit et descendirent la civière B) Ils le portèrent à la synagogue C) Ils passèrent par la porte arrière D) Ils attendirent la nuit
+3. [Marc 4] Que dit Jésus au vent et à la mer pendant la tempête ? A) « Arrête-toi, au nom de Moïse ! » B) « Écoutez-moi ! » C) « Silence ! Tais-toi ! » D) « Va-t'en ! »
+4. [Marc 5] Quel âge avait la fille de Jaïre que Jésus ressuscita ? A) 3 ans B) 12 ans C) 7 ans D) 15 ans
+5. [Marc 10] Que dit Jésus quand les disciples voulurent empêcher les enfants de venir à lui ? A) « Laissez les enfants venir à moi » B) « Revenez demain » C) « Ils sont trop jeunes » D) « Renvoyez-les chez eux »
+6. [Marc 12] Combien de petites pièces la veuve pauvre mit-elle dans le trésor du temple ? A) Une B) Cinq C) Dix D) Deux
+7. [Marc 12] Pourquoi Jésus dit-il que la veuve pauvre avait donné plus que tous les autres ? A) Elle avait donné en public B) Elle avait donné tout ce qu'elle avait pour vivre C) Ses pièces étaient en or D) Elle était la plus âgée
+8. [Luc 1] Quel ange fut envoyé à Marie pour lui annoncer la naissance de Jésus ? A) Raphaël B) Gabriel C) Michel D) Un ange sans nom
+9. [Luc 1] Que répondit Marie à l'ange Gabriel ? A) « Laisse-moi réfléchir » B) « Demande à Joseph » C) « Je suis l'esclave de Jéhovah ! Qu'il m'arrive ce que tu as dit » D) « C'est impossible »
+10. [Luc 2] Où Marie coucha-t-elle le nouveau-né Jésus ? A) Dans le temple B) Dans une mangeoire C) Dans une maison D) Dans un berceau d'or
+11. [Luc 2] Qui reçut en premier l'annonce de la naissance de Jésus, selon Luc ? A) Des bergers qui gardaient leurs troupeaux la nuit B) Des rois C) Des marchands D) Des prêtres du temple
+12. [Luc 2] Où Joseph et Marie retrouvèrent-ils Jésus, âgé de 12 ans ? A) Dans le temple, assis au milieu des enseignants B) Au marché C) Au bord du Jourdain D) Chez des parents
+13. [Luc 4] Dans quelle ville Jésus lut-il le rouleau d'Isaïe à la synagogue ? A) Jérusalem B) Béthanie C) Capharnaüm D) Nazareth
+14. [Luc 4] Pourquoi Jésus avait-il été envoyé, selon Luc 4:43 ? A) Pour annoncer la bonne nouvelle du royaume de Dieu B) Pour devenir roi d'Israël C) Pour chasser les Romains D) Pour construire un temple
+15. [Luc 10] Qui aida l'homme blessé dans la parabole racontée en Luc 10 ? A) Un soldat romain B) Un Lévite C) Un Samaritain D) Un prêtre
+16. [Luc 10] Qu'avait choisi Marie, selon Jésus en Luc 10:42 ? A) De préparer le repas B) La bonne part, en écoutant sa parole C) De rester dehors D) De partir en voyage
+17. [Luc 15] Comment le père accueillit-il son fils prodigue ? A) Il refusa de le voir B) Il le fit travailler comme esclave C) Il le gronda devant tous D) Il courut l'embrasser tendrement
+18. [Luc 17] Combien de lépreux guéris revinrent remercier Jésus, sur les dix ? A) Cinq B) Tous les dix C) Un seul D) Aucun
+19. [Luc 19] Sur quel arbre Zachée monta-t-il pour voir Jésus ? A) Un sycomore B) Un olivier C) Un palmier D) Un figuier
+20. [Luc 23] Que promit Jésus au malfaiteur sur le poteau ? A) Il deviendrait apôtre B) Il serait libéré C) Il irait au ciel le jour même D) Il serait avec lui dans le Paradis
+21. [Luc 24] Vers quel village marchaient les deux disciples à qui Jésus ressuscité apparut ? A) Cana B) Emmaüs C) Béthanie D) Nazareth
