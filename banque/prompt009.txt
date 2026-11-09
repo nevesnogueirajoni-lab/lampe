@@ -2,38 +2,38 @@ Vérification d'une banque de questions bibliques (lot 009, 35 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Lévitique 10] Quels fils d'Aaron offrirent un feu non autorisé devant Jéhovah ? A) Nadab et Abihou B) Éléazar et Ithamar C) Coré et Datân D) Josué et Caleb
-2. [Lévitique 10] Qu'arriva-t-il à Nadab et Abihou ? A) Ils furent chassés du camp B) Ils furent pardonnés C) Un feu venant de Jéhovah les dévora D) Ils devinrent lépreux
+1. [Lévitique 10] Quels fils d'Aaron offrirent un feu non autorisé devant Jéhovah ? A) Nadab et Abihou B) Éléazar et Itamar C) Coré et Dathan D) Josué et Caleb
+2. [Lévitique 10] Qu'arriva-t-il à Nadab et Abihou ? A) Ils furent chassés du camp B) Ils furent pardonnés C) Un feu sortit de devant Jéhovah et les consuma D) Ils devinrent lépreux
 3. [Lévitique 11] Pourquoi les Israélites devaient-ils être saints selon Lévitique 11:44 ? A) Pour avoir une longue vie B) Pour plaire aux nations C) Pour être plus riches D) Parce que Jéhovah est saint
 4. [Lévitique 16] Combien de boucs étaient utilisés au jour de la Réconciliation pour le tirage au sort ? A) Sept B) Douze C) Un D) Deux
-5. [Lévitique 16] Que faisait-on du bouc pour Azazel ? A) On le vendait B) On le brûlait sur l'autel C) On l'envoyait dans le désert D) On le gardait dans le camp
-6. [Lévitique 17] Selon Lévitique 17:11, où est la vie d'une créature ? A) Dans le cœur B) Dans le souffle seulement C) Dans le sang D) Dans la chair
-7. [Lévitique 19] Quel commandement se trouve en Lévitique 19:18 ? A) Garder le sabbat B) Offrir un agneau chaque jour C) Aimer son prochain comme soi-même D) Ne pas manger de porc
-8. [Lévitique 19] Selon Lévitique 19:32, comment traiter les personnes âgées ? A) Les envoyer hors du camp B) Se lever devant elles et les respecter C) Leur confier tout le travail D) Les éviter
-9. [Lévitique 19] Que fallait-il laisser au bord des champs pendant la moisson ? A) Rien du tout B) Une partie pour les pauvres et les étrangers C) Une part pour le roi D) Une part pour les animaux sauvages
+5. [Lévitique 16] Que faisait-on du bouc pour Azazel ? A) On le vendait B) On le brûlait sur l'autel C) Il était envoyé vivant dans le désert D) On le gardait dans le camp
+6. [Lévitique 17] Selon Lévitique 17:11, où est la vie de la chair ? A) Dans le cœur B) Dans le souffle seulement C) Dans le sang D) Dans la chair
+7. [Lévitique 19] Quel commandement se trouve en Lévitique 19:18 ? A) Garder le sabbat B) Offrir un agneau chaque jour C) Aimer son semblable comme soi-même D) Ne pas manger de porc
+8. [Lévitique 19] Selon Lévitique 19:32, comment traiter les personnes âgées ? A) Les envoyer hors du camp B) Se lever devant elles et les honorer C) Leur confier tout le travail D) Les éviter
+9. [Lévitique 19] Que fallait-il laisser au bord des champs pendant la moisson ? A) Rien du tout B) Les bords du champ, pour les pauvres et les étrangers C) Une part pour le roi D) Une part pour les animaux sauvages
 10. [Lévitique 25] Comment s'appelait la 50e année, où la liberté était proclamée dans le pays ? A) Le sabbat B) La fête des Huttes C) Le Jubilé D) La Pâque
 11. [Lévitique 23] Combien de jours durait la fête des Huttes ? A) Trois jours B) Un jour C) Sept jours D) Quarante jours
 12. [Nombres 1] Que demanda Jéhovah à Moïse au début du livre des Nombres ? A) De recenser les hommes d'Israël B) De retourner en Égypte C) D'élire un roi D) De construire le tabernacle
 13. [Nombres 3] Qui Jéhovah prit-il à la place des premiers-nés d'Israël ? A) Les Égyptiens B) Les fils de Juda C) Les Lévites D) Les esclaves
-14. [Nombres 6] Quelle bénédiction commence par « Que Jéhovah te bénisse et te protège » ? A) La prière de Josué B) Le psaume de David C) Le chant de Moïse D) La bénédiction prononcée par les prêtres
-15. [Nombres 9] Que faisait le peuple quand le nuage se levait au-dessus de la tente ? A) Il offrait un sacrifice B) Il se mettait en marche C) Il restait sur place D) Il construisait des murs
+14. [Nombres 6] Quelle bénédiction commence par « Que Jéhovah te bénisse et te protège » ? A) La prière de Josué B) Le chant de Miriam C) Le chant de Moïse D) La bénédiction qu'Aaron et ses fils devaient prononcer
+15. [Nombres 9] Que faisait le peuple quand le nuage se levait au-dessus de la tente ? A) Il offrait un sacrifice B) Les Israélites partaient C) Il restait sur place D) Il construisait des murs
 16. [Nombres 11] Qu'envoya Jéhovah quand le peuple réclama de la viande ? A) Des moutons B) Des poissons C) De la manne D) Des cailles
 17. [Nombres 12] Comment Moïse est-il décrit en Nombres 12:3 ? A) Le plus fort B) Le plus âgé C) Le plus riche D) Le plus humble de tous les hommes
 18. [Nombres 12] Qu'arriva-t-il à Miriam après avoir critiqué Moïse ? A) Elle perdit la voix B) Elle fut chassée pour toujours C) Elle devint aveugle D) Elle fut frappée de lèpre
-19. [Nombres 13] Combien d'hommes Moïse envoya-t-il pour espionner Canaan ? A) 2 B) 12 C) 70 D) 10
-20. [Nombres 13] Que rapportèrent les espions de la vallée d'Eshkol ? A) Une corbeille de figues seulement B) Un mouton C) De l'or D) Une grappe de raisin portée à deux sur une perche
-21. [Nombres 14] Quels espions encouragèrent le peuple à faire confiance à Jéhovah ? A) Balaam et Balak B) Nadab et Abihou C) Coré et Datân D) Josué et Caleb
+19. [Nombres 13] Combien d'hommes Moïse envoya-t-il en reconnaissance dans le pays de Canaan ? A) Deux B) Un homme de chaque tribu, soit douze C) Soixante-dix D) Dix
+20. [Nombres 13] Que rapportèrent les espions de la vallée de l'Èshkol ? A) Une corbeille de figues seulement B) Un mouton C) De l'or D) Une grappe de raisin portée par deux hommes sur une barre
+21. [Nombres 14] Quels espions encouragèrent le peuple à faire confiance à Jéhovah ? A) Balaam et Balak B) Nadab et Abihou C) Coré et Dathan D) Josué et Caleb
 22. [Nombres 14] Combien d'années Israël devait-il errer dans le désert, un an pour chaque jour d'espionnage ? A) 12 ans B) 40 ans C) 70 ans D) 7 ans
 23. [Nombres 16] Que fit la terre à Coré et à ceux qui se rebellèrent avec lui ? A) Elle trembla sans les toucher B) Elle se couvrit d'eau C) Elle s'ouvrit et les engloutit D) Elle brûla
-24. [Nombres 17] Qu'est-ce qui arriva au bâton d'Aaron pour la tribu de Lévi ? A) Il prit feu B) Il se brisa C) Il bourgeonna, fleurit et donna des amandes mûres D) Il devint un serpent
+24. [Nombres 17] Qu'est-ce qui arriva au bâton d'Aaron pour la tribu de Lévi ? A) Il prit feu B) Il se brisa C) Il bourgeonna et porta des fleurs et des amandes mûres D) Il devint un serpent
 25. [Nombres 20] Comment Moïse fit-il sortir l'eau du rocher à Meriba, au lieu de lui parler ? A) Il pria à genoux B) Il le toucha une fois C) Il versa de l'huile dessus D) Il le frappa deux fois avec son bâton
-26. [Nombres 20] Quelle conséquence la faute de Moïse à Meriba eut-elle ? A) Il perdit la vue B) Il ne ferait pas entrer le peuple dans le pays promis C) Il fut remplacé par Aaron D) Il devint muet
+26. [Nombres 20] Quelle conséquence la faute de Moïse à Meriba eut-elle ? A) Il perdit la vue B) Il ne ferait pas entrer l'assemblée dans le pays C) Il fut remplacé par Aaron D) Il devint muet
 27. [Nombres 21] Que fit Moïse pour sauver ceux qui étaient mordus par les serpents ? A) Un sacrifice de bélier B) Un autel de pierre C) Un remède d'herbes D) Un serpent en cuivre placé sur une perche
-28. [Nombres 22] Quel roi de Moab fit appeler Balaam ? A) Eglôn B) Og C) Balak D) Sihôn
+28. [Nombres 22] Quel roi de Moab fit appeler Balaam ? A) Pharaon B) Og C) Balak D) Sihôn
 29. [Nombres 22] Quel animal parla à Balaam ? A) Son chameau B) Son ânesse C) Un serpent D) Son cheval
-30. [Nombres 23] Que dit Balaam de Dieu en Nombres 23:19 ? A) Il est loin B) Il change souvent d'avis C) Il n'est pas un homme qui ment D) Il ne parle pas
-31. [Nombres 25] Quel prêtre arrêta le fléau en agissant avec zèle pour Jéhovah ? A) Aaron B) Éléazar C) Phinéas D) Ithamar
-32. [Nombres 27] Qui fut choisi pour succéder à Moïse ? A) Phinéas B) Josué C) Éléazar D) Caleb
-33. [Nombres 27] Combien de filles avait Zelophehad, qui demandèrent un héritage ? A) Cinq B) Deux C) Sept D) Trois
-34. [Nombres 35] À quoi servaient les villes de refuge ? A) À loger les prêtres B) À garder les idoles C) À stocker les céréales D) À protéger celui qui avait tué quelqu'un sans le vouloir
-35. [Nombres 35] Combien de villes de refuge devaient être données ? A) Douze B) Quarante-huit C) Six D) Trois
+30. [Nombres 23] Que dit Balaam de Dieu en Nombres 23:19 ? A) Il est loin B) Il change souvent d'avis C) Il n'est pas un simple humain qui dit des mensonges D) Il ne parle pas
+31. [Nombres 25] Quel prêtre arrêta le fléau en agissant avec zèle pour Jéhovah ? A) Aaron B) Éléazar C) Finéas D) Itamar
+32. [Nombres 27] Qui fut choisi pour succéder à Moïse ? A) Finéas B) Josué C) Éléazar D) Caleb
+33. [Nombres 27] Combien de filles avait Zelofehad, qui demandèrent un héritage ? A) Cinq B) Deux C) Sept D) Trois
+34. [Nombres 35] À quoi servaient les villes de refuge ? A) À loger les prêtres B) À garder les idoles C) À stocker les céréales D) À accueillir l'auteur d'un homicide involontaire
+35. [Nombres 35] Combien de villes de refuge devaient être données ? A) Douze B) Vingt C) Six D) Trois
