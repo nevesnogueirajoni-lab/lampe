@@ -740,7 +740,7 @@ function meetings(mon){
   return { sp, vm: vmDow == null ? null : { date:dayInWeek(mon, vmDow), h:(sp && sp.hvm) || R.hvm || '19:00' }, tg: tgDow == null ? null : { date:dayInWeek(mon, tgDow), h:(sp && sp.htg) || R.htg || '10:00' } };
 }
 /* dernier jour où l'on peut encore préparer : la veille si la réunion est le matin, le jour même si elle est l'après-midi ou le soir */
-const lastPrepDay = (m, mon) => { const d = m.date; const morning = parseInt(m.h, 10) < 13; const x = morning ? addDays(d, -1) : d; return x >= mon ? x : mon; };
+const lastPrepDay = (m, mon) => { const x = addDays(m.date, -1); return x >= mon ? x : mon; };   /* le jour de la réunion, rien d'autre que la lecture du jour */
 /* Noms propres dans les intertitres de La Tour de Garde (wol les donne en majuscules) */
 function capNames(t){ return String(t || '').replace(/\b(jéhovah|jésus|dieu|christ|abraham|moïse|israël|israélites|josaphat|écritures|daniel|ézéchiel|jérémie|david|paul|pierre)\b/gi, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()); }
 /* Découpe des paragraphes de La Tour de Garde en n morceaux, en coupant si possible aux intertitres */
@@ -820,7 +820,6 @@ function weekPlan(mon){
     }
   }
   /* révision rapide le jour de la réunion (si elle a lieu l'après-midi ou le soir) */
-  if (M.vm && parseInt(M.vm.h, 10) >= 13) items.push({ id:'revvm', kind:'prep', from:vmD, due:vmD, ord:9, titre:tx('Révision rapide avant la réunion','Revisão rápida antes da reunião'), sous:tx('5 minutes pour revoir tes réponses','5 minutos para rever suas respostas'), links:[[tx('Cahier de la semaine','Apostila da semana'), p && LANG==='fr' && p.vm ? U.doc(p.vm) : U.meet(vmD)]], min:5 });
   /* devoirs (parties à la réunion…) : préparés en plusieurs fois avant la date */
   for (const dv of (PROG.devoirs || [])){
     const n = dv.min >= 30 ? 3 : 2; const sess = Math.max(5, Math.round(dv.min / n)); const early = [1, 2, 3].includes(dow(dv.date));
@@ -1229,10 +1228,21 @@ function storyStep(d){
   renderStory();
 }
 
+/* garde-fou : rien d'un jour à venir ne peut être coché ou commencé (sauf la lecture de la Bible, comme d'habitude) */
+document.addEventListener('click', ev => {
+  const el = ev.target.closest('[data-a="tick"],[data-a="vfait"],[data-a="vecoute"],[data-a="start"],[data-a="startgo"],[data-dbl]'); if (!el) return;
+  const id = el.dataset.id || el.dataset.dbl; if (!id) return; const t = todayISO();
+  if (/^bt\d/.test(id)) return;
+  const mon = el.dataset.mon || monday(t); const it = weekPlan(mon).find(i => i.id === id);
+  if (it && it.kind !== 'bt' && it.date > t && !isDoneVal(doneMap(mon)[id])){ ev.preventDefault(); ev.stopImmediatePropagation(); toast(tx(`Pas encore : c’est prévu ${it.date === addDays(t, 1) ? 'demain' : 'le ' + dateCourt(it.date)}`, 'Ainda não: está previsto para depois')); }
+}, true);
 /* ----- Accueil ----- */
 function postItem(it, mon, t){
   const dm = doneMap(mon); const k = kindOf(it); const [emo, g, lab] = KIND[k]; const st = dm[it.id]; const done = st === 1;
   const link = it.links && it.links[0]; const late = !done && st !== 'skip' && it.date < t;
+  if (!done && it.date > t) return `<article class="post"><div class="post-h">${av(emo)}<div class="who"><b>${esc(lab())}</b><small>${tx('À partir de','A partir de')} ${esc(JOURS[LANG][dow(it.date)].toLowerCase())} · ${it.min} min</small></div></div>
+   <div class="tile ${g}" style="opacity:.55"><div class="emo">${emo}</div><div class="big">${esc(it.titre)}</div>${it.sous ? `<div class="sub">${esc(it.sous)}</div>` : ''}</div>
+   <div class="acts"><span class="small muted">🔒 ${tx('Ce sera possible','Será possível')} ${it.date === addDays(t, 1) ? tx('demain','amanhã') : tx('le','na') + ' ' + esc(dateCourt(it.date))}</span></div></article>`;
   return `<article class="post"><div class="post-h">${av(emo)}<div class="who"><b>${esc(lab())}</b><small>${it.date === t ? tx('Aujourd’hui','Hoje') : (late ? tx('Pas encore fait · ','Ainda não feito · ') : '') + dateCourt(it.date)} · ${it.min} min</small></div>
     ${late ? `<button class="pb sm" data-a="skip" data-id="${it.id}" data-mon="${mon}">${tx('Laisser','Deixar')}</button>` : ''}</div>
    <div class="tile ${g} ${done ? 'done' : ''}" data-dbl="${it.id}" data-mon="${mon}"><div class="emo">${emo}</div><div class="big">${esc(it.titre)}</div>${it.sous ? `<div class="sub">${esc(it.sous)}</div>` : ''}<div class="bh ${BIGHEART === it.id ? 'go' : ''}">♥</div></div>
@@ -1260,6 +1270,9 @@ function viewHome(){
   const s = btState(); const pr = { prep:0, lecture:1, bt:2, culte:3, qcm:4, perso:5 };
   const open = plan.filter(i => i.kind !== 'reunion' && i.date <= t && !i.manque && !(i.kind === 'bt' ? (s.days[t] || i.date !== t) : isDoneVal(dm[i.id])) && laterOf(dm[i.id]) !== t)
     .sort((a, b) => (a.chain && a.chain === b.chain ? a.step - b.step : 0) || (b.urgent ? 1 : 0) - (a.urgent ? 1 : 0) || pr[a.kind] - pr[b.kind] || (a.due || a.date).localeCompare(b.due || b.date) || (a.kind === 'lecture' ? (a.ord || 0) - (b.ord || 0) : (b.ord || 0) - (a.ord || 0)));
+  const jourReunion = (() => { const M = meetings(mon); return [M.vm, M.tg].some(x => x && x.date === t); })();
+  const horsReunion = jourReunion ? open.filter(i => i.kind !== 'bt') : [];
+  if (horsReunion.length){ const keepBt = open.filter(i => i.kind === 'bt'); open.length = 0; open.push(...keepBt); }
   const fait = plan.filter(i => i.kind !== 'reunion' && (i.kind === 'bt' ? i.date === t && s.days[t] : (isDoneVal(dm[i.id]) && i.date === t)));
   /* ce qui tient dans le temps disponible ; le reste est proposé « si tu as plus de temps » */
   let acc = 0; const now = [], plus = [];
@@ -1281,6 +1294,8 @@ function viewHome(){
       + (dispo > 0 && tot > dispo + 10 ? `<button class="xrow" data-a="dispo" style="margin-bottom:10px"><span>⏱️</span><b>${tx(`Ta journée demande ≈ ${tot} min, tu as prévu ${dispo} min : ajuster mon temps`, `Seu dia pede ≈ ${tot} min, você previu ${dispo} min: ajustar`)}</b><i>›</i></button>` : '')
       + nowCard2(now[0], mon, t); }
   if (now.length > 1) html += `<div class="sec2">${tx('Ensuite','Depois')}</div>` + now.slice(1).map(it => taskRow(it, mon, t)).join('');
+  if (jourReunion) html += `<p class="small muted" style="margin:10px 2px 4px">🏛️ ${tx('Jour de réunion : rien d’autre n’est prévu aujourd’hui, à part ta lecture de la Bible.','Dia de reunião: nada mais previsto hoje além da leitura da Bíblia.')}</p>`;
+  if (horsReunion.length) html += `<details class="plus2"><summary>${tx('Si tu veux quand même avancer','Se quiser adiantar mesmo assim')} · ${horsReunion.length}</summary>${horsReunion.map(it => taskRow(it, mon, t)).join('')}</details>`;
   if (plus.length) html += `<details class="plus2"><summary>${tx('Si tu as plus de temps','Se tiver mais tempo')} · ${plus.length} (${plus.reduce((x, i) => x + i.min, 0)} min)</summary>${plus.map(it => taskRow(it, mon, t)).join('')}</details>`;
   if (fait.length) html += `<details class="plus2"><summary>✓ ${tx('Fait aujourd’hui','Feito hoje')} · ${fait.length}</summary>${fait.map(it => taskRow(it, mon, t, true)).join('')}</details>`;
   html += sheepRow();
@@ -3394,6 +3409,9 @@ function planWeek(items, mon){
   const load = {}; days.forEach(d => load[d] = 0);
   const free = d => capOf(d) - load[d];
   const J = PROG.jour && PROG.jour.date === t && PROG.jour.dispo === dispoOf(t) ? PROG.jour.ids : null;
+  /* les jours de réunion, rien d'autre n'est prévu (sauf si c'est le seul jour possible) */
+  const MW = meetings(mon); const RJ = new Set([MW.vm, MW.tg].filter(Boolean).map(x => x.date));
+  const sansReunion = w => { const f = w.filter(d => !RJ.has(d)); return f.length ? f : w; };
   const fixed = items.filter(i => i.fixe), flex = items.filter(i => !i.fixe);
   fixed.forEach(i => { load[i.date] = (load[i.date] || 0) + i.min; });
   const prio = { prep:0, lecture:1, tg:0, qcm:2, perso:3 };
@@ -3412,13 +3430,15 @@ function planWeek(items, mon){
     ch.filter(i => isDoneC(i) || i.tard).forEach(it => { it.date = it.tard ? it._ideal : (J && J.includes(it.id) && t >= mon && t <= days[6] ? t : it._ideal); placed[it.id] = it.date; load[it.date] += it.min; });
     let lo = lo0; if (t >= mon && t <= days[6] && t > lo) lo = t;
     for (const it of todo){ const lt = laterOf(dm[it.id]); if (lt && addDays(lt, 1) > lo) lo = addDays(lt, 1); }
-    let win = days.filter(d => d >= lo && d <= due);
+    let win = sansReunion(days.filter(d => d >= lo && d <= due));
+    if (J && win.length > 1 && win.includes(t)) win = win.filter(d => d > t);   /* pas les étapes du lendemain aujourd'hui */
     if (!win.length){ const last = t >= mon && t <= days[6] && t <= hard ? t : (hard > days[6] ? days[6] : hard < lo ? (t >= mon && t <= days[6] ? t : hard) : hard); win = [last]; }
     /* ce qui a été prévu ce matin reste aujourd'hui */
     const keep = todo.filter(i => J && J.includes(i.id) && t >= mon && t <= days[6] && laterOf(dm[i.id]) !== t);
     keep.forEach(it => { it.date = t; placed[it.id] = t; load[t] += it.min; });
     let rest = todo.filter(i => !keep.includes(i));
     if (keep.length && win.length > 1) win = win.filter(d => d > t);
+    win = sansReunion(win);
     rest.forEach((it, k) => { const d = win[Math.min(win.length - 1, Math.floor(k * win.length / rest.length))]; it.date = d; placed[it.id] = d; load[d] += it.min; if (d > (it.hard || d)) it.manque = true; });
     ch.forEach(it => { delete it._ideal; });
   }
@@ -3436,9 +3456,9 @@ function planWeek(items, mon){
     /* « pas eu le temps » : on reprend au plus tôt demain */
     if (!isDone && laterOf(dm[it.id])){ const nx = addDays(laterOf(dm[it.id]), 1); if (nx > lo) lo = nx; if (it.hard && nx > it.hard){ it.date = laterOf(dm[it.id]); it.manque = true; placed[it.id] = it.date; continue; } }
     // en retard mais la réunion n'a pas encore eu lieu : on le met aujourd'hui, en priorité
-    if (!isDone && it.hard && t > hi && t <= it.hard && !laterOf(dm[it.id])){ it.date = t; load[t] = (load[t] || 0) + it.min; placed[it.id] = t; it.urgent = true; continue; }
+    if (!isDone && it.hard && t > hi && t <= it.hard && !laterOf(dm[it.id]) && !RJ.has(t)){ it.date = t; load[t] = (load[t] || 0) + it.min; placed[it.id] = t; it.urgent = true; continue; }
     if (!isDone && t > lo && t <= hi) lo = t;
-    let win = days.filter(d => d >= lo && d <= hi);
+    let win = sansReunion(days.filter(d => d >= lo && d <= hi));
     if (J && !isDone && win.length > 1) win = win.filter(d => d !== t);
     if (!win.length){ it.date = !isDone && t >= mon && t <= days[6] ? t : hi > days[6] ? days[6] : hi; load[it.date] = (load[it.date] || 0) + it.min; placed[it.id] = it.date; continue; }
     let pick = null;
@@ -3446,6 +3466,12 @@ function planWeek(items, mon){
     else { for (let k = win.length - 1; k >= 0; k--) if (free(win[k]) >= it.min){ pick = win[k]; break; } }
     if (!pick) pick = win.slice().sort((a, b) => free(b) - free(a))[0];
     it.date = pick; load[pick] += it.min; placed[it.id] = pick;
+  }
+  for (const it of items){
+    if (it.kind === 'reunion' || it.kind === 'bt' || !RJ.has(it.date)) continue;
+    const v = dm[it.id]; if (v === 1 || v === 'skip' || v === 'ecoute') continue;
+    const lo1 = it.from || mon; const avant = days.filter(d => d < it.date && d >= t && d >= lo1 && !RJ.has(d)).pop(); const apres = days.find(d => d > it.date && d >= t && d >= lo1 && !RJ.has(d) && (!it.hard || d <= it.hard));
+    const nd = avant || apres; if (nd){ load[it.date] -= it.min; it.date = nd; load[nd] = (load[nd] || 0) + it.min; } else it.manque = true;
   }
   /* pas d'accumulation en fin de semaine : au plus une étude perso par jour ; le reste de la semaine écoulée est laissé de côté */
   const isDoneP = i => { const v = dm[i.id]; return v === 1 || v === 'skip' || v === 'ecoute'; };
