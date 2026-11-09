@@ -2,33 +2,33 @@ Vérification d'une banque de questions bibliques (lot 014, 30 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [2 Samuel 1] Comment David décrit-il son amitié avec Jonathan dans son chant de deuil ? A) Ils se disputaient souvent B) Il le craignait C) Il le connaissait à peine D) Son amour était plus merveilleux que l'amour des femmes
-2. [2 Samuel 2] Dans quelle ville David fut-il d'abord oint roi sur la maison de Juda ? A) Hébron B) Jérusalem C) Silo D) Bethléem
-3. [2 Samuel 5] Quel âge avait David quand il devint roi ? A) 40 ans B) 30 ans C) 25 ans D) 17 ans
-4. [2 Samuel 5] Quelle forteresse David prit-elle aux Jébuséens ? A) La forteresse de Sion B) Hébron C) Jéricho D) Gath
-5. [2 Samuel 6] Pourquoi Ouza mourut-il en touchant l'Arche ? A) Parce qu'il était philistin B) Parce qu'il avait agi de façon irrespectueuse C) Parce qu'il était malade D) Parce qu'il était tombé
-6. [2 Samuel 6] Que fit David devant Jéhovah quand l'Arche entra dans Jérusalem ? A) Il se cacha B) Il pleura C) Il dansait de toutes ses forces D) Il resta assis
-7. [2 Samuel 7] Quelle promesse Jéhovah fit-il à David en 2 Samuel 7:16 ? A) Sa dynastie ne disparaîtrait jamais B) Il serait prêtre C) Il ne mourrait jamais D) Il bâtirait le temple lui-même
-8. [2 Samuel 9] Quel fils de Jonathan David accueillit-il à sa table ? A) Absalon B) Amnon C) Mefibosheth D) Ishboshet
-9. [2 Samuel 11] Comment s'appelait la femme d'Urie le Hittite ? A) Tamar B) Mikal C) Bethsabée D) Abigaïl
-10. [2 Samuel 12] Quel prophète Jéhovah envoya-t-il à David après son péché avec Bethsabée ? A) Élie B) Gad C) Samuel D) Nathan
-11. [2 Samuel 12] Dans l'histoire racontée par Nathan, que possédait le pauvre ? A) Un champ B) Un troupeau C) Un âne D) Une petite agnelle
-12. [2 Samuel 12] Que dit Nathan à David après l'histoire de l'agnelle ? A) « Cet homme, c'est toi ! » B) « Va en paix » C) « Tu seras puni par Saül » D) « Tu es pardonné »
-13. [2 Samuel 12] Que répondit David quand Nathan lui révéla sa faute ? A) « Ce n'est pas vrai » B) « J'ai péché contre Jéhovah » C) « C'était la faute de Bethsabée » D) « Je suis le roi »
-14. [2 Samuel 12] Quel fils naquit à David et Bethsabée après la mort du premier enfant ? A) Amnon B) Absalon C) Adonija D) Salomon
-15. [2 Samuel 14] Qu'est-ce qui était remarquable chez Absalon ? A) Sa voix B) Sa sagesse C) Ses cheveux très lourds D) Sa petite taille
-16. [2 Samuel 15] Comment Absalon gagna-t-il le cœur des Israélites ? A) Il gagnait le cœur des hommes d'Israël B) En faisant des miracles C) En les menaçant D) En les payant
-17. [2 Samuel 18] Comment Absalon resta-t-il suspendu ? A) Sa tête se prit dans les branches d'un grand arbre B) Il fut pendu C) Il tomba de son char D) Il tomba dans un puits
-18. [2 Samuel 18] Comment David réagit-il à la mort d'Absalon ? A) Il se réjouit B) Il n'en parla pas C) Il pleura et dit qu'il aurait voulu mourir à sa place D) Il fit une fête
-19. [2 Samuel 22] Comment David appelle-t-il Jéhovah en 2 Samuel 22:2 ? A) Mon juge sévère B) Mon roi lointain C) Mon berger seulement D) Mon rocher, ma forteresse et celui qui me sauve
-20. [2 Samuel 24] Pourquoi David voulut-il payer l'aire d'Arauna ? A) Arauna était pauvre B) Le prix était bas C) Les prêtres l'exigeaient D) Il ne voulait pas offrir à Jéhovah des sacrifices qui ne lui coûtaient rien
-21. [1 Rois 1] Qui oignit Salomon comme roi ? A) Le prophète Nathan seul B) David lui-même C) Le prêtre Zadok D) Abiatar
-22. [1 Rois 3] Que demanda Salomon à Jéhovah à Gabaon ? A) La mort de ses ennemis B) Un cœur obéissant pour juger le peuple C) La richesse D) Une longue vie
-23. [1 Rois 3] Que proposa Salomon pour savoir qui était la vraie mère de l'enfant ? A) Couper l'enfant en deux B) Tirer au sort C) Interroger les voisins D) Attendre un an
-24. [1 Rois 4] Combien de proverbes Salomon prononça-t-il ? A) 3 000 B) 300 C) 1 005 D) 10 000
-25. [1 Rois 6] Combien d'années Salomon mit-il pour construire le temple ? A) Trois ans B) Sept ans C) Douze ans D) Quarante ans
-26. [1 Rois 10] Quelle reine vint mettre Salomon à l'épreuve avec des questions difficiles ? A) La reine de Saba B) Vashti C) La reine d'Égypte D) Jézabel
-27. [1 Rois 10] Que dit la reine de Saba après avoir vu la sagesse de Salomon ? A) On ne lui en avait pas raconté la moitié B) Elle voulait l'épouser C) Elle voulait la guerre D) Elle était déçue
-28. [1 Rois 11] Combien de femmes Salomon avait-il ? A) 7 femmes B) 1 000 femmes C) 70 femmes D) 700 femmes et 300 concubines
-29. [1 Rois 11] Qu'est-ce que les femmes de Salomon firent quand il était vieux ? A) Elles détournèrent son cœur vers d'autres dieux B) Elles bâtirent un temple pour Jéhovah C) Elles le quittèrent D) Elles le conseillèrent bien
-30. [1 Rois 11] Combien de tribus le prophète Ahiya annonça-t-il à Jéroboam qu'il recevrait ? A) 12 B) 2 C) 10 D) 1
+1. [1 Rois 1] Qui oignit Salomon comme roi ? A) Le prophète Élie B) Joab C) Le roi David lui-même D) Le prêtre Tsadok
+2. [1 Rois 3] Où Jéhovah apparut-il à Salomon dans un rêve ? A) À Gabaon B) À Jérusalem C) À Hébron D) À Béthel
+3. [1 Rois 3] Que demanda Salomon à Jéhovah ? A) De grandes richesses B) Un cœur obéissant pour juger le peuple C) La mort de ses ennemis D) Une longue vie
+4. [1 Rois 3] Que reçut Salomon en plus de ce qu'il avait demandé ? A) La richesse et la gloire B) Une nouvelle capitale C) Une armée invincible D) Le don de faire des miracles
+5. [1 Rois 3] Que proposa Salomon pour savoir laquelle des deux femmes était la vraie mère ? A) Interroger les voisins B) Couper l'enfant vivant en deux C) Faire jurer les femmes D) Tirer au sort
+6. [1 Rois 4] Combien de proverbes Salomon prononça-t-il ? A) 10 000 B) 1 005 C) 3 000 D) 300
+7. [1 Rois 5] Quel roi de Tyr fournit du bois de cèdre à Salomon ? A) Hiram B) Pharaon C) Nabuchodonosor D) Ben-Hadad
+8. [1 Rois 6] Combien d'années Salomon mit-il à construire le temple ? A) 3 ans B) 40 ans C) 7 ans D) 20 ans
+9. [1 Rois 8] Que dit Salomon dans sa prière à l'inauguration du temple ? A) Dieu ne viendra jamais dans le temple B) Le temple est plus grand que le ciel C) Même les cieux ne peuvent contenir Dieu, encore moins cette maison D) Dieu habite seulement dans le temple
+10. [1 Rois 10] Quelle reine vint voir Salomon pour l'éprouver par des énigmes ? A) La reine Vashti B) La reine Jézabel C) La reine Esther D) La reine de Saba
+11. [1 Rois 10] Que dit la reine de Saba après avoir vu la sagesse de Salomon ? A) Elle voulait l'épouser B) Elle était déçue C) Elle refusait de croire D) On ne lui en avait pas raconté la moitié
+12. [1 Rois 11] Qu'est-ce qui détourna le cœur de Salomon dans sa vieillesse ? A) Ses femmes, vers d'autres dieux B) La guerre C) Les conseils des prophètes D) La richesse
+13. [1 Rois 11] Combien de morceaux du manteau le prophète Ahiya donna-t-il à Jéroboam ? A) Deux B) Dix C) Douze D) Un
+14. [1 Rois 12] Quel conseil Roboam suivit-il ? A) Celui de sa mère B) Celui des anciens : alléger le joug C) Celui des prophètes D) Celui des jeunes : alourdir le joug du peuple
+15. [1 Rois 12] Qu'installa Jéroboam pour empêcher le peuple d'aller à Jérusalem ? A) Une muraille B) Une statue de Baal C) Deux veaux d'or D) Un nouveau temple
+16. [1 Rois 12] Dans quelles villes Jéroboam plaça-t-il les veaux d'or ? A) Béthel et Dan B) Hébron et Gabaon C) Silo et Sichem D) Samarie et Jéricho
+17. [1 Rois 16] Quelle femme le roi Achab épousa-t-il ? A) Jézabel, fille du roi des Sidoniens B) Bethsabée C) Mikal D) Athalie
+18. [1 Rois 17] Qu'annonça Élie au roi Achab ? A) Une victoire sur la Syrie B) La construction d'un temple C) Il n'y aurait ni rosée ni pluie pendant ces années D) La mort de Jézabel
+19. [1 Rois 17] Quels oiseaux apportaient de la nourriture à Élie près du torrent ? A) Des cailles B) Des aigles C) Des colombes D) Des corbeaux
+20. [1 Rois 17] Que ne manqua pas à la veuve de Sarepta grâce à Élie ? A) L'eau B) Le vin C) Le bois D) La farine et l'huile
+21. [1 Rois 17] Que fit Jéhovah pour le fils de la veuve de Sarepta, à la prière d'Élie ? A) Il le guérit de la lèpre B) Il lui donna la vue C) Il le ramena à la vie D) Il le rendit fort
+22. [1 Rois 18] Quelle question Élie posa-t-il au peuple sur le mont Carmel ? A) « Où est le roi ? » B) « Jusqu'à quand boiterez-vous entre deux opinions ? » C) « Qui veut du pain ? » D) « Qui a vu la pluie ? »
+23. [1 Rois 18] Combien de prophètes de Baal étaient présents au mont Carmel ? A) 450 B) 850 C) 400 D) 100
+24. [1 Rois 18] Que fit le feu de Jéhovah sur le mont Carmel ? A) Il consuma l'holocauste, le bois, les pierres et l'eau B) Il tomba sur le roi C) Il brûla les prophètes de Baal D) Il s'éteignit tout de suite
+25. [1 Rois 18] Quel petit signe annonça la pluie après la sécheresse ? A) Un arc-en-ciel B) Un petit nuage comme la main d'un homme C) Un coup de tonnerre D) Un vent du sud
+26. [1 Rois 19] Que demanda Élie, découragé, dans le désert ? A) De mourir B) De l'eau C) D'avoir un successeur D) De la nourriture
+27. [1 Rois 19] Après le vent, le tremblement de terre et le feu, comment Jéhovah parla-t-il à Élie ? A) Par une voix calme et basse B) Par un ange armé C) Par un songe D) Par le tonnerre
+28. [1 Rois 19] Combien d'Israélites n'avaient pas plié le genou devant Baal, selon Jéhovah ? A) 70 B) 70 000 C) 700 D) 7 000
+29. [1 Rois 19] Que faisait Élisée quand Élie l'appela ? A) Il labourait avec des bœufs B) Il gardait des moutons C) Il pêchait D) Il était au temple
+30. [1 Rois 21] Quel homme possédait la vigne qu'Achab convoitait ? A) Obadia B) Michée C) Naboth D) Élisée
