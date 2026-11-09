@@ -1,64 +1,60 @@
-Vérification d'une banque de questions bibliques (lot 008, 60 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+Vérification d'une banque de questions bibliques (lot 008, 56 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Genèse 26] Pourquoi Isaac alla-t-il chez Abimélech, roi des Philistins ? A) À cause d'une famine dans le pays B) Pour chercher une femme C) Pour vendre ses troupeaux D) Pour faire la guerre
-2. [Genèse 26] Que dit Isaac de Rébecca aux hommes de Guérar ? A) Qu'elle était sa cousine B) Qu'elle était veuve C) Qu'elle était sa sœur D) Qu'elle était sa servante
-3. [Genèse 26] Que fit Isaac des puits creusés du temps d'Abraham ? A) Il les combla B) Il les vendit C) Il les abandonna D) Il les creusa de nouveau
-4. [Genèse 27] Dans quel état était Isaac devenu vieux ? A) Il était aveugle de naissance B) Il ne voyait plus C) Il portait un bandeau D) Ils étaient parfaits
-5. [Genèse 27] Que mit Rébecca sur les mains et le cou de Jacob ? A) Avec des peaux de chevreaux B) Avec du lin C) Avec de la laine D) Avec de la boue
-6. [Genèse 27] Que dit Isaac en touchant Jacob déguisé ? A) « Tu sens le champ » B) « La voix est celle de Jacob, mais les mains sont celles d'Ésaü » C) « Tu es bien Ésaü » D) « Va-t'en, menteur »
-7. [Genèse 27] Chez qui Rébecca envoya-t-elle Jacob pour fuir Ésaü ? A) En Égypte B) Chez Abimélech C) Chez son frère Labân, à Harran D) Chez Ismaël
-8. [Genèse 28] Que vit Jacob en rêve à Béthel ? A) Une échelle tombée B) Un buisson en feu C) Un escalier qui allait jusqu'au ciel, avec des anges D) Sept vaches grasses
-9. [Genèse 28] Comment Jacob appela-t-il le lieu de son rêve ? A) Béthel B) Mizpa C) Peniel D) Galéed
-10. [Genèse 28] Que promit Jacob de donner à Dieu en Genèse 28:22 ? A) Une maison d'or B) Son premier-né C) Tous ses troupeaux D) Le dixième de tout ce qu'il lui donnerait
-11. [Genèse 29] Combien d'années Jacob proposa-t-il de servir Labân pour Rachel ? A) Trois B) Quatorze C) Vingt D) Sept
-12. [Genèse 29] Comment ces années parurent-elles à Jacob ? A) Très longues B) Pénibles et tristes C) Comme quelques jours, parce qu'il l'aimait D) Il ne s'en souvenait plus
-13. [Genèse 29] Quelle femme Labân donna-t-il à Jacob à la place de Rachel ? A) Bilha B) Dina C) Léa D) Zilpa
-14. [Genèse 29] Quel fils de Léa reçut un nom lié à la louange de Jéhovah ? A) Ruben B) Juda C) Lévi D) Siméon
-15. [Genèse 30] Quel fut le premier fils de Rachel ? A) Nephtali B) Joseph C) Dan D) Benjamin
-16. [Genèse 31] Que vola Rachel à son père Labân ? A) Ses troupeaux B) Son épée C) Son or D) Les statuettes de dieux familiaux
-17. [Genèse 31] Combien d'années Jacob servit-il Labân en tout ? A) 20 ans B) 40 ans C) 14 ans D) 7 ans
-18. [Genèse 32] Avec qui Jacob lutta-t-il toute la nuit ? A) Un homme, qui était un ange B) Labân C) Ésaü D) Un lion
-19. [Genèse 32] Quel nouveau nom Jacob reçut-il ? A) Abraham B) Josué C) Israël D) Juda
-20. [Genèse 32] Que dit Jacob à l'ange qui voulait partir ? A) « Je veux rentrer chez moi » B) « Va-t'en » C) « Dis-moi où est Ésaü » D) « Je ne te laisserai pas partir tant que tu ne m'auras pas béni »
-21. [Genèse 33] Comment Ésaü accueillit-il Jacob à son retour ? A) Il courut à sa rencontre et l'embrassa B) Il l'attaqua C) Il lui prit ses troupeaux D) Il refusa de le voir
-22. [Genèse 34] Comment s'appelait la fille de Léa et de Jacob ? A) Milka B) Dina C) Rébecca D) Tamar
-23. [Genèse 35] Quel fils Rachel mit-elle au monde avant de mourir ? A) Benjamin B) Joseph C) Gad D) Dan
-24. [Genèse 35] Sur quel chemin Rachel fut-elle enterrée ? A) Le chemin de Béthel B) Le chemin de Sodome C) Le chemin de l'Égypte D) Le chemin d'Éfrata, c'est-à-dire Bethléem
-25. [Genèse 35] Combien de fils Jacob eut-il ? A) 10 B) 13 C) 12 D) 7
-26. [Genèse 37] Qu'est-ce que Jacob fit faire pour Joseph ? A) Un char B) Un beau et long vêtement C) Une épée D) Une tente
-27. [Genèse 37] Dans le premier rêve de Joseph, que faisaient les gerbes de ses frères ? A) Elles poussaient plus haut B) Elles brûlaient C) Elles entouraient sa gerbe et se prosternaient devant elle D) Elles s'envolaient
-28. [Genèse 37] Dans le deuxième rêve de Joseph, combien d'étoiles se prosternaient devant lui ? A) 11 B) 10 C) 12 D) 7
-29. [Genèse 37] Quel frère proposa de ne pas tuer Joseph mais de le jeter dans une citerne ? A) Siméon B) Juda C) Ruben D) Lévi
-30. [Genèse 37] Pour combien de pièces d'argent Joseph fut-il vendu ? A) 30 B) 15 C) 50 D) 20
-31. [Genèse 37] Avec quoi les frères tachèrent-ils le vêtement de Joseph ? A) De la boue B) Du vin C) Le sang d'un bouc D) Le sang d'un agneau
-32. [Genèse 37] À qui Joseph fut-il vendu en Égypte ? A) À un prêtre d'On B) À Pharaon directement C) À un berger D) À Putiphar, chef de la garde royale
-33. [Genèse 39] Pourquoi Joseph réussissait-il dans la maison de Putiphar ? A) Putiphar était son oncle B) Il était très riche C) Jéhovah était avec lui D) Il connaissait la langue
-34. [Genèse 39] Que répondit Joseph à la femme de Putiphar qui voulait le séduire ? A) « J'ai peur de ton mari » B) « Je vais tout raconter » C) « Comment donc pourrais-je agir aussi mal et pécher contre Dieu ? » D) « Demain peut-être »
-35. [Genèse 39] Où Joseph fut-il mis après la fausse accusation ? A) En prison B) Dans le désert C) Dans une citerne D) Aux travaux des champs
-36. [Genèse 40] Quels serviteurs de Pharaon furent en prison avec Joseph ? A) Deux soldats B) Le chef des gardes et son fils C) Deux prêtres D) Le chef des échansons et le chef des panetiers
-37. [Genèse 40] Selon Joseph, qui donne les interprétations des rêves ? A) Les sages d'Égypte B) Dieu C) Les rois D) Les magiciens
-38. [Genèse 40] Que fit le chef des échansons une fois libéré ? A) Il parla tout de suite de Joseph B) Il libéra Joseph C) Il retourna en prison D) Il oublia Joseph
-39. [Genèse 41] Combien d'années après Pharaon eut-il ses rêves ? A) Trois ans B) Sept ans C) Deux ans D) Un an
-40. [Genèse 41] Que vit Pharaon sortir du Nil dans son rêve ? A) Sept épis B) Sept vaches C) Sept serpents D) Sept poissons
-41. [Genèse 41] Que représentaient les sept vaches grasses ? A) Sept fils de Pharaon B) Sept guerres C) Sept années d'abondance D) Sept rois
-42. [Genèse 41] Quel poste Pharaon donna-t-il à Joseph ? A) Prêtre d'On B) Il lui donna autorité sur toute l'Égypte C) Chef des échansons D) Chef de l'armée
-43. [Genèse 41] Quel âge avait Joseph quand il entra au service de Pharaon ? A) 30 ans B) 25 ans C) 17 ans D) 40 ans
-44. [Genèse 41] Comment Joseph appela-t-il son premier fils ? A) Juda B) Éphraïm C) Manassé D) Benjamin
-45. [Genèse 42] Combien de frères de Joseph descendirent en Égypte acheter du blé la première fois ? A) Neuf B) Douze C) Dix D) Onze
-46. [Genèse 42] Quel frère Jacob garda-t-il auprès de lui ? A) Juda B) Lévi C) Benjamin D) Ruben
-47. [Genèse 42] Quel frère Joseph garda-t-il en prison en Égypte ? A) Juda B) Siméon C) Ruben D) Benjamin
-48. [Genèse 44] Où Joseph fit-il cacher sa coupe d'argent ? A) Dans le sac de Juda B) Sous la selle d'un âne C) Dans sa propre tente D) Dans le sac de Benjamin
-49. [Genèse 44] Que proposa Juda pour sauver Benjamin ? A) De combattre Joseph B) De rester esclave à sa place C) De payer une rançon D) De s'enfuir de nuit
-50. [Genèse 45] Selon Joseph, pourquoi Dieu l'avait-il envoyé en Égypte avant ses frères ? A) Pour le punir B) Pour devenir riche C) Pour préserver la vie D) Pour se venger
-51. [Genèse 45] Dans quelle région Joseph proposa-t-il à sa famille de s'installer ? A) Le pays de Canaan B) La région de Goshen C) Le désert du Sinaï D) La ville d'On
-52. [Genèse 46] Combien de personnes de la maison de Jacob vinrent en Égypte au total ? A) 12 B) 70 C) 66 D) 100
-53. [Genèse 47] Quel âge avait Jacob quand il parla à Pharaon ? A) 130 ans B) 100 ans C) 147 ans D) 120 ans
-54. [Genèse 47] Combien d'années Jacob vécut-il en tout ? A) 110 ans B) 147 ans C) 130 ans D) 175 ans
-55. [Genèse 48] Sur la tête de quel petit-fils Jacob posa-t-il sa main droite ? A) Manassé, l'aîné B) Benjamin C) Ruben D) Éphraïm, le plus jeune
-56. [Genèse 49] Selon Genèse 49:10, qu'est-ce qui ne s'éloignera pas de Juda ? A) L'épée B) Le temple C) Le sceptre D) La richesse
-57. [Genèse 49] À quel animal Jacob compare-t-il Juda ? A) Un âne B) Un lionceau C) Un loup D) Un aigle
-58. [Genèse 50] Que dit Joseph à ses frères au sujet du mal qu'ils lui avaient fait ? A) Il avait oublié B) Il ne leur pardonnerait jamais C) Ils seraient punis D) Dieu avait l'intention de changer ce mal en bien
-59. [Genèse 50] Quel âge avait Joseph à sa mort ? A) 147 ans B) 110 ans C) 120 ans D) 100 ans
-60. [Genèse 50] Que demanda Joseph au sujet de ses os ? A) Qu'ils soient enterrés à Harran B) Qu'ils soient emportés d'Égypte quand Dieu s'occuperait d'Israël C) Qu'ils soient brûlés D) Qu'ils restent en Égypte pour toujours
+1. [Exode 1] Que firent les Égyptiens aux Israélites quand ils devinrent nombreux ? A) Ils les réduisirent en esclavage et leur imposèrent des travaux pénibles B) Ils les nommèrent chefs C) Ils leur donnèrent des terres D) Ils les chassèrent tout de suite d'Égypte
+2. [Exode 1] Comment s'appelaient les deux sages-femmes hébreues ? A) Bila et Zilpa B) Léa et Rachel C) Shiphra et Poua D) Myriam et Tsippora
+3. [Exode 1] Pourquoi les sages-femmes laissèrent-elles vivre les garçons ? A) Parce qu'elles avaient peur des parents B) Parce que Pharaon avait changé d'avis C) Parce qu'elles étaient égyptiennes D) Parce qu'elles craignaient le vrai Dieu
+4. [Exode 2] Dans quoi la mère de Moïse le cacha-t-elle ? A) Dans un panier de pain B) Dans un coffre en papyrus enduit de bitume et de goudron C) Dans le palais D) Dans une grotte
+5. [Exode 2] Qui trouva le petit Moïse au bord du Nil ? A) La fille de Pharaon B) Une servante hébreue C) Sa sœur D) Un prêtre
+6. [Exode 2] Pourquoi l'enfant fut-il appelé Moïse ? A) Parce qu'il était né en Égypte B) Parce qu'il avait été tiré de l'eau C) Parce qu'il était beau D) Parce qu'il pleurait
+7. [Exode 2] Dans quel pays Moïse s'enfuit-il après avoir tué un Égyptien ? A) Édom B) Canaan C) Le pays de Madian D) Moab
+8. [Exode 2] Quelle femme Moïse épousa-t-il à Madian ? A) Agar B) Rahab C) Tsippora D) Myriam
+9. [Exode 3] Sous quelle forme l'ange de Jéhovah apparut-il à Moïse ? A) Dans une flamme de feu au milieu d'un buisson épineux B) Dans un rêve C) Dans un nuage D) Dans une colonne de fumée
+10. [Exode 3] Que dut faire Moïse près du buisson ? A) Offrir un agneau B) Allumer un feu C) Construire un autel D) Enlever ses sandales
+11. [Exode 3] Que répondit Dieu quand Moïse demanda son nom en Exode 3:14 ? A) « Je n'ai pas de nom » B) « Je suis le roi d'Égypte » C) « Je suis le Dieu de l'Égypte » D) « Je deviendrai ce que je choisis de devenir »
+12. [Exode 3] Selon Exode 3:15, quel est le nom de Dieu pour toujours ? A) Élohim seulement B) Seigneur C) Jéhovah D) Tout-Puissant
+13. [Exode 4] En quoi le bâton de Moïse se transforma-t-il quand il le jeta à terre ? A) En arbre B) En feu C) En serpent D) En épée
+14. [Exode 4] Qui Jéhovah donna-t-il à Moïse pour parler à sa place ? A) Josué B) Aaron, son frère C) Jéthro D) Caleb
+15. [Exode 5] Que répondit Pharaon la première fois que Moïse demanda de laisser partir le peuple ? A) « Je vais y réfléchir » B) « Qui est Jéhovah, pour que je lui obéisse ? » C) « Revenez demain » D) « Partez tout de suite »
+16. [Exode 5] Qu'est-ce que Pharaon refusa ensuite de donner aux Israélites pour faire les briques ? A) De l'argile B) Des moules C) De l'eau D) De la paille
+17. [Exode 7] Qu'arriva-t-il aux bâtons des prêtres-magiciens d'Égypte ? A) Le bâton d'Aaron les avala B) Ils se brisèrent C) Ils prirent feu D) Ils devinrent des arbres
+18. [Exode 7] Quelle fut la première plaie d'Égypte ? A) L'eau du Nil changée en sang B) Les poux C) Les grenouilles D) La grêle
+19. [Exode 8] Quelle plaie couvrit l'Égypte après le sang ? A) Les sauterelles B) Les ténèbres C) Les grenouilles D) Les ulcères
+20. [Exode 8] Quelle région Jéhovah épargna-t-il pendant la plaie des taons ? A) Toute l'Égypte B) La ville d'On C) Le palais de Pharaon D) Le pays de Goshen, où vivait son peuple
+21. [Exode 9] Avec quoi Jéhovah envoya-t-il la grêle ? A) Avec du tonnerre et du feu B) Avec un tremblement de terre C) Avec la neige D) Avec des sauterelles
+22. [Exode 10] Combien de jours dura l'obscurité épaisse en Égypte ? A) Un jour B) Trois jours C) Dix jours D) Sept jours
+23. [Exode 12] Quel animal devait être choisi pour la Pâque ? A) Un mouton ou une chèvre mâle d'un an, sans défaut B) Un taureau C) Un bélier de sept ans D) Une colombe
+24. [Exode 12] Où fallait-il mettre le sang de l'agneau pascal ? A) Sur l'autel seulement B) Dans le Nil C) Sur les vêtements D) Sur les deux montants et le haut de l'entrée des maisons
+25. [Exode 12] Quelle fut la dixième plaie ? A) Les ténèbres B) La grêle C) La mort de tous les premiers-nés d'Égypte D) Les sauterelles
+26. [Exode 12] Combien d'années les Israélites avaient-ils vécu en tant qu'étrangers jusqu'à la sortie d'Égypte, selon Exode 12:40 ? A) 215 ans B) 430 ans C) 400 ans D) 40 ans
+27. [Exode 13] Comment Jéhovah guidait-il le peuple le jour et la nuit ? A) Par les bergers B) Par une étoile C) Par une colonne de nuage le jour et une colonne de feu la nuit D) Par un ange visible
+28. [Exode 13] Qu'emporta Moïse en quittant l'Égypte, selon une promesse faite autrefois ? A) Les os de Joseph B) La tunique de Joseph C) Le trésor de Pharaon D) Le bâton de Jacob
+29. [Exode 14] Que dit Moïse au peuple effrayé devant la mer Rouge ? A) « Préparez vos armes » B) « Retournez en Égypte » C) « N'ayez pas peur. Restez là et voyez comment Jéhovah va vous sauver » D) « Fuyez dans le désert »
+30. [Exode 14] Quel vent Jéhovah utilisa-t-il pour faire reculer la mer ? A) Un vent du nord B) Un vent du sud C) Un vent d'ouest D) Un fort vent d'est
+31. [Exode 15] Qui prit un tambourin et mena les femmes en dansant après la traversée ? A) Débora B) Rahab C) Myriam la prophétesse D) Tsippora
+32. [Exode 15] Comment l'eau amère de Mara devint-elle douce ? A) Il pleuvit B) Moïse frappa le rocher C) Aaron pria D) Moïse y jeta un morceau de bois
+33. [Exode 16] Comment les Israélites appelèrent-ils la nourriture tombée du ciel ? A) Le miel B) Le pain d'Égypte C) La manne D) Les cailles
+34. [Exode 16] Quel jour la manne ne tombait-elle pas ? A) Le jour de la Pâque B) Le dixième jour C) Le septième jour, le sabbat D) Le premier jour
+35. [Exode 17] Que fit Moïse pour donner de l'eau au peuple à Horeb ? A) Il frappa le rocher B) Il pria pour la pluie C) Il creusa un puits D) Il jeta du bois dans l'eau
+36. [Exode 17] Que se passait-il pendant la bataille contre Amalec quand Moïse levait les mains ? A) Amalec l'emportait B) Il pleuvait C) La bataille s'arrêtait D) Israël l'emportait
+37. [Exode 17] Qui soutint les mains de Moïse pendant la bataille contre Amalec ? A) Josué et Caleb B) Aaron et Hour C) Éléazar et Pinehas D) Jéthro et Aaron
+38. [Exode 18] Quel conseil Jéthro donna-t-il à Moïse ? A) Retourner en Égypte B) Construire une ville C) Nommer un roi D) Choisir des hommes capables pour juger avec lui
+39. [Exode 19] Que devait devenir Israël s'il obéissait, selon Exode 19:6 ? A) Un empire B) Une grande armée C) Un royaume de prêtres et une nation sainte D) Le peuple le plus riche
+40. [Exode 20] Quel est le premier des Dix Commandements ? A) Ne pas tuer B) Ne pas avoir d'autres dieux que Jéhovah C) Respecter son père et sa mère D) Ne pas voler
+41. [Exode 20] Quel jour fallait-il se souvenir de garder sacré ? A) Le jour de la moisson B) Le jour de la Pâque C) Le sabbat D) Le premier jour du mois
+42. [Exode 20] Que promet Exode 20:12 à celui qui honore son père et sa mère ? A) Un titre de prince B) Une longue vie dans le pays C) Beaucoup d'enfants D) De grandes richesses
+43. [Exode 24] Combien de temps Moïse resta-t-il sur la montagne ? A) 40 jours et 40 nuits B) Un an C) 7 jours D) 3 jours
+44. [Exode 25] En quel bois l'Arche du témoignage devait-elle être faite ? A) En bois résineux B) En bois de cèdre C) En bois d'acacia D) En bois d'olivier
+45. [Exode 25] Qu'y avait-il sur le couvercle de l'Arche ? A) Un chandelier B) Une couronne C) Deux chérubins d'or D) Deux lions d'or
+46. [Exode 25] En quoi le chandelier du tabernacle était-il fait ? A) En cuivre B) En bois C) En or pur D) En argent
+47. [Exode 28] Quels objets le grand prêtre portait-il dans le pectoral du jugement ? A) La manne B) L'ourim et le thoummim C) Les tables de la Loi D) Le bâton d'Aaron
+48. [Exode 31] Avec quoi les deux tables de pierre furent-elles écrites ? A) Avec un burin de Moïse B) Avec de l'encre C) Avec du feu par Aaron D) Avec le doigt de Dieu
+49. [Exode 32] Quelle idole Aaron fabriqua-t-il pendant l'absence de Moïse ? A) Une statue de Baal B) Un veau en métal fondu C) Un serpent de cuivre D) Un taureau de pierre
+50. [Exode 32] Que fit Moïse en voyant le veau et les danses ? A) Il pria toute la nuit B) Il s'enfuit C) Il jeta les tables et les brisa au pied de la montagne D) Il les rejoignit
+51. [Exode 33] Pourquoi Moïse ne pouvait-il pas voir le visage de Dieu ? A) Parce qu'il faisait nuit B) Parce que personne ne peut le voir et rester en vie C) Parce qu'il était trop jeune D) Parce qu'il n'avait pas offert de sacrifice
+52. [Exode 34] Comment Jéhovah se décrit-il en Exode 34:6 ? A) Sévère et lointain B) Miséricordieux, compatissant, lent à la colère, abondant en amour fidèle C) Impatient D) Indifférent
+53. [Exode 34] Qu'arriva-t-il au visage de Moïse quand il descendit de la montagne ? A) La peau de son visage rayonnait B) Il était couvert de poussière C) Il avait vieilli D) Il était blessé
+54. [Exode 35] Comment le peuple donna-t-il pour la construction du tabernacle ? A) Seuls les chefs donnèrent B) Chacun donna de bon cœur, poussé par son esprit C) Par un impôt obligatoire D) Par tirage au sort
+55. [Exode 36] Pourquoi Moïse fit-il arrêter les dons pour le tabernacle ? A) Parce que le peuple était pauvre B) Parce que l'or avait été volé C) Parce que le travail était annulé D) Parce que le peuple apportait plus que nécessaire
+56. [Exode 40] Qu'est-ce qui remplit le tabernacle une fois terminé ? A) De la fumée noire B) De l'eau C) La gloire de Jéhovah D) Les prêtres
