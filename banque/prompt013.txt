@@ -2,26 +2,26 @@ Vérification d'une banque de questions bibliques (lot 013, 23 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [2 Samuel 1] Pour qui David composa-t-il un chant funèbre au début de 2 Samuel ? A) Pour Absalom B) Pour Saül et Jonathan C) Pour Samuel D) Pour Goliath
-2. [2 Samuel 2] Dans quelle ville David fut-il d'abord oint roi sur la maison de Juda ? A) Silo B) Hébron C) Bethléem D) Jérusalem
+1. [2 Samuel 1] Pour qui David chanta-t-il un chant de deuil au début de 2 Samuel ? A) Pour Absalon B) Pour Saül et Jonathan C) Pour Samuel D) Pour Goliath
+2. [2 Samuel 2] Dans quelle ville David fut-il d'abord oint roi sur la tribu de Juda ? A) Silo B) Hébron C) Bethléem D) Jérusalem
 3. [2 Samuel 5] Quel âge avait David quand il devint roi ? A) 25 ans B) 30 ans C) 40 ans D) 20 ans
-4. [2 Samuel 5] Quelle forteresse David prit-elle aux Jébusites ? A) Jéricho B) La tour de Babel C) La forteresse de Sion D) La forteresse de Gath
-5. [2 Samuel 6] Pourquoi Ouzza fut-il frappé à mort près de l'Arche ? A) Il l'avait ouverte B) Il l'avait volée C) Il avait tendu la main pour la retenir D) Il avait refusé de la porter
+4. [2 Samuel 5] Quelle forteresse David prit-il aux Jébuséens ? A) Jéricho B) La tour de Babel C) La forteresse de Sion D) La forteresse de Gath
+5. [2 Samuel 6] Pourquoi Ouza mourut-il près de l'Arche ? A) Il l'avait ouverte B) Il l'avait volée C) Il avait tendu le bras pour la retenir D) Il avait refusé de la porter
 6. [2 Samuel 6] Comment David manifesta-t-il sa joie en faisant monter l'Arche à Jérusalem ? A) Il fit sonner les cloches B) Il dansait devant Jéhovah de toutes ses forces C) Il construisit une tour D) Il donna un grand festin
 7. [2 Samuel 7] Quel prophète conseillait David quand il voulut construire une maison pour l'Arche ? A) Gad B) Élie C) Nathan D) Samuel
-8. [2 Samuel 7] Que promit Jéhovah à David au sujet de son royaume ? A) Il serait établi pour toujours B) Il passerait à l'Égypte C) Il durerait 70 ans D) Il serait partagé entre ses fils
-9. [2 Samuel 9] Quelle bonté David montra-t-il à Mephibosheth, fils de Jonathan ? A) Il lui rendit les terres de Saül et le fit manger à sa table B) Il lui donna sa fille en mariage C) Il le nomma prêtre D) Il en fit un général
-10. [2 Samuel 11] Qui était Bethsabée ? A) La femme d'Urie le Hittite B) La sœur d'Absalom C) La femme de Nathan D) La fille de Saül
+8. [2 Samuel 7] Que promit Jéhovah à David au sujet de son royaume ? A) Sa dynastie ne disparaîtrait jamais B) Il passerait à l'Égypte C) Il durerait 70 ans D) Il serait partagé entre ses fils
+9. [2 Samuel 9] Quelle bonté David montra-t-il à Mefibosheth, fils de Jonathan ? A) Il lui rendit les terres de Saül et le fit manger à sa table B) Il lui donna sa fille en mariage C) Il le nomma prêtre D) Il en fit un général
+10. [2 Samuel 11] Qui était Bethsabée ? A) La femme d'Urie le Hittite B) La sœur d'Absalon C) La femme de Nathan D) La fille de Saül
 11. [2 Samuel 12] Quelle phrase Nathan dit-il à David après sa parabole de la brebis ? A) « C'est toi cet homme ! » B) « Le roi est innocent » C) « Tu es pardonné » D) « Va en paix »
-12. [2 Samuel 12] Comment David réagit-il quand Nathan lui révéla sa faute ? A) Il accusa Bethsabée B) Il nia tout C) Il chassa Nathan D) Il reconnut : « J'ai péché contre Jéhovah »
-13. [2 Samuel 12] Quel fils naquit à David et Bethsabée et fut aimé de Jéhovah ? A) Absalom B) Salomon C) Amnon D) Adonija
-14. [2 Samuel 14] Pour quoi Absalom était-il particulièrement admiré ? A) Sa beauté B) Sa sagesse C) Sa piété D) Sa force au combat
-15. [2 Samuel 15] Comment Absalom gagna-t-il le cœur des Israélites ? A) En faisant des miracles B) Il leur volait le cœur en se montrant aimable avec eux C) En battant les Philistins D) En leur donnant de l'or
-16. [2 Samuel 15] Quel conseiller de David passa du côté d'Absalom ? A) Ahitophel B) Nathan C) Joab D) Houshaï
-17. [2 Samuel 18] Comment Absalom fut-il pris pendant sa fuite ? A) Sa tête se prit dans les branches d'un grand arbre B) Il fut capturé dans une grotte C) Son cheval tomba D) Il se perdit dans le désert
-18. [2 Samuel 18] Qui tua Absalom ? A) Joab B) David C) Houshaï D) Abishaï
-19. [2 Samuel 18] Comment David réagit-il à la mort d'Absalom ? A) Il remercia Joab B) Il fit une fête C) Il pleura : « Mon fils Absalom ! Si seulement j'étais mort à ta place ! » D) Il resta indifférent
+12. [2 Samuel 12] Comment David réagit-il quand Nathan lui révéla sa faute ? A) Il accusa Bethsabée B) Il nia tout C) Il chassa Nathan D) Il dit : « J'ai péché contre Jéhovah »
+13. [2 Samuel 12] Quel fils naquit à David et Bethsabée et fut aimé de Jéhovah ? A) Absalon B) Salomon C) Amnon D) Jonathan
+14. [2 Samuel 14] Pour quoi Absalon était-il particulièrement admiré ? A) Sa beauté B) Sa sagesse C) Sa piété D) Sa force au combat
+15. [2 Samuel 15] Comment Absalon gagna-t-il le cœur des Israélites ? A) En faisant des miracles B) Il gagnait le cœur des hommes d'Israël C) En battant les Philistins D) En leur donnant de l'or
+16. [2 Samuel 15] Quel conseiller de David passa du côté d'Absalon ? A) Ahitofel B) Nathan C) Joab D) Houshaï
+17. [2 Samuel 18] Comment Absalon fut-il pris pendant sa fuite ? A) Ses cheveux se prirent dans les branches d'un grand arbre B) Il fut capturé dans une grotte C) Son cheval tomba D) Il se perdit dans le désert
+18. [2 Samuel 18] Qui tua Absalon ? A) Joab B) David C) Houshaï D) Abishaï
+19. [2 Samuel 18] Comment David réagit-il à la mort d'Absalon ? A) Il remercia Joab B) Il fit une fête C) Il pleura : « Mon fils Absalon ! Si seulement j'étais mort à ta place ! » D) Il resta indifférent
 20. [2 Samuel 22] Comment David décrit-il Jéhovah dans son chant de 2 Samuel 22 ? A) Un dieu parmi d'autres B) Mon rocher, ma forteresse et celui qui me sauve C) Un juge sévère D) Un roi lointain
-21. [2 Samuel 23] Qu'est-ce que David désirait boire, que trois guerriers allèrent chercher à Bethléem ? A) De l'eau du puits près de la porte de Bethléem B) Du miel C) Du lait D) Du vin
+21. [2 Samuel 23] Qu'est-ce que David désirait boire, que trois guerriers allèrent chercher à Bethléem ? A) De l'eau de la citerne près de la porte de Bethléem B) Du miel C) Du lait D) Du vin
 22. [2 Samuel 23] Que fit David de l'eau rapportée par ses trois guerriers ? A) Il la partagea avec l'armée B) Il la garda en souvenir C) Il la versa pour Jéhovah au lieu de la boire D) Il la but aussitôt
 23. [2 Samuel 24] Pourquoi David refusa-t-il qu'on lui donne gratuitement l'aire d'Arauna ? A) Il n'aimait pas Arauna B) Il ne voulait pas offrir à Jéhovah ce qui ne lui coûtait rien C) Il voulait payer plus cher par fierté D) La loi interdisait les cadeaux
