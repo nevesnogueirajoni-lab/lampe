@@ -1,0 +1,58 @@
+Vérification d'une banque de questions bibliques (lot 009, 54 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Exode 1] Qu'est-ce qui changea pour les Israélites quand un nouveau roi arriva en Égypte ? A) Ce roi n'avait pas connu Joseph B) Il était l'ami de Joseph C) Il était israélite D) Il quitta l'Égypte
+2. [Exode 1] Quelles villes les Israélites durent-ils bâtir pour Pharaon ? A) Sodome et Gomorrhe B) Jéricho et Aï C) Pitom et Ramsès D) Ninive et Babel
+3. [Exode 1] Comment s'appelaient les sages-femmes hébreues ? A) Agar et Kétoura B) Myriam et Tsippora C) Rachel et Léa D) Shiphra et Poua
+4. [Exode 1] Pourquoi les sages-femmes n'obéirent-elles pas à l'ordre de Pharaon ? A) Elles ne comprenaient pas l'égyptien B) Elles étaient malades C) Elles avaient peur des Israélites D) Elles craignaient le vrai Dieu
+5. [Exode 1] Quel ordre Pharaon donna-t-il au sujet des garçons hébreux nouveau-nés ? A) Les élever au palais B) Les envoyer au désert C) Les jeter dans le Nil D) Les vendre comme esclaves
+6. [Exode 2] Dans quoi la mère de Moïse le déposa-t-elle ? A) Un berceau en bois B) Une barque C) Une corbeille en papyrus D) Un panier d'osier tressé de lin
+7. [Exode 2] Qui trouva Moïse au bord du Nil ? A) Myriam B) Une servante égyptienne C) La fille de Pharaon D) La femme de Pharaon
+8. [Exode 2] Pourquoi l'enfant fut-il appelé Moïse ? A) Parce qu'il était le fils de Pharaon B) Parce qu'il avait été tiré de l'eau C) Parce qu'il était beau D) Parce qu'il était fort
+9. [Exode 2] Dans quel pays Moïse s'enfuit-il après avoir tué un Égyptien ? A) Le pays de Canaan B) Le pays de Madian C) Le pays de Goshen D) Le pays d'Édom
+10. [Exode 2] Quelle femme Moïse épousa-t-il à Madian ? A) Myriam B) Ruth C) Tsippora D) Rahab
+11. [Exode 3] Sous quelle forme l'ange de Jéhovah apparut-il à Moïse ? A) Dans un rêve B) Dans une nuée C) Dans une flamme de feu, au milieu d'un buisson épineux D) Comme un berger
+12. [Exode 3] Sur quelle montagne Moïse vit-il le buisson qui brûlait ? A) L'Horeb, la montagne du vrai Dieu B) Le mont Nébo C) Le mont Carmel D) Le mont Moria
+13. [Exode 3] Que demanda Dieu à Moïse près du buisson ? A) De se prosterner sept fois B) De fermer les yeux C) D'enlever ses sandales D) D'offrir un sacrifice
+14. [Exode 3] Que dit Dieu à Moïse en Exode 3:14 au sujet de son nom ? A) « Je suis le Dieu caché » B) « Je n'ai pas de nom » C) « Je suis le roi d'Égypte » D) « Je deviendrai ce que je choisirai de devenir »
+15. [Exode 3] Selon Exode 3:15, pendant combien de temps le nom de Jéhovah est-il son nom ? A) Pendant 40 ans B) Pour toujours C) Jusqu'à la sortie d'Égypte D) Jusqu'à la mort de Moïse
+16. [Exode 4] Que devint le bâton de Moïse jeté à terre ? A) Du feu B) Un arbre C) Un poisson D) Un serpent
+17. [Exode 4] Quelle excuse Moïse donna-t-il pour ne pas parler à Pharaon ? A) Il était trop vieux B) Il était malade C) Il ne connaissait pas l'égyptien D) Il avait la bouche et la langue lentes
+18. [Exode 4] Qui Jéhovah désigna-t-il pour parler à la place de Moïse ? A) Josué B) Myriam C) Jéthro D) Aaron, son frère
+19. [Exode 5] Que répondit Pharaon à Moïse et Aaron ? A) « Je crains votre Dieu » B) « Qui est Jéhovah, pour que j'obéisse à sa voix ? » C) « Revenez dans un an » D) « Partez tout de suite »
+20. [Exode 5] Quelle punition Pharaon imposa-t-il aux Israélites après la demande de Moïse ? A) Leur retirer leurs troupeaux B) Les mettre en prison C) Leur interdire de manger D) Ne plus leur fournir de paille pour les briques
+21. [Exode 7] Qu'arriva-t-il aux bâtons des prêtres-magiciens d'Égypte ? A) Ils se brisèrent B) Ils brûlèrent C) Ils devinrent des arbres D) Le bâton d'Aaron les avala
+22. [Exode 7] Quelle fut la première plaie d'Égypte ? A) Les moustiques B) L'eau du Nil changée en sang C) Les ténèbres D) Les grenouilles
+23. [Exode 8] Quelle fut la deuxième plaie ? A) Les taons B) La grêle C) Les grenouilles D) Les sauterelles
+24. [Exode 8] Que dirent les prêtres-magiciens à Pharaon lors de la plaie des moustiques ? A) « Partons d'ici » B) « C'est un hasard » C) « C'est le doigt de Dieu ! » D) « Nous pouvons faire pareil »
+25. [Exode 8] Quelle région fut épargnée par les taons ? A) Le palais de Pharaon B) Le désert C) Toute l'Égypte D) Le pays de Goshen
+26. [Exode 9] Que devinrent les cendres jetées en l'air par Moïse ? A) De la grêle B) Des furoncles sur les hommes et les animaux C) Une nuée sombre D) Des sauterelles
+27. [Exode 10] Qu'est-ce qu'un vent d'est amena sur l'Égypte ? A) Des moustiques B) Des grenouilles C) De la grêle D) Des sauterelles
+28. [Exode 10] Pendant combien de jours les ténèbres couvrirent-elles l'Égypte ? A) Dix jours B) Un jour C) Trois jours D) Sept jours
+29. [Exode 11] Quelle fut la dixième plaie ? A) Les ténèbres B) La mort des premiers-nés C) Les furoncles D) La grêle
+30. [Exode 12] Quel âge devait avoir l'animal de la Pâque ? A) Trois ans B) Deux ans C) Un an D) Huit jours
+31. [Exode 12] Où les Israélites devaient-ils mettre le sang de l'animal de la Pâque ? A) Sur leur front B) Sur le toit C) Sur les deux montants et le haut de la porte D) Sur l'autel
+32. [Exode 12] Avec quoi la viande de la Pâque devait-elle être mangée ? A) Des lentilles B) Des pains sans levain et des herbes amères C) Du vin et des figues D) Du miel
+33. [Exode 12] Combien de temps les Israélites avaient-ils habité en Égypte et en Canaan, selon Exode 12:40 ? A) 430 ans B) 400 ans C) 40 ans D) 215 ans
+34. [Exode 13] Comment Jéhovah guidait-il le peuple le jour et la nuit ? A) Un ange visible B) Une trompette C) Une étoile D) Une colonne de nuage le jour, une colonne de feu la nuit
+35. [Exode 13] Les os de quel patriarche Moïse emporta-t-il ? A) Abraham B) Isaac C) Joseph D) Jacob
+36. [Exode 14] Que dit Moïse au peuple effrayé devant la mer ? A) « Fuyons dans le désert » B) « N'ayez pas peur ! Restez calmes et voyez comment Jéhovah va vous sauver » C) « Retournons en Égypte » D) « Prenez vos armes »
+37. [Exode 14] Qu'est-ce qui sépara les eaux de la mer Rouge toute la nuit ? A) Un fort vent d'est B) Un tremblement de terre C) La colonne de feu D) Un ange armé
+38. [Exode 14] Combien de soldats de Pharaon qui étaient entrés dans la mer survécurent-ils ? A) Un seul B) La moitié C) Dix D) Aucun
+39. [Exode 15] Quelle prophétesse prit un tambourin pour chanter après la traversée ? A) Tsippora B) Hanna C) Débora D) Myriam
+40. [Exode 15] Comment s'appelait le lieu où l'eau était amère ? A) Massa B) Mara C) Élim D) Réphidim
+41. [Exode 15] Combien de sources et de palmiers y avait-il à Élim ? A) 70 sources et 12 palmiers B) 10 sources et 40 palmiers C) 7 sources et 12 palmiers D) 12 sources et 70 palmiers
+42. [Exode 16] Comment les Israélites appelèrent-ils la nourriture tombée du ciel ? A) La rosée B) Le miel du désert C) Le pain d'or D) La manne
+43. [Exode 16] Combien de manne fallait-il ramasser le sixième jour ? A) Autant que d'habitude B) La moitié C) Le double D) Rien
+44. [Exode 16] Pendant combien d'années les Israélites mangèrent-ils la manne ? A) 40 ans B) 12 ans C) 70 ans D) 7 ans
+45. [Exode 17] Que fit Moïse pour donner de l'eau au peuple à l'Horeb ? A) Il creusa un puits B) Il pria pour la pluie C) Il jeta du bois dans l'eau D) Il frappa le rocher
+46. [Exode 17] Que se passait-il quand Moïse levait les mains pendant le combat contre Amalec ? A) Amalec l'emportait B) Il pleuvait C) Israël l'emportait D) Le soleil s'arrêtait
+47. [Exode 17] Qui soutint les mains de Moïse pendant la bataille ? A) Éléazar et Phinéas B) Jéthro et Aaron C) Aaron et Hour D) Josué et Caleb
+48. [Exode 18] Quel conseil Jéthro donna-t-il à Moïse ? A) Faire la guerre aux Madianites B) Construire une ville C) Retourner en Égypte D) Choisir des hommes capables pour l'aider à juger
+49. [Exode 19] Que deviendrait Israël s'il obéissait à Jéhovah, selon Exode 19:5 ? A) Le maître de l'Égypte B) Son bien particulier parmi tous les peuples C) Le peuple le plus riche D) Un peuple sans loi
+50. [Exode 19] Pourquoi le mont Sinaï fumait-il tout entier ? A) À cause de la foudre seulement B) Parce que Jéhovah y était descendu dans le feu C) À cause d'un volcan D) Parce que le peuple y avait mis le feu
+51. [Exode 20] Quel est le premier des Dix Commandements ? A) Ne pas avoir d'autres dieux que Jéhovah B) Ne pas tuer C) Honorer ses parents D) Respecter le sabbat
+52. [Exode 20] Quel jour Israël devait-il garder saint ? A) Le jour de la Pâque seulement B) Chaque dixième jour C) Le jour du sabbat D) Le premier jour
+53. [Exode 20] Quelle promesse accompagne le commandement d'honorer son père et sa mère ? A) Avoir beaucoup d'enfants B) Devenir riche C) Devenir roi D) Vivre longtemps dans le pays
+54. [Exode 20] Que dit le dernier des Dix Commandements ? A) Ne pas voler B) Ne pas mentir C) Ne pas désirer ce qui appartient à son prochain D) Ne pas tuer
