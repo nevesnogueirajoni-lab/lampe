@@ -2,7 +2,7 @@ Vérification d'une banque de questions bibliques (lot 007, 88 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Genèse 1] Selon Genèse 1:1, que fit Dieu au commencement ? A) Il fit le déluge B) Il créa les anges C) Il créa les cieux et la terre D) Il appela Abraham
+1. [Genèse 1] Selon Genèse 1:1, que fit Dieu au commencement ? A) Il fit le déluge B) Il créa les anges C) Il créa le ciel et la terre D) Il appela Abraham
 2. [Genèse 1] Quelle fut la première chose que Dieu dit « Qu'il y ait » en Genèse 1 ? A) L'eau B) Les étoiles C) Les animaux D) La lumière
 3. [Genèse 1] Quel jour de la création Dieu fit-il apparaître le soleil et la lune ? A) Le premier jour B) Le quatrième jour C) Le sixième jour D) Le deuxième jour
 4. [Genèse 1] Selon Genèse 1:26, à l'image de qui l'homme fut-il fait ? A) À l'image du soleil B) À l'image des animaux C) À l'image de Dieu D) À l'image des anges
@@ -16,9 +16,9 @@ Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être jus
 12. [Genèse 2] Qui donna des noms aux animaux ? A) Les anges B) Dieu C) Ève D) Adam
 13. [Genèse 2] À partir de quoi Jéhovah forma-t-il la femme ? A) D'une branche B) D'une pierre C) D'une côte prise à l'homme D) De la poussière
 14. [Genèse 3] Quel animal parla à la femme dans le jardin ? A) Le lion B) L'âne C) Le serpent D) Le corbeau
-15. [Genèse 3] Que dit le serpent à la femme au sujet de la mort ? A) « Vous mourrez demain » B) « Vous vivrez au ciel » C) « Dieu vous pardonnera » D) « Vous ne mourrez certainement pas »
+15. [Genèse 3] Que dit le serpent à la femme au sujet de la mort ? A) « Vous mourrez demain » B) « Vous vivrez au ciel » C) « Dieu vous pardonnera » D) « Vous ne mourrez absolument pas »
 16. [Genèse 3] Avec quoi Adam et Ève se firent-ils des sortes de pagnes ? A) Des feuilles de figuier B) Des peaux de bêtes C) Des feuilles de palmier D) Du lin
-17. [Genèse 3] Que dit Genèse 3:15 que la descendance de la femme ferait au serpent ? A) Elle lui écrasera la tête B) Elle le nourrira C) Elle le chassera du jardin D) Elle lui donnera un nom
+17. [Genèse 3] Que dit Genèse 3:15 que la descendance de la femme ferait au serpent ? A) Il lui écrasera la tête B) Elle le nourrira C) Elle le chassera du jardin D) Elle lui donnera un nom
 18. [Genèse 3] Pourquoi Adam appela-t-il sa femme Ève ? A) Parce que Dieu l'avait ordonné B) Parce qu'elle allait être la mère de tous les vivants C) Parce qu'elle était née le soir D) Parce qu'elle venait d'Éden
 19. [Genèse 3] Qu'est-ce que Jéhovah plaça à l'est du jardin d'Éden pour garder le chemin de l'arbre de vie ? A) Des lions B) Des chérubins et la lame flamboyante d'une épée C) Un fleuve D) Un mur de pierre
 20. [Genèse 4] Quel était le travail d'Abel ? A) Chasseur B) Cultivateur C) Forgeron D) Berger
@@ -81,7 +81,7 @@ Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être jus
 77. [Genèse 24] Quel signe le serviteur d'Abraham demanda-t-il à Jéhovah ? A) Qu'il pleuve B) Qu'un ange lui parle C) Que la jeune fille propose aussi de l'eau à ses chameaux D) Qu'une étoile apparaisse
 78. [Genèse 24] Quelle jeune fille vint au puits avec sa jarre ? A) Léa B) Rachel C) Dina D) Rébecca
 79. [Genèse 24] Comment s'appelait le frère de Rébecca ? A) Nahor B) Labân C) Loth D) Bétuel
-80. [Genèse 24] Que répondit Rébecca quand on lui demanda si elle voulait partir avec le serviteur ? A) « Pas encore » B) « Je veux partir » C) « Demande à mon père » D) « Dans dix jours »
+80. [Genèse 24] Que répondit Rébecca quand on lui demanda si elle voulait partir avec le serviteur ? A) « Pas encore » B) « Oui, je suis d'accord » C) « Demande à mon père » D) « Dans dix jours »
 81. [Genèse 24] Comment Isaac réagit-il envers Rébecca ? A) Il tomba amoureux d'elle et fut consolé de la perte de sa mère B) Il la renvoya C) Il hésita longtemps D) Il partit en Égypte
 82. [Genèse 25] Quelle femme Abraham épousa-t-il après la mort de Sara ? A) Agar B) Milka C) Rébecca D) Ketoura
 83. [Genèse 25] Combien d'années vécut Abraham ? A) 127 ans B) 175 ans C) 969 ans D) 100 ans
