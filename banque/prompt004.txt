@@ -1,0 +1,58 @@
+Vérification d'une banque de questions bibliques (lot 004, 54 questions). Réponds à chaque question avec ta connaissance de la Bible (Traduction du monde nouveau 2018), sans regarder les réponses ailleurs. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, ou si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018). Sois sévère. Aucune autre phrase.
+
+1. [Daniel 7] Dans la vision de Daniel 7, à quoi ressemblait la première bête ? A) À un léopard B) À un lion avec des ailes d'aigle C) À un bouc D) À un ours
+2. [Daniel 7] Quel animal était la deuxième bête de Daniel 7 ? A) Un taureau B) Un ours C) Un lion D) Un loup
+3. [Daniel 7] Combien de têtes avait la bête semblable à un léopard en Daniel 7 ? A) Deux B) Sept C) Dix D) Quatre
+4. [Daniel 7] De quoi étaient faites les grandes dents de la quatrième bête de Daniel 7 ? A) De fer B) De bronze C) D'or D) De pierre
+5. [Daniel 7] Combien de cornes avait la quatrième bête de Daniel 7 ? A) Quatre B) Sept C) Deux D) Dix
+6. [Daniel 7] Qu'est-ce qui poussa au milieu des cornes de la quatrième bête ? A) Une couronne B) Une épée C) Une autre petite corne D) Un arbre
+7. [Daniel 7] Comment Daniel appelle-t-il celui qui s'assoit sur le trône en Daniel 7 ? A) Le Roi du nord B) Le Fils de David C) L'Ancien des jours D) Le Prince des princes
+8. [Daniel 7] Qui vient avec les nuages du ciel en Daniel 7:13 ? A) Un ange de feu B) Quelqu'un comme un fils d'homme C) Un grand aigle D) Le roi de Babylone
+9. [Daniel 7] Que reçoit celui qui est « comme un fils d'homme » en Daniel 7:14 ? A) Un royaume qui ne sera jamais détruit B) Une ville d'or C) Un temple à Babylone D) Une armée de chars
+10. [Daniel 7] Selon Daniel 7:18, qui recevra le royaume avec lui ? A) Les Babyloniens B) Les rois de la terre C) Les saints du Très-Haut D) Les anges seulement
+11. [Daniel 8] Près de quel cours d'eau se trouvait Daniel dans la vision de Daniel 8 ? A) Le Jourdain B) L'Ulaï C) Le Nil D) L'Euphrate
+12. [Daniel 8] Quel animal à deux cornes Daniel vit-il en Daniel 8 ? A) Un taureau B) Un cerf C) Un bélier D) Un bouc
+13. [Daniel 8] Que représente le bélier à deux cornes de Daniel 8 ? A) Les rois de Grèce B) Le roi de Babylone C) Les rois de Médie et de Perse D) Le roi d'Égypte
+14. [Daniel 8] Que représente le bouc de Daniel 8 ? A) Rome B) Babylone C) La Perse D) La Grèce
+15. [Daniel 8] Qu'arriva-t-il à la grande corne du bouc en Daniel 8 ? A) Elle fut brisée et quatre cornes la remplacèrent B) Elle tomba sur le bélier C) Elle grandit jusqu'au ciel sans se briser D) Elle devint d'or
+16. [Daniel 8] Combien de « soirs et matins » sont annoncés en Daniel 8:14 ? A) 2 300 B) 70 C) 1 290 D) 1 335
+17. [Daniel 8] Quel ange reçoit l'ordre d'expliquer la vision à Daniel en Daniel 8 ? A) Raphaël B) Uriel C) Gabriel D) Michel
+18. [Daniel 9] Dans quels écrits Daniel comprit-il que la désolation de Jérusalem durerait 70 ans ? A) Dans ceux d'Isaïe B) Dans ceux d'Ézéchiel C) Dans les écrits de Jérémie D) Dans ceux de Moïse
+19. [Daniel 9] Que fit Daniel après avoir compris la prophétie des 70 ans ? A) Il se cacha B) Il écrivit au roi C) Il partit pour Jérusalem D) Il pria Jéhovah en jeûnant
+20. [Daniel 9] Qui vint vers Daniel pendant qu'il priait, en Daniel 9 ? A) Gabriel B) Michel C) Jérémie D) Darius
+21. [Daniel 9] Combien de semaines sont fixées en Daniel 9:24 ? A) 40 B) 70 C) 62 D) 7
+22. [Daniel 9] Combien de semaines en tout jusqu'au Messie Dirigeant, selon Daniel 9:25 ? A) 40 semaines B) 3 semaines et demie C) 70 semaines D) 7 semaines et 62 semaines
+23. [Daniel 9] Que devait-il arriver au Messie après les 62 semaines ? A) Il reconstruirait le temple B) Il serait retranché C) Il deviendrait roi de Perse D) Il partirait à Babylone
+24. [Daniel 10] Pendant combien de temps Daniel fut-il en deuil en Daniel 10 ? A) Trois semaines B) Quarante jours C) Trois jours D) Sept jours
+25. [Daniel 10] Près de quel grand fleuve Daniel eut-il la vision de Daniel 10 ? A) Le Jourdain B) Le Hiddékel C) L'Ulaï D) Le Nil
+26. [Daniel 10] Pendant combien de jours le prince de Perse s'opposa-t-il à l'ange de Daniel 10 ? A) 3 jours B) 7 jours C) 40 jours D) 21 jours
+27. [Daniel 10] Qui vint aider l'ange contre le prince de Perse en Daniel 10 ? A) Gabriel B) Michel C) Cyrus D) Daniel
+28. [Daniel 11] Quels deux rois s'opposent tout au long de Daniel 11 ? A) Le roi de Tyr et le roi de Sidon B) Le roi de Juda et le roi d'Israël C) Le roi de l'est et le roi de l'ouest D) Le roi du nord et le roi du sud
+29. [Daniel 12] Qui se lèvera, selon Daniel 12:1 ? A) Daniel B) Michel, le grand prince C) Gabriel D) Le roi du nord
+30. [Daniel 12] Selon Daniel 12:4, que deviendra abondant au temps de la fin ? A) Les guerres B) Les famines C) L'or D) La vraie connaissance
+31. [Daniel 12] À quoi sont comparés ceux qui ont de la perspicacité en Daniel 12:3 ? A) À l'éclat du ciel et aux étoiles B) À des lions C) À des rivières D) À des cèdres
+32. [Daniel 12] Quel nombre de jours est annoncé en Daniel 12:11 ? A) 70 B) 2 300 C) 1 335 D) 1 290
+33. [Daniel 12] Qui est heureux selon Daniel 12:12 ? A) Celui qui devient roi B) Celui qui compte les 2 300 soirs C) Celui qui attend et arrive aux 1 335 jours D) Celui qui part à Jérusalem
+34. [Daniel 12] Quelle promesse est faite à Daniel à la fin du livre ? A) Il ne mourra jamais B) Il retournera à Jérusalem C) Il deviendra roi de Perse D) Il se lèvera pour recevoir sa part à la fin des jours
+35. [Osée 1] Quelle femme Osée épousa-t-il ? A) Tamar B) Gomer C) Rahab D) Abigaïl
+36. [Osée 1] Quel nom fut donné au premier fils d'Osée ? A) Ichabod B) Jezreel C) Lo-Ammi D) Emmanuel
+37. [Osée 1] Quel nom fut donné à la fille née ensuite chez Osée ? A) Gomer B) Lo-Rouhama C) Lo-Ammi D) Jezreel
+38. [Osée 1] Que signifiait le nom du dernier enfant, Lo-Ammi ? A) Dieu avec nous B) Dieu sème C) Pas mon peuple D) Pas de miséricorde
+39. [Osée 2] Selon Osée 2:23, que dira Jéhovah à ceux qui n'étaient « pas son peuple » ? A) « Vous êtes mon peuple » B) « Vous êtes des étrangers » C) « Retournez en Égypte » D) « Partez loin de moi »
+40. [Osée 3] Combien de pièces d'argent Osée paya-t-il pour reprendre sa femme ? A) 30 B) 15 C) 100 D) 50
+41. [Osée 3] Que représentait l'amour d'Osée pour sa femme infidèle ? A) L'amour de Babylone pour ses dieux B) L'amour d'un roi pour son trône C) L'amour de Jéhovah pour Israël infidèle D) L'amour d'un berger pour ses brebis
+42. [Osée 4] Selon Osée 4:6, pourquoi le peuple de Dieu sera-t-il réduit au silence ? A) Parce qu'il est trop petit B) Parce qu'il n'a pas de roi C) Parce qu'il manque de connaissance D) Parce qu'il est trop pauvre
+43. [Osée 6] Qu'est-ce qui fait plaisir à Jéhovah selon Osée 6:6 ? A) Les holocaustes nombreux B) Les fêtes solennelles C) Les temples richement décorés D) L'amour fidèle plutôt que le sacrifice
+44. [Osée 6] À quoi Jéhovah compare-t-il l'amour fidèle d'Éphraïm et de Juda en Osée 6:4 ? A) À un cèdre du Liban B) Aux nuages du matin et à la rosée qui disparaissent vite C) À un fleuve qui ne s'arrête pas D) À un rocher solide
+45. [Osée 7] À quoi Éphraïm est-il comparé en Osée 7:8 ? A) À un pain levé B) À une galette ronde qui n'a pas été retournée C) À une coupe brisée D) À une lampe éteinte
+46. [Osée 7] À quel oiseau Éphraïm est-il comparé en Osée 7:11 ? A) À un aigle B) À un moineau C) À une colombe naïve D) À un corbeau
+47. [Osée 8] Que dit Osée 8:7 de ceux qui sèment du vent ? A) Ils seront protégés B) Ils récolteront la tempête C) Ils récolteront du blé D) Ils deviendront riches
+48. [Osée 10] Que demande Osée 10:12 de semer ? A) De l'orge B) Du vent C) La justice D) La discorde
+49. [Osée 11] D'où Jéhovah dit-il avoir appelé son fils en Osée 11:1 ? A) D'Égypte B) D'Assyrie C) De Babylone D) De Canaan
+50. [Osée 11] Avec quoi Jéhovah dit-il avoir attiré Israël en Osée 11:4 ? A) Avec de l'or B) Avec des chaînes de fer C) Avec une armée D) Avec les cordes de l'amour
+51. [Osée 12] Quel ancêtre d'Israël Osée 12 rappelle-t-il, qui lutta avec un ange ? A) Moïse B) Abraham C) Jacob D) Joseph
+52. [Osée 13] Quelle question est posée à la Mort en Osée 13:14 ? A) « Pourquoi as-tu peur ? » B) « Où sont tes aiguillons ? » C) « Où est ton roi ? » D) « Qui es-tu ? »
+53. [Osée 14] Selon Osée 14:2, que veut offrir le peuple qui revient à Jéhovah ? A) Des idoles d'argent B) Des chevaux C) Son armée D) La louange de ses lèvres
+54. [Osée 14] D'après le dernier verset d'Osée, qui marche dans les chemins de Jéhovah ? A) Les rebelles B) Les prêtres seulement C) Les justes D) Les rois seulement
