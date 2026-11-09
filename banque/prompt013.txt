@@ -1,41 +1,27 @@
-Vérification d'une banque de questions bibliques (lot 013, 37 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+Vérification d'une banque de questions bibliques (lot 013, 23 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Ruth 1] Pourquoi Élimélek et sa famille quittèrent-ils Bethléem ? A) Pour fuir le roi B) À cause d'une famine C) À cause d'une guerre D) Pour trouver de l'or
-2. [Ruth 1] Comment s'appelaient les deux belles-filles de Noémi ? A) Anne et Penina B) Orpa et Ruth C) Miriam et Débora D) Léa et Rachel
-3. [Ruth 1] Que dit Ruth à Noémi en Ruth 1:16 ? A) « Je ne te connais plus » B) « Ton peuple sera mon peuple, et ton Dieu, mon Dieu » C) « Je vais épouser un Moabite » D) « Je retourne chez ma mère »
-4. [Ruth 1] Quel nom Noémi voulut-elle qu'on lui donne à son retour ? A) Tamar B) Orpa C) Mara D) Naomi
-5. [Ruth 2] Dans le champ de qui Ruth alla-t-elle glaner ? A) Jessé B) Élimélek C) Boaz D) Obed
-6. [Ruth 4] Qui Ruth épousa-t-elle ? A) Obed B) Boaz C) Kiliôn D) Mahlôn
-7. [Ruth 4] Quel fils de Ruth fut le grand-père de David ? A) Jessé B) Salmôn C) Obed D) Boaz
-8. [1 Samuel 1] Comment s'appelaient les deux femmes d'Elkana ? A) Anne et Penina B) Abigaïl et Mikal C) Ruth et Orpa D) Léa et Rachel
-9. [1 Samuel 1] Que promit Anne à Jéhovah s'il lui donnait un fils ? A) De le donner à Jéhovah pour toute sa vie B) De quitter Elkana C) De construire un autel D) De lui offrir un taureau
-10. [1 Samuel 1] Que crut Héli en voyant Anne prier ? A) Qu'elle était ivre B) Qu'elle était folle C) Qu'elle dormait D) Qu'elle était malade
-11. [1 Samuel 1] Comment Anne appela-t-elle son fils ? A) Samuel B) Salomon C) Samson D) Saül
-12. [1 Samuel 2] Que faisait Anne chaque année pour Samuel ? A) Une lampe B) Une sandale C) Un gâteau D) Un petit manteau sans manches
-13. [1 Samuel 2] Comment étaient les fils d'Héli ? A) Des prophètes fidèles B) Des hommes corrompus, sans respect pour Jéhovah C) Des juges sages D) Des bergers
-14. [1 Samuel 3] Que répondit Samuel quand Jéhovah l'appela la nuit ? A) « Parle, car ton serviteur écoute » B) « Je dors » C) « Qui es-tu ? » D) « Va voir Héli »
-15. [1 Samuel 4] Qu'est-ce que les Philistins prirent lors de la bataille où moururent les fils d'Héli ? A) Les tablettes de pierre B) L'arche de Dieu C) L'autel D) Le tabernacle
-16. [1 Samuel 5] Qu'arriva-t-il à la statue de Dagon devant l'arche ? A) Elle tomba devant l'Arche, tête et mains séparées B) Elle parla C) Elle disparut D) Elle se mit à briller
-17. [1 Samuel 8] Que demanda le peuple à Samuel devenu vieux ? A) Un roi pour le juger, comme toutes les nations B) Un autre prophète C) Un nouveau temple D) Une armée
-18. [1 Samuel 8] Selon Jéhovah, qui le peuple rejetait-il en demandant un roi ? A) Jéhovah lui-même B) Samuel seulement C) Les Philistins D) Les prêtres
-19. [1 Samuel 9] Comment était Saül physiquement ? A) Aveugle B) Petit et roux C) Plus grand que tout le peuple, d'une tête D) Boiteux
-20. [1 Samuel 9] Que cherchait Saül quand il rencontra Samuel ? A) Un prophète B) Les ânesses de son père C) Une femme D) Un trésor
-21. [1 Samuel 10] Où Saül se cachait-il quand on voulut le présenter comme roi ? A) Au milieu des bagages B) Sous un arbre C) Dans un puits D) Dans une grotte
-22. [1 Samuel 13] Quel genre d'homme Jéhovah chercherait-il pour remplacer Saül ? A) Un grand guerrier B) Un homme de la tribu de Lévi C) Un homme selon son cœur D) Un homme très riche
-23. [1 Samuel 15] Selon 1 Samuel 15:22, qu'est-ce qui est meilleur qu'un sacrifice ? A) Jeûner B) Obéir C) Prier longtemps D) Donner de l'or
-24. [1 Samuel 16] Selon 1 Samuel 16:7, que voit Jéhovah ? A) L'apparence B) La taille C) Le cœur D) La richesse
-25. [1 Samuel 16] Qui Samuel oignit-il comme futur roi chez Jessé ? A) David, le plus jeune B) Abinadab C) Shamma D) Éliab, l'aîné
-26. [1 Samuel 16] Que faisait David pour calmer Saül ? A) Il priait B) Il chantait des psaumes à voix haute C) Il jouait de la harpe D) Il lui racontait des histoires
-27. [1 Samuel 17] De quelle ville venait le géant Goliath ? A) Ékrôn B) Gath C) Gaza D) Ashdod
-28. [1 Samuel 17] Combien de pierres David choisit-il dans le ruisseau ? A) Une B) Cinq C) Sept D) Trois
-29. [1 Samuel 17] Au nom de qui David affronta-t-il Goliath ? A) Au nom de Jéhovah des armées B) En son propre nom C) Au nom de Jessé D) Au nom de Saül
-30. [1 Samuel 17] Où la pierre de David frappa-t-elle Goliath ? A) À l'épaule B) Au front C) À la jambe D) Au cœur
-31. [1 Samuel 18] Quel fils de Saül devint un ami très proche de David ? A) Malkishoua B) Abner C) Ishboshet D) Jonathan
-32. [1 Samuel 18] Que chantaient les femmes après la victoire de David ? A) « David est roi » B) « Saül a tué des milliers d'ennemis, et David, des dizaines de milliers » C) « Jéhovah est grand » D) « Gloire à Saül »
-33. [1 Samuel 24] Pourquoi David refusa-t-il de tuer Saül dans la grotte ? A) Jonathan l'en empêcha B) Saül était l'oint de Jéhovah C) Il avait peur D) Saül était trop fort
-34. [1 Samuel 25] Comment s'appelait la femme intelligente de Nabal ? A) Ahinoam B) Bethsabée C) Abigaïl D) Mikal
-35. [1 Samuel 25] Que signifiait le nom de Nabal, selon sa femme ? A) Riche B) Stupide C) Courageux D) Berger
-36. [1 Samuel 28] Qui Saül consulta-t-il à Endor ? A) Un prêtre B) Une médium C) Samuel vivant D) Un prophète de Jéhovah
-37. [1 Samuel 31] Comment Saül mourut-il sur le mont Guilboa ? A) David le tua B) Une flèche le tua sur le coup C) Il fut capturé D) Il prit l'épée et se jeta dessus
+1. [2 Samuel 1] Pour qui David composa-t-il un chant funèbre au début de 2 Samuel ? A) Pour Absalom B) Pour Saül et Jonathan C) Pour Samuel D) Pour Goliath
+2. [2 Samuel 2] Dans quelle ville David fut-il d'abord oint roi sur la maison de Juda ? A) Silo B) Hébron C) Bethléem D) Jérusalem
+3. [2 Samuel 5] Quel âge avait David quand il devint roi ? A) 25 ans B) 30 ans C) 40 ans D) 20 ans
+4. [2 Samuel 5] Quelle forteresse David prit-elle aux Jébusites ? A) Jéricho B) La tour de Babel C) La forteresse de Sion D) La forteresse de Gath
+5. [2 Samuel 6] Pourquoi Ouzza fut-il frappé à mort près de l'Arche ? A) Il l'avait ouverte B) Il l'avait volée C) Il avait tendu la main pour la retenir D) Il avait refusé de la porter
+6. [2 Samuel 6] Comment David manifesta-t-il sa joie en faisant monter l'Arche à Jérusalem ? A) Il fit sonner les cloches B) Il dansait devant Jéhovah de toutes ses forces C) Il construisit une tour D) Il donna un grand festin
+7. [2 Samuel 7] Quel prophète conseillait David quand il voulut construire une maison pour l'Arche ? A) Gad B) Élie C) Nathan D) Samuel
+8. [2 Samuel 7] Que promit Jéhovah à David au sujet de son royaume ? A) Il serait établi pour toujours B) Il passerait à l'Égypte C) Il durerait 70 ans D) Il serait partagé entre ses fils
+9. [2 Samuel 9] Quelle bonté David montra-t-il à Mephibosheth, fils de Jonathan ? A) Il lui rendit les terres de Saül et le fit manger à sa table B) Il lui donna sa fille en mariage C) Il le nomma prêtre D) Il en fit un général
+10. [2 Samuel 11] Qui était Bethsabée ? A) La femme d'Urie le Hittite B) La sœur d'Absalom C) La femme de Nathan D) La fille de Saül
+11. [2 Samuel 12] Quelle phrase Nathan dit-il à David après sa parabole de la brebis ? A) « C'est toi cet homme ! » B) « Le roi est innocent » C) « Tu es pardonné » D) « Va en paix »
+12. [2 Samuel 12] Comment David réagit-il quand Nathan lui révéla sa faute ? A) Il accusa Bethsabée B) Il nia tout C) Il chassa Nathan D) Il reconnut : « J'ai péché contre Jéhovah »
+13. [2 Samuel 12] Quel fils naquit à David et Bethsabée et fut aimé de Jéhovah ? A) Absalom B) Salomon C) Amnon D) Adonija
+14. [2 Samuel 14] Pour quoi Absalom était-il particulièrement admiré ? A) Sa beauté B) Sa sagesse C) Sa piété D) Sa force au combat
+15. [2 Samuel 15] Comment Absalom gagna-t-il le cœur des Israélites ? A) En faisant des miracles B) Il leur volait le cœur en se montrant aimable avec eux C) En battant les Philistins D) En leur donnant de l'or
+16. [2 Samuel 15] Quel conseiller de David passa du côté d'Absalom ? A) Ahitophel B) Nathan C) Joab D) Houshaï
+17. [2 Samuel 18] Comment Absalom fut-il pris pendant sa fuite ? A) Sa tête se prit dans les branches d'un grand arbre B) Il fut capturé dans une grotte C) Son cheval tomba D) Il se perdit dans le désert
+18. [2 Samuel 18] Qui tua Absalom ? A) Joab B) David C) Houshaï D) Abishaï
+19. [2 Samuel 18] Comment David réagit-il à la mort d'Absalom ? A) Il remercia Joab B) Il fit une fête C) Il pleura : « Mon fils Absalom ! Si seulement j'étais mort à ta place ! » D) Il resta indifférent
+20. [2 Samuel 22] Comment David décrit-il Jéhovah dans son chant de 2 Samuel 22 ? A) Un dieu parmi d'autres B) Mon rocher, ma forteresse et celui qui me sauve C) Un juge sévère D) Un roi lointain
+21. [2 Samuel 23] Qu'est-ce que David désirait boire, que trois guerriers allèrent chercher à Bethléem ? A) De l'eau du puits près de la porte de Bethléem B) Du miel C) Du lait D) Du vin
+22. [2 Samuel 23] Que fit David de l'eau rapportée par ses trois guerriers ? A) Il la partagea avec l'armée B) Il la garda en souvenir C) Il la versa pour Jéhovah au lieu de la boire D) Il la but aussitôt
+23. [2 Samuel 24] Pourquoi David refusa-t-il qu'on lui donne gratuitement l'aire d'Arauna ? A) Il n'aimait pas Arauna B) Il ne voulait pas offrir à Jéhovah ce qui ne lui coûtait rien C) Il voulait payer plus cher par fierté D) La loi interdisait les cadeaux
