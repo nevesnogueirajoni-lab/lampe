@@ -1,0 +1,27 @@
+Vérification d'une banque de questions bibliques (lot 024, 23 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Jean 1] Selon Jean 1:1, qu'était la Parole au commencement ? A) Elle était un ange parmi d'autres B) Elle était avec Dieu, et la Parole était un dieu C) Elle n'existait pas encore D) Elle était le Dieu Tout-Puissant lui-même
+2. [Jean 1] Comment Jean le Baptiseur présenta-t-il Jésus ? A) « Voici le grand prêtre » B) « Voici Élie » C) « Voici l'Agneau de Dieu qui enlève le péché du monde » D) « Voici le roi des Juifs »
+3. [Jean 2] Quel fut le premier miracle de Jésus, à Cana ? A) Il multiplia les pains B) Il changea l'eau en vin C) Il marcha sur l'eau D) Il guérit un aveugle
+4. [Jean 3] Pourquoi Dieu a-t-il donné son Fils unique, selon Jean 3:16 ? A) Parce qu'il a tant aimé le monde B) Parce que les anges le demandaient C) Pour devenir roi D) Pour punir les hommes
+5. [Jean 4] À qui Jésus demanda-t-il à boire au puits de Jacob ? A) À Pierre B) À un soldat C) À Marie D) À une Samaritaine
+6. [Jean 4] Comment faut-il adorer Dieu selon Jean 4:24 ? A) Seulement au temple B) Avec des images C) En secret seulement D) Avec l'esprit et la vérité
+7. [Jean 5] Que se passera-t-il pour tous ceux qui sont dans les tombes, selon Jean 5:28 ? A) Ils entendront sa voix et sortiront B) Ils resteront pour toujours C) Ils iront au ciel D) Ils seront oubliés
+8. [Jean 6] Selon Jean 6:44, que faut-il pour venir à Jésus ? A) Être prêtre B) Être attiré par le Père C) Être né à Jérusalem D) Être riche
+9. [Jean 8] Que fera la vérité selon Jean 8:32 ? A) Elle vous rendra riches B) Elle vous rendra libres C) Elle vous rendra tristes D) Elle vous rendra célèbres
+10. [Jean 8] Comment Jésus décrit-il le Diable en Jean 8:44 ? A) Un prophète B) Un meurtrier et le père du mensonge C) Un ange fidèle D) Un roi juste
+11. [Jean 11] Que fit Jésus devant la tombe de Lazare ? A) Il chanta B) Il pleura C) Il se fâcha contre Marthe D) Il partit
+12. [Jean 11] Que cria Jésus devant la tombe de Lazare ? A) « Lazare, sors ! » B) « Ouvrez la tombe ! » C) « Que la pierre roule ! » D) « Lazare, dors ! »
+13. [Jean 13] Que fit Jésus aux pieds de ses disciples lors du dernier repas ? A) Il les embrassa B) Il les sécha avec ses cheveux C) Il les oignit d'huile D) Il les lava
+14. [Jean 13] À quoi tous reconnaîtront-ils les disciples de Jésus, selon Jean 13:35 ? A) À leur richesse B) À l'amour qu'ils ont entre eux C) À leurs miracles D) À leurs vêtements
+15. [Jean 14] Comment Jésus se décrit-il en Jean 14:6 ? A) Le chemin, la vérité et la vie B) Le prophète d'Israël C) Le roi des rois D) Le grand prêtre
+16. [Jean 14] Que dit Jésus au sujet du Père en Jean 14:28 ? A) « Le Père et moi sommes une seule personne » B) « Le Père ne me connaît pas » C) « Le Père est plus grand que moi » D) « Je suis plus grand que le Père »
+17. [Jean 15] Quel est le plus grand amour selon Jean 15:13 ? A) Donner de l'argent B) Faire des miracles C) Donner sa vie pour ses amis D) Prier longtemps
+18. [Jean 17] Que signifie la vie éternelle selon Jean 17:3 ? A) Être riche B) Apprendre à connaître le seul vrai Dieu et Jésus Christ C) Vivre dans un palais D) Ne jamais travailler
+19. [Jean 17] Quelle est la position des disciples par rapport au monde, selon Jean 17:16 ? A) Ils ne font pas partie du monde B) Ils fuient le monde C) Ils appartiennent au monde D) Ils dirigent le monde
+20. [Jean 17] Qu'est-ce que la vérité selon Jean 17:17 ? A) L'opinion du plus grand nombre B) La parole de Dieu C) La philosophie D) La tradition
+21. [Jean 18] Que dit Jésus de son royaume devant Pilate ? A) Il est à Jérusalem B) Il commencera le lendemain C) Il est à Rome D) Il ne fait pas partie de ce monde
+22. [Jean 20] À qui Jésus ressuscité apparut-il près de la tombe en l'appelant par son nom ? A) Jeanne B) Marie de Magdala C) Marthe D) Salomé
+23. [Jean 21] Combien de fois Jésus demanda-t-il à Pierre s'il l'aimait ? A) Deux fois B) Une fois C) Trois fois D) Sept fois
