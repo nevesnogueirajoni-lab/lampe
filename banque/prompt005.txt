@@ -2,11 +2,11 @@ Vérification d'une banque de questions bibliques (lot 005, 48 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, ou si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018). Sois sévère. Aucune autre phrase.
 
-1. [Joël 1] Quels insectes ravagent le pays au début du livre de Joël ? A) Des sauterelles B) Des abeilles C) Des fourmis D) Des mouches
+1. [Joël 1] Quels insectes ravagent le pays au début du livre de Joël ? A) Des criquets B) Des abeilles C) Des fourmis D) Des mouches
 2. [Joël 1] De qui Joël était-il le fils ? A) D'Amoz B) De Hilquia C) De Beéri D) De Petouel
 3. [Joël 2] Selon Joël 2:13, que faut-il déchirer pour revenir à Jéhovah ? A) Ses vêtements seulement B) Le rideau du temple C) Les rouleaux de la Loi D) Son cœur, et non ses vêtements
-4. [Joël 2] Sur qui Jéhovah promet-il de répandre son esprit en Joël 2:28 ? A) Seulement sur les prophètes B) Sur toutes sortes de personnes C) Seulement sur les prêtres D) Seulement sur les rois
-5. [Joël 2] Selon Joël 2:32, qui sera sauvé ? A) Seulement les habitants de Jérusalem B) Quiconque invoque le nom de Jéhovah C) Seulement les prêtres D) Ceux qui ont beaucoup de bétail
+4. [Joël 2] Sur qui Jéhovah promet-il de répandre son esprit en Joël 2:28 ? A) Seulement sur les prophètes B) Sur toutes sortes d'humains C) Seulement sur les prêtres D) Seulement sur les rois
+5. [Joël 2] Selon Joël 2:32, qui sera sauvé ? A) Seulement les habitants de Jérusalem B) Tous ceux qui feront appel au nom de Jéhovah C) Seulement les prêtres D) Ceux qui ont beaucoup de bétail
 6. [Joël 3] Que doit-on forger avec les socs de charrue en Joël 3:10 ? A) Des pioches B) Des cloches C) Des épées D) Des faucilles
 7. [Joël 3] Dans quelle vallée Jéhovah rassemblera-t-il les nations en Joël 3 ? A) La vallée du Jourdain B) La vallée de Josaphat C) La vallée d'Hinnom D) La vallée d'Élah
 8. [Amos 1] Quel était le métier d'Amos ? A) Pêcheur B) Charpentier C) Éleveur de moutons D) Soldat
