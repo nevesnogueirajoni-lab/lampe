@@ -2,39 +2,39 @@ Vérification d'une banque de questions bibliques (lot 012, 36 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [1 Samuel 1] Comment s'appelaient les deux femmes d'Elkana ? A) Anne et Peninna B) Léa et Rachel C) Ruth et Orpa D) Miriam et Séphora
-2. [1 Samuel 1] Que promit Anne à Jéhovah si elle avait un fils ? A) De l'envoyer en Égypte B) De le donner à Jéhovah pour toute sa vie C) De le faire roi D) De l'appeler Élie
-3. [1 Samuel 1] Que pensa Éli en voyant Anne prier ? A) Qu'elle était ivre B) Qu'elle chantait C) Qu'elle était malade D) Qu'elle était prophétesse
+1. [1 Samuel 1] Comment s'appelaient les deux femmes d'Elkana ? A) Anne et Penina B) Léa et Rachel C) Ruth et Orpa D) Miriam et Séphora
+2. [1 Samuel 1] Quel vœu Anne fit-elle à Jéhovah si elle avait un fils ? A) De l'envoyer en Égypte B) De le donner à Jéhovah pour toute sa vie C) De le faire roi D) De l'appeler Élie
+3. [1 Samuel 1] Que pensa Héli en voyant Anne prier ? A) Qu'elle était ivre B) Qu'elle chantait C) Qu'elle était malade D) Qu'elle était prophétesse
 4. [1 Samuel 1] Comment Anne appela-t-elle son fils ? A) Samson B) Samuel C) Saül D) Salomon
-5. [1 Samuel 2] Comment étaient les fils d'Éli ? A) Des prophètes fidèles B) Des guerriers courageux C) Des juges sages D) Des vauriens qui ne respectaient pas Jéhovah
-6. [1 Samuel 2] Que faisait Anne pour Samuel chaque année ? A) Elle lui écrivait une lettre B) Elle lui faisait une petite tunique sans manches C) Elle lui apportait du pain D) Elle lui donnait de l'argent
-7. [1 Samuel 3] Que répondit Samuel quand Jéhovah l'appela la nuit ? A) « Qui es-tu ? » B) « Va voir Éli » C) « Parle, car ton serviteur écoute » D) « Laisse-moi dormir »
-8. [1 Samuel 4] Que prirent les Philistins à Israël lors de la bataille où moururent les fils d'Éli ? A) Les tables de la Loi B) Le trésor du roi C) L'Arche de Dieu D) Le chandelier
-9. [1 Samuel 5] Qu'arriva-t-il à la statue de Dagôn devant l'Arche ? A) Elle se mit à briller B) Elle disparut C) Elle tomba face contre terre et se brisa D) Elle parla
+5. [1 Samuel 2] Comment étaient les fils d'Héli ? A) Des prophètes fidèles B) Des guerriers courageux C) Des juges sages D) Des hommes corrompus, sans respect pour Jéhovah
+6. [1 Samuel 2] Que faisait Anne pour Samuel chaque année ? A) Elle lui écrivait une lettre B) Elle lui faisait un petit manteau sans manches C) Elle lui apportait du pain D) Elle lui donnait de l'argent
+7. [1 Samuel 3] Que répondit Samuel quand Jéhovah l'appela la nuit ? A) « Qui es-tu ? » B) « Va voir Héli » C) « Parle, car ton serviteur écoute » D) « Laisse-moi dormir »
+8. [1 Samuel 4] Que prirent les Philistins à Israël lors de la bataille où moururent les fils d'Héli ? A) Les tables de la Loi B) Le trésor du roi C) L'Arche de Dieu D) Le chandelier
+9. [1 Samuel 5] Qu'arriva-t-il à la statue de Dagon devant l'Arche ? A) Elle se mit à briller B) Elle disparut C) Elle tomba en avant, et sa tête et ses mains furent coupées D) Elle parla
 10. [1 Samuel 8] Que demandèrent les anciens d'Israël à Samuel ? A) Un nouveau temple B) Une armée de mercenaires C) Une nouvelle loi D) Un roi pour les juger, comme toutes les nations
 11. [1 Samuel 8] Qui le peuple rejetait-il réellement en demandant un roi ? A) Les juges B) Les prêtres C) Samuel D) Jéhovah
-12. [1 Samuel 9] Comment Saül est-il décrit physiquement ? A) Il était boiteux B) Il était petit C) Il était roux D) Il était plus grand que tout le peuple d'une tête
+12. [1 Samuel 9] Comment Saül est-il décrit physiquement ? A) Il était boiteux B) Il était petit C) Il était roux D) Il dépassait tout le monde d'une tête
 13. [1 Samuel 9] Que cherchait Saül quand il rencontra Samuel ? A) Les ânesses de son père B) Un prophète C) Un trésor D) Un mouton perdu
 14. [1 Samuel 10] Que versa Samuel sur la tête de Saül ? A) Du sang B) De l'huile C) Du vin D) De l'eau
-15. [1 Samuel 15] Que dit Samuel à Saül en 1 Samuel 15:22 ? A) Le roi est au-dessus de la loi B) Obéir vaut mieux qu'un sacrifice C) Il faut offrir plus de béliers D) Les sacrifices valent mieux que l'obéissance
-16. [1 Samuel 15] Quel roi Saül épargna-t-il au lieu de le détruire ? A) Agag, roi des Amalécites B) Akish, roi de Gath C) Nahash, l'Ammonite D) Hiram
+15. [1 Samuel 15] Que dit Samuel à Saül en 1 Samuel 15:22 ? A) Le roi est au-dessus de la loi B) Obéir vaut mieux qu'offrir un sacrifice C) Il faut offrir plus de béliers D) Les sacrifices valent mieux que l'obéissance
+16. [1 Samuel 15] Quel roi Saül épargna-t-il au lieu de le détruire ? A) Agag B) Akish, roi de Gath C) Goliath D) Nabal
 17. [1 Samuel 16] Que regarde Jéhovah, selon 1 Samuel 16:7 ? A) Le cœur B) La taille C) L'apparence D) La richesse
-18. [1 Samuel 16] Que faisait David quand Samuel vint chez Isaï ? A) Il était à la guerre B) Il étudiait la Loi C) Il jouait de la harpe au palais D) Il gardait les moutons
-19. [1 Samuel 16] Qu'arriva-t-il à David à partir du jour où il fut oint ? A) L'esprit de Jéhovah agit sur lui B) Il perdit la voix C) Il quitta sa famille D) Il devint roi aussitôt
+18. [1 Samuel 16] Que faisait David quand Samuel vint chez Jessé ? A) Il était à la guerre B) Il étudiait la Loi C) Il jouait de la harpe au palais D) Il gardait les moutons
+19. [1 Samuel 16] Qu'arriva-t-il à David à partir du jour où il fut oint ? A) L'esprit de Jéhovah agit avec force sur lui B) Il perdit la voix C) Il quitta sa famille D) Il devint roi aussitôt
 20. [1 Samuel 16] De quel instrument David jouait-il pour calmer Saül ? A) De la harpe B) Du cor C) De la flûte D) Du tambourin
 21. [1 Samuel 17] De quelle ville était Goliath ? A) D'Ekrôn B) D'Ascalon C) De Gath D) De Gaza
-22. [1 Samuel 17] Combien de pierres lisses David choisit-il dans le torrent ? A) Cinq B) Trois C) Sept D) Une
+22. [1 Samuel 17] Combien de pierres lisses David choisit-il dans le lit de la rivière ? A) Cinq B) Trois C) Sept D) Une
 23. [1 Samuel 17] Au nom de qui David affronta-t-il Goliath ? A) Au nom du roi Saül B) Au nom de Jéhovah des armées C) En son propre nom D) Au nom de son père
-24. [1 Samuel 17] Que dit David à propos de la bataille en 1 Samuel 17:47 ? A) Le plus fort gagne B) L'épée sauve C) Il faut plus de soldats D) La bataille appartient à Jéhovah
+24. [1 Samuel 17] Que dit David à propos de la bataille en 1 Samuel 17:47 ? A) Le plus fort gagne B) L'épée sauve C) Il faut plus de soldats D) La bataille est celle de Jéhovah
 25. [1 Samuel 17] Où la pierre de David frappa-t-elle Goliath ? A) Au cœur B) À l'épaule C) À la jambe D) Au front
-26. [1 Samuel 18] Quel fils de Saül devint l'ami fidèle de David ? A) Jonathan B) Mikal C) Abner D) Ishboshèth
-27. [1 Samuel 18] Que chantaient les femmes après la victoire de David ? A) « Goliath est mort » B) « David est roi » C) « Gloire au roi Saül » D) « Saül a tué ses milliers, et David ses dizaines de milliers »
+26. [1 Samuel 18] Quel fils de Saül devint l'ami fidèle de David ? A) Jonathan B) Kish C) Abner D) Agag
+27. [1 Samuel 18] Que chantaient les femmes après la victoire de David ? A) « Goliath est mort » B) « David est roi » C) « Gloire au roi Saül » D) « Saül a tué des milliers d'ennemis, et David, des dizaines de milliers »
 28. [1 Samuel 19] Comment Mikal aida-t-elle David à fuir Saül ? A) Elle le cacha dans un tonneau B) Elle lui donna un cheval C) Elle le déguisa en femme D) Elle le fit descendre par la fenêtre
 29. [1 Samuel 20] Quel signal Jonathan utilisa-t-il pour avertir David ? A) Un chant B) Une lettre C) Des flèches tirées D) Un feu allumé
-30. [1 Samuel 24] Que fit David à Saül dans la grotte d'Èn-Guédi ? A) Il lui prit son épée B) Il le réveilla C) Il le tua D) Il coupa discrètement le bord de son manteau
+30. [1 Samuel 24] Que fit David à Saül dans la grotte d'Èn-Guédi ? A) Il lui prit son épée B) Il le réveilla C) Il le tua D) Il coupa doucement un bout de son manteau
 31. [1 Samuel 24] Pourquoi David refusa-t-il de faire du mal à Saül ? A) Parce que Saül était son père B) Parce que Saül était l'oint de Jéhovah C) Parce qu'il avait peur D) Parce que Jonathan le lui avait interdit
-32. [1 Samuel 25] Comment Abigaïl est-elle décrite ? A) Jeune et timide B) Sage et belle C) Riche et orgueilleuse D) Prophétesse
-33. [1 Samuel 25] Que signifie le nom de Nabal, le mari d'Abigaïl ? A) Insensé B) Berger C) Sage D) Riche
-34. [1 Samuel 25] Comment David réagit-il à l'intervention d'Abigaïl ? A) Il loua Jéhovah de l'avoir envoyée B) Il se mit en colère C) Il la chassa D) Il l'ignora
-35. [1 Samuel 28] Quelle femme Saül alla-t-il consulter à Èn-Dor ? A) Une reine B) Une sage-femme C) Une femme qui pratiquait le spiritisme D) Une prophétesse de Jéhovah
-36. [1 Samuel 31] Comment Saül mourut-il au mont Guilboa ? A) Il fut tué par David B) Il mourut de maladie C) Il se jeta sur son épée D) Il tomba d'un char
+32. [1 Samuel 25] Comment Abigaïl est-elle décrite ? A) Jeune et timide B) Belle et intelligente C) Riche et orgueilleuse D) Prophétesse
+33. [1 Samuel 25] Selon Abigaïl, qu'indiquait le nom de Nabal, son mari ? A) Que c'était un homme stupide B) Que c'était un berger C) Que c'était un homme sage D) Que c'était un homme riche
+34. [1 Samuel 25] Comment David réagit-il à l'intervention d'Abigaïl ? A) Il loua Jéhovah, qui l'avait envoyée B) Il se mit en colère C) Il la chassa D) Il l'ignora
+35. [1 Samuel 28] Quelle femme Saül alla-t-il consulter à Endor ? A) Une reine B) Une sage-femme C) Une médium D) Une prophétesse de Jéhovah
+36. [1 Samuel 31] Comment Saül mourut-il au mont Guilboa ? A) Il fut tué par David B) Il mourut de maladie C) Il tira son épée et se laissa tomber dessus D) Il tomba d'un char
