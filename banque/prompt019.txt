@@ -2,27 +2,27 @@ Vérification d'une banque de questions bibliques (lot 019, 24 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Proverbes 1] Selon Proverbes 1:7, quel est le commencement de la connaissance ? A) La richesse B) Les voyages C) L'âge D) La crainte de Jéhovah
-2. [Proverbes 3] Que conseille Proverbes 3:5 ? A) Avoir confiance en Jéhovah de tout son cœur B) Suivre l'avis de la majorité C) Ne faire confiance à personne D) Compter sur sa propre intelligence
-3. [Proverbes 3] Avec quoi faut-il honorer Jéhovah selon Proverbes 3:9 ? A) Avec des paroles seulement B) Avec ses choses de valeur et les prémices de ses produits C) Avec des sacrifices d'animaux seulement D) Avec des chants seulement
+1. [Proverbes 1] Selon Proverbes 1:7, qu'est-ce qui est le début de la connaissance ? A) La richesse B) Les voyages C) L'âge D) Craindre Jéhovah
+2. [Proverbes 3] Que conseille Proverbes 3:5 ? A) Faire confiance à Jéhovah de tout son cœur B) Suivre l'avis de la majorité C) Ne faire confiance à personne D) Compter sur sa propre intelligence
+3. [Proverbes 3] Avec quoi faut-il honorer Jéhovah selon Proverbes 3:9 ? A) Avec des paroles seulement B) Avec ce qu'on a de meilleur et les premiers produits de ses récoltes C) Avec des sacrifices d'animaux seulement D) Avec des chants seulement
 4. [Proverbes 4] Que faut-il protéger plus que tout, selon Proverbes 4:23 ? A) Sa réputation B) Sa maison C) Son cœur D) Son argent
 5. [Proverbes 6] Quel petit animal Proverbes 6:6 donne-t-il en exemple au paresseux ? A) La fourmi B) L'araignée C) L'abeille D) Le criquet
-6. [Proverbes 10] Que dit Proverbes 10:19 de celui qui parle beaucoup ? A) Il devient riche B) Il est aimé de tous C) Il est toujours sage D) Il n'évite pas la faute ; celui qui retient ses lèvres agit avec discernement
+6. [Proverbes 10] Que dit Proverbes 10:19 de celui qui parle beaucoup ? A) Il devient riche B) Il est aimé de tous C) Il est toujours sage D) La transgression est inévitable ; celui qui surveille ses paroles se montre sage
 7. [Proverbes 13] Que devient celui qui marche avec les sages, selon Proverbes 13:20 ? A) Riche B) Orgueilleux C) Célèbre D) Sage
-8. [Proverbes 15] Qu'est-ce qui détourne la fureur, selon Proverbes 15:1 ? A) Une parole dure B) Le silence total C) Un cadeau D) Une réponse douce
-9. [Proverbes 16] Qu'est-ce qui précède la chute, selon Proverbes 16:18 ? A) La maladie B) L'orgueil C) La pauvreté D) La vieillesse
-10. [Proverbes 17] Comment se comporte un vrai compagnon selon Proverbes 17:17 ? A) Il demande toujours quelque chose B) Il s'éloigne dans la difficulté C) Il n'aime que dans les bons moments D) Il aime en tout temps et est un frère né pour la détresse
-11. [Proverbes 18] À quoi le nom de Jéhovah est-il comparé en Proverbes 18:10 ? A) À un fleuve B) À une épée C) À un trésor D) À une tour forte
-12. [Proverbes 22] Que conseille Proverbes 22:6 pour l'éducation d'un garçon ? A) L'éduquer dans le chemin qu'il doit suivre B) L'envoyer loin de chez lui C) Le laisser faire seul D) Ne jamais le corriger
-13. [Proverbes 27] Que demande un père à son fils en Proverbes 27:11 ? A) D'être sage et de réjouir son cœur, pour répondre à celui qui le provoque B) De se taire toujours C) De partir en voyage D) De devenir riche
-14. [Proverbes 31] Que demande Proverbes 31:10 au sujet d'une femme capable ? A) Pourquoi travaille-t-elle ? B) Qui peut la trouver ? Sa valeur dépasse de loin celle du corail C) Combien coûte-t-elle ? D) Où habite-t-elle ?
+8. [Proverbes 15] Qu'est-ce qui fait retomber la fureur, selon Proverbes 15:1 ? A) Une parole dure B) Le silence total C) Un cadeau D) Une réponse douce
+9. [Proverbes 16] Qu'y a-t-il avant le désastre, selon Proverbes 16:18 ? A) La maladie B) L'orgueil C) La pauvreté D) La vieillesse
+10. [Proverbes 17] Comment se comporte un véritable ami selon Proverbes 17:17 ? A) Il demande toujours quelque chose B) Il s'éloigne dans la difficulté C) Il n'aime que dans les bons moments D) Il témoigne son amour en tout temps ; c'est un frère né pour la détresse
+11. [Proverbes 18] À quoi le nom de Jéhovah est-il comparé en Proverbes 18:10 ? A) À un fleuve B) À une épée C) À un trésor D) À une tour fortifiée
+12. [Proverbes 22] Que conseille Proverbes 22:6 pour l'éducation d'un garçon ? A) Lui enseigner le chemin qu'il doit prendre B) L'envoyer loin de chez lui C) Le laisser faire seul D) Ne jamais le corriger
+13. [Proverbes 27] Que demande un père à son fils en Proverbes 27:11 ? A) D'agir avec sagesse et de réjouir son cœur, pour répondre à celui qui le provoque B) De se taire toujours C) De partir en voyage D) De devenir riche
+14. [Proverbes 31] Que demande Proverbes 31:10 au sujet d'une femme capable ? A) Pourquoi travaille-t-elle ? B) Qui peut la trouver ? Elle a bien plus de valeur que les coraux C) Combien coûte-t-elle ? D) Où habite-t-elle ?
 15. [Ecclésiaste 1] Que dit Ecclésiaste 1:9 de ce qui se fait sous le soleil ? A) Tout est parfait B) Il n'y a rien de nouveau C) Rien ne se répète D) Tout change chaque jour
 16. [Ecclésiaste 3] Selon Ecclésiaste 3:1, qu'y a-t-il pour chaque chose ? A) Une loi B) Un maître C) Un temps fixé D) Un prix
 17. [Ecclésiaste 3] Qu'a mis Dieu dans le cœur des humains selon Ecclésiaste 3:11 ? A) L'oubli B) La peur C) L'orgueil D) L'éternité
-18. [Ecclésiaste 4] Pourquoi deux valent-ils mieux qu'un seul, selon Ecclésiaste 4:9 ? A) Parce qu'ils vivent plus longtemps B) Parce qu'ils paient moins d'impôts C) Parce qu'ils sont plus forts que dix D) Parce qu'ils ont une bonne récompense pour leur dur travail
-19. [Ecclésiaste 9] Que savent les morts, selon Ecclésiaste 9:5 ? A) Ils attendent au ciel B) Ils savent tout C) Ils voient les vivants D) Ils ne savent rien du tout
-20. [Ecclésiaste 9] Selon Ecclésiaste 9:11, qu'est-ce qui arrive à tous ? A) Le temps et l'imprévu B) La gloire C) La richesse D) La maladie
+18. [Ecclésiaste 4] Pourquoi deux valent-ils mieux qu'un seul, selon Ecclésiaste 4:9 ? A) Parce qu'ils vivent plus longtemps B) Parce qu'ils paient moins d'impôts C) Parce qu'ils sont plus forts que dix D) Parce qu'ils ont une belle récompense pour leur dur travail
+19. [Ecclésiaste 9] Que savent les morts, selon Ecclésiaste 9:5 ? A) Ils attendent au ciel B) Ils savent tout C) Ils voient les vivants D) Ils ne savent rien
+20. [Ecclésiaste 9] Selon Ecclésiaste 9:11, qu'est-ce qui surprend les hommes ? A) Les temps difficiles et les évènements imprévus B) La gloire C) La richesse D) La maladie
 21. [Ecclésiaste 12] Quand faut-il se souvenir de son Grand Créateur, selon Ecclésiaste 12:1 ? A) Quand on est riche B) Seulement le sabbat C) Dans les jours de sa jeunesse D) Seulement dans la vieillesse
-22. [Ecclésiaste 12] Quelle est la conclusion de l'Ecclésiaste ? A) Tout est vanité, alors ne fais rien B) Mange et bois, car demain tu mourras C) Cherche la sagesse pour devenir riche D) Crains le vrai Dieu et observe ses commandements
+22. [Ecclésiaste 12] Quelle est la conclusion de l'Ecclésiaste ? A) Tout est vanité, alors ne fais rien B) Mange et bois, car demain tu mourras C) Cherche la sagesse pour devenir riche D) Crains le vrai Dieu et obéis à ses commandements
 23. [Chant de Salomon 8] À quoi l'amour est-il comparé en Chant de Salomon 8:6 ? A) À un fleuve B) À une flamme, la flamme de Jah C) À une rose D) À un vent
-24. [Chant de Salomon 8] Que ne peuvent pas éteindre les grandes eaux, selon Chant de Salomon 8:7 ? A) La colère du roi B) Le feu de l'autel C) L'amour D) La lampe du temple
+24. [Chant de Salomon 8] Que ne peuvent pas éteindre les eaux agitées, selon Chant de Salomon 8:7 ? A) La colère du roi B) Le feu de l'autel C) L'amour D) La lampe du temple
