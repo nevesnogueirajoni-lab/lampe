@@ -1,0 +1,39 @@
+Vérification d'une banque de questions bibliques (lot 012, 35 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Josué 1] Que devait faire Josué avec le livre de la Loi pour réussir, selon Josué 1:8 ? A) Le lire à voix basse jour et nuit B) Le lire une fois par an C) Le garder dans l'arche sans l'ouvrir D) Le confier aux prêtres
+2. [Josué 1] Que dit Jéhovah à Josué en Josué 1:9 ? A) Attends Moïse B) Sois courageux et fort, car Jéhovah est avec toi C) Retourne en Égypte D) Reste au désert
+3. [Josué 2] Dans quelle ville Josué envoya-t-il deux espions ? A) Jéricho B) Hébron C) Aï D) Gabaon
+4. [Josué 2] Chez qui les espions logèrent-ils à Jéricho ? A) Chez le roi B) Chez Rahab, une prostituée C) Chez un prêtre D) Chez un berger
+5. [Josué 2] Où Rahab cacha-t-elle les espions ? A) Dans un puits B) Dans une grotte C) Dans une cave D) Sous des tiges de lin sur le toit
+6. [Josué 2] Quel signe Rahab devait-elle attacher à sa fenêtre ? A) Une lampe B) Une corde écarlate C) Un drapeau blanc D) Une branche d'olivier
+7. [Josué 3] Que firent les eaux du Jourdain quand les prêtres y mirent les pieds ? A) Elles devinrent rouges B) Elles gelèrent C) Elles s'arrêtèrent et formèrent comme un barrage D) Elles montèrent
+8. [Josué 4] Combien de pierres furent prises dans le Jourdain comme souvenir ? A) 10 B) 40 C) 12 D) 7
+9. [Josué 6] Combien de fois les Israélites firent-ils le tour de Jéricho le septième jour ? A) Une fois B) Trois fois C) Sept fois D) Douze fois
+10. [Josué 6] Qu'arriva-t-il à la muraille de Jéricho quand le peuple poussa un grand cri ? A) Elle brûla B) Elle resta debout C) Elle se fendit seulement D) Elle s'effondra
+11. [Josué 7] Qu'avait volé Akân à Jéricho ? A) Une idole B) Une épée C) Des moutons D) Un manteau, de l'argent et un lingot d'or
+12. [Josué 9] Comment les Gabaonites trompèrent-ils Josué ? A) Ils attaquèrent la nuit B) Ils se déguisèrent en prêtres C) Ils offrirent de l'or D) Ils firent semblant de venir d'un pays lointain
+13. [Josué 10] Qu'est-ce qui s'arrêta pendant la bataille contre les Amoréens ? A) Le soleil et la lune B) Le Jourdain C) La pluie D) Le vent
+14. [Josué 14] Quel âge avait Caleb quand il demanda la région montagneuse d'Hébron ? A) 100 ans B) 85 ans C) 70 ans D) 40 ans
+15. [Josué 24] Quelle décision Josué annonça-t-il pour lui et sa maison ? A) Quitter le pays B) Servir Jéhovah C) Servir les dieux d'Amorée D) Retourner en Égypte
+16. [Josué 24] Quel âge avait Josué à sa mort ? A) 110 ans B) 120 ans C) 85 ans D) 100 ans
+17. [Juges 2] Qu'est-ce qui caractérisait la génération qui grandit après celle de Josué ? A) Elle ne connaissait ni Jéhovah ni ce qu'il avait fait B) Elle vivait en Égypte C) Elle était très fidèle D) Elle avait des rois
+18. [Juges 2] Qui Jéhovah suscitait-il pour sauver Israël de ses pillards ? A) Des rois B) Des Égyptiens C) Des prophètes étrangers D) Des juges
+19. [Juges 3] Quel juge gaucher tua Églôn, roi de Moab ? A) Éhoud B) Gédéon C) Shamgar D) Othniel
+20. [Juges 3] Avec quoi Shamgar abattit-il 600 Philistins ? A) Un aiguillon à bœufs B) Un piquet de tente C) Une mâchoire d'âne D) Une fronde
+21. [Juges 4] Quelle prophétesse jugeait Israël à l'époque de Barak ? A) Hulda B) Jaël C) Débora D) Miriam
+22. [Juges 4] Comment Jaël tua-t-elle Sisera ? A) Avec un piquet de tente et un marteau B) Avec du poison C) Avec une pierre D) Avec une épée
+23. [Juges 6] Que faisait Gédéon quand l'ange de Jéhovah lui apparut ? A) Il gardait des moutons B) Il battait du blé dans le pressoir C) Il dormait D) Il construisait un autel
+24. [Juges 6] Quel signe Gédéon demanda-t-il avec une toison de laine ? A) Que la toison devienne rouge B) Que la toison disparaisse C) Que la toison brûle D) Que la rosée soit seulement sur la toison
+25. [Juges 7] Avec combien d'hommes Jéhovah dit-il qu'il sauverait Israël par Gédéon ? A) 32 000 B) 3 000 C) 10 000 D) 300
+26. [Juges 7] Que crièrent les hommes de Gédéon ? A) « L'épée de Jéhovah et de Gédéon ! » B) « Fuyez, Madianites ! » C) « Jéhovah est grand ! » D) « À l'attaque ! »
+27. [Juges 11] Quel juge fit un vœu à Jéhovah avant de combattre les Ammonites ? A) Gédéon B) Éhoud C) Samson D) Jephté
+28. [Juges 11] Qui sortit la première à la rencontre de Jephté à son retour ? A) Sa femme B) Son frère C) Son serviteur D) Sa fille
+29. [Juges 13] Qu'est-ce qui ne devait jamais toucher la tête de Samson ? A) De l'huile B) Un casque C) Un rasoir D) Une couronne
+30. [Juges 14] Quel animal Samson déchira-t-il de ses mains ? A) Un taureau B) Un loup C) Un ours D) Un jeune lion
+31. [Juges 15] Avec quoi Samson tua-t-il 1 000 hommes ? A) Un aiguillon à bœufs B) Une mâchoire d'âne C) Une épée D) Un bâton
+32. [Juges 16] Quelle femme Samson aimait-il dans la vallée de Sorek ? A) Débora B) Dalila C) Jaël D) Rahab
+33. [Juges 16] Où se trouvait le secret de la force de Samson ? A) Ses cheveux jamais rasés B) Ses sandales C) Sa ceinture D) Son épée
+34. [Juges 16] Que fit Samson à la fin de sa vie dans le temple de Dagon ? A) Il fit tomber la maison sur les Philistins B) Il s'enfuit C) Il se convertit à Dagon D) Il fit un discours
+35. [Juges 21] Comment le livre des Juges décrit-il cette période ? A) Le peuple obéissait toujours B) Les prêtres gouvernaient tout C) Il n'y avait pas de roi ; chacun faisait ce qui était bien à ses yeux D) Il y avait un grand roi juste
