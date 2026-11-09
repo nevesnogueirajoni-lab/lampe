@@ -1,0 +1,25 @@
+Vérification d'une banque de questions bibliques (lot 021, 21 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Jérémie 1] Quelle excuse Jérémie donna-t-il quand Jéhovah l'appela ? A) « Je ne suis qu'un garçon » B) « Je suis malade » C) « Je n'ai pas le temps » D) « Je suis trop vieux »
+2. [Jérémie 1] Pourquoi Jérémie ne devait-il pas avoir peur, selon Jérémie 1:8 ? A) Parce qu'il était fort B) Parce que Jéhovah serait avec lui pour le délivrer C) Parce que les gens l'aimaient D) Parce que le roi le protégeait
+3. [Jérémie 1] Quelle branche Jéhovah montra-t-il à Jérémie dans sa première vision ? A) Une branche d'olivier B) Une branche d'amandier C) Une branche de vigne D) Une branche de cèdre
+4. [Jérémie 2] Quelles deux mauvaises choses le peuple avait-il faites, selon Jérémie 2:13 ? A) Quitter l'Égypte et traverser la mer B) Manger du porc et boire du vin C) Abandonner la source d'eau vive et se creuser des citernes fissurées D) Voler et mentir
+5. [Jérémie 10] Que reconnaît Jérémie en 10:23 au sujet de l'homme ? A) Il n'a pas le droit de diriger ses propres pas B) Il peut tout faire seul C) Il est plus sage que les anges D) Il connaît l'avenir
+6. [Jérémie 17] Comment est décrit le cœur en Jérémie 17:9 ? A) Toujours pur B) Facile à comprendre C) Plus fort que tout D) Plus traître que tout et désespéré
+7. [Jérémie 18] À quoi Jéhovah compare-t-il son peuple chez le potier ? A) À de l'eau dans un puits B) À de l'argile dans la main du potier C) À un vase d'or D) À du fer dans le feu
+8. [Jérémie 20] Pourquoi Jérémie ne pouvait-il pas se taire, selon Jérémie 20:9 ? A) La parole de Dieu était comme un feu brûlant dans son cœur B) Le roi l'obligeait à parler C) Il aimait les disputes D) Il voulait être célèbre
+9. [Jérémie 25] Combien d'années les nations devaient-elles servir le roi de Babylone ? A) 7 ans B) 40 ans C) 70 ans D) 100 ans
+10. [Jérémie 29] Que devaient faire les exilés pour la ville de Babylone, selon Jérémie 29:7 ? A) La combattre B) Rechercher sa paix et prier pour elle C) La fuir immédiatement D) La détruire
+11. [Jérémie 29] Quelles pensées Jéhovah a-t-il pour son peuple selon Jérémie 29:11 ? A) Des pensées de colère B) Aucune pensée C) Des pensées de paix, pour lui donner un avenir et une espérance D) Des pensées de punition éternelle
+12. [Jérémie 31] Qu'annonce Jéhovah en Jérémie 31:31 ? A) Un nouveau roi B) Un nouveau déluge C) Une nouvelle tour D) Une nouvelle alliance
+13. [Jérémie 31] Où Jéhovah écrira-t-il sa loi selon la nouvelle alliance ? A) Sur les murs du temple B) Sur des tables de pierre C) Dans leur cœur D) Sur des rouleaux
+14. [Jérémie 32] Combien Jérémie paya-t-il le champ de son cousin Hanaméel ? A) 100 sicles B) 17 sicles d'argent C) 30 pièces d'argent D) 5 sicles d'or
+15. [Jérémie 35] Que refusèrent de boire les Rékabites ? A) De l'huile B) Du vin C) Du lait D) De l'eau
+16. [Jérémie 36] Qui écrivit les paroles de Jérémie sous sa dictée ? A) Ébed-Mélek B) Seraya C) Baruch D) Pashour
+17. [Jérémie 36] Que fit le roi Joakim du rouleau de Jérémie ? A) Il l'envoya en Égypte B) Il le lut avec respect C) Il le découpa et le jeta au feu D) Il l'enterra
+18. [Jérémie 38] Où Jérémie fut-il jeté par les princes ? A) Dans une fournaise B) Dans une fosse aux lions C) Dans le Nil D) Dans la citerne de Malkiya, pleine de boue
+19. [Jérémie 38] Combien d'hommes le roi donna-t-il à Ébed-Mélek pour sauver Jérémie ? A) 300 B) 3 C) 30 D) 12
+20. [Jérémie 39] Pourquoi Ébed-Mélek eut-il la vie sauve ? A) Parce qu'il avait fait confiance à Jéhovah B) Parce qu'il était l'ami du roi C) Parce qu'il s'était caché D) Parce qu'il était riche
+21. [Jérémie 45] Quel conseil Jéhovah donna-t-il à Baruch en Jérémie 45:5 ? A) Ne pas rechercher de grandes choses pour lui-même B) Écrire un livre C) Devenir prophète D) Quitter Jérusalem
