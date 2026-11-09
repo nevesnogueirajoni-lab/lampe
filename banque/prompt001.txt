@@ -1,0 +1,74 @@
+Vérification d'une banque de questions bibliques (lot 001, 70 questions). Réponds à chaque question avec ta connaissance de la Bible (Traduction du monde nouveau 2018), sans regarder les réponses ailleurs. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, ou si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018). Sois sévère. Aucune autre phrase.
+
+1. [Jérémie 51] Selon Jérémie 51, à quoi Babylone est-elle comparée dans la main de Jéhovah ? A) Un vase d'argile B) Une coupe d'or C) Une lampe allumée D) Un marteau de fer
+2. [Jérémie 51] Que demande Jéhovah à son peuple au sujet de Babylone ? A) D'y adorer ses dieux B) De la défendre C) De fuir du milieu de Babylone D) D'y bâtir des maisons pour toujours
+3. [Jérémie 51] L'esprit de quels rois Jéhovah a-t-il réveillé contre Babylone ? A) Les rois des Mèdes B) Les rois d'Assyrie C) Les rois d'Égypte D) Les rois de Tyr
+4. [Jérémie 51] Que deviendra Babylone selon la prophétie ? A) La capitale du monde pour toujours B) Un jardin fertile C) Des tas de pierres, un repaire de chacals D) Une ville de refuge
+5. [Jérémie 51] Qui accompagnait le roi Sédécias à Babylone et reçut un message de Jérémie ? A) Guedalia B) Ébed-Mélek C) Baruch D) Seraya
+6. [Jérémie 51] Que devait faire Seraya du livre après l'avoir lu à Babylone ? A) Le rapporter à Jérusalem B) Le brûler devant le roi C) Le cacher dans un vase D) L'attacher à une pierre et le jeter dans l'Euphrate
+7. [Jérémie 51] Que représentait le livre qui coulait au fond de l'Euphrate ? A) Jérusalem détruite B) Babylone qui sombrerait sans se relever C) La victoire de l'Égypte D) La fin de l'exil
+8. [Jérémie 51] D'après Jérémie 51, comment Jéhovah a-t-il fait la terre ? A) Par hasard B) Avec l'aide des hommes C) Avec l'aide des anges seulement D) Par sa puissance
+9. [Jérémie 52] Quel âge avait Sédécias quand il devint roi ? A) 18 ans B) 25 ans C) 30 ans D) 21 ans
+10. [Jérémie 52] Combien d'années Sédécias régna-t-il à Jérusalem ? A) 7 ans B) 11 ans C) 20 ans D) 3 ans
+11. [Jérémie 52] Quel roi vint assiéger Jérusalem pendant le règne de Sédécias ? A) Évil-Mérodak B) Nabuchodonosor C) Pharaon Néko D) Cyrus
+12. [Jérémie 52] Quelle situation régnait dans Jérusalem assiégée avant la brèche ? A) Une famine sévère B) Une inondation C) Une abondance de pain D) Une grande fête
+13. [Jérémie 52] Où l'armée chaldéenne rattrapa-t-elle Sédécias ? A) Près de la mer Rouge B) Dans les plaines désertiques de Jéricho C) À Damas D) À Béthel
+14. [Jérémie 52] Où Sédécias fut-il amené devant le roi de Babylone ? A) À Ribla B) À Bethléem C) À Samarie D) À Ninive
+15. [Jérémie 52] Que fit le roi de Babylone à Sédécias ? A) Il le relâcha aussitôt B) Il le renvoya en Égypte C) Il le fit gouverneur de Juda D) Il lui creva les yeux et l'emmena enchaîné à Babylone
+16. [Jérémie 52] Qui brûla la maison de Jéhovah à Jérusalem ? A) Nebouzaradân, chef des gardes B) Jérémie C) Seraya D) Sédécias
+17. [Jérémie 52] Que firent les Chaldéens des colonnes de cuivre du temple ? A) Ils les rendirent aux prêtres B) Ils les dressèrent à Babylone intactes C) Ils les enterrèrent D) Ils les brisèrent et emportèrent le cuivre à Babylone
+18. [Jérémie 52] Quel roi de Babylone libéra Joachin de prison ? A) Nabuchodonosor B) Évil-Mérodak C) Balthazar D) Darius
+19. [Jérémie 52] Après sa libération, où Joachin mangea-t-il ? A) À la table du roi de Babylone, régulièrement B) Au temple de Jérusalem C) Avec les esclaves D) En prison
+20. [Jérémie 52] Combien de Juifs en tout furent emmenés en exil selon le décompte de Jérémie 52 ? A) 46 000 B) 4 600 C) 600 D) 1 000
+21. [Lamentations 1] À qui Jérusalem est-elle comparée au début des Lamentations ? A) À une lionne B) À une reine en fête C) À une veuve D) À un jardin
+22. [Lamentations 1] Que constate-t-on au sujet de ceux qui aimaient Jérusalem ? A) Ils viennent tous la consoler B) Aucun d'eux ne la console C) Ils la défendent D) Ils lui envoient de l'or
+23. [Lamentations 1] Selon Lamentations 1, qui Jérusalem reconnaît-elle comme juste ? A) Jéhovah B) Ses ennemis C) Ses rois D) Ses prophètes
+24. [Lamentations 2] À qui Jéhovah est-il devenu comparable pour Israël selon Lamentations 2 ? A) À un ami B) À un roi étranger C) À un berger D) À un ennemi
+25. [Lamentations 2] Qui défaille dans les places publiques de la ville selon Lamentations 2 ? A) Les enfants et les nourrissons B) Les marchands C) Les soldats D) Les prêtres
+26. [Lamentations 2] Que font les passants en voyant Jérusalem détruite ? A) Ils lui apportent de la nourriture B) Ils battent des mains et sifflent C) Ils pleurent avec elle D) Ils la reconstruisent
+27. [Lamentations 2] Selon Lamentations 2:19, comment faut-il répandre son cœur devant Jéhovah ? A) Comme du vin B) Comme de l'huile C) Comme de l'eau D) Comme de la poussière
+28. [Lamentations 3] Selon Lamentations 3:22, grâce à quoi n'avons-nous pas été anéantis ? A) Notre force B) L'amour fidèle de Jéhovah C) Nos alliés D) Nos sacrifices
+29. [Lamentations 3] Selon Lamentations 3:23, comment sont les miséricordes de Jéhovah ? A) Données une fois par an B) Nouvelles chaque matin C) Épuisées D) Réservées aux rois
+30. [Lamentations 3] Que dit l'auteur en Lamentations 3:24 ? A) « Je n'attendrai plus » B) « Mon or est mon héritage » C) « Le roi est mon héritage » D) « Jéhovah est mon héritage »
+31. [Lamentations 3] Selon Lamentations 3:26, qu'est-il bon de faire ? A) Attendre en silence le salut de Jéhovah B) Se venger soi-même C) Fuir en Égypte D) Se plaindre sans cesse
+32. [Lamentations 3] Selon Lamentations 3:27, quand est-il bon pour l'homme d'affronter des difficultés ? A) Pendant sa jeunesse B) Seulement à la guerre C) Pendant sa vieillesse D) Jamais
+33. [Lamentations 3] Que propose Lamentations 3:40 ? A) Accuser nos ennemis B) Partir à Babylone C) Oublier le passé et ne rien changer D) Examiner nos voies et revenir à Jéhovah
+34. [Lamentations 3] Combien de versets compte le chapitre 3 des Lamentations ? A) 40 B) 66 C) 150 D) 22
+35. [Lamentations 4] Quelle nation est appelée à boire elle aussi la coupe en Lamentations 4 ? A) Moab B) Édom C) Égypte D) Assyrie
+36. [Lamentations 5] Par quelle demande commence la prière de Lamentations 5 ? A) « Souviens-toi, Jéhovah » B) « Donne-nous un roi » C) « Venge-nous, Jéhovah » D) « Rends-nous l'Égypte »
+37. [Lamentations 5] Que demande Lamentations 5:21 ? A) « Donne-nous de l'or » B) « Ramène-nous à toi, Jéhovah, et nous reviendrons » C) « Détruis Babylone aujourd'hui » D) « Fais tomber la pluie »
+38. [Ézéchiel 1] Près de quel fleuve Ézéchiel était-il parmi les exilés quand il vit ses premières visions ? A) Le Tigre B) Le Kebar C) Le Jourdain D) Le Nil
+39. [Ézéchiel 1] Quelle était la fonction d'Ézéchiel ? A) Berger B) Prêtre C) Pêcheur D) Roi
+40. [Ézéchiel 1] En quelle année de l'exil de quel roi Ézéchiel reçut-il sa première vision ? A) La 10e année de Nabuchodonosor B) La 3e année de Cyrus C) La 5e année de l'exil du roi Joachin D) La 1re année de Sédécias
+41. [Ézéchiel 1] Quels étaient les quatre visages des créatures vivantes vues par Ézéchiel ? A) Homme, ours, loup, colombe B) Taureau, agneau, lion, chameau C) Lion, cheval, serpent, aigle D) Homme, lion, taureau, aigle
+42. [Ézéchiel 1] Qu'y avait-il sur les jantes des roues dans la vision d'Ézéchiel ? A) Des pierres précieuses B) Des flammes seulement C) Des ailes D) Des yeux tout autour
+43. [Ézéchiel 1] À quoi Ézéchiel compare-t-il l'éclat qui entourait le trône ? A) À la lune B) À une épée C) À un feu de camp D) À un arc-en-ciel un jour de pluie
+44. [Ézéchiel 2] Comment Dieu appelle-t-il Ézéchiel ? A) « Mon serviteur David » B) « Prince d'Israël » C) « Fils d'homme » D) « Fils de prophète »
+45. [Ézéchiel 2] Que sauront les Israélites, qu'ils écoutent Ézéchiel ou non ? A) Qu'ils avaient un nouveau roi B) Qu'il y avait un prophète au milieu d'eux C) Que Babylone allait tomber D) Que l'exil était terminé
+46. [Ézéchiel 2] Qu'était-il écrit sur le rouleau présenté à Ézéchiel ? A) Des noms de rois B) Des chants de joie C) Des chants funèbres, des lamentations et des gémissements D) Des lois pour le temple
+47. [Ézéchiel 3] Quel goût avait le rouleau qu'Ézéchiel mangea ? A) Doux comme le miel B) Sans goût C) Salé D) Amer comme l'absinthe
+48. [Ézéchiel 3] Quel rôle Jéhovah confie-t-il à Ézéchiel envers la maison d'Israël ? A) Celui de guetteur B) Celui de grand prêtre C) Celui de roi D) Celui de juge
+49. [Ézéchiel 3] Selon Ézéchiel 3, que se passe-t-il si le guetteur n'avertit pas le méchant ? A) Le méchant sera quand même sauvé B) Jéhovah lui demandera compte de son sang C) Rien ne lui sera reproché D) Le guetteur deviendra roi
+50. [Ézéchiel 3] À quoi Jéhovah rend-il le front d'Ézéchiel comparable ? A) Au bois B) À l'argile C) À la cire D) Au diamant, plus dur que le silex
+51. [Ézéchiel 4] Sur quoi Ézéchiel devait-il graver la ville de Jérusalem assiégée ? A) Sur un rouleau B) Sur une brique C) Sur une tablette d'or D) Sur un mur du temple
+52. [Ézéchiel 4] Combien de jours Ézéchiel devait-il rester couché sur le côté gauche ? A) 7 jours B) 40 jours C) 390 jours D) 70 jours
+53. [Ézéchiel 4] Combien de jours Ézéchiel devait-il rester couché sur le côté droit pour Juda ? A) 40 jours B) 100 jours C) 12 jours D) 390 jours
+54. [Ézéchiel 5] Avec quoi Ézéchiel devait-il se raser la tête et la barbe ? A) Un rasoir d'or B) Une pierre C) Un couteau de prêtre en cuivre D) Une épée tranchante
+55. [Ézéchiel 5] Que représentaient les trois tiers des cheveux d'Ézéchiel ? A) Les trois fils de Noé B) Trois rois de Juda C) Le sort des habitants : feu, épée, dispersion D) Trois fêtes annuelles
+56. [Ézéchiel 6] Quelle phrase revient très souvent dans Ézéchiel, comme en Ézéchiel 6:7 ? A) « Vous saurez que je suis Jéhovah » B) « Heureux l'homme » C) « Amen et amen » D) « Ainsi parle le roi de Babylone »
+57. [Ézéchiel 6] À quoi Ézéchiel 6 adresse-t-il une prophétie ? A) Aux montagnes d'Israël B) Aux cieux C) À l'Égypte D) Aux îles de la mer
+58. [Ézéchiel 7] Quel message Ézéchiel 7 annonce-t-il au pays d'Israël ? A) « La pluie vient » B) « La fin vient » C) « Le roi revient » D) « La paix vient »
+59. [Ézéchiel 7] Selon Ézéchiel 7:19, que ne pourra pas faire l'argent et l'or au jour de la fureur de Jéhovah ? A) Les sauver B) Les enrichir C) Briller D) Être jetés
+60. [Ézéchiel 8] Qui Ézéchiel vit-il pleurer à l'entrée de la porte de la maison de Jéhovah ? A) Des enfants qui pleuraient le roi B) Des prêtres qui pleuraient Moïse C) Des femmes qui pleuraient le dieu Tamouz D) Des prophètes qui pleuraient Jérusalem
+61. [Ézéchiel 8] Que faisaient les hommes vus par Ézéchiel entre le porche et l'autel ? A) Ils offraient un sacrifice pour le péché B) Ils lisaient la Loi C) Ils se prosternaient vers l'est devant le soleil D) Ils priaient Jéhovah
+62. [Ézéchiel 8] Combien d'anciens d'Israël Ézéchiel vit-il offrir de l'encens à des images ? A) 12 B) 25 C) 70 D) 7
+63. [Ézéchiel 9] Que devait faire l'homme muni d'un encrier de secrétaire en Ézéchiel 9 ? A) Inscrire les noms des rois B) Mettre une marque sur le front de ceux qui gémissaient C) Compter les soldats D) Écrire la loi sur les portes
+64. [Ézéchiel 9] Qui devait être épargné lors de l'exécution en Ézéchiel 9 ? A) Ceux qui portaient la marque B) Les prêtres seulement C) Les riches D) Personne
+65. [Ézéchiel 10] Que devait prendre l'homme vêtu de lin entre les chérubins ? A) De l'huile d'onction B) Un rouleau C) Des braises de feu à disperser sur la ville D) De l'eau pour purifier
+66. [Ézéchiel 10] Que montre la vision d'Ézéchiel 10 au sujet de la gloire de Jéhovah ? A) Elle quitte le temple B) Elle reste pour toujours sur l'autel C) Elle descend sur le roi D) Elle remplit Babylone
+67. [Ézéchiel 11] Qui mourut pendant qu'Ézéchiel prophétisait en Ézéchiel 11 ? A) Jaazania B) Pelatia C) Seraya D) Sédécias
+68. [Ézéchiel 11] Que promet Jéhovah en Ézéchiel 11:19 ? A) Les rendre riches B) Leur donner un roi puissant C) Remplacer leur cœur de pierre par un cœur de chair D) Détruire l'Égypte
+69. [Ézéchiel 12] Que devait faire Ézéchiel sous leurs yeux pour mimer l'exil ? A) Construire une tour B) Brûler sa maison C) Monter sur le toit D) Percer un trou dans le mur et sortir ses bagages
+70. [Ézéchiel 12] Ézéchiel 12:13 annonce que le chef serait emmené à Babylone mais qu'il ne la verrait pas. Comment cela s'est-il réalisé ? A) Il s'enfuit en Égypte B) Sédécias eut les yeux crevés avant d'y être emmené C) Il devint aveugle de vieillesse à Jérusalem D) Il mourut en chemin

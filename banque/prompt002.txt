@@ -1,0 +1,61 @@
+Vérification d'une banque de questions bibliques (lot 002, 57 questions). Réponds à chaque question avec ta connaissance de la Bible (Traduction du monde nouveau 2018), sans regarder les réponses ailleurs. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, ou si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018). Sois sévère. Aucune autre phrase.
+
+1. [Ézéchiel 13] Que disaient les faux prophètes dénoncés en Ézéchiel 13 ? A) « Fuyez à Babylone ! » B) « Repentez-vous ! » C) « Le temple sera détruit ! » D) « Paix ! » alors qu'il n'y avait pas de paix
+2. [Ézéchiel 13] À quoi Ézéchiel compare-t-il le message des faux prophètes ? A) À un arbre qui porte du fruit B) À une tour solide C) À un mur couvert d'enduit qui va tomber D) À une source d'eau vive
+3. [Ézéchiel 14] Quels trois hommes sont cités en Ézéchiel 14 pour leur justice ? A) Abraham, Moïse et David B) Noé, Daniel et Job C) Isaac, Jacob et Joseph D) Élie, Élisée et Samuel
+4. [Ézéchiel 14] Selon Ézéchiel 14, qui ces hommes justes auraient-ils pu sauver ? A) Toute la ville B) Le roi C) Leurs fils et leurs filles D) Seulement eux-mêmes
+5. [Ézéchiel 15] À quel bois inutile Jérusalem est-elle comparée en Ézéchiel 15 ? A) Au bois de la vigne B) Au bois de cèdre C) Au bois d'acacia D) Au bois d'olivier
+6. [Ézéchiel 16] Comment Jérusalem est-elle décrite au début d'Ézéchiel 16 ? A) Comme un bébé abandonné le jour de sa naissance B) Comme un vieil homme C) Comme un berger D) Comme un lion
+7. [Ézéchiel 16] Quelles « sœurs » de Jérusalem sont nommées en Ézéchiel 16 ? A) Ninive et Babylone B) Moab et Ammon C) Samarie et Sodome D) Tyr et Sidon
+8. [Ézéchiel 17] Quels animaux apparaissent dans l'énigme d'Ézéchiel 17 ? A) Deux grands aigles B) Deux serpents C) Deux lions D) Un ours et un léopard
+9. [Ézéchiel 17] Que fera Jéhovah de la pousse tendre prise au sommet du cèdre ? A) Il la donnera à Babylone B) Il la plantera sur une haute montagne C) Il la jettera au feu D) Il la laissera sécher
+10. [Ézéchiel 18] Quel proverbe Jéhovah interdit-il en Ézéchiel 18 ? A) « Œil pour œil » B) « Qui sème le vent récolte la tempête » C) « Les pères ont mangé du raisin vert, et les dents des fils sont agacées » D) « Tel père, tel fils »
+11. [Ézéchiel 18] Selon Ézéchiel 18:20, qui portera la faute d'un homme ? A) Son père B) Ses enfants C) Toute sa famille D) Celui qui pèche, pas son fils
+12. [Ézéchiel 18] Selon Ézéchiel 18, qu'est-ce qui fait plaisir à Jéhovah ? A) Les sacrifices nombreux B) La puissance des rois C) Que le méchant se détourne de sa conduite et vive D) La mort du méchant
+13. [Ézéchiel 19] Dans le chant funèbre d'Ézéchiel 19, comment est représentée la mère des princes d'Israël ? A) Une lionne B) Une biche C) Une ourse D) Une aigle
+14. [Ézéchiel 20] Selon Ézéchiel 20, que Jéhovah a-t-il donné à Israël comme signe entre lui et eux ? A) Ses sabbats B) La circoncision seulement C) Le temple D) L'arc-en-ciel
+15. [Ézéchiel 21] Comment le roi de Babylone décide-t-il de sa route à la croisée des chemins en Ézéchiel 21 ? A) En priant Jéhovah B) Par la divination : flèches, idoles, examen du foie C) En consultant Jérémie D) En lançant une pièce
+16. [Ézéchiel 21] Jusqu'à qui la couronne restera-t-elle sans roi selon Ézéchiel 21:27 ? A) Jusqu'à ce que vienne celui qui a le droit légal B) Jusqu'au retour de Sédécias C) Jusqu'à Cyrus D) Pour toujours
+17. [Ézéchiel 22] À quoi la maison d'Israël est-elle devenue pour Jéhovah selon Ézéchiel 22 ? A) Des scories B) Du blé C) Du bon vin D) De l'or pur
+18. [Ézéchiel 22] Que cherchait Jéhovah sans le trouver en Ézéchiel 22:30 ? A) Un homme pour réparer la muraille et se tenir dans la brèche B) Un roi pour Juda C) Un prophète en Égypte D) Un temple digne de lui
+19. [Ézéchiel 23] Comment s'appellent les deux sœurs d'Ézéchiel 23 ? A) Ohola et Oholiba B) Marthe et Marie C) Léa et Rachel D) Orpa et Ruth
+20. [Ézéchiel 23] Que représente Oholiba en Ézéchiel 23 ? A) Babylone B) Jérusalem C) Samarie D) Tyr
+21. [Ézéchiel 24] Quel ustensile sert d'illustration au siège de Jérusalem en Ézéchiel 24 ? A) Une lampe B) Une marmite C) Une balance D) Un pressoir
+22. [Ézéchiel 24] Comment Jéhovah appelle-t-il la femme d'Ézéchiel, qui allait mourir ? A) « La joie de tes yeux » B) « Ton trésor » C) « Ta couronne » D) « Ta lumière »
+23. [Ézéchiel 24] Que devait faire Ézéchiel à la mort de sa femme ? A) Ne pas faire de deuil public B) Organiser un grand deuil C) Jeûner 40 jours D) Quitter le pays
+24. [Ézéchiel 25] Contre quel peuple est la première prophétie d'Ézéchiel 25 ? A) Les Égyptiens B) Les Ammonites C) Les Perses D) Les Babyloniens
+25. [Ézéchiel 25] Quelle nation Ézéchiel 25 condamne-t-elle pour s'être vengée de Juda ? A) Édom B) Égypte C) Assyrie D) Éthiopie
+26. [Ézéchiel 26] Que deviendra Tyr selon Ézéchiel 26 ? A) Le nouveau temple B) Une île de refuge C) Une capitale fleurie D) Un rocher nu, où l'on fait sécher les filets
+27. [Ézéchiel 26] Quel roi Jéhovah fait-il venir contre Tyr en Ézéchiel 26 ? A) Pharaon B) Nabuchodonosor C) Alexandre D) Cyrus
+28. [Ézéchiel 26] Selon Ézéchiel 26:12, que fera-t-on des pierres, du bois et de la poussière de Tyr ? A) On les emportera à Babylone B) On les brûlera C) On en bâtira un temple D) On les jettera dans l'eau
+29. [Daniel 1] Quel nom babylonien Daniel reçut-il ? A) Abed-Négo B) Beltshazar C) Méshak D) Balthazar
+30. [Daniel 1] Quel nom babylonien Hanania reçut-il ? A) Méshak B) Beltshazar C) Abed-Négo D) Shadrak
+31. [Daniel 1] Pourquoi Daniel refusa-t-il les plats du roi ? A) Parce qu'il n'aimait pas la viande B) Pour jeûner 40 jours C) Pour ne pas se souiller D) Parce qu'il était malade
+32. [Daniel 1] Que demanda Daniel à manger pendant le test ? A) De la viande et du lait B) Des fruits et du miel C) Du pain et du vin D) Des légumes et de l'eau
+33. [Daniel 1] Combien de jours dura le test de nourriture de Daniel et ses compagnons ? A) 7 jours B) 40 jours C) 3 jours D) 10 jours
+34. [Daniel 1] Combien de fois Daniel et ses compagnons étaient-ils supérieurs aux magiciens du roi ? A) 100 fois B) 7 fois C) 10 fois D) 2 fois
+35. [Daniel 2] De quoi était faite la tête de la statue du rêve de Nabuchodonosor ? A) D'argent B) De cuivre C) De fer D) D'or
+36. [Daniel 2] De quoi étaient faits la poitrine et les bras de la statue de Daniel 2 ? A) D'or B) De fer C) D'argile D) D'argent
+37. [Daniel 2] De quoi étaient faits les pieds de la statue de Daniel 2 ? A) De pierre B) En partie de fer et en partie d'argile C) D'or D) De cuivre
+38. [Daniel 2] Qu'est-ce qui frappa la statue aux pieds ? A) Un aigle B) Une pierre détachée sans l'aide de mains C) Une épée D) Un éclair
+39. [Daniel 2] Que devint la pierre qui frappa la statue ? A) Un temple B) Une statue d'or C) Du sable D) Une grande montagne qui remplit toute la terre
+40. [Daniel 2] Selon Daniel 2:44, que fera le royaume établi par le Dieu du ciel ? A) Il sera donné à Babylone B) Il durera mille ans puis disparaîtra C) Il écrasera tous ces royaumes et durera pour toujours D) Il s'allierera avec eux
+41. [Daniel 3] Où Nabuchodonosor dressa-t-il sa statue d'or ? A) Au bord du Nil B) Sur le mont Carmel C) À Jérusalem D) Dans la plaine de Doura
+42. [Daniel 3] Quelle était la hauteur de la statue d'or de Daniel 3 ? A) 60 coudées B) 30 coudées C) 6 coudées D) 100 coudées
+43. [Daniel 3] Combien de fois plus que d'habitude le four fut-il chauffé ? A) 2 fois B) 10 fois C) 3 fois D) 7 fois
+44. [Daniel 3] Combien d'hommes le roi vit-il marcher dans le four ? A) Sept B) Deux C) Trois D) Quatre
+45. [Daniel 3] Qu'est-ce qui sentait le feu sur Shadrak, Méshak et Abed-Négo à leur sortie du four ? A) Leurs cheveux B) Rien du tout C) Leurs sandales D) Leurs vêtements
+46. [Daniel 4] De quoi rêva Nabuchodonosor en Daniel 4 ? A) D'un fleuve de sang B) D'une statue C) De sept vaches D) D'un arbre immense qui fut abattu
+47. [Daniel 4] Combien de « temps » devaient passer sur la souche de l'arbre ? A) Dix temps B) Trois temps C) Quarante temps D) Sept temps
+48. [Daniel 4] Que mangea Nabuchodonosor pendant sa folie ? A) De l'herbe comme les taureaux B) Rien C) Des sauterelles D) Du pain céleste
+49. [Daniel 5] Dans quoi Balthazar et ses invités burent-ils pendant le festin ? A) Les récipients d'or et d'argent pris au temple de Jérusalem B) Des coupes de pierre C) Des cornes de bélier D) Des vases d'Égypte
+50. [Daniel 5] Quels mots furent écrits sur le mur pendant le festin de Balthazar ? A) MENÉ, MENÉ, TEKEL et PARSÎN B) SHALOM, SHALOM C) ABBA, PÈRE D) MANE, THECEL, PHARES et AMEN
+51. [Daniel 5] Que arriva-t-il à Balthazar la nuit même du festin ? A) Il fut tué B) Il s'enfuit en Égypte C) Il fut fait prisonnier par Daniel D) Il devint fou
+52. [Daniel 5] Qui reçut le royaume après Balthazar selon Daniel 5:31 ? A) Cyrus le Perse B) Évil-Mérodak C) Nabuchodonosor D) Darius le Mède
+53. [Daniel 6] Pendant combien de jours l'interdit défendait-il de prier un autre que le roi ? A) 40 jours B) 3 jours C) 7 jours D) 30 jours
+54. [Daniel 6] Combien de fois par jour Daniel priait-il ? A) Deux fois B) Sept fois C) Trois fois D) Une fois
+55. [Daniel 6] Vers quelle ville étaient ouvertes les fenêtres où Daniel priait ? A) Suse B) Ninive C) Babylone D) Jérusalem
+56. [Daniel 6] Comment Daniel fut-il protégé dans la fosse aux lions ? A) Les lions dormaient B) Daniel se battit contre eux C) Le roi le fit sortir aussitôt D) Dieu envoya son ange qui ferma la gueule des lions
+57. [Daniel 6] Qui fut jeté dans la fosse aux lions après Daniel ? A) Le roi Darius B) Personne C) Les hommes qui l'avaient accusé D) Les prêtres de Bel
