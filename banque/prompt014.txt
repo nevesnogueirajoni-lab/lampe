@@ -2,33 +2,33 @@ Vérification d'une banque de questions bibliques (lot 014, 30 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [1 Rois 1] Qui oignit Salomon comme roi ? A) Le prophète Élie B) Joab C) Le roi David lui-même D) Le prêtre Tsadok
+1. [1 Rois 1] Qui oignit Salomon comme roi ? A) Le prophète Élie B) Joab C) Le roi David lui-même D) Le prêtre Zadok
 2. [1 Rois 3] Où Jéhovah apparut-il à Salomon dans un rêve ? A) À Gabaon B) À Jérusalem C) À Hébron D) À Béthel
 3. [1 Rois 3] Que demanda Salomon à Jéhovah ? A) De grandes richesses B) Un cœur obéissant pour juger le peuple C) La mort de ses ennemis D) Une longue vie
 4. [1 Rois 3] Que reçut Salomon en plus de ce qu'il avait demandé ? A) La richesse et la gloire B) Une nouvelle capitale C) Une armée invincible D) Le don de faire des miracles
 5. [1 Rois 3] Que proposa Salomon pour savoir laquelle des deux femmes était la vraie mère ? A) Interroger les voisins B) Couper l'enfant vivant en deux C) Faire jurer les femmes D) Tirer au sort
-6. [1 Rois 4] Combien de proverbes Salomon prononça-t-il ? A) 10 000 B) 1 005 C) 3 000 D) 300
-7. [1 Rois 5] Quel roi de Tyr fournit du bois de cèdre à Salomon ? A) Hiram B) Pharaon C) Nabuchodonosor D) Ben-Hadad
+6. [1 Rois 4] Combien de proverbes Salomon composa-t-il ? A) 10 000 B) 1 005 C) 3 000 D) 300
+7. [1 Rois 5] Quel roi de Tyr fournit du bois de cèdre à Salomon ? A) Hiram B) Pharaon C) Achab D) Jéroboam
 8. [1 Rois 6] Combien d'années Salomon mit-il à construire le temple ? A) 3 ans B) 40 ans C) 7 ans D) 20 ans
-9. [1 Rois 8] Que dit Salomon dans sa prière à l'inauguration du temple ? A) Dieu ne viendra jamais dans le temple B) Le temple est plus grand que le ciel C) Même les cieux ne peuvent contenir Dieu, encore moins cette maison D) Dieu habite seulement dans le temple
-10. [1 Rois 10] Quelle reine vint voir Salomon pour l'éprouver par des énigmes ? A) La reine Vashti B) La reine Jézabel C) La reine Esther D) La reine de Saba
-11. [1 Rois 10] Que dit la reine de Saba après avoir vu la sagesse de Salomon ? A) Elle voulait l'épouser B) Elle était déçue C) Elle refusait de croire D) On ne lui en avait pas raconté la moitié
-12. [1 Rois 11] Qu'est-ce qui détourna le cœur de Salomon dans sa vieillesse ? A) Ses femmes, vers d'autres dieux B) La guerre C) Les conseils des prophètes D) La richesse
-13. [1 Rois 11] Combien de morceaux du manteau le prophète Ahiya donna-t-il à Jéroboam ? A) Deux B) Dix C) Douze D) Un
-14. [1 Rois 12] Quel conseil Roboam suivit-il ? A) Celui de sa mère B) Celui des anciens : alléger le joug C) Celui des prophètes D) Celui des jeunes : alourdir le joug du peuple
+9. [1 Rois 8] Que dit Salomon dans sa prière à l'inauguration du temple ? A) Dieu ne viendra jamais dans le temple B) Le temple est plus grand que le ciel C) Le ciel dans toute son immensité ne peut pas contenir Dieu, encore moins cette maison D) Dieu habite seulement dans le temple
+10. [1 Rois 10] Quelle reine vint voir Salomon pour le mettre à l'épreuve par des questions difficiles ? A) La reine de Tyr B) La reine Jézabel C) La reine d'Égypte D) La reine de Saba
+11. [1 Rois 10] Que dit la reine de Saba après avoir vu la sagesse de Salomon ? A) Elle voulait l'épouser B) Elle était déçue C) Elle refusait de croire D) On ne lui en avait pas révélé la moitié
+12. [1 Rois 11] Qu'est-ce qui détourna le cœur de Salomon dans sa vieillesse ? A) Ses femmes, qui l'influencèrent pour servir d'autres dieux B) La guerre C) Les conseils des prophètes D) La richesse
+13. [1 Rois 11] Combien de morceaux du manteau le prophète Ahiya donna-t-il à Jéroboam ? A) Deux B) Dix C) Sept D) Un
+14. [1 Rois 12] Quel conseil Roboam suivit-il ? A) Celui de sa mère B) Celui des anciens : alléger le joug C) Celui des prophètes D) Celui des jeunes gens : rendre le joug du peuple plus pesant
 15. [1 Rois 12] Qu'installa Jéroboam pour empêcher le peuple d'aller à Jérusalem ? A) Une muraille B) Une statue de Baal C) Deux veaux d'or D) Un nouveau temple
 16. [1 Rois 12] Dans quelles villes Jéroboam plaça-t-il les veaux d'or ? A) Béthel et Dan B) Hébron et Gabaon C) Silo et Sichem D) Samarie et Jéricho
 17. [1 Rois 16] Quelle femme le roi Achab épousa-t-il ? A) Jézabel, fille du roi des Sidoniens B) Bethsabée C) Mikal D) Athalie
-18. [1 Rois 17] Qu'annonça Élie au roi Achab ? A) Une victoire sur la Syrie B) La construction d'un temple C) Il n'y aurait ni rosée ni pluie pendant ces années D) La mort de Jézabel
+18. [1 Rois 17] Qu'annonça Élie au roi Achab ? A) Une victoire sur la Syrie B) La construction d'un temple C) Il n'y aurait ni rosée ni pluie pendant plusieurs années D) La mort de Jézabel
 19. [1 Rois 17] Quels oiseaux apportaient de la nourriture à Élie près du torrent ? A) Des cailles B) Des aigles C) Des colombes D) Des corbeaux
 20. [1 Rois 17] Que ne manqua pas à la veuve de Sarepta grâce à Élie ? A) L'eau B) Le vin C) Le bois D) La farine et l'huile
 21. [1 Rois 17] Que fit Jéhovah pour le fils de la veuve de Sarepta, à la prière d'Élie ? A) Il le guérit de la lèpre B) Il lui donna la vue C) Il le ramena à la vie D) Il le rendit fort
-22. [1 Rois 18] Quelle question Élie posa-t-il au peuple sur le mont Carmel ? A) « Où est le roi ? » B) « Jusqu'à quand boiterez-vous entre deux opinions ? » C) « Qui veut du pain ? » D) « Qui a vu la pluie ? »
+22. [1 Rois 18] Quelle question Élie posa-t-il au peuple sur le mont Carmel ? A) « Où est le roi ? » B) « Jusqu'à quand hésiterez-vous ? » C) « Qui veut du pain ? » D) « Qui a vu la pluie ? »
 23. [1 Rois 18] Combien de prophètes de Baal étaient présents au mont Carmel ? A) 450 B) 850 C) 400 D) 100
-24. [1 Rois 18] Que fit le feu de Jéhovah sur le mont Carmel ? A) Il consuma l'holocauste, le bois, les pierres et l'eau B) Il tomba sur le roi C) Il brûla les prophètes de Baal D) Il s'éteignit tout de suite
-25. [1 Rois 18] Quel petit signe annonça la pluie après la sécheresse ? A) Un arc-en-ciel B) Un petit nuage comme la main d'un homme C) Un coup de tonnerre D) Un vent du sud
+24. [1 Rois 18] Que fit le feu de Jéhovah sur le mont Carmel ? A) Il consuma le sacrifice, le bois, les pierres et la poussière B) Il tomba sur le roi C) Il brûla les prophètes de Baal D) Il s'éteignit tout de suite
+25. [1 Rois 18] Quel petit signe annonça la pluie après la sécheresse ? A) Un arc-en-ciel B) Un petit nuage de la taille d'une main d'homme C) Un coup de tonnerre D) Un vent du sud
 26. [1 Rois 19] Que demanda Élie, découragé, dans le désert ? A) De mourir B) De l'eau C) D'avoir un successeur D) De la nourriture
 27. [1 Rois 19] Après le vent, le tremblement de terre et le feu, comment Jéhovah parla-t-il à Élie ? A) Par une voix calme et basse B) Par un ange armé C) Par un songe D) Par le tonnerre
 28. [1 Rois 19] Combien d'Israélites n'avaient pas plié le genou devant Baal, selon Jéhovah ? A) 70 B) 70 000 C) 700 D) 7 000
-29. [1 Rois 19] Que faisait Élisée quand Élie l'appela ? A) Il labourait avec des bœufs B) Il gardait des moutons C) Il pêchait D) Il était au temple
-30. [1 Rois 21] Quel homme possédait la vigne qu'Achab convoitait ? A) Obadia B) Michée C) Naboth D) Élisée
+29. [1 Rois 19] Que faisait Élisée quand Élie l'appela ? A) Il labourait avec des taureaux B) Il gardait des moutons C) Il pêchait D) Il était au temple
+30. [1 Rois 21] Quel homme possédait la vigne qu'Achab convoitait ? A) Abdias B) Michée C) Naboth D) Élisée
