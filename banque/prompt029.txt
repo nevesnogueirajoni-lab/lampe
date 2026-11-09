@@ -1,0 +1,99 @@
+Vérification d'une banque de questions bibliques (lot 029, 95 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Exode 1] Qu'est-ce qui changea pour les Israélites quand un nouveau roi se leva sur l'Égypte ? A) Il les fit soldats B) Il leur donna des terres C) Il les libéra D) Ce roi ne connaissait pas Joseph
+2. [Exode 1] Quelles villes-entrepôts les Israélites construisirent-ils pour Pharaon ? A) Sodome et Gomorrhe B) Ninive et Kalah C) Our et Harran D) Pitom et Raamsès
+3. [Exode 1] Quel ordre Pharaon donna-t-il à tout son peuple au sujet des garçons hébreux ? A) En faire des soldats B) Les jeter dans le Nil C) Les envoyer en Canaan D) Les adopter
+4. [Exode 2] Qui surveillait de loin le coffre de Moïse sur le Nil ? A) Son père B) Son frère C) Une servante de Pharaon D) Sa sœur
+5. [Exode 2] Qui la sœur de Moïse alla-t-elle chercher pour nourrir le bébé ? A) Une sage-femme B) La mère de l'enfant C) Sa tante D) Une servante égyptienne
+6. [Exode 2] Que vit Moïse, devenu adulte, qui le poussa à agir ? A) Un Égyptien qui frappait un Hébreu B) Un lion C) Un incendie D) Une tempête
+7. [Exode 2] Que fit Moïse pour les filles du prêtre de Madian au puits ? A) Il leur prit leur eau B) Il les défendit et abreuva leur troupeau C) Il les ignora D) Il les chassa
+8. [Exode 3] Quel animal Moïse gardait-il quand il arriva à la montagne du vrai Dieu ? A) Le petit bétail de son beau-père B) Des chevaux C) Des bœufs D) Des chameaux
+9. [Exode 3] Qu'avait d'extraordinaire le buisson que vit Moïse ? A) Il brûlait sans se consumer B) Il poussait à vue d'œil C) Il était en or D) Il parlait
+10. [Exode 4] Quel deuxième signe Jéhovah donna-t-il à Moïse avec sa main ? A) Sa main brilla B) Sa main devint lépreuse puis redevint saine C) Sa main devint de feu D) Sa main disparut
+11. [Exode 4] Quelle excuse Moïse donna-t-il à Jéhovah ? A) Il était malade B) Il ne savait pas bien parler C) Il était trop vieux D) Il était recherché par Pharaon
+12. [Exode 5] Que demandèrent Moïse et Aaron à Pharaon au nom de Jéhovah ? A) Laisser partir son peuple pour une fête dans le désert B) Leur rendre leurs terres C) Leur donner de l'or D) Les nommer chefs
+13. [Exode 7] Quel âge avait Moïse quand il parla à Pharaon ? A) 40 ans B) 80 ans C) 120 ans D) 60 ans
+14. [Exode 7] Que devint le bâton d'Aaron devant Pharaon ? A) Du feu B) Un arbre C) Un grand serpent D) Une épée
+15. [Exode 8] Quelle plaie les prêtres-magiciens ne purent-ils pas imiter ? A) Les moustiques B) Les ténèbres C) Les grenouilles D) Le sang
+16. [Exode 8] Que dirent les prêtres-magiciens à Pharaon lors de la plaie des moustiques ? A) « Moïse est un magicien » B) « C'est un hasard » C) « Nous allons faire mieux » D) « C'est le doigt de Dieu ! »
+17. [Exode 9] Qu'arriva-t-il au bétail des Israélites lors de la plaie sur les animaux ? A) Aucun animal ne mourut B) La moitié mourut C) Ils furent volés D) Tous moururent
+18. [Exode 9] Quelle plaie fut provoquée par de la suie lancée vers le ciel ? A) Des sauterelles B) Des furoncles C) Des grenouilles D) Du sang
+19. [Exode 9] Pourquoi Jéhovah avait-il laissé Pharaon en vie, selon Exode 9:16 ? A) Pour qu'il se repente B) Pour montrer sa puissance et faire connaître son nom sur toute la terre C) Pour qu'il garde les Israélites D) Par pitié
+20. [Exode 10] Quelle huitième plaie menaçait l'Égypte en Exode 10 ? A) Les ténèbres B) Les furoncles C) Les sauterelles D) La grêle
+21. [Exode 10] Où y avait-il de la lumière pendant les ténèbres ? A) Au bord du Nil B) Dans les lieux où habitaient les Israélites C) Au palais de Pharaon D) Nulle part
+22. [Exode 12] Que devint le mois de la Pâque pour les Israélites ? A) Un mois de jeûne B) Le dernier mois C) Le premier mois de l'année D) Un mois de guerre
+23. [Exode 12] Avec quoi fallait-il manger la viande de la Pâque ? A) Du miel B) Du vin C) Des fruits D) Du pain sans levain et des herbes amères
+24. [Exode 12] Comment les Israélites devaient-ils manger la Pâque ? A) Assis tranquillement B) Avec des invités C) Habillés pour partir, sandales aux pieds, bâton à la main D) Debout sans bruit
+25. [Exode 12] Combien d'hommes à pied, sans compter les enfants, partirent de Raamsès ? A) Environ 60 000 B) Environ 6 000 C) Environ 1 million D) Environ 600 000
+26. [Exode 14] Où les Égyptiens rattrapèrent-ils les Israélites ? A) À Mara B) À Raamsès C) Près de la mer, campés à Pi-Hahiroth D) Au pied du Sinaï
+27. [Exode 14] Qu'arriva-t-il à l'armée de Pharaon dans la mer ? A) Elle traversa aussi B) Elle fut faite prisonnière C) Les eaux revinrent et la recouvrirent ; personne ne survécut D) Elle s'arrêta au bord
+28. [Exode 15] Que firent Moïse et les Israélites après la traversée de la mer ? A) Ils retournèrent en Égypte B) Ils jeûnèrent C) Ils construisirent une ville D) Ils chantèrent un chant à Jéhovah
+29. [Exode 15] Que trouvèrent les Israélites à Élim ? A) Des cailles B) 12 sources d'eau et 70 palmiers C) Un puits et un figuier D) Une ville abandonnée
+30. [Exode 16] Quels oiseaux couvrirent le camp le soir dans le désert ? A) Des perdrix B) Des corbeaux C) Des cailles D) Des colombes
+31. [Exode 16] Qu'arrivait-il à la manne gardée jusqu'au lendemain (sauf pour le sabbat) ? A) Elle disparaissait B) Elle se multipliait C) Elle devenait pleine de vers et sentait mauvais D) Elle devenait dure
+32. [Exode 16] Que demanda Moïse de garder dans un récipient comme souvenir pour les générations futures ? A) Un morceau de bois B) De l'eau du rocher C) Un omer de manne D) Une caille
+33. [Exode 17] Quel nom Moïse donna-t-il à l'autel bâti après la victoire sur les Amalécites ? A) Béthel B) Jéhovah-Nissi C) Ébène-Ézer D) Jéhovah-Jiré
+34. [Exode 18] Quel était le titre de Jéthro, beau-père de Moïse ? A) Roi de Moab B) Prophète d'Égypte C) Chef d'Édom D) Prêtre de Madian
+35. [Exode 18] Pourquoi Jéthro dit-il que la façon de faire de Moïse n'était pas bonne ? A) Il ne priait pas assez B) Il allait s'épuiser à juger seul tout le peuple C) Il était trop sévère D) Il était trop lent à parler
+36. [Exode 19] Comment apparaissait le mont Sinaï quand Jéhovah y descendit ? A) Entouré d'eau B) Couvert de neige C) Couvert de fumée et tremblant D) Plein d'arbres en fleurs
+37. [Exode 20] Que dit le deuxième commandement ? A) Ne pas mentir B) Ne pas faire d'image sculptée pour l'adorer C) Ne pas voler D) Honorer ses parents
+38. [Exode 20] Que dit le commandement sur le nom de Jéhovah ? A) Le cacher aux nations B) Ne pas l'utiliser de manière indigne C) Ne jamais le prononcer D) Le dire seulement au temple
+39. [Exode 20] Que dit le dixième commandement ? A) Garder le sabbat B) Ne pas tuer C) Ne pas désirer ce qui appartient à son prochain D) Ne pas voler
+40. [Exode 21] Quelle règle de justice est exprimée en Exode 21:24 ? A) Donne double B) Œil pour œil, dent pour dent C) Pardonne sept fois D) Oublie tout
+41. [Exode 23] Combien de fois par an les Israélites devaient-ils célébrer une fête pour Jéhovah ? A) Douze fois B) Trois fois C) Une fois D) Sept fois
+42. [Exode 25] Que devait-on placer sur la table du tabernacle en permanence ? A) Une lampe B) De l'encens seulement C) Le pain de présentation D) Les tables de la Loi
+43. [Exode 28] Que portait le turban du grand prêtre sur une lame d'or ? A) « Fils d'Aaron » B) « La sainteté appartient à Jéhovah » C) « Roi d'Israël » D) « Dieu avec nous »
+44. [Exode 31] Quel homme Jéhovah remplit-il de son esprit pour les travaux du tabernacle ? A) Josué B) Oholiab seul C) Bezalel D) Hour
+45. [Exode 32] Que fit Moïse du veau d'or ? A) Il l'enterra B) Il le rendit à Aaron C) Il le garda D) Il le brûla, le réduisit en poudre et la fit boire au peuple
+46. [Exode 32] Quelle tribu se rassembla autour de Moïse quand il demanda : « Qui est du côté de Jéhovah ? » A) Les fils de Ruben B) Les fils de Lévi C) Les fils de Dan D) Les fils de Juda
+47. [Exode 34] Que demanda Jéhovah à Moïse de tailler après qu'il eut brisé les premières tables ? A) Une arche B) Un bâton C) Deux tables de pierre comme les premières D) Un autel d'or
+48. [Exode 34] Que mit Moïse sur son visage après avoir parlé avec le peuple ? A) Une couronne B) Un masque d'or C) De la poussière D) Un voile
+49. [Exode 40] Qu'est-ce qui était au-dessus du tabernacle le jour et la nuit ? A) Un arc-en-ciel B) Une étoile C) Un ange D) Le nuage le jour et le feu la nuit
+50. [Lévitique 1] Que faisait celui qui offrait un holocauste en posant sa main sur la tête de l'animal ? A) Il le vendait B) Il le libérait C) L'animal était accepté pour lui faire obtenir le pardon D) Il le bénissait seulement
+51. [Lévitique 2] Qu'est-ce qui devait accompagner chaque offrande de grain ? A) Du vin B) Du miel C) Du sel D) Du levain
+52. [Lévitique 3] Qu'est-ce que les Israélites ne devaient jamais manger, selon Lévitique 3:17 ? A) Le poisson B) Les fruits C) La graisse ni le sang D) Le pain
+53. [Lévitique 8] Que versa Moïse sur la tête d'Aaron pour le consacrer ? A) Du vin B) L'huile d'onction C) De l'eau D) Du sang
+54. [Lévitique 10] Qu'est-ce qu'Aaron et ses fils ne devaient pas boire avant d'entrer dans la tente de la rencontre ? A) De l'huile B) Du lait C) De l'eau D) Du vin ni de boisson alcoolisée
+55. [Lévitique 11] Quels animaux terrestres les Israélites pouvaient-ils manger ? A) Tous les animaux B) Seulement les poissons C) Ceux qui ont le sabot fendu et qui ruminent D) Seulement les oiseaux
+56. [Lévitique 11] Pourquoi le porc était-il impur pour les Israélites ? A) Il ne mange que de l'herbe B) Il a des ailes C) Il a le sabot fendu mais ne rumine pas D) Il vit dans l'eau
+57. [Lévitique 11] Quels animaux aquatiques étaient permis ? A) Seulement les coquillages B) Tous les animaux marins C) Ceux qui ont des nageoires et des écailles D) Aucun
+58. [Lévitique 13] Que devait crier le lépreux en se déplaçant ? A) « Impur ! Impur ! » B) « Pitié ! » C) « Guéri ! » D) « Écartez-vous du roi ! »
+59. [Lévitique 16] Quel jour du septième mois était le jour de la Réconciliation ? A) Le 10e jour B) Le 15e jour C) Le 1er jour D) Le 14e jour
+60. [Lévitique 16] Combien de fois par an le grand prêtre faisait-il la réconciliation pour tous les péchés d'Israël ? A) Trois fois B) Chaque mois C) Une fois D) Sept fois
+61. [Lévitique 19] Que ne fallait-il pas faire au sourd et à l'aveugle, selon Lévitique 19:14 ? A) Les inviter B) Maudire le sourd et mettre un obstacle devant l'aveugle C) Les aider D) Leur parler
+62. [Lévitique 19] Que les Israélites ne devaient-ils pas faire sur leur corps, selon Lévitique 19:28 ? A) Se laver B) Porter des bijoux C) Se faire des incisions pour un mort ou des tatouages D) Se couper les cheveux
+63. [Lévitique 19] Vers qui les Israélites ne devaient-ils pas se tourner, selon Lévitique 19:31 ? A) Les prophètes de Jéhovah B) Les anciens C) Les médiums et les spirites D) Les prêtres
+64. [Lévitique 23] À quelle date se célébrait la Pâque ? A) Le 15e jour du troisième mois B) Le 10e jour du septième mois C) Le 1er jour de l'an D) Le 14e jour du premier mois, au crépuscule
+65. [Lévitique 25] Que devait-on faire la septième année pour la terre ? A) Semer deux fois plus B) La laisser se reposer : ne pas semer ni tailler la vigne C) La brûler D) La vendre
+66. [Lévitique 26] Que promet Jéhovah en Lévitique 26:12 à ceux qui obéissent ? A) Vous deviendrez rois B) Je marcherai au milieu de vous et je serai votre Dieu C) Vous vivrez au ciel D) Vous ne travaillerez plus
+67. [Nombres 1] Combien d'hommes furent recensés en Israël au début du livre des Nombres ? A) 603 550 B) 600 000 exactement C) 1 million D) 70 000
+68. [Nombres 2] Comment les tribus d'Israël campaient-elles ? A) Toutes au nord B) Dispersées au hasard C) Chacun près de son étendard, autour de la tente de la rencontre D) Dans des villes
+69. [Nombres 3] Quel service Jéhovah confia-t-il à la tribu de Lévi ? A) Diriger le peuple B) Faire la guerre C) Servir Aaron et s'occuper du tabernacle D) Garder les troupeaux
+70. [Nombres 6] De quoi devait s'abstenir un naziréen ? A) De l'eau B) Du vin et de tout ce qui vient de la vigne C) Du pain D) De la viande
+71. [Nombres 6] Qu'est-ce qu'un naziréen ne devait pas faire à ses cheveux pendant son vœu ? A) Les attacher B) Les couvrir C) Les laver D) Les couper avec un rasoir
+72. [Nombres 9] Quand ceux qui étaient impurs pouvaient-ils célébrer la Pâque ? A) L'année suivante seulement B) Jamais C) Le deuxième mois, le 14e jour D) Le septième mois
+73. [Nombres 10] En quoi étaient faites les deux trompettes que Moïse devait fabriquer ? A) En corne de bélier B) En bronze C) En argent martelé D) En or
+74. [Nombres 11] Que regrettaient les Israélites qui se plaignaient dans le désert ? A) Les fêtes de Canaan B) Les poissons, concombres, pastèques et poireaux d'Égypte C) Le palais de Pharaon D) Le travail des briques
+75. [Nombres 11] Combien d'anciens Moïse devait-il rassembler pour l'aider à porter la charge du peuple ? A) 40 B) 7 C) 70 D) 12
+76. [Nombres 11] Que répondit Moïse à Josué, jaloux pour lui, au sujet d'Eldad et Médad qui prophétisaient ? A) Il aurait voulu que tout le peuple de Jéhovah soit prophète B) Il fallait les punir C) Il fallait les arrêter D) Ils étaient de faux prophètes
+77. [Nombres 12] Pourquoi Miriam et Aaron parlèrent-ils contre Moïse ? A) À cause de sa richesse B) À cause de la femme koushite qu'il avait épousée C) À cause de Josué D) À cause de ses enfants
+78. [Nombres 12] Combien de jours Miriam dut-elle rester hors du camp ? A) Un jour B) Sept jours C) Quarante jours D) Trois jours
+79. [Nombres 13] Quel était le nom d'origine de Josué, fils de Noun ? A) Hour B) Jéthro C) Hoshéa D) Caleb
+80. [Nombres 13] À quoi les espions se comparèrent-ils devant les Nefilim ? A) À des sauterelles B) À des fourmis C) À des enfants D) À des moutons
+81. [Nombres 14] Comment le peuple réagit-il au mauvais rapport des espions ? A) Il se prépara au combat B) Il resta silencieux C) Il remercia Jéhovah D) Il murmura et voulut retourner en Égypte
+82. [Nombres 14] Pourquoi Caleb pourrait-il entrer dans le pays ? A) Il était le plus fort B) Il était le plus âgé C) Il avait un autre esprit et suivait Jéhovah pleinement D) Il était lévite
+83. [Nombres 15] Que devaient porter les Israélites au bas de leurs vêtements ? A) Des franges, avec un cordon bleu B) Des clochettes C) Des boutons d'or D) Des pierres précieuses
+84. [Nombres 16] Combien d'hommes offrant l'encens furent consumés par le feu lors de la rébellion de Coré ? A) 250 B) 70 C) 12 D) 1 000
+85. [Nombres 20] Où mourut Miriam ? A) Au mont Nébo B) En Égypte C) Au Sinaï D) À Kadesh
+86. [Nombres 20] Sur quelle montagne mourut Aaron ? A) Le mont Sinaï B) Le mont Nébo C) Le mont Carmel D) Le mont Hor
+87. [Nombres 21] Que devaient faire ceux qui avaient été mordus par un serpent pour rester en vie ? A) Offrir un sacrifice B) Se laver C) Regarder le serpent de cuivre D) Prier toute la nuit
+88. [Nombres 22] Pourquoi l'ânesse de Balaam s'écarta-t-elle du chemin ? A) Elle voulait rentrer B) Elle avait peur d'un lion C) Elle vit l'ange de Jéhovah avec une épée D) Elle était fatiguée
+89. [Nombres 23] Que reprocha Balak à Balaam ? A) Il avait volé de l'or B) Il avait battu son ânesse C) Au lieu de maudire Israël, il l'avait béni D) Il était arrivé en retard
+90. [Nombres 24] Que voit Balaam venir de Jacob en Nombres 24:17 ? A) Une famine B) Un déluge C) Une étoile et un sceptre D) Une armée de chars
+91. [Nombres 25] Combien de personnes moururent du fléau à cause du culte de Baal de Péor ? A) 3 000 B) 23 000 C) 24 000 D) 10 000
+92. [Nombres 27] Que demandèrent les filles de Zelofehad ? A) Devenir prêtresses B) Épouser des Égyptiens C) Retourner en Égypte D) Recevoir un héritage parmi les frères de leur père
+93. [Nombres 31] Quel prophète fut tué avec les rois de Madian ? A) Élie B) Balak C) Balaam D) Coré
+94. [Nombres 32] Quelles tribus demandèrent à s'installer à l'est du Jourdain parce qu'elles avaient beaucoup de bétail ? A) Dan et Asher B) Lévi et Siméon C) Ruben et Gad D) Juda et Benjamin
+95. [Nombres 35] Combien de villes en tout devaient être données aux Lévites ? A) 12 B) 48 C) 40 D) 6
