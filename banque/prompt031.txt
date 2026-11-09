@@ -1,0 +1,74 @@
+Vérification d'une banque de questions bibliques (lot 031, 70 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [1 Samuel 1] Où Elkana montait-il chaque année pour adorer Jéhovah ? A) À Béthel B) À Hébron C) À Jérusalem D) À Silo
+2. [1 Samuel 1] Comment Peninna se comportait-elle envers Anne ? A) Elle la consolait B) Elle l'aidait C) Elle la provoquait sans arrêt pour la blesser D) Elle l'ignorait
+3. [1 Samuel 1] Que dit Elkana pour consoler Anne ? A) « Oublie cela » B) « Pars en voyage » C) « Ne suis-je pas meilleur pour toi que dix fils ? » D) « Prie davantage »
+4. [1 Samuel 1] Où Anne amena-t-elle Samuel une fois sevré ? A) À Rama B) Au palais du roi C) À la maison de Jéhovah à Silo D) Chez son père
+5. [1 Samuel 2] Comment commence la prière d'Anne en 1 Samuel 2 ? A) « Pourquoi m'as-tu oubliée ? » B) « Donne-moi un roi » C) « Punis mes ennemis » D) « Mon cœur exulte en Jéhovah »
+6. [1 Samuel 2] Que dit Anne au sujet de Jéhovah en 1 Samuel 2:2 ? A) Personne n'est saint comme lui ; il n'y a pas de rocher comme notre Dieu B) Il est loin C) Il dort D) Il est sévère
+7. [1 Samuel 2] Comment grandissait le jeune Samuel ? A) Orgueilleux B) De plus en plus approuvé par Jéhovah et par les hommes C) Malade D) Rejeté de tous
+8. [1 Samuel 3] Comment était la parole de Jéhovah à l'époque où Samuel était jeune ? A) Interdite B) Abondante C) Chantée D) Rare
+9. [1 Samuel 3] Que dit 1 Samuel 3:19 de Samuel en grandissant ? A) Il devint roi B) Il devint riche C) Jéhovah était avec lui et ne laissa aucune de ses paroles sans effet D) Il quitta Silo
+10. [1 Samuel 4] Comment mourut Héli en apprenant la prise de l'Arche ? A) Il tomba de son siège et se brisa la nuque B) Au combat C) De chagrin dans son lit D) Tué par les Philistins
+11. [1 Samuel 4] Quel nom la belle-fille d'Héli donna-t-elle à son fils à la naissance ? A) Abiathar B) Jonathan C) Ikabod D) Samuel
+12. [1 Samuel 6] Comment les Philistins renvoyèrent-ils l'Arche en Israël ? A) Portée par des prêtres B) Sur un chariot neuf tiré par deux vaches C) Sur un bateau D) Sur un âne
+13. [1 Samuel 7] Quel nom Samuel donna-t-il à la pierre dressée après la victoire sur les Philistins ? A) Béthel B) Mizpa C) Guilgal D) Ébènézer
+14. [1 Samuel 8] Comment se comportaient les fils de Samuel ? A) Ils refusaient de juger B) Ils étaient prophètes C) Ils acceptaient des pots-de-vin et faussaient la justice D) Ils étaient très justes
+15. [1 Samuel 9] Comment Saül réagit-il quand Samuel lui parla de son avenir ? A) Il se vanta B) Il refusa de l'écouter C) Il se dit le plus petit d'Israël D) Il s'enfuit
+16. [1 Samuel 10] Où Saül s'était-il caché quand on voulut le présenter comme roi ? A) Dans une grotte B) Parmi les bagages C) Dans le temple D) Sous un arbre
+17. [1 Samuel 11] Quel roi ammonite assiégea Jabesh en Galaad ? A) Nahash B) Akish C) Hiram D) Agag
+18. [1 Samuel 13] Quelle faute commit Saül à Guilgal en attendant Samuel ? A) Il tua un prophète B) Il offrit lui-même l'holocauste C) Il adora Baal D) Il s'enfuit
+19. [1 Samuel 14] Que dit Jonathan sur la puissance de Jéhovah en 1 Samuel 14:6 ? A) Il faut attendre B) Il faut une grande armée C) Rien n'empêche Jéhovah de sauver, avec beaucoup ou avec peu D) Il faut des chars
+20. [1 Samuel 14] Que mangea Jonathan sans savoir que son père l'avait interdit ? A) Du miel B) Des figues C) Du pain D) De la viande
+21. [1 Samuel 15] À quoi Samuel compare-t-il la rébellion en 1 Samuel 15:23 ? A) Au péché de divination B) À la pauvreté C) À une erreur sans importance D) À la maladie
+22. [1 Samuel 15] Que fit Samuel du manteau de Saül déchiré ? A) Il le brûla B) Il en fit le signe que Jéhovah lui arrachait le royaume C) Il le garda D) Il le recousit
+23. [1 Samuel 16] Comment David est-il décrit quand Samuel le vit ? A) Pâle et faible B) Grand et fort C) Roux, avec de beaux yeux et une belle apparence D) Vieux et sage
+24. [1 Samuel 17] Quelle était la taille de Goliath ? A) Trois coudées B) Dix coudées C) Quatre coudées D) Six coudées et un empan
+25. [1 Samuel 17] Comment David appela-t-il Goliath ? A) Un prophète B) Un grand roi C) Un ami d'Israël D) Un Philistin incirconcis qui provoque l'armée du Dieu vivant
+26. [1 Samuel 17] Quels animaux David avait-il affrontés en gardant les moutons ? A) Un sanglier B) Un loup et un léopard C) Un serpent et un aigle D) Un lion et un ours
+27. [1 Samuel 17] Pourquoi David refusa-t-il l'armure de Saül ? A) Saül la lui refusa B) Il n'y était pas habitué C) Elle était trop petite D) Elle était brisée
+28. [1 Samuel 17] Avec quelle épée David coupa-t-il la tête de Goliath ? A) L'épée de Jonathan B) Sa propre épée C) L'épée de Saül D) L'épée de Goliath
+29. [1 Samuel 18] Que donna Jonathan à David en signe d'amitié ? A) Son manteau, son armure, son épée, son arc et sa ceinture B) Son trône C) Une maison D) Sa sœur
+30. [1 Samuel 18] Comment Saül regarda-t-il David après le chant des femmes ? A) Avec reconnaissance B) Avec amour C) Avec indifférence D) Avec méfiance, à partir de ce jour
+31. [1 Samuel 18] Que lança Saül contre David pendant qu'il jouait de la harpe ? A) Une pierre B) Une flèche C) Une lance D) Une coupe
+32. [1 Samuel 18] Quelle fille de Saül David épousa-t-il ? A) Abigaïl B) Ahinoam C) Mikal D) Mérab
+33. [1 Samuel 21] Quel pain le prêtre Ahimélek donna-t-il à David à Nob ? A) Du pain levé B) Le pain de proposition C) Des galettes D) Du pain d'orge
+34. [1 Samuel 21] Comment David échappa-t-il à Akish, roi de Gath ? A) Il se cacha B) Il se battit C) Il fit semblant d'être fou D) Il paya une rançon
+35. [1 Samuel 22] Dans quelle grotte David se réfugia-t-il en fuyant Saül ? A) La grotte d'Adoullam B) La grotte de Silo C) La grotte de Makpéla D) La grotte d'Èn-Guédi seulement
+36. [1 Samuel 22] Qui tua les prêtres de Nob sur l'ordre de Saül ? A) Jonathan B) Abner C) Joab D) Doèg l'Édomite
+37. [1 Samuel 23] Que fit Jonathan pour David au désert de Ziph ? A) Il l'encouragea à se confier en Jéhovah B) Il l'abandonna C) Il lui prit son épée D) Il le trahit
+38. [1 Samuel 25] Qui mourut juste avant le récit de Nabal et Abigaïl ? A) Héli B) Jonathan C) Saül D) Samuel
+39. [1 Samuel 25] Qu'apporta Abigaïl à David pour apaiser sa colère ? A) Des armes B) Du pain, du vin, des moutons, du grain grillé, des raisins secs et des figues C) De l'or D) Rien du tout
+40. [1 Samuel 25] Qu'arriva-t-il à Nabal environ dix jours plus tard ? A) Il devint ami de David B) Il s'enfuit C) Il fut fait prisonnier D) Jéhovah le frappa et il mourut
+41. [1 Samuel 26] Que prit David près de Saül endormi dans le camp ? A) Son épée B) Sa lance et sa cruche d'eau C) Son manteau D) Sa couronne
+42. [1 Samuel 27] Quelle ville Akish donna-t-il à David ? A) Gath B) Hébron C) Gaza D) Tsiklag
+43. [1 Samuel 30] Que fit David quand Tsiklag fut pillée et que ses hommes parlaient de le lapider ? A) Il s'enfuit B) Il se désespéra C) Il se rendit D) Il se fortifia en Jéhovah son Dieu
+44. [1 Samuel 31] Qui mourut avec Saül au mont Guilboa ? A) David B) Ses trois fils et son porteur d'armes C) Abner D) Samuel
+45. [2 Samuel 1] Comment David décrit-il Saül et Jonathan dans son chant ? A) Plus rapides que les aigles, plus forts que les lions B) Faibles C) Cruels D) Orgueilleux
+46. [2 Samuel 1] Que dit David de l'amour de Jonathan ? A) Il était intéressé B) Il était plus merveilleux pour lui que l'amour des femmes C) Il était faux D) Il était ordinaire
+47. [2 Samuel 2] Qui Abner fit-il roi sur Israël après la mort de Saül ? A) Ishbosheth, fils de Saül B) Mefibosheth C) Jonathan D) Joab
+48. [2 Samuel 3] Qui tua Abner ? A) Abishaï seul B) David C) Joab D) Ishbosheth
+49. [2 Samuel 4] Pourquoi Mefibosheth était-il boiteux ? A) Un lion l'avait attaqué B) Il était né ainsi C) Il avait été blessé au combat D) Sa nourrice l'avait laissé tomber en s'enfuyant
+50. [2 Samuel 5] Combien de temps David régna-t-il à Hébron sur Juda ? A) Sept ans et six mois B) Trois ans C) Douze ans D) 40 ans
+51. [2 Samuel 6] Comment réagit Mikal en voyant David danser devant l'Arche ? A) Elle chanta B) Elle pleura de joie C) Elle le méprisa dans son cœur D) Elle dansa avec lui
+52. [2 Samuel 7] Qui devait bâtir une maison pour le nom de Jéhovah, selon 2 Samuel 7:13 ? A) David lui-même B) Nathan C) Le descendant de David D) Le grand prêtre
+53. [2 Samuel 11] Où était David quand il aurait dû être à la guerre ? A) Il était resté à Jérusalem B) Il était à Hébron C) Il était à Silo D) Il était au front
+54. [2 Samuel 11] Qu'ordonna David à Joab au sujet d'Urie ? A) De le placer en première ligne pour qu'il meure B) De le promouvoir C) De le protéger D) De le renvoyer chez lui
+55. [2 Samuel 12] Que possédait l'homme pauvre dans la parabole de Nathan ? A) Une vigne B) Une seule petite agnelle C) Un champ D) Un troupeau
+56. [2 Samuel 12] Quelle conséquence Nathan annonça-t-il à David ? A) Il serait exilé B) Il deviendrait aveugle C) Il perdrait son trône D) L'épée ne s'éloignerait jamais de sa maison
+57. [2 Samuel 12] Quel nom Jéhovah fit-il donner à Salomon par Nathan ? A) Emmanuel B) Jedidia C) Adonija D) Absalon
+58. [2 Samuel 13] Où Absalon s'enfuit-il après avoir tué Amnon ? A) À Gueshour, chez son grand-père B) En Égypte C) À Hébron D) À Gath
+59. [2 Samuel 14] Que faisait Absalon de ses cheveux chaque année ? A) Il les tressait B) Il les coupait parce qu'ils étaient trop lourds C) Il ne les coupait jamais D) Il les teignait
+60. [2 Samuel 15] Comment Absalon fut-il proclamé roi ? A) À Silo B) Au son du cor, à Hébron C) Au temple de Jérusalem D) À Gueshour
+61. [2 Samuel 15] Quel rôle David confia-t-il à Houshaï ? A) Commander l'armée B) Porter des messages à Nathan C) Déjouer le conseil d'Ahitofel auprès d'Absalon D) Garder l'Arche
+62. [2 Samuel 16] Quel homme de la famille de Saül maudit David pendant sa fuite ? A) Shiméï B) Doèg C) Ziba D) Abner
+63. [2 Samuel 17] Que fit Ahitofel quand son conseil ne fut pas suivi ? A) Il s'enfuit en Égypte B) Il rejoignit David C) Il attaqua Houshaï D) Il se pendit
+64. [2 Samuel 18] Quel ordre David donna-t-il au sujet d'Absalon avant la bataille ? A) Traiter le jeune Absalon avec douceur B) L'exiler C) Le capturer vivant pour le juger D) Le tuer
+65. [2 Samuel 19] Quel vieil homme riche avait nourri David à Mahanaïm ? A) Barzillaï B) Shiméï C) Ziba D) Houshaï
+66. [2 Samuel 21] Qui tua Goliath (le frère, selon 1 Chroniques) lors d'une autre bataille contre les Philistins ? A) Abishaï B) Elhanân C) Benaya D) Joab
+67. [2 Samuel 23] Quel guerrier de David tua un lion dans une citerne un jour de neige ? A) Urie B) Abishaï C) Joab D) Benaya
+68. [2 Samuel 24] Quelle faute David commit-il à la fin de son règne ? A) Il tua un prophète B) Il fit recenser le peuple C) Il épousa une étrangère D) Il bâtit un temple à Baal
+69. [2 Samuel 24] À quel endroit l'ange de Jéhovah arrêta-t-il le fléau ? A) À Silo B) À Hébron C) Au temple D) Près de l'aire de battage d'Arauna
+70. [2 Samuel 24] Combien David paya-t-il l'aire et les bœufs ? A) 50 sicles d'argent B) Rien C) 600 sicles d'or D) 30 pièces d'argent
