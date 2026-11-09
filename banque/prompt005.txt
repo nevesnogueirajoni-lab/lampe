@@ -1,0 +1,52 @@
+Vérification d'une banque de questions bibliques (lot 005, 48 questions). Réponds à chaque question avec ta connaissance de la Bible (Traduction du monde nouveau 2018), sans regarder les réponses ailleurs. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, ou si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018). Sois sévère. Aucune autre phrase.
+
+1. [Joël 1] Quels insectes ravagent le pays au début du livre de Joël ? A) Des sauterelles B) Des abeilles C) Des fourmis D) Des mouches
+2. [Joël 1] De qui Joël était-il le fils ? A) D'Amoz B) De Hilquia C) De Beéri D) De Petouel
+3. [Joël 2] Selon Joël 2:13, que faut-il déchirer pour revenir à Jéhovah ? A) Ses vêtements seulement B) Le rideau du temple C) Les rouleaux de la Loi D) Son cœur, et non ses vêtements
+4. [Joël 2] Sur qui Jéhovah promet-il de répandre son esprit en Joël 2:28 ? A) Seulement sur les prophètes B) Sur toutes sortes de personnes C) Seulement sur les prêtres D) Seulement sur les rois
+5. [Joël 2] Selon Joël 2:32, qui sera sauvé ? A) Seulement les habitants de Jérusalem B) Quiconque invoque le nom de Jéhovah C) Seulement les prêtres D) Ceux qui ont beaucoup de bétail
+6. [Joël 3] Que doit-on forger avec les socs de charrue en Joël 3:10 ? A) Des pioches B) Des cloches C) Des épées D) Des faucilles
+7. [Joël 3] Dans quelle vallée Jéhovah rassemblera-t-il les nations en Joël 3 ? A) La vallée du Jourdain B) La vallée de Josaphat C) La vallée d'Hinnom D) La vallée d'Élah
+8. [Amos 1] Quel était le métier d'Amos ? A) Pêcheur B) Charpentier C) Éleveur de moutons D) Soldat
+9. [Amos 1] De quelle ville venait Amos ? A) De Tékoa B) D'Anatoth C) De Nazareth D) De Bethléem
+10. [Amos 1] Combien de temps avant le tremblement de terre Amos reçut-il sa vision ? A) Dix ans B) Un an C) Deux ans D) Sept ans
+11. [Amos 3] Selon Amos 3:7, que fait Jéhovah avant d'agir ? A) Il consulte les rois B) Il envoie un tremblement de terre C) Il attend que tout le monde soit d'accord D) Il révèle son secret à ses serviteurs les prophètes
+12. [Amos 4] À quels animaux Amos compare-t-il les femmes riches de Samarie ? A) Aux chèvres de Galaad B) Aux juments d'Égypte C) Aux vaches de Bashân D) Aux brebis de Saron
+13. [Amos 5] À quoi Amos 5:24 compare-t-il la justice qui doit couler ? A) À un puits fermé B) À la mer Morte C) À un torrent qui ne tarit jamais D) À une pluie d'orage
+14. [Amos 7] Quel objet Jéhovah montre-t-il à Amos en Amos 7 ? A) Une faucille B) Un fil à plomb C) Une lampe D) Une balance
+15. [Amos 7] Quel prêtre de Béthel accusa Amos devant le roi ? A) Pashour B) Amazia C) Eli D) Hilquia
+16. [Amos 7] Que faisait Amos en plus de garder les troupeaux ? A) Il était scribe B) Il incisait les figues de sycomore C) Il fabriquait des tentes D) Il pêchait
+17. [Amos 8] Que contenait le panier montré à Amos en Amos 8 ? A) Des poissons B) Des fruits d'été C) Des pierres D) Du pain
+18. [Amos 8] De quelle famine parle Amos 8:11 ? A) Une famine de viande B) Celle d'entendre les paroles de Jéhovah C) Une famine de blé D) Une famine d'eau
+19. [Abdias 1] Contre quel peuple la prophétie d'Abdias est-elle surtout dirigée ? A) L'Égypte B) Moab C) Édom D) Ammon
+20. [Abdias 1] Qu'est-ce qui a trompé Édom, selon Abdias ? A) L'orgueil de son cœur B) Ses alliances avec l'Égypte C) Ses faux prophètes D) Sa richesse en or
+21. [Abdias 1] Pourquoi Édom est-il condamné selon Abdias ? A) Parce qu'il a adoré le soleil B) Parce qu'il a refusé de payer un tribut C) Pour la violence faite à son frère Jacob D) Parce qu'il a construit une tour
+22. [Jonas 1] Dans quelle ville Jonas devait-il aller prêcher ? A) Tarsis B) Ninive C) Babylone D) Joppé
+23. [Jonas 1] Vers quelle ville Jonas voulut-il fuir ? A) Damas B) Jérusalem C) Ninive D) Tarsis
+24. [Jonas 1] Dans quel port Jonas monta-t-il sur un bateau ? A) Ascalon B) Joppé C) Tyr D) Sidon
+25. [Jonas 1] Que faisait Jonas pendant la tempête ? A) Il dormait profondément au fond du bateau B) Il ramait avec les marins C) Il priait sur le pont D) Il jetait la cargaison
+26. [Jonas 1] Comment les marins découvrirent-ils que Jonas était responsable de la tempête ? A) Par une voix du ciel B) Jonas l'avait dit au départ C) Par un rêve D) En tirant au sort
+27. [Jonas 1] Que demanda Jonas aux marins pour calmer la mer ? A) De jeter la cargaison B) De le jeter à la mer C) De prier leurs dieux D) De retourner au port
+28. [Jonas 1] Combien de temps Jonas resta-t-il dans le ventre du poisson ? A) Un jour B) Sept jours C) Quarante jours D) Trois jours et trois nuits
+29. [Jonas 2] Que fit Jonas dans le ventre du poisson ? A) Il pria Jéhovah B) Il dormit C) Il écrivit un rouleau D) Il chanta une chanson de marin
+30. [Jonas 2] Quelle phrase termine la prière de Jonas ? A) « Que la mer se calme » B) « Le salut vient de Jéhovah » C) « Je ne partirai jamais » D) « Ninive sera détruite »
+31. [Jonas 3] Dans combien de jours Ninive devait-elle être renversée, selon le message de Jonas ? A) 70 B) 40 C) 3 D) 7
+32. [Jonas 3] Comment réagirent les habitants de Ninive au message de Jonas ? A) Ils chassèrent Jonas B) Ils se moquèrent de lui C) Ils eurent foi en Dieu et jeûnèrent D) Ils fuirent la ville
+33. [Jonas 3] Que fit Dieu quand Ninive se détourna de sa mauvaise conduite ? A) Il ne fit pas venir le malheur annoncé B) Il détruisit quand même la ville C) Il fit tomber de la grêle D) Il envoya un autre prophète
+34. [Jonas 4] Comment Jonas réagit-il quand Ninive fut épargnée ? A) Il fut très en colère B) Il retourna à Joppé C) Il resta dans la ville pour enseigner D) Il fut très joyeux
+35. [Jonas 4] Quelle plante Jéhovah fit-il pousser pour donner de l'ombre à Jonas ? A) Un olivier B) Une vigne C) Un figuier D) Une plante de ricin
+36. [Jonas 4] Qu'est-ce qui fit sécher la plante de Jonas ? A) Une sauterelle B) Un incendie C) Un ver D) Le vent seulement
+37. [Jonas 4] Combien d'habitants de Ninive ne savaient pas distinguer leur droite de leur gauche ? A) Plus de 120 000 B) 12 000 C) Plus de 600 000 D) 40 000
+38. [Jonas 4] Quelle leçon Jéhovah donne-t-il à Jonas à la fin du livre ? A) Les prophètes doivent obéir aux rois B) Les plantes valent plus que les hommes C) Il a pitié des habitants de Ninive D) Ninive devait quand même être détruite
+39. [Michée 4] Que feront les nations de leurs épées, selon Michée 4:3 ? A) Des chaînes B) Des boucliers C) Des couronnes D) Des socs de charrue
+40. [Michée 4] Sous quoi chacun s'assiéra-t-il, selon Michée 4:4 ? A) Sous un cèdre B) Sous une tente C) Sous un toit d'or D) Sous sa vigne et sous son figuier
+41. [Michée 4] Selon Michée 4:5, dans le nom de qui marcheront les serviteurs de Dieu ? A) De Jéhovah, pour toujours B) De leurs dieux locaux C) De leurs rois D) De leurs ancêtres
+42. [Michée 5] De quelle ville Michée annonce-t-il que sortira le futur dirigeant d'Israël ? A) Hébron B) Nazareth C) Bethléem Éphrata D) Jérusalem
+43. [Michée 6] Selon Michée 6:8, que demande Jéhovah ? A) Donner son premier-né B) Pratiquer la justice, aimer la fidélité et marcher humblement avec Dieu C) Offrir mille béliers D) Construire un grand temple
+44. [Michée 6] Michée 6:7 demande si Jéhovah prend plaisir à combien de béliers ? A) Sept B) Des milliers C) Cent D) Dix
+45. [Michée 7] Selon Michée 7:6, qui seront les ennemis d'un homme ? A) Les étrangers B) Les soldats C) Les gens de sa propre maison D) Les rois voisins
+46. [Michée 7] Quelle attitude Michée décide-t-il d'avoir en Michée 7:7 ? A) Se venger B) Guetter Jéhovah et attendre patiemment Dieu C) Fuir dans le désert D) Abandonner
+47. [Michée 7] Où Jéhovah jettera-t-il les péchés de son peuple, selon Michée 7:19 ? A) Sur la montagne B) Dans le feu C) Dans le désert D) Au fond de la mer
+48. [Michée 1] De quelle ville venait le prophète Michée ? A) D'Anatoth B) De Morèshet C) De Thisbé D) De Tékoa
