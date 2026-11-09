@@ -3,8 +3,8 @@ numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
 1. [Job 1] Dans quel pays vivait Job ? A) Le pays d'Ouz B) Édom C) Canaan D) Moab
-2. [Job 1] Comment Job est-il décrit au début du livre ? A) Roi d'Orient B) Riche mais orgueilleux C) Intègre et droit, il craignait Dieu et s'écartait du mal D) Prophète et prêtre
-3. [Job 1] Quelle accusation Satan porta-t-il au sujet de Job ? A) Que Job était un voleur B) Que Job adorait des idoles C) Que Job maltraitait ses enfants D) Que Job servait Dieu par intérêt
+2. [Job 1] Comment Job est-il décrit au début du livre ? A) Roi d'Orient B) Riche mais orgueilleux C) Intègre et droit, il craignait Dieu et fuyait le mal D) Prophète et prêtre
+3. [Job 1] Quelle accusation Satan porta-t-il au sujet de Job ? A) Que Job était un voleur B) Que Job adorait des idoles C) Que Job maltraitait ses enfants D) Que Job craignait Dieu par intérêt
 4. [Job 1] Que dit Job après avoir perdu ses biens et ses enfants ? A) « Que le nom de Jéhovah continue d'être loué » B) « Je maudis Dieu » C) « Je vais me venger » D) « Je retourne chez mon père »
 5. [Job 2] De quoi Satan frappa-t-il Job ? A) De furoncles douloureux de la tête aux pieds B) De cécité C) De surdité D) De lèpre à la main seulement
 6. [Job 2] Que conseilla la femme de Job ? A) « Prie davantage » B) « Quitte le pays » C) « Maudis Dieu et meurs ! » D) « Va voir un prophète »
@@ -13,10 +13,10 @@ Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être jus
 9. [Job 14] Quelle question Job pose-t-il en Job 14:14 ? A) « Qui me consolera ? » B) « Où est Dieu ? » C) « Pourquoi suis-je né ? » D) « Si un homme meurt, peut-il revivre ? »
 10. [Job 14] Selon Job 14:15, que ressentira Dieu pour l'œuvre de ses mains ? A) Il en aura honte B) Il l'oubliera C) Il la détruira D) Il la désirera ardemment
 11. [Job 27] Que dit Job de son intégrité en Job 27:5 ? A) Il ne renoncera pas à son intégrité jusqu'à sa mort B) Il la donnera à ses amis C) Elle ne compte pas D) Il l'avait déjà perdue
-12. [Job 32] Quel jeune homme parla après les trois compagnons de Job ? A) Tsophar B) Éliphaz C) Élihou D) Bildad
+12. [Job 32] Quel jeune homme parla après les trois compagnons de Job ? A) Zofar B) Élifaz C) Élihou D) Bildad
 13. [Job 38] Quelle question Jéhovah pose-t-il à Job au début de son discours ? A) « Pourquoi as-tu péché ? » B) « Où étais-tu quand j'ai fondé la terre ? » C) « Qui sont tes amis ? » D) « Combien d'enfants as-tu ? »
-14. [Job 38] Que faisaient les fils de Dieu quand Jéhovah posa la pierre angulaire de la terre ? A) Ils étaient absents B) Ils dormaient C) Ils poussaient des cris de joie D) Ils pleuraient
-15. [Job 42] Que fit Jéhovah après que Job eut prié pour ses compagnons ? A) Il le rendit roi B) Il mit fin à son malheur et lui donna le double de ce qu'il avait C) Il punit ses compagnons de mort D) Il le fit vivre éternellement
+14. [Job 38] Que faisaient les fils de Dieu quand Jéhovah posa la pierre angulaire de la terre ? A) Ils étaient absents B) Ils dormaient C) Ils poussaient des acclamations D) Ils pleuraient
+15. [Job 42] Que fit Jéhovah après que Job eut prié pour ses compagnons ? A) Il le rendit roi B) Il mit fin à ses épreuves et lui donna le double de ce qu'il avait C) Il punit ses compagnons de mort D) Il le fit vivre éternellement
 16. [Job 42] Combien d'enfants Job eut-il après son épreuve ? A) Dix fils B) Trois fils et sept filles C) Sept fils et trois filles D) Douze enfants
-17. [Job 42] Que dit la Bible des filles de Job ? A) Elles étaient reines B) Elles moururent jeunes C) Il n'y avait pas de femmes aussi belles dans tout le pays D) Elles étaient prophétesses
+17. [Job 42] Que dit la Bible des filles de Job ? A) Elles étaient reines B) Elles moururent jeunes C) Aucune femme du pays n'était aussi belle qu'elles D) Elles étaient prophétesses
 18. [Job 42] Combien d'années Job vécut-il encore après son épreuve ? A) 40 ans B) 120 ans C) 70 ans D) 140 ans
