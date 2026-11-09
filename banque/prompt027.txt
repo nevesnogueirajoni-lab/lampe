@@ -1,0 +1,148 @@
+Vérification d'une banque de questions bibliques (lot 027, 144 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Galates 5] Selon Galates 5:22, quel est le premier élément cité du fruit de l'esprit ? A) L'amour B) La joie C) La paix D) La patience
+2. [Galates 5] Quelles qualités terminent la liste du fruit de l'esprit en Galates 5:23 ? A) La force et le courage B) La science et la sagesse C) La douceur et la maîtrise de soi D) La richesse et la gloire
+3. [Galates 6] Que dit Galates 6:7 sur ce que l'on sème ? A) On récolte toujours plus que ce qu'on sème B) Seul Dieu récolte C) On ne récolte jamais D) Ce que l'on sème, on le récolte aussi
+4. [Galates 6] Que conseille Galates 6:9 ? A) Ne pas cesser de faire ce qui est bien B) Attendre une récompense immédiate C) Se reposer D) Changer de chemin
+5. [Galates 6] Envers qui faut-il faire le bien surtout, selon Galates 6:10 ? A) Envers personne en particulier B) Envers les rois C) Envers ceux qui sont nos frères dans la foi D) Envers les riches
+6. [Éphésiens 4] Que conseille Éphésiens 4:26 au sujet de la colère ? A) Se mettre en colère souvent B) Ne jamais parler C) Que le soleil ne se couche pas sur votre irritation D) Garder rancune
+7. [Éphésiens 4] Comment devons-nous nous pardonner, selon Éphésiens 4:32 ? A) Seulement nos amis B) Comme Dieu nous a pardonné par Christ C) Seulement une fois D) Jamais complètement
+8. [Éphésiens 5] Qui devons-nous imiter selon Éphésiens 5:1 ? A) Les philosophes B) Dieu, comme des enfants aimés C) Les rois D) Nos voisins
+9. [Éphésiens 5] Que doit faire le mari selon Éphésiens 5:33 ? A) Vivre séparément B) Aimer sa femme comme lui-même C) Dominer sa femme D) Ignorer sa femme
+10. [Éphésiens 6] Que demande Éphésiens 6:1 aux enfants ? A) Travailler dur B) Obéir à leurs parents C) Garder le silence D) Quitter la maison
+11. [Éphésiens 6] Que demande Éphésiens 6:4 aux pères ? A) Être sévères sans raison B) Les envoyer travailler C) Ne pas irriter leurs enfants, mais les éduquer selon Jéhovah D) Les laisser faire
+12. [Éphésiens 6] Pourquoi revêtir l'armure complète de Dieu, selon Éphésiens 6:11 ? A) Pour faire la guerre aux nations B) Pour tenir ferme contre les manœuvres du Diable C) Pour devenir prêtre D) Pour être admiré
+13. [Éphésiens 6] Que représente l'épée de l'esprit en Éphésiens 6:17 ? A) La foi B) La prière C) Le salut D) La parole de Dieu
+14. [Philippiens 1] Que faut-il discerner selon Philippiens 1:10 ? A) Les choses faciles B) Les choses les plus importantes C) Les rêves D) Les erreurs des autres
+15. [Philippiens 2] Comment considérer les autres selon Philippiens 2:3 ? A) Comme des étrangers B) Comme supérieurs à soi, avec humilité C) Comme des rivaux D) Comme inférieurs
+16. [Philippiens 4] Que conseille Philippiens 4:6 au lieu de s'inquiéter ? A) Travailler davantage B) S'isoler C) Faire connaître ses demandes à Dieu par la prière D) Ne rien faire
+17. [Philippiens 4] Que gardera notre cœur selon Philippiens 4:7 ? A) Notre argent B) Nos amis C) La paix de Dieu qui surpasse toute pensée D) Nos efforts
+18. [Philippiens 4] À quelles choses faut-il penser, selon Philippiens 4:8 ? A) Ce qui est vrai, juste, pur, aimable B) Ce qui fait peur C) Ce qui est riche D) Ce qui est secret
+19. [Philippiens 4] D'où Paul tirait-il sa force, selon Philippiens 4:13 ? A) De sa richesse B) De sa jeunesse C) De ses amis D) De celui qui lui donnait de la puissance
+20. [Colossiens 3] Que dit Colossiens 3:13 sur le pardon ? A) Exigez des excuses B) Pardonnez une fois seulement C) Pardonnez-vous comme Jéhovah vous a pardonné D) Ne pardonnez pas
+21. [Colossiens 3] Qu'est-ce qui est un lien d'union parfait, selon Colossiens 3:14 ? A) La loi B) L'amour C) La famille D) L'argent
+22. [Colossiens 3] Comment faut-il travailler selon Colossiens 3:23 ? A) Pour l'argent seulement B) Pour être vu C) De toute son âme, comme pour Jéhovah D) Juste assez
+23. [Colossiens 4] Comment doivent être nos paroles selon Colossiens 4:6 ? A) Dures et franches B) Toujours agréables, assaisonnées de sel C) Rares D) Bruyantes
+24. [1 Thessaloniciens 4] Pourquoi les chrétiens ne s'attristent-ils pas comme les autres pour les morts ? A) Parce qu'ils sont forts B) Parce qu'ils ont une espérance C) Parce qu'ils ne les aimaient pas D) Parce qu'ils oublient vite
+25. [1 Thessaloniciens 5] Comment vient le jour de Jéhovah, selon 1 Thessaloniciens 5:2 ? A) Lentement B) Comme un voleur dans la nuit C) Avec un grand avertissement D) Au printemps
+26. [1 Thessaloniciens 5] Que diront les gens juste avant la destruction soudaine ? A) « Prions ! » B) « Paix et sécurité ! » C) « Guerre ! » D) « Fuyez ! »
+27. [1 Thessaloniciens 5] Que conseille 1 Thessaloniciens 5:17 ? A) Priez sans cesse B) Voyagez beaucoup C) Jeûnez toujours D) Parlez peu
+28. [2 Thessaloniciens 3] Que dit 2 Thessaloniciens 3:10 de celui qui ne veut pas travailler ? A) Qu'il soit aidé B) Qu'il ne mange pas non plus C) Qu'il prêche D) Qu'il soit roi
+29. [1 Timothée 2] Quelle est la volonté de Dieu selon 1 Timothée 2:4 ? A) Que personne ne soit sauvé B) Que les riches soient sauvés C) Que seuls les Juifs soient sauvés D) Que toutes sortes d'humains soient sauvés et parviennent à la connaissance exacte de la vérité
+30. [1 Timothée 2] Qui est le seul médiateur entre Dieu et les hommes selon 1 Timothée 2:5 ? A) Moïse B) Christ Jésus C) Les anges D) Marie
+31. [1 Timothée 6] De quoi l'amour de l'argent est-il la racine, selon 1 Timothée 6:10 ? A) Du bonheur B) De la paix C) De la sagesse D) De toutes sortes de choses nuisibles
+32. [2 Timothée 3] Comment seront les derniers jours selon 2 Timothée 3:1 ? A) Un temps de repos B) Une époque de paix C) Des temps critiques, difficiles D) Une époque de richesse
+33. [2 Timothée 3] Comment seront les hommes dans les derniers jours, selon 2 Timothée 3:2 ? A) Très généreux B) Très humbles C) Très obéissants D) Amis d'eux-mêmes, amis de l'argent
+34. [2 Timothée 3] À quoi sert toute Écriture inspirée de Dieu, selon 2 Timothée 3:16 ? A) À enseigner, à reprendre, à remettre les choses en ordre B) À divertir C) À prédire la météo D) À enrichir
+35. [2 Timothée 4] Que demande Paul à Timothée en 2 Timothée 4:2 ? A) Écrire des livres B) Se taire C) Rester à la maison D) Prêcher la parole, avec urgence
+36. [Tite 2] Que nous enseigne la faveur imméritée de Dieu selon Tite 2:12 ? A) Chercher la richesse B) Fuir le monde C) Vivre seul D) Rejeter l'impiété et vivre avec bon sens et justice
+37. [Philémon 1] Pour quel esclave Paul écrivit-il à Philémon ? A) Épaphras B) Onésime C) Démas D) Tychique
+38. [Hébreux 4] Comment est la parole de Dieu selon Hébreux 4:12 ? A) Faible B) Vivante et puissante, plus tranchante qu'une épée C) Ancienne et dépassée D) Difficile à comprendre
+39. [Hébreux 6] Qu'est-ce que Dieu n'oublie pas, selon Hébreux 6:10 ? A) Nos fautes B) Nos titres C) Notre travail et l'amour que nous montrons pour son nom D) Nos richesses
+40. [Hébreux 10] Que devons-nous faire les uns pour les autres, selon Hébreux 10:24 ? A) Nous éviter B) Nous juger C) Nous comparer D) Nous inciter à l'amour et aux belles œuvres
+41. [Hébreux 10] Que ne faut-il pas abandonner selon Hébreux 10:25 ? A) Notre travail B) Nos voyages C) Nos réunions D) Nos maisons
+42. [Hébreux 11] Comment Hébreux 11:1 définit-il la foi ? A) Une simple émotion B) Une tradition C) L'attente assurée de choses espérées, la démonstration de réalités qu'on ne voit pas D) Un espoir vague
+43. [Hébreux 11] Que faut-il pour plaire à Dieu, selon Hébreux 11:6 ? A) L'âge B) La foi C) La richesse D) La force
+44. [Hébreux 11] Quel homme de foi construisit une arche, selon Hébreux 11 ? A) Moïse B) Abraham C) Noé D) Hénoch
+45. [Hébreux 12] Comment courir la course chrétienne, selon Hébreux 12:1 ? A) En se comparant aux autres B) En se reposant C) Avec endurance, en rejetant tout poids D) Seul
+46. [Hébreux 13] Que promet Dieu en Hébreux 13:5 ? A) « Tu seras riche » B) « Je ne te quitterai jamais et je ne t'abandonnerai jamais » C) « Tu seras roi » D) « Tu ne souffriras jamais »
+47. [Hébreux 13] Que demande Hébreux 13:17 envers ceux qui nous dirigent ? A) Leur obéir et être soumis B) Les remplacer C) Les ignorer D) Les critiquer
+48. [Jacques 1] Que faire si l'on manque de sagesse, selon Jacques 1:5 ? A) La chercher dans les livres seulement B) S'en passer C) L'acheter D) La demander à Dieu
+49. [Jacques 1] Que dit Jacques 1:13 au sujet de la tentation ? A) Dieu tente ceux qu'il aime B) Dieu ne tente personne par le mal C) La tentation vient des anges D) Tout le monde est tenté par Dieu
+50. [Jacques 1] Que conseille Jacques 1:19 ? A) Être prompt à écouter, lent à parler, lent à la colère B) Se fâcher vite C) Ne jamais écouter D) Parler beaucoup
+51. [Jacques 1] Que faut-il être selon Jacques 1:22 ? A) Des auditeurs seulement B) Des savants C) Des pratiquants de la parole, pas seulement des auditeurs D) Des juges
+52. [Jacques 2] Comment est la foi sans les œuvres selon Jacques 2:26 ? A) Parfaite B) Invisible C) Vivante D) Morte
+53. [Jacques 4] Que se passera-t-il si nous nous opposons au Diable, selon Jacques 4:7 ? A) Il nous vaincra B) Rien C) Il fuira loin de nous D) Il deviendra notre ami
+54. [Jacques 4] Que fera Dieu si nous nous approchons de lui, selon Jacques 4:8 ? A) Il restera silencieux B) Il s'éloignera C) Il nous punira D) Il s'approchera de nous
+55. [Jacques 5] Quel homme est donné en exemple d'endurance en Jacques 5:11 ? A) Élie B) Moïse C) David D) Job
+56. [Jacques 5] Quel prophète, homme comme nous, pria pour qu'il ne pleuve pas, selon Jacques 5:17 ? A) Samuel B) Élisée C) Jonas D) Élie
+57. [1 Pierre 2] Que nous a laissé Christ selon 1 Pierre 2:21 ? A) Un royaume terrestre B) Un temple C) Un modèle, pour que nous suivions ses traces D) Une fortune
+58. [1 Pierre 3] Comment répondre à ceux qui demandent la raison de notre espérance ? A) En se moquant B) Avec douceur et un profond respect C) Avec colère D) En refusant
+59. [1 Pierre 4] Que couvre l'amour selon 1 Pierre 4:8 ? A) Les dettes B) Une multitude de péchés C) Les maladies D) Les erreurs des autres seulement
+60. [1 Pierre 5] Que faire de nos inquiétudes selon 1 Pierre 5:7 ? A) Les cacher B) Les oublier seulement C) Les rejeter sur Dieu, car il se soucie de nous D) Les garder
+61. [1 Pierre 5] À quoi le Diable est-il comparé en 1 Pierre 5:8 ? A) À un aigle B) À un lion rugissant C) À un loup D) À un serpent
+62. [2 Pierre 3] Pourquoi Jéhovah est-il patient, selon 2 Pierre 3:9 ? A) Il ne désire pas que quelqu'un soit détruit, mais que tous se repentent B) Il n'a pas le temps C) Il a oublié D) Il est lent
+63. [2 Pierre 3] Qu'attendent les chrétiens selon 2 Pierre 3:13 ? A) Le retour en Égypte B) La fin de la terre C) De nouveaux cieux et une nouvelle terre où la justice habitera D) Un temple à Jérusalem
+64. [1 Jean 2] Que ne faut-il pas aimer selon 1 Jean 2:15 ? A) Son prochain B) La création C) Les enfants D) Le monde et les choses du monde
+65. [1 Jean 2] Qui demeure pour toujours selon 1 Jean 2:17 ? A) Le monde B) Le puissant C) Celui qui fait la volonté de Dieu D) Le riche
+66. [1 Jean 4] Que dit 1 Jean 4:8 au sujet de Dieu ? A) Dieu est loin B) Dieu est inconnu C) Dieu est colère D) Dieu est amour
+67. [1 Jean 5] Que signifie l'amour de Dieu selon 1 Jean 5:3 ? A) Obéir à ses commandements, qui ne sont pas pesants B) Aller au temple C) Jeûner D) Offrir des sacrifices
+68. [1 Jean 5] Où se trouve le monde entier selon 1 Jean 5:19 ? A) Au pouvoir du méchant B) Sous la protection des anges C) Au pouvoir des hommes justes D) Dans la paix
+69. [3 Jean 1] Qu'est-ce qui donnait le plus de joie à Jean, selon 3 Jean 4 ? A) Recevoir des cadeaux B) Apprendre que ses enfants continuaient à marcher dans la vérité C) Être honoré D) Voyager
+70. [Jude 1] Quel archange discuta avec le Diable au sujet du corps de Moïse ? A) Michel B) Raphaël C) Gabriel D) Uriel
+71. [Révélation 1] Qui est heureux selon Révélation 1:3 ? A) Celui qui lit à haute voix et ceux qui écoutent les paroles de cette prophétie B) Les riches C) Les rois D) Les savants
+72. [Révélation 4] Pourquoi Jéhovah est-il digne de recevoir la gloire, selon Révélation 4:11 ? A) Parce qu'il est riche B) Parce qu'il a créé toutes choses C) Parce qu'il est roi d'Israël D) Parce qu'il est ancien
+73. [Révélation 6] Que fait le cavalier sur le cheval blanc en Révélation 6:2 ? A) Il apporte la mort B) Il fuit C) Il sort en vainqueur pour remporter sa victoire D) Il apporte la famine
+74. [Révélation 7] Qui Jean vit-il en Révélation 7:9 ? A) Les rois B) Les anges seulement C) Les 144 000 seulement D) Une grande foule de toutes nations
+75. [Révélation 12] Qu'arriva-t-il au dragon en Révélation 12:9 ? A) Il fut jeté sur la terre avec ses anges B) Il devint roi C) Il se repentit D) Il fut détruit
+76. [Révélation 12] Pourquoi le Diable est-il très en colère, selon Révélation 12:12 ? A) Il sait qu'il lui reste peu de temps B) Il est fatigué C) Il a perdu sa couronne D) Il a peur des hommes
+77. [Révélation 14] Combien de personnes se tiennent avec l'Agneau sur le mont Sion en Révélation 14:1 ? A) 12 000 B) Une foule innombrable C) 7 000 D) 144 000
+78. [Révélation 14] Qu'est-ce que l'ange qui vole au milieu du ciel a à annoncer ? A) Une guerre B) Une bonne nouvelle éternelle C) Une famine D) Un déluge
+79. [Révélation 16] Comment s'appelle le lieu où les rois sont rassemblés pour la guerre du grand jour de Dieu ? A) Sion B) Galilée C) Babylone D) Har-Maguédôn
+80. [Révélation 17] Quel nom est écrit sur le front de la femme assise sur la bête ? A) Jérusalem B) Égypte C) Babylone la Grande D) Rome
+81. [Révélation 18] Que demande la voix du ciel au peuple de Dieu au sujet de Babylone la Grande ? A) Combattez-la B) Pleurez sur elle C) Sortez d'elle D) Restez en elle
+82. [Révélation 20] Combien de temps Satan est-il enchaîné dans l'abîme ? A) 1 000 ans B) 100 ans C) 7 ans D) 3 ans et demi
+83. [Révélation 21] Que fera Dieu selon Révélation 21:4 ? A) Il punira la terre B) Il essuiera toute larme ; la mort ne sera plus C) Il créera une nouvelle tour D) Il quittera les hommes
+84. [Révélation 21] Que dit celui qui est assis sur le trône en Révélation 21:5 ? A) « Rien ne changera » B) « Je fais toutes choses nouvelles » C) « Je reviendrai plus tard » D) « Je détruis tout »
+85. [Révélation 22] Que dit l'esprit et l'épouse à la fin de la Révélation ? A) « Va-t'en ! » B) « Viens ! » Que celui qui a soif vienne prendre l'eau de la vie gratuitement C) « Attends ! » D) « Paie d'abord ! »
+86. [Romains 1] Quel apôtre a écrit la lettre aux Romains ? A) Jean B) Pierre C) Jacques D) Paul
+87. [Romains 8] Selon Romains 8:38-39, qu'est-ce qui pourra nous séparer de l'amour de Dieu ? A) Les gouvernements B) Les anges C) Rien D) La mort
+88. [Romains 13] Envers qui Romains 13:1 demande-t-il d'être soumis ? A) Aux riches B) Aux voisins C) Aux autorités supérieures D) Aux philosophes
+89. [Romains 14] Selon Romains 14:12, à qui chacun rendra-t-il compte ? A) À sa famille B) À Dieu, pour lui-même C) Aux anciens D) À personne
+90. [1 Corinthiens 1] Que demande Paul aux Corinthiens en 1 Corinthiens 1:10 ? A) De se séparer B) D'être unis, sans divisions C) De choisir un chef D) De voyager
+91. [1 Corinthiens 3] Qui fait croître, selon 1 Corinthiens 3:6 ? A) Les anciens B) Apollos C) Paul D) Dieu
+92. [1 Corinthiens 6] Que faut-il fuir selon 1 Corinthiens 6:18 ? A) Les réunions B) Le travail C) Les voyages D) Les actes sexuels immoraux
+93. [1 Corinthiens 7] Selon 1 Corinthiens 7:39, avec qui une veuve peut-elle se remarier ? A) Avec personne B) Avec un prêtre C) Seulement dans le Seigneur D) Avec n'importe qui
+94. [1 Corinthiens 11] Qui est la tête du Christ selon 1 Corinthiens 11:3 ? A) Personne B) Dieu C) Paul D) L'assemblée
+95. [1 Corinthiens 14] Que dit 1 Corinthiens 14:33 au sujet de Dieu ? A) Il aime le désordre B) Il n'est pas un Dieu de désordre mais de paix C) Il est indifférent D) Il est un Dieu de guerre
+96. [2 Corinthiens 1] Comment Paul appelle-t-il Dieu en 2 Corinthiens 1:3 ? A) Le Dieu de la guerre B) Le Dieu de toute consolation C) Le Dieu lointain D) Le Dieu des morts
+97. [2 Corinthiens 6] Que conseille 2 Corinthiens 6:14 ? A) Ne pas s'attacher sous un joug inégal avec des non-croyants B) Travailler seul C) Épouser n'importe qui D) Éviter tout le monde
+98. [2 Corinthiens 11] Combien de fois Paul fit-il naufrage, selon 2 Corinthiens 11:25 ? A) Une fois B) Trois fois C) Sept fois D) Deux fois
+99. [Galates 1] Que dit Galates 1:8 de quelqu'un qui annoncerait une autre bonne nouvelle ? A) Qu'il soit pardonné B) Qu'il soit maudit, même un ange C) Qu'il soit écouté D) Qu'il soit nommé ancien
+100. [Galates 6] Que demande Galates 6:2 ? A) Porter les fardeaux les uns des autres B) Porter seul son fardeau C) Éviter les faibles D) Juger les autres
+101. [Éphésiens 4] Que demande Éphésiens 4:25 ? A) Parler peu B) Éviter les gens C) Rejeter le mensonge et dire la vérité D) Garder des secrets
+102. [Éphésiens 4] Quelles paroles éviter selon Éphésiens 4:29 ? A) Les paroles pourries B) Les prières C) Les paroles douces D) Les chants
+103. [Éphésiens 5] Que conseille Éphésiens 5:16 au sujet du temps ? A) Racheter le moment opportun B) Remettre à plus tard C) Perdre son temps D) Dormir beaucoup
+104. [Philippiens 2] Que demande Philippiens 2:4 ? A) Juger les autres B) Ne s'occuper de personne C) Ne pas regarder seulement ses propres intérêts, mais aussi ceux des autres D) Penser d'abord à soi
+105. [Philippiens 4] Qu'avait appris Paul selon Philippiens 4:11 ? A) À être content quelle que soit sa situation B) À commander C) À éviter les épreuves D) À devenir riche
+106. [Colossiens 2] De quoi faut-il se méfier selon Colossiens 2:8 ? A) Des prières B) De la philosophie et des vaines tromperies C) Des anciens D) Des Écritures
+107. [Colossiens 3] Que faut-il faire mourir selon Colossiens 3:5 ? A) Les membres du corps : immoralité, impureté, désir sexuel, convoitise B) Son corps C) Ses ennemis D) Ses animaux
+108. [1 Thessaloniciens 5] Que demande 1 Thessaloniciens 5:11 ? A) Se critiquer B) Continuer à se consoler et à s'édifier les uns les autres C) Se taire D) S'isoler
+109. [1 Timothée 4] Que dit 1 Timothée 4:8 sur l'attachement à Dieu ? A) Il vaut moins que l'exercice physique B) Il est utile pour toutes choses C) Il est inutile D) Il est réservé aux prêtres
+110. [1 Timothée 4] Que conseille Paul à Timothée, jeune homme, en 1 Timothée 4:12 ? A) Attendre d'être vieux B) Se taire à cause de son âge C) Laisser parler les autres D) Devenir un exemple pour les fidèles
+111. [1 Timothée 6] De quoi faut-il se contenter selon 1 Timothée 6:8 ? A) De gloire B) De la nourriture et de quoi se couvrir C) De voyages D) De richesses
+112. [2 Timothée 1] Comment s'appelaient la grand-mère et la mère de Timothée ? A) Marie et Marthe B) Lydie et Priscille C) Anne et Élisabeth D) Loïs et Eunice
+113. [2 Timothée 2] Que demande 2 Timothée 2:15 ? A) Manier correctement la parole de vérité B) Écrire beaucoup C) Lire en secret D) Parler fort
+114. [2 Timothée 3] Depuis quand Timothée connaissait-il les saints écrits, selon 2 Timothée 3:15 ? A) Depuis qu'il était ancien B) Depuis sa rencontre avec Paul C) Depuis son baptême D) Depuis sa petite enfance
+115. [Hébreux 1] De quoi le Fils est-il le reflet selon Hébreux 1:3 ? A) De Moïse B) Des prophètes C) Des anges D) De la gloire de Dieu
+116. [Hébreux 3] Qui a construit toutes choses, selon Hébreux 3:4 ? A) Dieu B) Les hommes C) Les anges D) Le hasard
+117. [Hébreux 11] Quel homme offrit à Dieu un sacrifice de plus grande valeur que celui de Caïn ? A) Noé B) Abel C) Seth D) Hénoch
+118. [Hébreux 11] Quelle femme, citée en Hébreux 11, ne fut pas détruite parce qu'elle avait accueilli les espions ? A) Débora B) Sara C) Ruth D) Rahab
+119. [Hébreux 12] Qui Jéhovah discipline-t-il, selon Hébreux 12:6 ? A) Les anges B) Ceux qu'il déteste C) Personne D) Ceux qu'il aime
+120. [Jacques 3] Comment est la sagesse d'en haut, selon Jacques 3:17 ? A) Compliquée B) Secrète C) Orgueilleuse D) Pure, puis pacifique, raisonnable, prête à obéir
+121. [Jacques 4] Que dit Jacques 4:4 de l'amitié avec le monde ? A) C'est une bonne chose B) C'est nécessaire C) C'est de l'inimitié avec Dieu D) C'est sans importance
+122. [Jacques 4] À quoi notre vie est-elle comparée en Jacques 4:14 ? A) À un rocher B) À une brume qui apparaît un instant puis disparaît C) À un fleuve D) À un arbre
+123. [1 Pierre 1] Que demande 1 Pierre 1:16 ? A) Soyez riches B) Soyez nombreux C) Soyez saints, car je suis saint D) Soyez forts
+124. [1 Pierre 2] Que demande 1 Pierre 2:17 ? A) Honorez tous les hommes, aimez la famille des frères, craignez Dieu, honorez le roi B) Ne craignez personne C) Aimez seulement vos amis D) Méprisez le roi
+125. [1 Pierre 3] Quelle parure compte selon 1 Pierre 3:3-4 ? A) Les coiffures B) Les vêtements chers C) La personne cachée du cœur, avec un esprit calme et doux D) Les bijoux
+126. [2 Pierre 2] Comment Noé est-il appelé en 2 Pierre 2:5 ? A) Un prêtre B) Un prédicateur de justice C) Un roi de justice D) Un juge
+127. [2 Pierre 3] À quoi correspond un jour pour Jéhovah, selon 2 Pierre 3:8 ? A) À une heure B) À un an C) À sept jours D) À mille ans
+128. [1 Jean 1] Que fait Dieu si nous confessons nos péchés, selon 1 Jean 1:9 ? A) Il nous oublie B) Il nous rejette C) Il nous pardonne, car il est fidèle et juste D) Il nous punit
+129. [1 Jean 3] Pourquoi le Fils de Dieu a-t-il été manifesté, selon 1 Jean 3:8 ? A) Pour juger les anges B) Pour devenir roi des Juifs C) Pour détruire les œuvres du Diable D) Pour construire un temple
+130. [1 Jean 3] Comment faut-il aimer selon 1 Jean 3:18 ? A) En actions et en vérité B) En paroles seulement C) En secret D) Avec de l'argent
+131. [1 Jean 4] Que chasse l'amour parfait selon 1 Jean 4:18 ? A) L'espérance B) La foi C) La joie D) La peur
+132. [Révélation 1] Comment Jéhovah se présente-t-il en Révélation 1:8 ? A) Le Premier-né B) L'Alpha et l'Oméga C) L'Agneau D) Le Fils de l'homme
+133. [Révélation 1] À combien d'assemblées Jean devait-il envoyer ce qu'il voyait ? A) Dix B) Trois C) Douze D) Sept
+134. [Révélation 2] Que promet Jésus à celui qui reste fidèle jusqu'à la mort, selon Révélation 2:10 ? A) Un trésor B) La couronne de vie C) Un royaume terrestre D) Une maison
+135. [Révélation 3] Comment était l'assemblée de Laodicée, selon Révélation 3:16 ? A) Glacée B) Brûlante C) Fidèle D) Tiède
+136. [Révélation 6] Que représente le cheval couleur de feu en Révélation 6:4 ? A) La guerre qui ôte la paix de la terre B) La victoire C) La famine D) La mort par maladie
+137. [Révélation 6] Quel nom porte le cavalier du cheval pâle en Révélation 6:8 ? A) Famine B) Guerre C) Mort D) Victoire
+138. [Révélation 11] Que fera Dieu à ceux qui ruinent la terre, selon Révélation 11:18 ? A) Il les ruinera B) Il les nommera rois C) Il les ignorera D) Il les récompensera
+139. [Révélation 13] Combien de têtes a la bête qui sort de la mer en Révélation 13:1 ? A) Quatre B) Dix C) Une D) Sept
+140. [Révélation 13] Quel est le nombre de la bête selon Révélation 13:18 ? A) 666 B) 777 C) 144 D) 1 000
+141. [Révélation 19] Quel nom est écrit sur le vêtement du cavalier de Révélation 19:16 ? A) Fils de David B) Grand Prêtre C) Prophète d'Israël D) Roi des rois et Seigneur des seigneurs
+142. [Révélation 20] Que représente le lac de feu selon Révélation 20:14 ? A) Un lieu de tourments éternels B) La seconde mort C) Le ciel D) La Tombe
+143. [Révélation 21] Où est la tente de Dieu, selon Révélation 21:3 ? A) À Jérusalem seulement B) Au-dessus des nuages C) Avec les humains D) Dans le temple
+144. [Révélation 22] À quoi servent les feuilles des arbres de vie en Révélation 22:2 ? A) À construire des maisons B) À décorer le trône C) À la guérison des nations D) À la nourriture des anges
