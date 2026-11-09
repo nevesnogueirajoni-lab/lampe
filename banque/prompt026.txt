@@ -2,26 +2,26 @@ Vérification d'une banque de questions bibliques (lot 026, 23 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Romains 1] Selon Romains 1:20, comment les qualités invisibles de Dieu sont-elles vues ? A) Elles ne sont jamais vues B) Par les choses qu'il a faites C) Par les rêves seulement D) Par des visions
-2. [Romains 3] Que dit Romains 3:23 au sujet de tous les humains ? A) Tous sont parfaits B) Tous ont péché et n'atteignent pas la gloire de Dieu C) Seuls les Juifs ont péché D) Personne n'a péché
+1. [Romains 1] Selon Romains 1:20, où se remarquent les qualités invisibles de Dieu ? A) Elles ne sont jamais vues B) Dans les choses qu'il a faites C) Par les rêves seulement D) Par des visions
+2. [Romains 3] Que dit Romains 3:23 au sujet de tous les humains ? A) Tous sont parfaits B) Tous ont péché et aucun n'arrive à atteindre la gloire de Dieu C) Seuls les Juifs ont péché D) Personne n'a péché
 3. [Romains 5] Selon Romains 5:12, comment le péché est-il entré dans le monde ? A) Par les animaux B) Par un seul homme C) Par la femme seule D) Par un ange
 4. [Romains 6] Quel est le salaire du péché selon Romains 6:23 ? A) La mort B) L'exil C) La maladie seulement D) La richesse
 5. [Romains 8] Selon Romains 8:28, pour qui Dieu fait-il coopérer toutes ses œuvres pour le bien ? A) Pour ceux qui aiment Dieu B) Pour les rois C) Pour les riches D) Pour tous sans exception
-6. [Romains 10] Que promet Romains 10:13 ? A) Personne ne sera sauvé B) Quiconque invoque le nom de Jéhovah sera sauvé C) Tout le monde sera sauvé quoi qu'il fasse D) Seuls les Juifs seront sauvés
+6. [Romains 10] Que promet Romains 10:13 ? A) Personne ne sera sauvé B) Tous ceux qui feront appel au nom de Jéhovah seront sauvés C) Tout le monde sera sauvé quoi qu'il fasse D) Seuls les Juifs seront sauvés
 7. [Romains 10] Quelle question pose Romains 10:14 sur la prédication ? A) Quand la prédication finira-t-elle ? B) Qui paiera les prédicateurs ? C) Comment entendront-ils sans quelqu'un pour prêcher ? D) Pourquoi prêcher ?
-8. [Romains 12] Que demande Romains 12:2 ? A) Ne plus se conformer à ce monde et être transformé en changeant sa façon de penser B) Rester comme on est C) Imiter les gouvernants D) Suivre la mode
-9. [Romains 12] Que conseille Romains 12:18 ? A) Se venger B) Être en paix avec tous, autant que cela dépend de nous C) Éviter tout le monde D) Ne parler à personne
+8. [Romains 12] Que demande Romains 12:2 ? A) Ne plus se laisser modeler par ce monde et se transformer en renouvelant sa manière de penser B) Rester comme on est C) Imiter les gouvernants D) Suivre la mode
+9. [Romains 12] Que conseille Romains 12:18 ? A) Se venger B) Vivre en paix avec tous, pour autant que cela dépend de nous C) Éviter tout le monde D) Ne parler à personne
 10. [Romains 12] Comment vaincre le mal selon Romains 12:21 ? A) Par la colère B) Par la force C) Par le silence D) Par le bien
-11. [Romains 15] Pourquoi les choses écrites autrefois ont-elles été écrites, selon Romains 15:4 ? A) Pour les savants seulement B) Pour les prêtres C) Pour les archives D) Pour notre instruction, pour que nous ayons l'espérance
-12. [1 Corinthiens 10] Que dit 1 Corinthiens 10:13 au sujet des épreuves ? A) Il faut les fuir toujours B) Personne ne peut les supporter C) Les épreuves viennent de Dieu D) Dieu ne permettra pas que nous soyons éprouvés au-delà de ce que nous pouvons supporter
+11. [Romains 15] Pourquoi les choses écrites autrefois ont-elles été écrites, selon Romains 15:4 ? A) Pour les savants seulement B) Pour les prêtres C) Pour les archives D) Pour nous instruire, afin que nous ayons l'espérance
+12. [1 Corinthiens 10] Que dit 1 Corinthiens 10:13 au sujet des épreuves ? A) Il faut les fuir toujours B) Personne ne peut les supporter C) Les épreuves viennent de Dieu D) Dieu ne permettra pas que nous soyons tentés au-delà de ce que nous pouvons supporter
 13. [1 Corinthiens 10] Selon 1 Corinthiens 10:31, comment faut-il tout faire ? A) Pour la gloire de Dieu B) Pour sa propre gloire C) Pour gagner de l'argent D) Pour plaire aux hommes
 14. [1 Corinthiens 13] Selon 1 Corinthiens 13:4, comment est l'amour ? A) Jaloux B) Patient et bon C) Orgueilleux D) Impatient
 15. [1 Corinthiens 13] Quelle est la plus grande des trois choses de 1 Corinthiens 13:13 ? A) L'espérance B) La connaissance C) La foi D) L'amour
 16. [1 Corinthiens 15] Quel est le dernier ennemi qui sera réduit à rien, selon 1 Corinthiens 15:26 ? A) La maladie B) La mort C) Satan D) La guerre
-17. [1 Corinthiens 15] Que corrompent les mauvaises compagnies, selon 1 Corinthiens 15:33 ? A) Les richesses B) La santé C) La mémoire D) Les bonnes habitudes
+17. [1 Corinthiens 15] Que font perdre les mauvaises fréquentations, selon 1 Corinthiens 15:33 ? A) Les richesses B) La santé C) La mémoire D) Les bonnes habitudes
 18. [1 Corinthiens 15] Que conseille 1 Corinthiens 15:58 ? A) Quitter l'assemblée B) Avoir toujours beaucoup à faire dans l'œuvre du Seigneur C) Attendre sans rien faire D) Se reposer
-19. [2 Corinthiens 4] Qu'a fait le dieu de ce monde selon 2 Corinthiens 4:4 ? A) Il a sauvé les hommes B) Il a écrit la Bible C) Il a créé le monde D) Il a aveuglé l'esprit des incrédules
-20. [2 Corinthiens 4] Pourquoi ne pas abandonner, selon 2 Corinthiens 4:16 ? A) Parce que le corps devient plus fort B) Parce que l'homme intérieur se renouvelle de jour en jour C) Parce qu'on ne vieillit pas D) Parce qu'on devient riche
+19. [2 Corinthiens 4] Qu'a fait le dieu de ce monde selon 2 Corinthiens 4:4 ? A) Il a sauvé les hommes B) Il a écrit la Bible C) Il a créé le monde D) Il a aveuglé l'intelligence des incrédules
+20. [2 Corinthiens 4] Pourquoi ne pas abandonner, selon 2 Corinthiens 4:16 ? A) Parce que le corps devient plus fort B) Parce que ce que nous sommes intérieurement se renouvelle de jour en jour C) Parce qu'on ne vieillit pas D) Parce qu'on devient riche
 21. [2 Corinthiens 9] Quel donateur Dieu aime-t-il selon 2 Corinthiens 9:7 ? A) Celui qui donne par obligation B) Celui qui donne beaucoup C) Celui qui donne avec joie D) Celui qui donne en secret
 22. [2 Corinthiens 11] En quoi Satan se déguise-t-il selon 2 Corinthiens 11:14 ? A) En berger B) En roi C) En serpent D) En ange de lumière
-23. [2 Corinthiens 12] Comment Paul appelle-t-il l'épreuve qui le faisait souffrir en 2 Corinthiens 12:7 ? A) Un fardeau léger B) Une couronne d'épines C) Une chaîne D) Une écharde dans la chair
+23. [2 Corinthiens 12] Comment Paul appelle-t-il l'épreuve qui le faisait souffrir en 2 Corinthiens 12:7 ? A) Un fardeau léger B) Une couronne C) Une chaîne D) Une épine dans la chair
