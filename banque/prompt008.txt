@@ -2,13 +2,13 @@ Vérification d'une banque de questions bibliques (lot 008, 60 questions). Répo
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Genèse 26] Pourquoi Isaac alla-t-il chez Abimélek, roi des Philistins ? A) À cause d'une famine dans le pays B) Pour chercher une femme C) Pour vendre ses troupeaux D) Pour faire la guerre
+1. [Genèse 26] Pourquoi Isaac alla-t-il chez Abimélech, roi des Philistins ? A) À cause d'une famine dans le pays B) Pour chercher une femme C) Pour vendre ses troupeaux D) Pour faire la guerre
 2. [Genèse 26] Que dit Isaac de Rébecca aux hommes de Guérar ? A) Qu'elle était sa cousine B) Qu'elle était veuve C) Qu'elle était sa sœur D) Qu'elle était sa servante
 3. [Genèse 26] Que fit Isaac des puits creusés du temps d'Abraham ? A) Il les combla B) Il les vendit C) Il les abandonna D) Il les creusa de nouveau
 4. [Genèse 27] Dans quel état était Isaac devenu vieux ? A) Il était aveugle de naissance B) Il ne voyait plus C) Il portait un bandeau D) Ils étaient parfaits
 5. [Genèse 27] Que mit Rébecca sur les mains et le cou de Jacob ? A) Avec des peaux de chevreaux B) Avec du lin C) Avec de la laine D) Avec de la boue
 6. [Genèse 27] Que dit Isaac en touchant Jacob déguisé ? A) « Tu sens le champ » B) « La voix est celle de Jacob, mais les mains sont celles d'Ésaü » C) « Tu es bien Ésaü » D) « Va-t'en, menteur »
-7. [Genèse 27] Chez qui Rébecca envoya-t-elle Jacob pour fuir Ésaü ? A) En Égypte B) Chez Abimélek C) Chez son frère Labân, à Harran D) Chez Ismaël
+7. [Genèse 27] Chez qui Rébecca envoya-t-elle Jacob pour fuir Ésaü ? A) En Égypte B) Chez Abimélech C) Chez son frère Labân, à Harran D) Chez Ismaël
 8. [Genèse 28] Que vit Jacob en rêve à Béthel ? A) Une échelle tombée B) Un buisson en feu C) Un escalier qui allait jusqu'au ciel, avec des anges D) Sept vaches grasses
 9. [Genèse 28] Comment Jacob appela-t-il le lieu de son rêve ? A) Béthel B) Mizpa C) Peniel D) Galéed
 10. [Genèse 28] Que promit Jacob de donner à Dieu en Genèse 28:22 ? A) Une maison d'or B) Son premier-né C) Tous ses troupeaux D) Le dixième de tout ce qu'il lui donnerait
