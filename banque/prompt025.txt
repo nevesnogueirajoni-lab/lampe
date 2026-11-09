@@ -1,0 +1,31 @@
+Vérification d'une banque de questions bibliques (lot 025, 27 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Actes 1] Jusqu'où les disciples devaient-ils être témoins de Jésus, selon Actes 1:8 ? A) Seulement à Jérusalem B) Seulement en Galilée C) Jusqu'à la région la plus lointaine de la terre D) Seulement chez les Juifs
+2. [Actes 1] Qui fut choisi pour remplacer Judas parmi les apôtres ? A) Matthias B) Barnabas C) Silas D) Étienne
+3. [Actes 2] Sous quelle forme l'esprit saint apparut-il à la Pentecôte ? A) Un nuage B) Un arc-en-ciel C) Une colombe D) Des langues comme de feu
+4. [Actes 2] Combien de personnes furent baptisées le jour de la Pentecôte ? A) Environ 3 000 B) Environ 300 C) 120 D) Environ 5 000
+5. [Actes 3] Que dit Pierre à l'homme boiteux qui demandait l'aumône ? A) « Reviens demain » B) « Je n'ai rien pour toi » C) « Va voir les prêtres » D) « Je n'ai ni argent ni or, mais ce que j'ai, je te le donne : au nom de Jésus, marche ! »
+6. [Actes 4] Que répondirent Pierre et Jean quand on leur interdit de parler de Jésus ? A) « Nous ne pouvons pas arrêter de parler de ce que nous avons vu et entendu » B) « Nous parlerons en secret » C) « Nous partirons de Jérusalem » D) « Nous allons nous taire »
+7. [Actes 5] Que dirent Pierre et les apôtres au Sanhédrin en Actes 5:29 ? A) « Nous devons obéir à Dieu comme chef plutôt qu'aux hommes » B) « Libérez-nous » C) « Nous ne savons pas » D) « Nous obéirons au Sanhédrin »
+8. [Actes 5] Où les apôtres enseignaient-ils chaque jour, selon Actes 5:42 ? A) Seulement dans les synagogues B) Dans le temple et de maison en maison C) Seulement au marché D) Seulement le sabbat
+9. [Actes 7] Quel disciple fut lapidé et devint le premier martyr chrétien ? A) Barnabas B) Philippe C) Jacques D) Étienne
+10. [Actes 8] Quel livre lisait l'eunuque éthiopien quand Philippe le rejoignit ? A) La Genèse B) Le livre d'Isaïe C) Les Psaumes D) Le livre de Daniel
+11. [Actes 8] Que demanda l'eunuque éthiopien en voyant de l'eau ? A) « Qu'est-ce qui m'empêche d'être baptisé ? » B) « Qui est ce prophète ? » C) « Où est le temple ? » D) « Puis-je boire ? »
+12. [Actes 9] Sur quelle route Saul fut-il aveuglé par une lumière venant du ciel ? A) La route d'Emmaüs B) La route de Jéricho C) La route de Gaza D) La route de Damas
+13. [Actes 9] Pourquoi Jésus avait-il choisi Saul, selon Actes 9:15 ? A) Pour devenir grand prêtre B) Pour garder le temple C) Pour écrire les Évangiles D) Pour porter son nom aux nations, aux rois et aux Israélites
+14. [Actes 9] Quelle disciple de Joppé, connue pour ses bonnes actions, fut ressuscitée par Pierre ? A) Lydie B) Rhode C) Priscille D) Tabitha (Dorcas)
+15. [Actes 10] Qu'est-ce que Pierre comprit chez Corneille ? A) Seuls les Juifs peuvent être sauvés B) Il faut être circoncis C) Les Romains sont meilleurs D) Dieu n'est pas partial
+16. [Actes 11] Où les disciples furent-ils appelés chrétiens pour la première fois ? A) À Antioche B) À Jérusalem C) À Rome D) À Corinthe
+17. [Actes 12] Qui fit sortir Pierre de prison en Actes 12 ? A) Un ange de Jéhovah B) Les soldats C) Paul D) Le roi Hérode
+18. [Actes 15] De quoi les chrétiens devaient-ils s'abstenir selon la lettre d'Actes 15:29 ? A) Du vin B) De la viande de porc seulement C) Des sacrifices aux idoles, du sang, des animaux étouffés et de l'immoralité sexuelle D) De travailler le sabbat
+19. [Actes 16] Quelle marchande de pourpre de Thyatire écouta Paul à Philippes ? A) Priscille B) Phœbé C) Lydie D) Damaris
+20. [Actes 16] Que faisaient Paul et Silas en prison vers minuit ? A) Ils priaient et chantaient des louanges à Dieu B) Ils pleuraient C) Ils dormaient D) Ils creusaient un tunnel
+21. [Actes 17] Pourquoi les Juifs de Bérée avaient-ils l'esprit plus noble ? A) Ils parlaient grec B) Ils construisaient des synagogues C) Ils étaient plus riches D) Ils examinaient les Écritures chaque jour pour vérifier
+22. [Actes 17] Quelle inscription Paul remarqua-t-il sur un autel à Athènes ? A) « À un Dieu inconnu » B) « À Zeus » C) « Au roi César » D) « Aux dieux de Grèce »
+23. [Actes 18] Quel métier Paul exerçait-il avec Aquila et Priscille ? A) Pêcheur B) Charpentier C) Médecin D) Fabricant de tentes
+24. [Actes 20] Comment Paul avait-il enseigné à Éphèse, selon Actes 20:20 ? A) Seulement à la synagogue B) Seulement par lettres C) Seulement aux anciens D) En public et de maison en maison
+25. [Actes 20] Quelle parole de Jésus Paul rappela-t-il en Actes 20:35 ? A) « Je suis le chemin » B) « Heureux les doux » C) « Il y a plus de bonheur à donner qu'à recevoir » D) « Aimez vos ennemis »
+26. [Actes 27] Où le bateau qui emmenait Paul à Rome fit-il naufrage ? A) À Chypre B) À Corinthe C) Près de l'île de Malte D) En Crète, au port
+27. [Actes 28] Quel animal mordit Paul à Malte sans lui faire de mal ? A) Une vipère B) Un chien C) Un scorpion D) Un lion
