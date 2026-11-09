@@ -1,38 +1,34 @@
-Vérification d'une banque de questions bibliques (lot 011, 34 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+Vérification d'une banque de questions bibliques (lot 011, 30 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Nombres 6] Par quelles paroles commence la bénédiction que les prêtres prononçaient sur Israël ? A) « Que Jéhovah te bénisse et te protège » B) « Que la paix soit sur Jérusalem » C) « Écoute, ô Israël » D) « Gloire au Très-Haut »
-2. [Nombres 11] Quels aliments d'Égypte les Israélites regrettaient-ils en Nombres 11 ? A) Le pain et le vin B) Les poissons, les concombres, les pastèques, les poireaux, les oignons et l'ail C) Le miel et le lait D) Les dattes et les figues
-3. [Nombres 11] Qu'est-ce qu'un vent envoyé par Jéhovah amena au camp en Nombres 11 ? A) Des cailles B) Des colombes C) De la manne D) Des sauterelles
-4. [Nombres 12] Comment Nombres 12:3 décrit-il Moïse ? A) Le plus riche B) Le plus savant d'Égypte C) Le plus humble de tous les hommes D) Le plus fort
-5. [Nombres 12] Qu'arriva-t-il à Miriam après qu'elle eut critiqué Moïse ? A) Elle devint aveugle B) Elle fut chassée pour toujours C) Elle fut frappée de lèpre D) Elle perdit la voix
-6. [Nombres 13] Combien d'hommes Moïse envoya-t-il explorer Canaan ? A) 40 B) 10 C) 7 D) 12
-7. [Nombres 13] Que rapportèrent les espions de la vallée de l'Èshkol ? A) Une épée de géant B) Une grappe de raisin portée par deux hommes C) Un bloc d'or D) Des moutons
-8. [Nombres 13] Quel espion calma le peuple en disant qu'ils pouvaient prendre le pays ? A) Josué seul B) Coré C) Dathan D) Caleb
-9. [Nombres 14] Pendant combien d'années les Israélites devaient-ils errer, un an pour chaque jour d'exploration ? A) 12 ans B) 7 ans C) 70 ans D) 40 ans
-10. [Nombres 16] Qu'arriva-t-il à Dathan, à Abiram et à leurs familles lors de la rébellion de Coré ? A) Ils se noyèrent B) La terre s'ouvrit et les engloutit C) Ils devinrent lépreux D) Ils furent chassés
-11. [Nombres 17] Qu'arriva-t-il au bâton d'Aaron dans la tente ? A) Il bourgeonna, fleurit et produisit des amandes mûres B) Il brûla C) Il devint un serpent D) Il disparut
-12. [Nombres 20] Que fit Moïse au lieu de parler au rocher à Meriba ? A) Il s'en alla B) Il le frappa deux fois avec son bâton C) Il le cassa D) Il pria
-13. [Nombres 20] Quelle conséquence la faute de Moïse à Meriba eut-elle ? A) Il mourut le jour même B) Il ne fit pas entrer le peuple dans le pays promis C) Il perdit la vue D) Il fut chassé du camp
-14. [Nombres 20] Sur quelle montagne Aaron mourut-il ? A) Le mont Carmel B) Le mont Sinaï C) Le mont Nébo D) Le mont Hor
-15. [Nombres 21] Que fit Moïse pour que ceux qui étaient mordus par les serpents vivent ? A) Un autel de pierre B) Un serpent de cuivre sur un poteau C) Une tente de guérison D) Un bassin d'eau
-16. [Nombres 22] Quel animal parla au prophète Balaam ? A) Un corbeau B) Son ânesse C) Son chien D) Son chameau
-17. [Nombres 22] Quel roi de Moab fit venir Balaam pour maudire Israël ? A) Og B) Églôn C) Balak D) Sihôn
-18. [Nombres 23] Que dit Nombres 23:19 au sujet de Dieu ? A) Dieu ne parle pas B) Dieu est loin C) Dieu change souvent d'avis D) Dieu n'est pas un simple humain, qui dit des mensonges
-19. [Nombres 25] Quel petit-fils d'Aaron arrêta la plaie à Péor par son zèle pour Jéhovah ? A) Nadab B) Finéas C) Éléazar D) Itamar
-20. [Nombres 27] Qui fut désigné pour succéder à Moïse ? A) Caleb B) Finéas C) Éléazar D) Josué, fils de Noun
-21. [Nombres 35] Quel genre de villes étaient prévues pour celui qui avait tué quelqu'un sans le vouloir ? A) Des villes de Lévites seulement B) Des villes fortifiées C) Des villes de refuge D) Des villes royales
-22. [Deutéronome 6] Quelle déclaration commence par « Écoute, ô Israël » en Deutéronome 6:4 ? A) « Jéhovah notre Dieu est un seul Jéhovah » B) « Garde le sabbat » C) « Tu ne tueras pas » D) « Monte vers le pays »
-23. [Deutéronome 6] Comment Deutéronome 6:5 demande-t-il d'aimer Jéhovah ? A) Seulement le jour du sabbat B) Par des sacrifices C) De tout son cœur, de toute son âme et de toute sa force D) En silence
-24. [Deutéronome 6] Selon Deutéronome 6:7, quand les parents devaient-ils parler des paroles de Dieu à leurs fils ? A) Seulement le sabbat B) À la maison, sur la route, au coucher et au lever C) Seulement au temple D) Une fois par an
-25. [Deutéronome 8] Selon Deutéronome 8:3, de quoi l'homme ne vit-il pas seulement ? A) De travail B) De pain C) D'eau D) D'air
-26. [Deutéronome 10] Que demande Jéhovah, selon Deutéronome 10:12 ? A) Seulement des sacrifices B) De l'or C) Le craindre, suivre ses chemins, l'aimer et le servir D) De grandes fêtes
-27. [Deutéronome 18] Quel prophète Moïse annonce-t-il en Deutéronome 18:15 ? A) Un roi d'Égypte B) Un prophète comme lui, que Jéhovah suscitera C) Samuel D) Élie
-28. [Deutéronome 19] Combien de témoins fallait-il pour établir une affaire ? A) Sept B) Un seul C) Dix D) Deux ou trois
-29. [Deutéronome 30] Que Moïse demande-t-il de choisir en Deutéronome 30:19 ? A) La richesse B) La guerre C) La vie D) Un roi
-30. [Deutéronome 31] Que dit Moïse au peuple en Deutéronome 31:6 ? A) « Retournez en Égypte » B) « Soyez courageux et forts. N'ayez pas peur » C) « Ayez peur des géants » D) « Restez dans le désert »
-31. [Deutéronome 32] Comment Deutéronome 32:4 décrit-il l'action de Jéhovah, le Rocher ? A) Parfaite B) Mystérieuse C) Lente D) Inachevée
-32. [Deutéronome 34] De quelle montagne Moïse vit-il le pays promis avant de mourir ? A) Le mont Hermon B) Le mont Sinaï C) Le mont Hor D) Le mont Nébo
-33. [Deutéronome 34] Quel âge avait Moïse à sa mort ? A) 110 ans B) 130 ans C) 120 ans D) 100 ans
-34. [Deutéronome 34] Qui sait où se trouve la tombe de Moïse ? A) Josué B) Les Moabites C) Personne D) Les Lévites
+1. [Juges 2] Pourquoi Jéhovah suscitait-il des juges en Israël ? A) Pour sauver le peuple de ceux qui le pillaient B) Pour remplacer les prêtres C) Pour construire le temple D) Pour lever des impôts
+2. [Juges 3] Qui fut le premier juge suscité par Jéhovah, selon Juges 3 ? A) Gédéon B) Otniel C) Samson D) Jephté
+3. [Juges 3] Avec quoi Éhoud tua-t-il Églon, roi de Moab ? A) Une épée à double tranchant cachée sous ses vêtements B) Un arc C) Une pierre D) Une lance
+4. [Juges 4] Quelle prophétesse jugeait Israël à l'époque de Barak ? A) Hulda B) Anne C) Débora D) Miriam
+5. [Juges 4] Qui était le chef de l'armée de Jabîn ? A) Goliath B) Joab C) Sisera D) Abner
+6. [Juges 4] Quelle femme tua Sisera ? A) Rahab B) Débora C) Dalila D) Jaël
+7. [Juges 6] Que faisait Gédéon quand l'ange de Jéhovah lui apparut ? A) Il gardait les moutons B) Il battait du blé dans le pressoir C) Il construisait un autel D) Il dormait
+8. [Juges 6] Quel objet Gédéon utilisa-t-il pour demander un signe à Dieu ? A) Un bâton B) Une lampe C) Une pierre D) Une toison de laine
+9. [Juges 7] Avec combien d'hommes Jéhovah sauva-t-il Israël des Madianites par Gédéon ? A) 32 000 B) 10 000 C) 1 000 D) 300
+10. [Juges 7] Que tenaient les hommes de Gédéon pendant l'attaque de nuit ? A) Des lances B) Des cors et des torches dans des jarres C) Des arcs et des flèches D) Des épées et des boucliers
+11. [Juges 7] Quel cri poussèrent les hommes de Gédéon ? A) « L'épée de Jéhovah et de Gédéon ! » B) « Pour Moïse ! » C) « Victoire à Israël ! » D) « Dieu est grand ! »
+12. [Juges 11] Quel juge fit un vœu à Jéhovah avant de combattre les Ammonites ? A) Barak B) Jephté C) Samson D) Gédéon
+13. [Juges 11] Qui sortit la première à la rencontre de Jephté à son retour ? A) Son frère B) Sa fille, avec des tambourins C) Sa femme D) Un serviteur
+14. [Juges 13] Que ne devait jamais toucher la tête de Samson ? A) Une couronne B) De l'eau C) De l'huile D) Un rasoir
+15. [Juges 14] Quel animal Samson déchira-t-il à mains nues ? A) Un ours B) Un jeune lion C) Un loup D) Un taureau
+16. [Juges 15] Avec quoi Samson tua-t-il 1 000 hommes ? A) Une pierre B) Une mâchoire d'âne C) Une épée D) Une massue
+17. [Juges 16] Quelle femme livra Samson aux Philistins ? A) Jaël B) Orpa C) Dalila D) Débora
+18. [Juges 16] Quel était le secret de la force de Samson, selon ce qu'il révéla à Dalila ? A) Il portait une armure magique B) Il mangeait du miel C) Il buvait du vin chaque jour D) Aucun rasoir n'était jamais passé sur sa tête
+19. [Juges 16] Comment Samson mourut-il ? A) En prison de faim B) En faisant tomber le temple de Dagôn sur les Philistins C) Au combat contre un lion D) De vieillesse
+20. [Juges 21] Comment est décrite l'époque des juges à la fin du livre ? A) Tout le monde obéissait au roi B) Les prêtres gouvernaient le pays C) C'était une époque de grande paix D) Chacun faisait ce qui lui semblait juste
+21. [Ruth 1] Pourquoi Élimélek quitta-t-il Bethléem avec sa famille ? A) Pour fuir un roi B) Pour faire du commerce C) À cause d'une famine D) À cause d'une guerre
+22. [Ruth 1] Comment s'appelaient les deux belles-filles moabites de Noémi ? A) Orpa et Ruth B) Miriam et Séphora C) Léa et Rachel D) Débora et Jaël
+23. [Ruth 1] Que dit Ruth à Noémi pour montrer sa loyauté ? A) « Je retourne chez ma mère » B) « Je vais me remarier à Moab » C) « Ton peuple sera mon peuple, et ton Dieu sera mon Dieu » D) « Je te rejoindrai plus tard »
+24. [Ruth 1] Quel nom Noémi voulut-elle qu'on lui donne en revenant à Bethléem ? A) Orpa B) Mara C) Ruth D) Lo-Rouama
+25. [Ruth 2] Dans le champ de qui Ruth glana-t-elle ? A) Obed B) Boaz C) Élimélek D) Mahlôn
+26. [Ruth 2] Que souhaita Boaz à Ruth ? A) Qu'elle retourne à Moab B) Qu'elle devienne riche C) Que Jéhovah la récompense, elle qui était venue s'abriter sous ses ailes D) Qu'elle travaille plus vite
+27. [Ruth 3] Comment la ville voyait-elle Ruth, selon Boaz ? A) Comme une veuve pauvre B) Comme une femme excellente C) Comme une servante D) Comme une étrangère dangereuse
+28. [Ruth 4] Qui Ruth épousa-t-elle ? A) Obed B) Orpa C) Salmôn D) Boaz
+29. [Ruth 4] Comment s'appelait le fils de Ruth et de Boaz ? A) Isaï B) David C) Obed D) Perez
+30. [Ruth 4] De quel roi célèbre Ruth fut-elle l'arrière-grand-mère ? A) Saül B) David C) Salomon D) Josias
