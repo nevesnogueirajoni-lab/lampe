@@ -1,0 +1,41 @@
+Vérification d'une banque de questions bibliques (lot 006, 37 questions). Réponds à chaque question avec ta connaissance de la Bible (Traduction du monde nouveau 2018), sans regarder les réponses ailleurs. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, ou si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018). Sois sévère. Aucune autre phrase.
+
+1. [Nahum 1] Contre quelle ville la prophétie de Nahum est-elle dirigée ? A) Damas B) Tyr C) Babylone D) Ninive
+2. [Nahum 1] Selon Nahum 1:2, comment Jéhovah traite-t-il ses adversaires ? A) Il les ignore B) Il les récompense C) Il les invite à sa table D) Il se venge d'eux
+3. [Nahum 1] Selon Nahum 1:7, qu'est-ce que Jéhovah est au jour de la détresse ? A) Une forteresse B) Un juge sévère C) Un étranger D) Un roi lointain
+4. [Nahum 3] Comment Nahum appelle-t-il Ninive en Nahum 3:1 ? A) La ville des cèdres B) La ville sainte C) La ville meurtrière D) La ville de la paix
+5. [Habacuc 1] Quelle question Habacuc pose-t-il à Jéhovah au début de son livre ? A) « Où est ton temple ? » B) « Pourquoi m'as-tu choisi ? » C) « Jusqu'à quand faudra-t-il que je crie au secours sans que tu entendes ? » D) « Qui est le roi de Babylone ? »
+6. [Habacuc 1] Quel peuple Jéhovah annonce-t-il qu'il va faire venir en Habacuc 1:6 ? A) Les Assyriens B) Les Égyptiens C) Les Perses D) Les Chaldéens
+7. [Habacuc 2] Où Jéhovah demande-t-il à Habacuc d'écrire la vision ? A) Dans le sable B) Sur un rouleau de cuir C) Sur un mur D) Sur des tablettes
+8. [Habacuc 2] Que dit Habacuc 2:3 au sujet de la vision qui semble tarder ? A) Elle est pour un autre peuple B) Elle a déjà eu lieu C) Elle ne se réalisera jamais D) Elle se réalisera sans faute ; il faut l'attendre
+9. [Habacuc 2] Selon Habacuc 2:4, par quoi le juste vivra-t-il ? A) Par ses sacrifices B) Par sa fidélité C) Par sa richesse D) Par sa force
+10. [Habacuc 2] Selon Habacuc 2:14, de quoi la terre sera-t-elle remplie ? A) De la connaissance de la gloire de Jéhovah B) De temples C) De guerres D) D'or et d'argent
+11. [Habacuc 3] Même si le figuier ne fleurit pas, que fera Habacuc ? A) Il quittera le pays B) Il se plaindra C) Il vendra ses champs D) Il exultera en Jéhovah
+12. [Sophonie 1] Sous le règne de quel roi Sophonie prophétisa-t-il ? A) Sédécias B) Josias C) Ézéchias D) Manassé
+13. [Sophonie 1] Que dit Sophonie 1:14 du grand jour de Jéhovah ? A) Il ne concerne que Ninive B) Il est très lointain C) Il est déjà passé D) Il est proche et il arrive très vite
+14. [Sophonie 2] Que faut-il rechercher, selon Sophonie 2:3, pour être probablement caché au jour de la colère ? A) Jéhovah, la justice et l'humilité B) L'amitié des rois C) Un abri dans les montagnes D) La richesse et la puissance
+15. [Sophonie 3] Quel don Jéhovah fera-t-il aux peuples selon Sophonie 3:9 ? A) Un grand temple B) Une langue pure C) Une nouvelle terre D) Un nouveau roi
+16. [Sophonie 3] Selon Sophonie 3:17, comment Jéhovah réagit-il envers son peuple ? A) Il reste silencieux B) Il le punit pour toujours C) Il s'éloigne D) Il est joyeux à son sujet avec des cris de joie
+17. [Aggée 1] À quel gouverneur de Juda Aggée adresse-t-il la parole de Jéhovah ? A) Guedalia B) Néhémie C) Esdras D) Zorobabel
+18. [Aggée 1] Quel grand prêtre est nommé avec Zorobabel en Aggée 1:1 ? A) Aaron B) Josué C) Tsadok D) Eli
+19. [Aggée 1] Que reproche Jéhovah au peuple en Aggée 1:4 ? A) Avoir quitté Babylone B) Habiter des maisons lambrissées alors que sa maison est en ruine C) Ne pas avoir de roi D) Avoir trop de fêtes
+20. [Aggée 1] Que demande Aggée 1:5 au peuple ? A) De nommer un roi B) De réfléchir sérieusement à sa situation C) De construire une tour D) De retourner à Babylone
+21. [Aggée 2] Qu'est-ce qui viendra dans la maison de Jéhovah selon Aggée 2:7 ? A) Une armée B) Un nouveau roi d'Égypte C) Une grande famine D) Les choses précieuses de toutes les nations
+22. [Zacharie 1] De qui Zacharie était-il le fils ? A) De Buzi B) D'Amoz C) De Petouel D) De Bérékia
+23. [Zacharie 4] Selon Zacharie 4:6, par quoi l'œuvre sera-t-elle accomplie ? A) Par l'esprit de Jéhovah B) Par l'argent C) Par des forces militaires D) Par la puissance des hommes
+24. [Zacharie 4] Que ne faut-il pas mépriser selon Zacharie 4:10 ? A) Les prophètes étrangers B) L'époque où les choses ont commencé modestement C) Les grands rois D) Les sacrifices
+25. [Zacharie 8] Combien d'hommes saisiront le vêtement d'un Juif selon Zacharie 8:23 ? A) Deux B) Sept C) Dix D) Douze
+26. [Zacharie 8] Que diront ces hommes qui saisissent le vêtement d'un Juif ? A) « Nous voulons aller avec vous, car nous avons entendu que Dieu est avec vous » B) « Rendez-nous notre or » C) « Partez de notre pays » D) « Montrez-nous votre roi »
+27. [Zacharie 9] Sur quel animal le roi de Sion arrive-t-il en Zacharie 9:9 ? A) Un chameau B) Un taureau C) Un cheval D) Un âne
+28. [Zacharie 11] Combien de pièces d'argent furent données comme salaire en Zacharie 11:12 ? A) 10 B) 15 C) 50 D) 30
+29. [Zacharie 14] Que deviendra Jéhovah sur toute la terre selon Zacharie 14:9 ? A) Prêtre B) Roi C) Juge des seuls Israélites D) Berger d'Égypte
+30. [Malachie 1] Que reproche Jéhovah aux prêtres en Malachie 1 ? A) D'offrir des bêtes aveugles, boiteuses ou malades B) D'avoir trop de bétail C) De ne pas savoir lire D) De vivre à Babylone
+31. [Malachie 2] Qu'est-ce que Jéhovah déteste selon Malachie 2:16 ? A) Les fêtes B) Les chants C) Le divorce D) Les bergers
+32. [Malachie 3] Que dit Jéhovah de lui-même en Malachie 3:6 ? A) « Je ne change pas » B) « Je ne vous connais pas » C) « Je suis fatigué » D) « Je suis loin »
+33. [Malachie 3] Que promet Jéhovah en Malachie 3:7 si le peuple revient à lui ? A) Il leur donnera de l'or B) Il détruira Babylone C) Il reviendra à eux D) Il leur donnera un roi
+34. [Malachie 3] Que demande Jéhovah d'apporter dans l'entrepôt en Malachie 3:10 ? A) Des armes B) Des chevaux C) Les premiers-nés D) Toute la dîme
+35. [Malachie 3] Qu'est-ce qui fut écrit devant Jéhovah pour ceux qui le craignent, en Malachie 3:16 ? A) Un livre de souvenir B) Un acte de vente C) Une lettre au roi D) Une loi nouvelle
+36. [Malachie 3] Selon Malachie 3:18, quelle différence verra-t-on ? A) Entre le juste et le méchant B) Entre le riche et le pauvre C) Entre Israël et l'Égypte D) Entre le jeune et le vieux
+37. [Malachie 4] Quel prophète Jéhovah promet-il d'envoyer avant son grand jour, selon Malachie 4:5 ? A) Élie B) Samuel C) Moïse D) Isaïe
