@@ -1,0 +1,35 @@
+Vérification d'une banque de questions bibliques (lot 022, 31 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Matthieu 1] Quel nom est donné à l'enfant en Matthieu 1:23, selon la prophétie ? A) Salomon B) Élie C) Emmanuel, qui signifie « Dieu avec nous » D) Jean
+2. [Matthieu 2] Dans quelle ville Jésus est-il né ? A) Nazareth B) Jérusalem C) Bethléem en Judée D) Capharnaüm
+3. [Matthieu 2] Où Joseph emmena-t-il Jésus et Marie pour fuir Hérode ? A) À Babylone B) En Galilée C) En Égypte D) À Rome
+4. [Matthieu 3] De quoi se nourrissait Jean le Baptiseur ? A) De figues B) De pain et de poisson C) De sauterelles et de miel sauvage D) De manne
+5. [Matthieu 3] Que dit la voix du ciel après le baptême de Jésus ? A) « Celui-ci est mon Fils, le bien-aimé, que j'approuve » B) « Voici le prophète » C) « Écoutez Jean » D) « Voici le roi d'Israël »
+6. [Matthieu 4] Que répondit Jésus quand le Diable lui demanda de changer les pierres en pain ? A) Il n'avait pas faim B) Il ne répondit rien C) Il changea une pierre en pain D) L'homme doit vivre de toute parole qui sort de la bouche de Jéhovah
+7. [Matthieu 4] Selon Matthieu 4:10, qui faut-il adorer ? A) Jéhovah seul B) Les rois C) Les anges D) Le Diable
+8. [Matthieu 4] Que promit Jésus à Pierre et André en les appelant ? A) Il en ferait des rois B) Il leur donnerait un bateau C) Il ferait d'eux des pêcheurs d'hommes D) Il les rendrait riches
+9. [Matthieu 5] Qui sont heureux selon Matthieu 5:3 ? A) Les orgueilleux B) Les riches C) Les puissants D) Ceux qui sont conscients de leur besoin spirituel
+10. [Matthieu 5] Que recevront les doux selon Matthieu 5:5 ? A) Un temple B) La terre en héritage C) Le ciel D) De l'or
+11. [Matthieu 5] Que demande Jésus en Matthieu 5:44 au sujet des ennemis ? A) Se venger B) Les aimer et prier pour ceux qui nous persécutent C) Les fuir D) Les ignorer
+12. [Matthieu 6] Par quelles paroles commence la prière modèle ? A) « Ô roi, écoute-nous » B) « Notre Père qui es dans les cieux, que ton nom soit sanctifié » C) « Seigneur, donne-nous de l'or » D) « Dieu, punis nos ennemis »
+13. [Matthieu 6] Que demande-t-on pour le royaume dans la prière modèle ? A) Que les nations soient détruites B) Que le roi soit riche C) Que ton royaume vienne D) Que le temple soit rebâti
+14. [Matthieu 6] Que faut-il chercher d'abord selon Matthieu 6:33 ? A) La réputation B) La sécurité C) La richesse D) Le royaume et la justice de Dieu
+15. [Matthieu 7] Que dit la « règle d'or » de Matthieu 7:12 ? A) Faire aux autres ce qu'on voudrait qu'ils nous fassent B) Rendre le mal pour le mal C) Garder tout pour soi D) Ne jamais aider les autres
+16. [Matthieu 7] Comment est le chemin qui mène à la vie, selon Matthieu 7:14 ? A) Large et facile B) Étroite est la porte et resserré le chemin, et peu le trouvent C) Inconnu de tous D) Réservé aux prêtres
+17. [Matthieu 9] Que dit Jésus de la moisson en Matthieu 9:37 ? A) La moisson est grande, mais les ouvriers sont peu nombreux B) La moisson est finie C) Les ouvriers sont trop nombreux D) Il n'y a pas de moisson
+18. [Matthieu 10] Comment les disciples devaient-ils donner, selon Matthieu 10:8 ? A) Contre de l'argent B) Gratuitement, car ils avaient reçu gratuitement C) Seulement aux riches D) Seulement le sabbat
+19. [Matthieu 11] Qu'offre Jésus à ceux qui peinent et sont chargés ? A) Le repos B) De l'argent C) Une maison D) Un travail
+20. [Matthieu 14] Combien de pains et de poissons y avait-il pour nourrir la foule de 5 000 hommes ? A) Sept pains et quelques poissons B) Deux pains et cinq poissons C) Cinq pains et deux poissons D) Douze pains
+21. [Matthieu 14] Quel apôtre marcha sur l'eau vers Jésus ? A) Jacques B) Pierre C) Jean D) André
+22. [Matthieu 16] Que déclara Pierre au sujet de Jésus en Matthieu 16:16 ? A) « Tu es Jean le Baptiseur » B) « Tu es le Christ, le Fils du Dieu vivant » C) « Tu es Élie » D) « Tu es un prophète parmi d'autres »
+23. [Matthieu 22] Quel est le plus grand commandement selon Jésus ? A) Payer la dîme B) Aimer Jéhovah de tout son cœur, de toute son âme et de toute sa pensée C) Offrir des sacrifices D) Garder le sabbat
+24. [Matthieu 22] Quel est le deuxième commandement, semblable au premier ? A) Honorer le roi B) Ne pas voler C) Aimer son prochain comme soi-même D) Jeûner deux fois par semaine
+25. [Matthieu 24] Que demandèrent les disciples à Jésus sur le mont des Oliviers ? A) Quand le temple serait rebâti B) Qui serait le plus grand C) Le signe de sa présence et de la conclusion du système de choses D) Où trouver de la nourriture
+26. [Matthieu 24] Que devait-il se passer avant la fin, selon Matthieu 24:14 ? A) Les guerres s'arrêteraient B) Le temple serait reconstruit C) Tous les hommes deviendraient riches D) La bonne nouvelle du royaume serait prêchée dans toute la terre habitée
+27. [Matthieu 24] Qui le maître a-t-il établi pour nourrir ses domestiques au moment voulu ? A) Les anges B) Le roi d'Israël C) L'esclave fidèle et avisé D) Le grand prêtre
+28. [Matthieu 26] Pour combien de pièces d'argent Judas livra-t-il Jésus ? A) 20 B) 30 C) 50 D) 15
+29. [Matthieu 26] Combien de fois Pierre renia-t-il Jésus avant que le coq chante ? A) Une fois B) Deux fois C) Trois fois D) Sept fois
+30. [Matthieu 28] Quel ordre Jésus donna-t-il à ses disciples en Matthieu 28:19 ? A) Combattre les Romains B) Faire des disciples de gens de toutes les nations et les baptiser C) Construire un temple D) Rester à Jérusalem pour toujours
+31. [Matthieu 28] Que promit Jésus à la fin de Matthieu ? A) Revenir le lendemain B) Leur donner un royaume terrestre C) Ne plus jamais leur parler D) Être avec eux tous les jours jusqu'à la conclusion du système de choses
