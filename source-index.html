@@ -830,7 +830,7 @@ function weekPlan(mon){
         titre:`🎤 ${dv.titre} — ${tx('étape','etapa')} ${k + 1}/${n}`, sous:tx(`Pour le ${dateLong(dv.date)}`, `Para ${dateLong(dv.date)}`), min:sess });
     }
   }
-  const qD = tgD && addDays(tgD,1) <= sun ? addDays(tgD,1) : (tgD ? sun : mon);
+  const qD = tgD && addDays(tgD,1) <= sun ? addDays(tgD,1) : mon;   /* réunion le dimanche : le QCM se fait un autre jour de la semaine */
   items.push({ id:'qcm', kind:'qcm', from:qD, due:sun, titre:tx('QCM de la semaine','Quiz da semana'), sous:tx('10 questions, environ 10 min','10 perguntas, cerca de 10 min'), go:'qcmw', min:10 });
   /* Culte familial : le jour choisi si l'enfant est là, sinon le meilleur autre jour de la semaine où il est là */
   /* jamais un jour de réunion, sauf si c'est le seul jour possible */
@@ -1265,6 +1265,7 @@ function viewHome(){
   const nx = nextMeeting(t); const dispo = dispoOf(t); const cap = capOf(t);
   let html = `<div class="today-h"><div><h1>${tx('Aujourd’hui','Hoje')}</h1><p>${dateLong(t)}${nx ? ` · <b>${esc(nx)}</b>` : ''}</p></div>
     <div class="row" style="gap:6px;align-items:center"><button class="dispo" data-a="briefing" aria-label="${tx('Écouter mon programme','Ouvir meu programa')}">🔊</button><button class="dispo ${dispo === 0 ? 'off' : ''}" data-a="dispo">⏱️ ${dispo === 0 ? tx('Journée off','Dia de folga') : dispo + ' min'} <span>▾</span></button></div></div>${kidsTags ? `<div class="row" style="margin:-4px 0 10px">${kidsTags}</div>` : ''}`;
+  if (m.admin) html += reunionLine(t);
   { const cov = progCoverageDate(); if (cov && cov < addDays(t, 21)) html += `<p class="small" style="margin:0 2px 8px;color:#b45309;font-weight:700">⚠️ ${tx(`Programme des réunions connu seulement jusqu’au ${dateLong(cov)} : je le complète à la prochaine mise à jour.`, `Programa das reuniões conhecido só até ${dateLong(cov)}.`)}</p>`; }
   /* tâches du jour, dans l'ordre d'importance */
   const s = btState(); const pr = { prep:0, lecture:1, bt:2, culte:3, qcm:4, perso:5 };
@@ -1410,10 +1411,11 @@ document.addEventListener('click', ev => {
 
 function freezeToday(plan, t){
   const ds = dispoOf(t);
-  if (PROG.jour && PROG.jour.date === t && PROG.jour.dispo === ds) return;
+  const rs = JSON.stringify([FAM.reunions, (FAM.speciales || {})[monday(t)] || null]);
+  if (PROG.jour && PROG.jour.date === t && PROG.jour.dispo === ds && (PROG.jour.rs == null || PROG.jour.rs === rs)) { if (PROG.jour.rs == null){ PROG.jour.rs = rs; } return; }
   const ids = plan.filter(i => i.date === t && !i.fixe).map(i => i.id);
   const changed = PROG.jour && PROG.jour.date === t;
-  PROG.jour = { date:t, dispo:ds, ids }; saveProg();
+  PROG.jour = { date:t, dispo:ds, ids, rs }; saveProg();
   if (changed) setTimeout(() => toast(tx('Programme du jour recalculé','Programa do dia recalculado')), 50);
 }
 function dispoOf(t){ const o = (PROG.dispo || {})[t]; return o == null ? budgetOf(t) : +o; }
@@ -1684,8 +1686,7 @@ function viewSettings(){
   const vs = VOICES.filter(v => (LANG === 'pt' ? /^pt/i : /^fr/i).test(v.lang));
   return `<button class="backrow" data-a="go" data-v="accueil">‹ ${tx('Aujourd’hui','Hoje')}</button><div class="hello"><h1>${tx('Réglages','Ajustes')}</h1></div>
   ${m.admin ? `<details class="box set" open><summary>🏛️ ${tx('Mes réunions','Minhas reuniões')}</summary>
-   <div class="grid2"><div><label class="f">${tx('Réunion de semaine','Reunião de semana')}</label>${jSel('data-fam="reunions.vm"', FAM.reunions.vm)}</div><div><label class="f">${tx('Réunion du week-end','Reunião de fim de semana')}</label>${jSel('data-fam="reunions.tg"', FAM.reunions.tg)}</div></div>
-   <div class="grid2"><div><label class="f">${tx('Heure','Hora')}</label><input type="time" data-famstr="reunions.hvm" value="${esc(FAM.reunions.hvm || '19:00')}"></div><div><label class="f">${tx('Heure','Hora')}</label><input type="time" data-famstr="reunions.htg" value="${esc(FAM.reunions.htg || '10:00')}"></div></div>
+   ${reunionsHTML()}
    <label class="f">${tx('Semaines spéciales (visite, assemblée, Mémorial…)','Semanas especiais')}</label>${speciesList()}<button class="pb sm" style="margin-top:8px" data-a="spadd">＋ ${tx('Ajouter une semaine spéciale','Adicionar semana especial')}</button>
    <p class="tiny muted">${progCoverage()}</p></details>` : ''}
   ${kids().map(k => `<details class="box set" open><summary>👧 ${tx('Garde alternée de','Guarda alternada de')} ${esc(k.prenom)}</summary>
@@ -2072,6 +2073,7 @@ document.addEventListener('click', async ev => {
       const lim = addDays(t, -60); for (const x of Object.keys(k.garde.exceptions)) if (x < lim) delete k.garde.exceptions[x];
       saveFam(); render(); break; }
     case 'gon': { const k = member(d.k); k.garde = Object.assign({ jour:0, heure:'18:00', exceptions:{} }, k.garde || {}, { actif:true }); if (!k.garde.ref) calibrateGarde(k, true); saveFam(); render(); break; }
+    case 'reumodal': openModal(`<h3>🏛️ ${tx('Mes réunions','Minhas reuniões')}</h3>${reunionsHTML()}<p class="tiny muted">${tx('Une semaine différente (visite, assemblée) ? Ajoute une semaine spéciale dans Réglages › Mes réunions.','Semana diferente? Adicione uma semana especial nos Ajustes.')}</p><button class="pb grad block" style="margin-top:12px" data-a="close">OK</button>`); break;
     case 'gpar': { const k = member(d.k); k.garde.parite = d.v || null; if (!d.v && !k.garde.ref) calibrateGarde(k, childHere(k, t));
       saveFam(); toast(d.v ? tx(`Garde : semaines ${d.v === 'paire' ? 'paires' : 'impaires'} ✓`, 'Guarda ajustada ✓') : tx('Garde : une semaine sur deux ✓','Guarda: uma semana sim, uma não ✓')); render(); break; }
     case 'grecal': { const k = member(d.k); calibrateGarde(k, d.v === '1'); saveFam(); toast(tx('Alternance recalée','Alternância ajustada')); render(); break; }
@@ -2123,7 +2125,9 @@ document.addEventListener('change', ev => {
   if (el.dataset.setup){ const k = el.dataset.setup; SETUP[k] = el.type === 'checkbox' ? el.checked : el.value; render(); return; }
   if (el.dataset.me){ const m = me(); m[el.dataset.me] = el.value.trim() || m[el.dataset.me]; saveFam(); render(); return; }
   if (el.dataset.prof){ const k = el.dataset.prof; const v = k.startsWith('duree') ? +el.value : k === 'vitesse' ? +el.value : el.value; setPath(PROF, k, v); saveProf(); render(); return; }
-  if (el.dataset.fam){ setPath(FAM, el.dataset.fam, +el.value); saveFam(); render(); return; }
+  if (el.dataset.fam){ setPath(FAM, el.dataset.fam, +el.value); saveFam(); if (/^reunions/.test(el.dataset.fam)) toast(tx('Réunion enregistrée ✓ Planning recalculé','Reunião salva ✓')); el.blur(); setTimeout(renderSoon, 0); return; }
+  if (el.dataset.reuh){ const box = el.parentElement; const h = box.querySelector('[data-part="h"]').value, m = box.querySelector('[data-part="m"]').value;
+    FAM.reunions = FAM.reunions || {}; FAM.reunions[el.dataset.reuh] = `${h}:${m}`; saveFam(); toast(tx(`Heure de réunion : ${h}:${m} ✓`, `Hora: ${h}:${m} ✓`)); el.blur(); setTimeout(renderSoon, 0); return; }
   if (el.dataset.famstr){ setPath(FAM, el.dataset.famstr, String(el.value || '').slice(0, 5)); saveFam(); render(); return; }
   if (el.dataset.famtxt === 'lien'){ const v = el.value.trim(); if (v && !okApp(v)){ toast(tx('Ce lien doit venir de claude.ai','O link deve ser do claude.ai')); return; } FAM.lien = v; saveFam(); toast('🔗 ' + tx('Lien enregistré','Link salvo')); render(); return; }
 });
@@ -3263,6 +3267,18 @@ let BT_TAB = 'jour';
 /* L'heure à laquelle on veut faire sa lecture : modifiable à tout moment, sert au rappel */
 /* deux listes (heures, minutes) plutôt qu'un champ « heure » : sur iPhone, le champ heure se remplissait avec l'heure actuelle */
 const hlHint = h => h ? tx(`Lecture prévue chaque jour à ${h}. Change l’heure quand tu veux.`, `Leitura prevista às ${h}.`) : tx('Choisis l’heure : tu recevras un rappel.','Escolha a hora para receber um lembrete.');
+function hmSel(attr, val, def){ const [hh, mm] = String(val || def).split(':');
+  return `<span class="row" style="gap:4px"><select ${attr} data-part="h" style="width:auto">${Array.from({ length:24 }, (_, i) => { const v = String(i).padStart(2, '0'); return `<option value="${v}" ${hh === v ? 'selected' : ''}>${v} h</option>`; }).join('')}</select><b>:</b><select ${attr} data-part="m" style="width:auto">${Array.from({ length:12 }, (_, i) => { const v = String(i * 5).padStart(2, '0'); return `<option value="${v}" ${mm === v ? 'selected' : ''}>${v}</option>`; }).join('')}</select></span>`; }
+function reunionsHTML(){
+  const R = FAM.reunions || {}; const jSel = (attr, val) => `<select ${attr}>${JOURS[LANG].map((j, i) => `<option value="${i}" ${+val === i ? 'selected' : ''}>${j}</option>`).join('')}</select>`;
+  return `<label class="f">${tx('Réunion de semaine (Vie et ministère)','Reunião de semana')}</label><div class="row" style="gap:8px;flex-wrap:wrap">${jSel('data-fam="reunions.vm"', R.vm)}${hmSel('data-reuh="hvm"', R.hvm, '19:00')}</div>
+   <label class="f">${tx('Réunion du week-end (Tour de Garde)','Reunião de fim de semana')}</label><div class="row" style="gap:8px;flex-wrap:wrap">${jSel('data-fam="reunions.tg"', R.tg)}${hmSel('data-reuh="htg"', R.htg, '10:00')}</div>
+   <p class="tiny muted">${tx('Ton planning se recalcule tout de suite : préparations finies la veille, rien d’autre que la lecture les jours de réunion.','Seu planejamento se recalcula na hora.')}</p>`;
+}
+function reunionLine(t){
+  const M = meetings(monday(t)); const f = x => x ? `${JOURS[LANG][dow(x.date)].toLowerCase()} ${x.h}` : '—';
+  return `<button class="xrow" data-a="reumodal" style="margin-bottom:8px"><span>🏛️</span><b>${tx('Mes réunions cette semaine','Minhas reuniões nesta semana')} : ${esc(f(M.vm))} · ${esc(f(M.tg))}</b><i>${tx('modifier','alterar')} ›</i></button>`;
+}
 function heureLectureHTML(){
   const s = btState(); const [hh, mm] = (s.heure || '').split(':');
   const hs = [`<option value="" ${!s.heure ? 'selected' : ''}>—</option>`].concat(Array.from({ length:24 }, (_, i) => { const v = String(i).padStart(2, '0'); return `<option value="${v}" ${hh === v ? 'selected' : ''}>${v} h</option>`; }));
@@ -3408,7 +3424,7 @@ function planWeek(items, mon){
   const days = Array.from({ length:7 }, (_, i) => addDays(mon, i)); const t = todayISO(); const dm = doneMap(mon);
   const load = {}; days.forEach(d => load[d] = 0);
   const free = d => capOf(d) - load[d];
-  const J = PROG.jour && PROG.jour.date === t && PROG.jour.dispo === dispoOf(t) ? PROG.jour.ids : null;
+  const J = PROG.jour && PROG.jour.date === t && PROG.jour.dispo === dispoOf(t) && (PROG.jour.rs == null || PROG.jour.rs === JSON.stringify([FAM.reunions, (FAM.speciales || {})[monday(t)] || null])) ? PROG.jour.ids : null;
   /* les jours de réunion, rien d'autre n'est prévu (sauf si c'est le seul jour possible) */
   const MW = meetings(mon); const RJ = new Set([MW.vm, MW.tg].filter(Boolean).map(x => x.date));
   const sansReunion = w => { const f = w.filter(d => !RJ.has(d)); return f.length ? f : w; };
