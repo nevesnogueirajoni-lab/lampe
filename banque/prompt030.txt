@@ -1,0 +1,84 @@
+Vérification d'une banque de questions bibliques (lot 030, 80 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Deutéronome 1] À quel moment Moïse adressa-t-il les discours du Deutéronome au peuple ? A) La 1re année après la sortie d'Égypte B) La 40e année, le 11e mois C) Juste après le passage de la mer D) La 20e année
+2. [Deutéronome 1] Que dit Moïse aux juges en Deutéronome 1:17 ? A) Écouter seulement les anciens B) Ne pas être partial, car le jugement appartient à Dieu C) Juger rapidement D) Favoriser les riches
+3. [Deutéronome 4] Que ne fallait-il pas faire avec la parole que Moïse transmettait ? A) L'enseigner B) Y ajouter ou en retrancher C) La lire D) L'écrire
+4. [Deutéronome 4] Pourquoi les nations considéreraient-elles Israël comme sage ? A) Parce qu'il était nombreux B) Parce qu'il avait des rois C) Parce qu'il était riche D) Parce qu'il obéissait aux règles de Jéhovah
+5. [Deutéronome 5] Avec quelle déclaration commencent les Dix Commandements en Deutéronome 5 ? A) « Heureux l'homme » B) « Au commencement » C) « Je suis Jéhovah ton Dieu, qui t'a fait sortir d'Égypte » D) « Écoute, Israël »
+6. [Deutéronome 6] Où les Israélites devaient-ils attacher les paroles de Dieu, selon Deutéronome 6:8 ? A) Sur leur main et entre leurs yeux B) Nulle part C) Sur les tentes des étrangers D) Sur les arbres
+7. [Deutéronome 6] Où devaient-ils écrire les paroles de Dieu ? A) Sur le sable B) Sur les montants de porte et les portes de la ville C) Sur les arbres D) Sur leurs vêtements
+8. [Deutéronome 7] Que ne devaient pas faire les Israélites avec les nations de Canaan ? A) Commercer B) Les rencontrer C) S'allier par mariage avec elles D) Leur parler
+9. [Deutéronome 7] Pourquoi Jéhovah avait-il choisi Israël, selon Deutéronome 7:7-8 ? A) Parce qu'il était riche B) Parce qu'il l'aimait et tenait sa promesse aux ancêtres C) Parce qu'il était le plus nombreux D) Parce qu'il était le plus fort
+10. [Deutéronome 8] Qu'est-ce qui ne s'était pas usé pendant les 40 ans dans le désert ? A) Les tentes B) Les vêtements des Israélites C) Le tabernacle D) Les armes
+11. [Deutéronome 8] Qui donne la force de s'enrichir, selon Deutéronome 8:18 ? A) Le roi B) Jéhovah C) Le travail seul D) La chance
+12. [Deutéronome 10] Que dit Deutéronome 10:17 au sujet de Dieu ? A) Il n'est pas partial et n'accepte pas de pot-de-vin B) Il est lointain C) Il favorise les riches D) Il dort
+13. [Deutéronome 15] Que promet Deutéronome 15:4 si Israël obéit ? A) Ils domineront toutes les nations B) Ils ne mourront pas C) Ils auront un roi D) Il n'y aura pas de pauvre parmi eux
+14. [Deutéronome 16] Combien de fois par an tous les hommes devaient-ils se présenter devant Jéhovah ? A) Une fois B) Douze fois C) Trois fois D) Sept fois
+15. [Deutéronome 17] Que devait faire le roi d'Israël en montant sur le trône ? A) Écrire pour lui une copie de la Loi B) Construire un palais C) Épouser une étrangère D) Lever une armée
+16. [Deutéronome 18] Quelles pratiques Deutéronome 18:10-12 interdit-il ? A) La musique B) La divination, la magie et le spiritisme C) L'agriculture D) Le commerce
+17. [Deutéronome 19] Combien de témoins fallait-il pour établir une affaire ? A) Deux ou trois B) Un seul C) Sept D) Douze
+18. [Deutéronome 22] Que dit Deutéronome 22:5 sur les vêtements ? A) Une femme ne doit pas porter de vêtement d'homme, ni un homme de vêtement de femme B) Tous doivent porter du blanc C) Les vêtements doivent être neufs D) Il ne faut pas de couleurs
+19. [Deutéronome 24] Selon Deutéronome 24:16, qui doit mourir pour un péché ? A) Ses enfants B) Sa ville C) Celui qui l'a commis D) Ses parents
+20. [Deutéronome 25] Que ne fallait-il pas faire au taureau qui foule le grain ? A) Le reposer B) Le laisser boire C) Le nourrir D) Lui mettre une muselière
+21. [Deutéronome 31] Qui devait être rassemblé pour entendre la lecture de la Loi ? A) Les hommes, les femmes, les enfants et les étrangers B) Seulement les anciens C) Seulement les prêtres D) Seulement les hommes
+22. [Deutéronome 32] À quoi Jéhovah est-il comparé en Deutéronome 32:4 ? A) À un lion B) Au Rocher, dont l'activité est parfaite C) À un fleuve D) À une tour
+23. [Deutéronome 34] Que dit Deutéronome 34:10 au sujet de Moïse ? A) Il était le plus fort B) Il était le plus riche C) Aucun prophète comme lui, que Jéhovah connaissait face à face D) Il était le plus grand roi
+24. [Josué 1] Qui succéda à Moïse pour conduire Israël ? A) Caleb B) Josué, fils de Noun C) Éléazar D) Finéas
+25. [Josué 2] Que dit Rahab aux espions au sujet de Jéhovah ? A) Elle savait que Jéhovah leur donnait le pays B) Elle voulait le combattre C) Elle n'en avait jamais entendu parler D) Elle ne croyait pas en lui
+26. [Josué 2] Comment Rahab fit-elle descendre les espions ? A) Avec une corde par la fenêtre B) Par la porte de la ville C) Par un tunnel D) Dans un panier par la porte
+27. [Josué 3] À quelle saison Israël traversa-t-il le Jourdain ? A) Au temps de la moisson, quand le fleuve déborde B) En hiver, à sec C) En été, à gué D) Au printemps, gelé
+28. [Josué 4] Où Israël campa-t-il après avoir traversé le Jourdain ? A) À Guilgal B) À Jéricho C) À Silo D) À Aï
+29. [Josué 5] Qui Josué rencontra-t-il près de Jéricho, une épée à la main ? A) Caleb B) Le chef de l'armée de Jéhovah C) Un soldat de Jéricho D) Rahab
+30. [Josué 6] Quelle malédiction Josué prononça-t-il contre celui qui rebâtirait Jéricho ? A) Il perdrait son premier-né et son plus jeune fils B) Il serait chassé C) Il deviendrait pauvre D) Il deviendrait aveugle
+31. [Josué 7] Où Akân et sa famille furent-ils exécutés ? A) À Jéricho B) À Aï C) À Guilgal D) Dans la vallée d'Akor
+32. [Josué 8] Comment Josué prit-il la ville d'Aï la deuxième fois ? A) Par la famine B) Par un tunnel C) En faisant le tour sept fois D) Par une embuscade derrière la ville
+33. [Josué 9] Quelle tâche fut donnée aux Gabaonites après leur ruse ? A) Faire la guerre B) Couper le bois et puiser l'eau C) Garder les troupeaux D) Construire les murs
+34. [Josué 10] Qu'est-ce que Jéhovah fit tomber sur les ennemis lors de la bataille de Gabaon ? A) Du feu B) De grosses pierres de grêle C) De la neige D) Des sauterelles
+35. [Josué 11] Que fit Josué après avoir pris tout le pays ? A) Il le donna en héritage aux tribus d'Israël B) Il le rendit aux Cananéens C) Il le garda pour lui D) Il le vendit
+36. [Josué 14] Que dit Caleb de sa force à 85 ans ? A) Il était aussi fort qu'au jour où Moïse l'avait envoyé B) Il était malade C) Il était très faible D) Il ne pouvait plus combattre
+37. [Josué 18] Où l'assemblée d'Israël installa-t-elle la tente de la rencontre dans le pays ? A) À Béthel B) À Hébron C) À Silo D) À Jérusalem
+38. [Josué 20] À quoi servaient les villes de refuge en Canaan ? A) À garder l'Arche B) À stocker des armes C) À loger les rois D) À accueillir celui qui avait tué quelqu'un sans le vouloir
+39. [Josué 22] Quel monument les tribus de l'est du Jourdain bâtirent-elles, causant un malentendu ? A) Un temple B) Une tour C) Une statue D) Un grand autel près du Jourdain
+40. [Josué 24] Qu'est-ce que Josué dressa comme témoin sous le grand arbre à Sichem ? A) Un autel d'or B) Une statue C) Une grande pierre D) Un pilier de bois
+41. [Juges 1] Quelle tribu Jéhovah désigna-t-il pour monter la première contre les Cananéens ? A) Ruben B) Benjamin C) Juda D) Dan
+42. [Juges 1] Qu'arriva-t-il au roi Adoni-Bézek ? A) On lui coupa les pouces et les gros orteils B) Il fut pardonné C) Il s'enfuit en Égypte D) Il fut tué sur-le-champ
+43. [Juges 2] Comment était la génération qui suivit celle de Josué ? A) Elle conquit l'Égypte B) Elle construisit le temple C) Elle était très fidèle D) Elle ne connaissait pas Jéhovah ni ce qu'il avait fait
+44. [Juges 3] De quelle main Éhoud se servait-il ? A) D'aucune B) Des deux mains C) De la main droite D) De la main gauche
+45. [Juges 3] Avec quoi Shamgar tua-t-il 600 Philistins ? A) Une fronde B) Une épée C) Une mâchoire d'âne D) Un aiguillon à bœufs
+46. [Juges 4] Où Débora rendait-elle la justice ? A) À la porte de la ville B) Sous le palmier de Débora C) Dans le temple D) Sur le mont Carmel
+47. [Juges 4] Que dit Débora à Barak quand il refusa d'y aller sans elle ? A) Elle le remplaça B) Elle refusa de venir C) Elle le renvoya chez lui D) La gloire de la victoire ne serait pas pour lui, car Sissera serait livré à une femme
+48. [Juges 4] Combien de chars de fer avait Sissera ? A) 1 000 B) 900 C) 300 D) 70
+49. [Juges 5] Selon le chant de Débora, qu'est-ce qui combattit contre Sissera depuis le ciel ? A) Les nuages B) Le soleil C) Les étoiles D) Les anges
+50. [Juges 6] Comment l'ange de Jéhovah salua-t-il Gédéon ? A) « Fuis vite » B) « Lève-toi, roi d'Israël » C) « Tu es choisi pour être prêtre » D) « Jéhovah est avec toi, homme fort et vaillant »
+51. [Juges 6] Qu'est-ce que Gédéon démolit la nuit sur l'ordre de Jéhovah ? A) La tour de Penouel B) Un temple philistin C) La maison de Sisera D) L'autel de Baal de son père
+52. [Juges 6] Quel surnom fut donné à Gédéon après qu'il eut démoli l'autel de Baal ? A) Barak B) Othniel C) Jéroubbaal D) Shamgar
+53. [Juges 7] Combien d'hommes repartirent quand Gédéon renvoya ceux qui avaient peur ? A) 22 000 B) 10 000 C) 32 000 D) 300
+54. [Juges 7] Comment furent choisis les 300 hommes de Gédéon ? A) Selon la manière dont ils buvaient l'eau B) Selon leur tribu C) Selon leur taille D) Par tirage au sort
+55. [Juges 7] Que vit un Madianite dans son rêve entendu par Gédéon ? A) Un aigle B) Une galette de pain d'orge qui renversait une tente C) Une épée de feu D) Un lion
+56. [Juges 8] Que répondit Gédéon quand les Israélites voulurent qu'il règne sur eux ? A) « Choisissez un autre » B) « Jéhovah régnera sur vous » C) « Mon fils régnera » D) « J'accepte »
+57. [Juges 9] Dans la parabole de Jotham, quel arbre accepta d'être roi ? A) Le figuier B) Le buisson épineux C) La vigne D) L'olivier
+58. [Juges 11] Comment est décrit Jephté ? A) Un roi B) Un homme fort et vaillant, fils d'une prostituée C) Un berger timide D) Un prêtre
+59. [Juges 11] Depuis combien d'années Israël habitait-il la région d'Hesbôn, selon Jephté ? A) 70 ans B) 430 ans C) 300 ans D) 40 ans
+60. [Juges 11] Combien de temps la fille de Jephté demanda-t-elle pour pleurer sa virginité ? A) Un an B) Sept jours C) Deux mois D) Trois jours
+61. [Juges 12] Quel mot servait à reconnaître les hommes d'Éphraïm au gué du Jourdain ? A) Maranatha B) Amen C) Hosanna D) Shibboleth
+62. [Juges 13] Comment s'appelait le père de Samson ? A) Élimélek B) Jephté C) Manoah D) Gédéon
+63. [Juges 14] Que trouva Samson dans le cadavre du lion ? A) Une épée B) Un essaim d'abeilles et du miel C) Un serpent D) De l'or
+64. [Juges 15] Combien de renards Samson attrapa-t-il pour brûler les champs des Philistins ? A) 30 B) 300 C) 100 D) 1 000
+65. [Juges 16] Qu'emporta Samson en pleine nuit à Gaza ? A) Les portes de la ville avec leurs montants B) Le temple de Dagon C) Le trésor du roi D) Les chars
+66. [Juges 16] Combien chaque seigneur philistin promit-il à Dalila pour trahir Samson ? A) 100 sicles d'or B) 1 000 sicles C) 30 pièces d'argent D) 1 100 pièces d'argent
+67. [Juges 16] Que firent les Philistins à Samson après l'avoir capturé ? A) Ils l'exilèrent B) Ils le vendirent C) Ils lui crevèrent les yeux et le firent tourner la meule D) Ils le tuèrent aussitôt
+68. [Juges 16] Que demanda Samson à Jéhovah avant de mourir ? A) De punir Dalila B) De lui donner de la force une dernière fois C) De le sauver D) De le guérir
+69. [Juges 17] Quelle phrase décrit l'époque de Michée et de son idole ? A) Les prêtres régnaient B) Les Philistins gouvernaient C) Il n'y avait pas de roi ; chacun faisait ce qui lui semblait juste D) Le pays était en paix
+70. [Juges 18] Quel nom les Danites donnèrent-ils à la ville de Laïsh ? A) Béthel B) Guibéa C) Dan D) Silo
+71. [Juges 20] Contre quelle tribu tout Israël se rassembla-t-il après le crime de Guibéa ? A) Éphraïm B) Juda C) Benjamin D) Dan
+72. [Ruth 1] Que firent Orpa et Ruth quand Noémi les invita à rentrer chez elles ? A) Orpa embrassa Noémi et partit ; Ruth resta attachée à elle B) Les deux partirent C) Ruth partit et Orpa resta D) Les deux restèrent
+73. [Ruth 1] Que dit Ruth à Noémi au sujet de la mort ? A) « Je ne mourrai jamais » B) « Là où tu mourras, je mourrai » C) « Je retournerai à Moab pour mourir » D) « Tu mourras seule »
+74. [Ruth 1] À quelle époque Noémi et Ruth arrivèrent-elles à Bethléem ? A) Pendant la vendange B) Au début de la moisson de l'orge C) À la fête des Huttes D) En hiver
+75. [Ruth 2] Quel lien Boaz avait-il avec la famille de Noémi ? A) Un étranger B) Son fils C) Un parent du mari de Noémi, Élimélek D) Son frère
+76. [Ruth 2] Que demanda Boaz à ses serviteurs au sujet de Ruth ? A) La surveiller B) La renvoyer C) Lui faire payer D) Laisser tomber exprès des épis pour elle
+77. [Ruth 3] Où Ruth se coucha-t-elle selon le conseil de Noémi ? A) Dans le champ B) Aux pieds de Boaz, sur l'aire de battage C) Près du puits D) Dans la maison de Boaz
+78. [Ruth 3] Que demanda Ruth à Boaz sur l'aire de battage ? A) D'étendre son vêtement sur elle, car il était un racheteur B) De lui donner du grain C) De la ramener à Moab D) De lui trouver un travail
+79. [Ruth 4] Quel geste confirmait une transaction en Israël à l'époque de Ruth ? A) Se serrer la main B) Signer un rouleau C) Retirer sa sandale et la donner à l'autre D) Partager un repas
+80. [Ruth 4] Comment les femmes de Bethléem décrivirent-elles Ruth pour Noémi ? A) Une étrangère B) Une veuve pauvre C) Une servante D) Meilleure pour elle que sept fils
