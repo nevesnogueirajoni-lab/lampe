@@ -1,92 +1,86 @@
-Vérification d'une banque de questions bibliques (lot 007, 88 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+Vérification d'une banque de questions bibliques (lot 007, 82 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
 numéro|lettre|référence|OK ou DOUTE: raison courte
 Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
-1. [Genèse 1] Selon Genèse 1:1, que fit Dieu au commencement ? A) Il fit le déluge B) Il créa les anges C) Il créa le ciel et la terre D) Il appela Abraham
-2. [Genèse 1] Quelle fut la première chose que Dieu dit « Qu'il y ait » en Genèse 1 ? A) L'eau B) Les étoiles C) Les animaux D) La lumière
-3. [Genèse 1] Quel jour de la création Dieu fit-il apparaître le soleil et la lune ? A) Le premier jour B) Le quatrième jour C) Le sixième jour D) Le deuxième jour
-4. [Genèse 1] Selon Genèse 1:26, à l'image de qui l'homme fut-il fait ? A) À l'image du soleil B) À l'image des animaux C) À l'image de Dieu D) À l'image des anges
-5. [Genèse 1] Quelle mission Dieu donna-t-il au premier couple en Genèse 1:28 ? A) Garder seulement le jardin B) Être féconds, remplir la terre et la soumettre C) Construire une ville D) Offrir des sacrifices
-6. [Genèse 1] Comment Dieu trouva-t-il tout ce qu'il avait fait, à la fin du sixième jour ? A) Assez bon B) Imparfait C) Très bon D) Inachevé
-7. [Genèse 2] Que fit Dieu le septième jour ? A) Il créa l'homme B) Il créa les poissons C) Il planta le jardin D) Il se reposa de toute son œuvre
-8. [Genèse 2] Avec quoi Jéhovah forma-t-il l'homme ? A) Avec de la lumière B) Avec de la poussière du sol C) Avec une côte D) Avec de l'argile rouge et de l'eau
-9. [Genèse 2] Dans quelle région Jéhovah planta-t-il un jardin ? A) En Canaan B) En Égypte C) En Éden D) À Babel
-10. [Genèse 2] En combien de fleuves le fleuve qui sortait d'Éden se divisait-il ? A) Deux B) Sept C) Trois D) Quatre
-11. [Genèse 2] De quel arbre Adam ne devait-il pas manger ? A) L'olivier B) L'arbre de la connaissance du bon et du mauvais C) L'arbre de vie D) Le figuier
-12. [Genèse 2] Qui donna des noms aux animaux ? A) Les anges B) Dieu C) Ève D) Adam
-13. [Genèse 2] À partir de quoi Jéhovah forma-t-il la femme ? A) D'une branche B) D'une pierre C) D'une côte prise à l'homme D) De la poussière
-14. [Genèse 3] Quel animal parla à la femme dans le jardin ? A) Le lion B) L'âne C) Le serpent D) Le corbeau
-15. [Genèse 3] Que dit le serpent à la femme au sujet de la mort ? A) « Vous mourrez demain » B) « Vous vivrez au ciel » C) « Dieu vous pardonnera » D) « Vous ne mourrez absolument pas »
-16. [Genèse 3] Avec quoi Adam et Ève se firent-ils des sortes de pagnes ? A) Des feuilles de figuier B) Des peaux de bêtes C) Des feuilles de palmier D) Du lin
-17. [Genèse 3] Que dit Genèse 3:15 que la descendance de la femme ferait au serpent ? A) Il lui écrasera la tête B) Elle le nourrira C) Elle le chassera du jardin D) Elle lui donnera un nom
-18. [Genèse 3] Pourquoi Adam appela-t-il sa femme Ève ? A) Parce que Dieu l'avait ordonné B) Parce qu'elle allait être la mère de tous les vivants C) Parce qu'elle était née le soir D) Parce qu'elle venait d'Éden
-19. [Genèse 3] Qu'est-ce que Jéhovah plaça à l'est du jardin d'Éden pour garder le chemin de l'arbre de vie ? A) Des lions B) Des chérubins et la lame flamboyante d'une épée C) Un fleuve D) Un mur de pierre
-20. [Genèse 4] Quel était le travail d'Abel ? A) Chasseur B) Cultivateur C) Forgeron D) Berger
-21. [Genèse 4] Qu'offrit Abel à Jéhovah ? A) Des premiers-nés de son troupeau B) De l'huile C) Des fruits du sol D) Du pain
-22. [Genèse 4] Que répondit Caïn quand Jéhovah lui demanda où était Abel ? A) « Il est aux champs » B) « Suis-je le gardien de mon frère ? » C) « Il est parti en Éden » D) « Je l'ai tué »
-23. [Genèse 4] Comment Caïn appela-t-il la ville qu'il bâtit ? A) Éden B) Babel C) Ninive D) Hénoch
-24. [Genèse 4] Comment s'appelait le fils qu'Ève eut après la mort d'Abel ? A) Lamek B) Seth C) Énosh D) Hénoch
-25. [Genèse 5] Que dit la Bible d'Hénoch en Genèse 5:24 ? A) Il fut un grand chasseur B) Il marchait avec le vrai Dieu C) Il bâtit une ville D) Il construisit l'arche
-26. [Genèse 5] Combien d'années vécut Mathusalem ? A) 777 ans B) 930 ans C) 950 ans D) 969 ans
-27. [Genèse 5] Comment s'appelaient les trois fils de Noé ? A) Sem, Cham et Japhet B) Caïn, Abel et Seth C) Isaac, Ismaël et Ésaü D) Abraham, Nahor et Harân
-28. [Genèse 6] Comment Genèse 6:9 décrit-il Noé ? A) Un homme juste et intègre, contrairement à ses contemporains B) Un grand roi C) Un chasseur puissant D) Un prophète d'Égypte
-29. [Genèse 6] En quel bois Noé devait-il construire l'arche ? A) En acacia B) En cèdre C) En olivier D) En bois d'arbre résineux
-30. [Genèse 6] Quelle était la longueur de l'arche ? A) 100 coudées B) 300 coudées C) 500 coudées D) 50 coudées
-31. [Genèse 7] Combien de chaque animal pur Noé devait-il prendre ? A) Douze B) Deux C) Un D) Sept
-32. [Genèse 7] Pendant combien de jours et de nuits la pluie tomba-t-elle ? A) 40 B) 150 C) 7 D) 100
-33. [Genèse 8] Sur quelles montagnes l'arche s'arrêta-t-elle ? A) Le mont Moria B) Le mont Sinaï C) Les montagnes d'Ararat D) Le mont Carmel
-34. [Genèse 8] Quel oiseau Noé envoya-t-il en premier ? A) Une colombe B) Un moineau C) Un corbeau D) Un aigle
-35. [Genèse 8] Que rapporta la colombe à Noé ? A) Une branche de figuier B) Un épi de blé C) Une feuille d'olivier qu'elle venait de cueillir D) Une pierre
-36. [Genèse 9] Quel signe Dieu donna-t-il pour son alliance après le déluge ? A) Une étoile B) Une colombe C) L'arc-en-ciel D) Un autel
-37. [Genèse 9] Selon Genèse 9:4, que ne fallait-il pas manger ? A) La chair avec son sang B) Les fruits C) Les poissons D) Le pain
-38. [Genèse 10] Comment Nemrod est-il décrit en Genèse 10:9 ? A) Un prophète B) Un berger fidèle C) Un bâtisseur d'arche D) Un puissant chasseur opposé à Jéhovah
-39. [Genèse 11] Pourquoi les hommes voulaient-ils bâtir une tour à Babel ? A) Pour se faire un nom célèbre et ne pas être dispersés B) Pour adorer Jéhovah C) Pour se protéger du déluge D) Pour observer les étoiles
-40. [Genèse 11] Pourquoi la ville fut-elle appelée Babel ? A) Parce que Jéhovah y avait mis la confusion dans le langage de toute la terre B) Parce que Nemrod l'avait voulu C) Parce qu'elle était grande D) Parce qu'elle était au bord de l'eau
-41. [Genèse 11] De quelle ville Téra partit-il avec Abram ? A) Our des Chaldéens B) Harran C) Babel D) Ninive
-42. [Genèse 12] Que demanda Jéhovah à Abram en Genèse 12:1 ? A) De construire une tour B) De sacrifier Isaac C) De quitter son pays et sa famille D) De bâtir une arche
-43. [Genèse 12] Selon Genèse 12:3, qui sera béni par le moyen d'Abram ? A) Les habitants de Canaan seulement B) Les rois d'Égypte C) Toutes les familles du sol D) Seulement sa maison
-44. [Genèse 12] Quel âge avait Abram quand il quitta Harran ? A) 100 ans B) 40 ans C) 75 ans D) 99 ans
-45. [Genèse 12] Que demanda Abram à Saraï de dire en Égypte ? A) Qu'elle était sa sœur B) Qu'elle était sa mère C) Qu'elle était veuve D) Qu'elle était sa servante
-46. [Genèse 13] Que proposa Abram à Loth pour éviter les disputes ? A) De retourner à Our B) De partager leurs troupeaux en deux C) De vivre ensemble à Sodome D) De choisir en premier la région où il irait
-47. [Genèse 13] Près de quelle ville Loth installa-t-il sa tente ? A) Sodome B) Hébron C) Salem D) Béthel
-48. [Genèse 13] À quoi Jéhovah compare-t-il la future descendance d'Abram en Genèse 13:16 ? A) Aux montagnes B) À la poussière de la terre C) Aux poissons de la mer D) Aux arbres de la forêt
-49. [Genèse 14] Quel roi de Salem apporta du pain et du vin à Abram ? A) Melchisédech B) Abimélech C) Kedorlaomer D) Pharaon
-50. [Genèse 14] Que donna Abram à Melchisédech ? A) Le dixième de tout B) Un troupeau C) Son serviteur D) Une épée
-51. [Genèse 15] Que demanda Jéhovah à Abram de compter, en Genèse 15:5 ? A) Les arbres B) Ses moutons C) Les grains de sable D) Les étoiles
-52. [Genèse 15] Que fit Abram après la promesse de Genèse 15:5, et comment Dieu le considéra-t-il ? A) Il douta et fut puni B) Il partit en Égypte C) Il bâtit une tour D) Il eut foi en Jéhovah, qui porta cela à son compte comme justice
-53. [Genèse 15] Pendant combien d'années la descendance d'Abram serait-elle opprimée dans un pays étranger ? A) 70 ans B) 400 ans C) 100 ans D) 40 ans
-54. [Genèse 16] Comment s'appelait la servante égyptienne de Saraï ? A) Bilha B) Zilpa C) Ketoura D) Agar
-55. [Genèse 16] Quel nom l'ange dit-il à Agar de donner à son fils ? A) Isaac B) Ésaü C) Éliézer D) Ismaël
-56. [Genèse 16] Comment Agar appela-t-elle Jéhovah qui lui avait parlé ? A) « Dieu Tout-Puissant » B) « Dieu de paix » C) « Dieu qui entend » D) « Dieu qui voit »
-57. [Genèse 17] Pourquoi le nom d'Abram devint-il Abraham ? A) Parce qu'il vainquit des rois B) Parce qu'il quitta Ur C) Parce qu'il était vieux D) Parce qu'il deviendrait le père de beaucoup de nations
-58. [Genèse 17] Quel nouveau nom Saraï reçut-elle ? A) Sara B) Léa C) Rachel D) Rébecca
-59. [Genèse 17] Quel âge avait Abraham quand il fut circoncis ? A) 99 ans B) 75 ans C) 86 ans D) 100 ans
-60. [Genèse 18] Combien d'hommes Abraham vit-il près des grands arbres de Mamré ? A) Deux B) Sept C) Trois D) Douze
-61. [Genèse 18] Comment Sara réagit-elle en entendant qu'elle aurait un fils ? A) Elle se mit à rire en elle-même B) Elle se fâcha C) Elle pleura D) Elle s'enfuit
-62. [Genèse 18] Quelle question Jéhovah pose-t-il en Genèse 18:14 ? A) « Où est ton frère ? » B) « Y a-t-il quelque chose de trop extraordinaire pour Jéhovah ? » C) « Qui es-tu ? » D) « Pourquoi ris-tu de moi ? »
-63. [Genèse 18] Pour combien de justes Jéhovah accepta-t-il finalement de ne pas détruire Sodome ? A) 20 B) 45 C) 10 D) 50
-64. [Genèse 19] Combien d'anges arrivèrent à Sodome le soir ? A) Sept B) Deux C) Trois D) Un
-65. [Genèse 19] Que fit pleuvoir Jéhovah sur Sodome et Gomorrhe ? A) Des sauterelles B) De la grêle C) De l'eau D) Du soufre et du feu
-66. [Genèse 19] Que devint la femme de Loth quand elle regarda en arrière ? A) Une statue d'or B) Une colonne de sel C) Un arbre D) Une pierre
-67. [Genèse 21] Quel âge avait Abraham à la naissance d'Isaac ? A) 99 ans B) 100 ans C) 120 ans D) 90 ans
-68. [Genèse 21] Dans quel désert Agar erra-t-elle avec son fils ? A) Le désert de Bersabée B) Le désert du Sinaï C) Le désert de Juda D) Le désert de Paran
-69. [Genèse 22] Dans quelle région Dieu demanda-t-il à Abraham d'offrir Isaac ? A) Le mont Sinaï B) Le pays de Moria C) Le pays de Goshen D) Le pays de Canaan
-70. [Genèse 22] Quelle question Isaac posa-t-il à son père en montant ? A) « Où allons-nous ? » B) « Où est le mouton pour l'holocauste ? » C) « Qui va nous aider ? » D) « Pourquoi pleures-tu ? »
-71. [Genèse 22] Quel animal Abraham offrit-il à la place d'Isaac ? A) Un taureau B) Une colombe C) Un bélier pris par les cornes dans un buisson D) Un agneau
-72. [Genèse 22] Quel nom Abraham donna-t-il à cet endroit ? A) Peniel B) Ébénézer C) Jéhovah-Jiré D) Béthel
-73. [Genèse 22] Selon Genèse 22:18, par quel moyen toutes les nations se procureront-elles une bénédiction ? A) Grâce à leurs rois B) Par le moyen de la descendance d'Abraham C) Grâce à leurs temples D) Grâce à leur richesse
-74. [Genèse 23] Quel âge avait Sara quand elle mourut ? A) 175 ans B) 90 ans C) 100 ans D) 127 ans
-75. [Genèse 23] Où Abraham enterra-t-il Sara ? A) À Bersabée B) À Béthel C) Dans la grotte du champ de Makpéla D) À Our
-76. [Genèse 24] Quelle mission Abraham confia-t-il à son serviteur en Genèse 24 ? A) Trouver une femme pour Isaac dans sa famille B) Acheter un champ C) Combattre les Cananéens D) Aller en Égypte chercher du blé
-77. [Genèse 24] Quel signe le serviteur d'Abraham demanda-t-il à Jéhovah ? A) Qu'il pleuve B) Qu'un ange lui parle C) Que la jeune fille propose aussi de l'eau à ses chameaux D) Qu'une étoile apparaisse
-78. [Genèse 24] Quelle jeune fille vint au puits avec sa jarre ? A) Léa B) Rachel C) Dina D) Rébecca
-79. [Genèse 24] Comment s'appelait le frère de Rébecca ? A) Nahor B) Labân C) Loth D) Bétuel
-80. [Genèse 24] Que répondit Rébecca quand on lui demanda si elle voulait partir avec le serviteur ? A) « Pas encore » B) « Oui, je suis d'accord » C) « Demande à mon père » D) « Dans dix jours »
-81. [Genèse 24] Comment Isaac réagit-il envers Rébecca ? A) Il tomba amoureux d'elle et fut consolé de la perte de sa mère B) Il la renvoya C) Il hésita longtemps D) Il partit en Égypte
-82. [Genèse 25] Quelle femme Abraham épousa-t-il après la mort de Sara ? A) Agar B) Milka C) Rébecca D) Ketoura
-83. [Genèse 25] Combien d'années vécut Abraham ? A) 127 ans B) 175 ans C) 969 ans D) 100 ans
-84. [Genèse 25] Que dit Jéhovah à Rébecca au sujet des jumeaux qu'elle portait ? A) Ils seront rois tous les deux B) Le plus jeune servira l'aîné C) L'aîné servira le plus jeune D) Ils vivront en Égypte
-85. [Genèse 25] Comment était Ésaü à sa naissance ? A) Silencieux B) Très petit et blond C) Entièrement roux, comme vêtu de fourrure D) Malade
-86. [Genèse 25] Que tenait Jacob à sa naissance ? A) Une plume B) Le talon d'Ésaü C) La main d'Ésaü D) Rien du tout
-87. [Genèse 25] Quel métier avait Ésaü en grandissant ? A) Un marchand B) Un forgeron C) Un excellent chasseur D) Un berger
-88. [Genèse 25] Contre quoi Ésaü vendit-il son droit de fils aîné ? A) De l'or B) Un chameau C) Une tente D) Du pain et des lentilles
+1. [Genèse 1] Selon Genèse 1:1, que créa Dieu au commencement ? A) L'homme B) Les anges seulement C) Le ciel et la terre D) Le jardin d'Éden
+2. [Genèse 1] Quelle fut la première chose que Dieu fit apparaître, selon le récit des jours de création ? A) Les plantes B) Les poissons C) Les étoiles D) La lumière
+3. [Genèse 1] Quels grands luminaires Dieu fit-il le quatrième jour ? A) Le feu et la foudre B) Le grand luminaire pour dominer le jour et le petit pour dominer la nuit C) Les éclairs D) Les volcans
+4. [Genèse 1] À quelle image Dieu créa-t-il l'homme ? A) À l'image du soleil B) À l'image des animaux C) À son image D) À l'image des anges
+5. [Genèse 1] Quelle mission Dieu donna-t-il au premier couple en Genèse 1:28 ? A) Bâtir une tour B) Avoir des enfants, remplir la terre et la soumettre C) Construire une ville D) Quitter le jardin
+6. [Genèse 2] Que fit Dieu le septième jour ? A) Il créa les poissons B) Il planta le jardin C) Il se reposa de tout son travail D) Il créa l'homme
+7. [Genèse 2] Avec quoi Jéhovah forma-t-il l'homme ? A) Avec de l'argile rouge seulement B) Avec de l'eau C) Avec une côte D) Avec de la poussière du sol
+8. [Genèse 2] Où Jéhovah planta-t-il un jardin pour l'homme ? A) À Babylone B) En Éden, vers l'est C) En Égypte D) En Canaan
+9. [Genèse 2] De quel arbre l'homme ne devait-il pas manger ? A) L'arbre de vie B) Le figuier C) L'arbre de la connaissance du bien et du mal D) L'olivier
+10. [Genèse 2] Qui donna un nom aux animaux ? A) Ève B) Noé C) Dieu D) Adam
+11. [Genèse 2] Avec quoi Jéhovah fit-il la femme ? A) Avec une branche B) Avec une côte prise à l'homme C) Avec de la poussière D) Avec de l'eau
+12. [Genèse 3] Quel animal parla à la femme dans le jardin ? A) L'âne B) Le lion C) Le corbeau D) Le serpent
+13. [Genèse 3] Quel mensonge le serpent dit-il à la femme ? A) « Adam vous attend » B) « Le jardin est à vous » C) « Vous ne mourrez certainement pas » D) « Dieu vous aime »
+14. [Genèse 3] Que fera la descendance de la femme au serpent selon Genèse 3:15 ? A) Elle le nourrira B) Elle lui donnera un nom C) Elle lui écrasera la tête D) Elle le chassera du jardin
+15. [Genèse 3] Pourquoi Adam appela-t-il sa femme Ève ? A) Parce qu'elle était belle B) Parce qu'elle avait parlé au serpent C) Parce qu'elle avait été faite de sa côte D) Parce qu'elle allait devenir la mère de tous les vivants
+16. [Genèse 3] Qui Jéhovah plaça-t-il à l'est du jardin pour garder le chemin de l'arbre de vie ? A) Des chérubins B) Des soldats C) Des lions D) Adam
+17. [Genèse 4] Quel était le métier d'Abel ? A) Berger B) Forgeron C) Cultivateur D) Chasseur
+18. [Genèse 4] Qui tua Abel ? A) Adam B) Caïn, son frère C) Seth D) Lamek
+19. [Genèse 4] Que répondit Caïn quand Jéhovah lui demanda où était Abel ? A) « Je l'ai tué » B) « Je ne sais pas. Suis-je le gardien de mon frère ? » C) « Il est parti en voyage » D) « Il est aux champs »
+20. [Genèse 4] Quel fils Ève eut-elle à la place d'Abel ? A) Mathusalem B) Hénok C) Lamek D) Seth
+21. [Genèse 5] Qui « marchait avec le vrai Dieu » puis disparut, car Dieu l'avait pris ? A) Hénok B) Lamek C) Mathusalem D) Jéred
+22. [Genèse 5] Combien d'années vécut Mathusalem ? A) 930 ans B) 969 ans C) 777 ans D) 950 ans
+23. [Genèse 5] Quels étaient les trois fils de Noé ? A) Isaac, Ismaël et Ésaü B) Caïn, Abel et Seth C) Abraham, Nahor et Harân D) Sem, Cham et Japhet
+24. [Genèse 6] Avec quel bois Noé devait-il construire l'arche ? A) Du bois d'acacia B) Du bois d'arbre résineux C) Du bois d'olivier D) Du bois de cèdre
+25. [Genèse 6] Quelle longueur l'arche devait-elle avoir ? A) 50 coudées B) 300 coudées C) 100 coudées D) 1 000 coudées
+26. [Genèse 6] Comment Noé suivit-il les instructions de Dieu ? A) Il changea le plan B) Il en suivit une partie C) Il demanda de l'aide aux voisins D) Il fit exactement ce que Dieu lui avait ordonné
+27. [Genèse 7] Pendant combien de jours la pluie tomba-t-elle sur la terre au déluge ? A) 40 jours et 40 nuits B) 7 jours C) Un an D) 150 jours
+28. [Genèse 8] Sur quelles montagnes l'arche se posa-t-elle ? A) Les montagnes d'Ararat B) Le mont Sinaï C) Le mont Carmel D) Les montagnes du Liban
+29. [Genèse 8] Que rapporta la colombe à Noé ? A) Un épi de blé B) Une branche de figuier C) Une plume D) Une feuille d'olivier fraîchement cueillie
+30. [Genèse 9] Quel signe Dieu donna-t-il pour son alliance après le déluge ? A) Une étoile B) L'arc-en-ciel C) Un autel D) Une colombe
+31. [Genèse 10] Comment Nemrod est-il décrit ? A) Un prêtre de Salem B) Un berger fidèle C) Un prophète D) Un puissant chasseur opposé à Jéhovah
+32. [Genèse 11] Pourquoi les hommes voulaient-ils construire la tour de Babel ? A) Pour se faire un nom et ne pas être dispersés B) Pour échapper à un déluge C) Pour adorer Jéhovah D) Pour observer les étoiles
+33. [Genèse 11] Que fit Jéhovah à Babel ? A) Il leur donna un roi B) Il détruisit la ville par le feu C) Il brouilla leur langue et les dispersa D) Il envoya un déluge
+34. [Genèse 11] De quelle ville Abram partit-il avec son père Térah ? A) Harân B) Babylone C) Ur des Chaldéens D) Ninive
+35. [Genèse 12] Que demanda Jéhovah à Abram en Genèse 12:1 ? A) De construire une arche B) De sacrifier un agneau C) De quitter son pays et sa famille D) De retourner à Ur
+36. [Genèse 12] Selon Genèse 12:3, que recevraient toutes les familles de la terre grâce à Abram ? A) Une terre B) Une loi C) Une bénédiction D) De l'or
+37. [Genèse 13] Quelle région Lot choisit-il quand il se sépara d'Abram ? A) Toute la région du Jourdain B) L'Égypte C) Les montagnes de Canaan D) Le Néguev
+38. [Genèse 14] Quel roi de Salem, prêtre du Dieu Très-Haut, bénit Abram ? A) Kedorlaomer B) Abimélek C) Pharaon D) Melkisédek
+39. [Genèse 15] À quoi Dieu compara-t-il la descendance d'Abram en Genèse 15:5 ? A) Aux étoiles du ciel B) Aux grains de blé C) Aux arbres de la forêt D) Aux poissons de la mer
+40. [Genèse 15] Qu'est-ce qui fut considéré comme de la justice pour Abram ? A) Sa foi en Jéhovah B) Ses sacrifices C) Son âge D) Ses richesses
+41. [Genèse 16] Quel fils Agar donna-t-elle à Abram ? A) Ismaël B) Ésaü C) Isaac D) Midiân
+42. [Genèse 17] Quel nouveau nom Dieu donna-t-il à Abram ? A) Abimélek B) Isaac C) Abraham D) Israël
+43. [Genèse 17] Quel nouveau nom reçut Saraï ? A) Milka B) Rachel C) Sara D) Rébecca
+44. [Genèse 18] Comment Sara réagit-elle en entendant qu'elle aurait un fils ? A) Elle s'enfuit B) Elle chanta C) Elle se mit à rire en elle-même D) Elle pleura
+45. [Genèse 18] Quelle question Jéhovah posa-t-il à Abraham au sujet de Sara ? A) « Y a-t-il quelque chose de trop extraordinaire pour Jéhovah ? » B) « Où est ton neveu ? » C) « Combien as-tu de serviteurs ? » D) « Pourquoi as-tu quitté Ur ? »
+46. [Genèse 18] Pour combien de justes Jéhovah accepta-t-il finalement d'épargner Sodome ? A) 20 B) 50 C) 1 D) 10
+47. [Genèse 19] Que devint la femme de Lot quand elle regarda en arrière ? A) Une colonne de sel B) Une statue de pierre C) Un arbre D) Une ombre
+48. [Genèse 21] Comment Abraham appela-t-il le fils que Sara lui donna ? A) Joseph B) Isaac C) Jacob D) Ismaël
+49. [Genèse 21] Quel âge avait Abraham à la naissance d'Isaac ? A) 100 ans B) 75 ans C) 90 ans D) 120 ans
+50. [Genèse 22] Dans quel pays Dieu demanda-t-il à Abraham d'offrir Isaac ? A) Au pays de Moriya B) À Béthel C) En Égypte D) À Hébron
+51. [Genèse 22] Qu'offrit finalement Abraham à la place d'Isaac ? A) Une colombe B) Un taureau C) Un agneau D) Un bélier pris par ses cornes dans un buisson
+52. [Genèse 22] Par qui toutes les nations obtiendraient-elles une bénédiction, selon Genèse 22:18 ? A) Par le roi d'Égypte B) Par les prêtres C) Par Lot D) Par la descendance d'Abraham
+53. [Genèse 23] Où Abraham enterra-t-il Sara ? A) À Béer-Shéba B) Dans la grotte du champ de Makpéla C) En Égypte D) À Béthel
+54. [Genèse 24] Qui vint au puits avec sa cruche quand le serviteur d'Abraham priait ? A) Léa B) Agar C) Rachel D) Rébecca
+55. [Genèse 24] Qu'offrit Rébecca de faire pour les chameaux du serviteur ? A) Les nourrir de foin B) Les attacher C) Les vendre D) Puiser de l'eau jusqu'à ce qu'ils aient fini de boire
+56. [Genèse 25] Comment Jacob tenait-il son frère à la naissance ? A) Par les cheveux B) Par l'épaule C) Par la main D) Par le talon
+57. [Genèse 25] Contre quoi Ésaü vendit-il son droit d'aîné ? A) Un chameau B) Une tunique C) De l'argent D) Du pain et un plat de lentilles
+58. [Genèse 27] Avec quoi Rébecca couvrit-elle les mains de Jacob pour tromper Isaac ? A) Des peaux de chevreaux B) De la laine de mouton C) Des feuilles D) Des gants de cuir
+59. [Genèse 28] Que vit Jacob dans son rêve à Béthel ? A) Un escalier qui touchait le ciel, avec des anges B) Une échelle de feu C) Une tour D) Un grand arbre
+60. [Genèse 29] Combien d'années Jacob servit-il d'abord pour Rachel ? A) 14 ans B) 20 ans C) 7 ans D) 3 ans
+61. [Genèse 29] Quelle femme Laban donna-t-il d'abord à Jacob au lieu de Rachel ? A) Léa B) Zilpa C) Bilha D) Dina
+62. [Genèse 32] Quel nouveau nom Jacob reçut-il après avoir lutté avec l'ange ? A) Juda B) Israël C) Abraham D) Édom
+63. [Genèse 33] Comment Ésaü accueillit-il Jacob à son retour ? A) Il refusa de le voir B) Il le chassa C) Il courut à sa rencontre et l'embrassa D) Il l'attaqua
+64. [Genèse 35] Où Rachel fut-elle enterrée ? A) À Harân B) Sur la route d'Éfrata, c'est-à-dire Bethléem C) À Hébron D) À Béthel
+65. [Genèse 37] Que fit Jacob (Israël) pour Joseph, son fils préféré ? A) Il lui donna son droit d'aîné B) Il lui donna un chameau C) Il lui construisit une maison D) Il lui fit faire un long vêtement magnifique
+66. [Genèse 37] Dans le premier rêve de Joseph, que faisaient les gerbes de ses frères ? A) Elles se dispersaient B) Elles se prosternaient devant sa gerbe C) Elles s'envolaient D) Elles brûlaient
+67. [Genèse 37] Pour combien de pièces d'argent Joseph fut-il vendu ? A) 30 B) 20 C) 50 D) 15
+68. [Genèse 37] À qui Joseph fut-il vendu en Égypte ? A) À Potifar, chef des gardes de Pharaon B) Au roi lui-même C) À un berger D) À un prêtre d'On
+69. [Genèse 39] Que répondit Joseph à la femme de Potifar ? A) « Laisse-moi partir en Canaan » B) « Comment pourrais-je pécher contre Dieu ? » C) « Je suis ton serviteur » D) « Je vais le dire à ton mari »
+70. [Genèse 40] Qu'annonça Joseph au chef des échansons d'après son rêve ? A) Il serait pendu B) Pharaon lui rendrait sa fonction dans trois jours C) Il resterait en prison D) Il deviendrait roi
+71. [Genèse 41] Que représentaient les sept vaches belles et grasses du rêve de Pharaon ? A) Sept villes B) Sept fils C) Sept années d'abondance D) Sept rois
+72. [Genèse 41] Quelle fonction Pharaon donna-t-il à Joseph ? A) Il en fit son échanson B) Il le renvoya en Canaan C) Il le plaça sur tout le pays d'Égypte D) Il le fit chef des prisons
+73. [Genèse 41] Comment s'appelait le premier-né de Joseph ? A) Éphraïm B) Manassé C) Ruben D) Benjamin
+74. [Genèse 42] Que firent les frères de Joseph en arrivant devant lui, réalisant sans le savoir son rêve ? A) Ils lui donnèrent de l'argent B) Ils s'enfuirent C) Ils le reconnurent tout de suite D) Ils se prosternèrent devant lui
+75. [Genèse 44] Dans le sac de qui la coupe de Joseph fut-elle trouvée ? A) De Siméon B) De Juda C) De Benjamin D) De Ruben
+76. [Genèse 45] Que dit Joseph à ses frères pour les rassurer ? A) Que Dieu l'avait envoyé devant eux pour sauver des vies B) Qu'il allait les punir C) Qu'ils devaient partir tout de suite D) Qu'il ne les connaissait pas
+77. [Genèse 46] Dans quelle région d'Égypte la famille de Jacob s'installa-t-elle ? A) Le delta du Nil à Tanis B) La Haute-Égypte C) Le pays de Goshèn D) La ville d'On
+78. [Genèse 47] Quel âge Jacob dit-il avoir à Pharaon ? A) 100 ans B) 147 ans C) 110 ans D) 130 ans
+79. [Genèse 49] Selon Genèse 49:10, de quelle tribu le sceptre ne s'écarterait-il pas ? A) Joseph B) Juda C) Benjamin D) Lévi
+80. [Genèse 49] Selon Genèse 49:10, jusqu'à la venue de qui le sceptre resterait-il à Juda ? A) Moïse B) Shilo C) David D) Élie
+81. [Genèse 50] Que dit Joseph à ses frères après la mort de Jacob ? A) Ils avaient voulu lui faire du mal, mais Dieu en avait tiré du bien B) Il allait enfin se venger C) Il voulait retourner en Canaan D) Il ne leur pardonnerait jamais
+82. [Genèse 50] À quel âge Joseph mourut-il ? A) 120 ans B) 147 ans C) 130 ans D) 110 ans
