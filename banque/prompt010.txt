@@ -1,0 +1,39 @@
+Vérification d'une banque de questions bibliques (lot 010, 35 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [Exode 21] Quel principe de justice est énoncé en Exode 21:24 ? A) Rendre le double B) Aimer ses ennemis C) Pardonner sept fois D) Œil pour œil, dent pour dent
+2. [Exode 23] Que dit Exode 23:2 au sujet de la foule ? A) Il faut fuir les villes B) Il faut toujours écouter la majorité C) Il faut obéir aux chefs étrangers D) Il ne faut pas suivre la foule pour faire le mal
+3. [Exode 23] Pourquoi ne fallait-il pas accepter de pot-de-vin, selon Exode 23:8 ? A) Parce qu'il est lourd B) Parce qu'il aveugle ceux qui voient clair C) Parce qu'il coûte cher D) Parce que le roi l'interdisait
+4. [Exode 23] Combien de fois par an les Israélites devaient-ils célébrer une fête pour Jéhovah ? A) Douze fois B) Une fois C) Sept fois D) Trois fois
+5. [Exode 24] Que répondit le peuple après la lecture du livre de l'alliance ? A) « Nous allons réfléchir » B) « Moïse, parle pour nous » C) « Tout ce que Jéhovah a dit, nous voulons le faire et nous obéirons » D) « Retournons en Égypte »
+6. [Exode 24] Combien de jours et de nuits Moïse resta-t-il sur la montagne ? A) 70 B) 7 C) 40 D) 3
+7. [Exode 25] En quel bois l'arche du témoignage devait-elle être faite ? A) En bois d'acacia B) En chêne C) En olivier D) En cèdre
+8. [Exode 25] Combien de chérubins d'or devaient être placés sur le couvercle de l'arche ? A) Deux B) Sept C) Quatre D) Douze
+9. [Exode 25] En quoi le porte-lampes du tabernacle devait-il être fait ? A) En bois doré B) En or pur C) En bronze D) En argent
+10. [Exode 28] Quels objets étaient placés dans le pectoral du grand prêtre pour connaître la décision de Jéhovah ? A) L'Ourim et le Thoummim B) Deux tablettes de pierre C) Des dés d'or D) Un bâton et une coupe
+11. [Exode 28] Quelle inscription portait la plaque d'or du turban du grand prêtre ? A) « Fils de Lévi » B) « La sainteté appartient à Jéhovah » C) « Jéhovah est grand » D) « Roi d'Israël »
+12. [Exode 31] Avec quoi les deux tablettes du Témoignage furent-elles écrites ? A) Avec le doigt de Dieu B) Avec un stylet de fer C) Avec de l'encre D) Avec le bâton de Moïse
+13. [Exode 32] Quelle statue Aaron fabriqua-t-il pendant l'absence de Moïse ? A) Un serpent de bronze B) Un aigle d'argent C) Un taureau de pierre D) Un veau en métal fondu
+14. [Exode 32] Que fit Moïse en voyant le veau et les danses ? A) Il partit en Égypte B) Il rentra dans sa tente C) Il jeta les tablettes et les brisa D) Il se mit à danser
+15. [Exode 32] Quelle tribu se rassembla autour de Moïse pour Jéhovah ? A) Les fils de Lévi B) Les fils de Juda C) Les fils de Dan D) Les fils de Ruben
+16. [Exode 33] Pourquoi Moïse ne pouvait-il pas voir le visage de Dieu ? A) Aucun homme ne peut voir Dieu et rester vivant B) Moïse avait les yeux fermés C) Dieu était trop loin D) Il faisait trop sombre
+17. [Exode 34] Quelles qualités Jéhovah annonce-t-il de lui-même en Exode 34:6 ? A) Lointain et caché B) Miséricordieux, compatissant, lent à la colère, abondant en amour fidèle et en vérité C) Sévère et terrible D) Puissant mais sans pitié
+18. [Exode 34] Qu'avait le visage de Moïse quand il descendit du mont Sinaï ? A) Il était couvert de poussière B) Il rayonnait C) Il était brûlé D) Il était triste
+19. [Exode 35] Comment les Israélites apportèrent-ils les dons pour le tabernacle ? A) Sous la menace B) De bon cœur, poussés par leur esprit C) En les vendant D) Par obligation
+20. [Exode 36] Pourquoi Moïse dut-il arrêter les dons pour le tabernacle ? A) Pharaon les réclamait B) Les dons étaient de mauvaise qualité C) Le tabernacle était terminé D) Le peuple en apportait beaucoup plus que nécessaire
+21. [Exode 31] Quel artisan Jéhovah remplit-il de son esprit pour construire le tabernacle ? A) Hiram B) Bezalel C) Josué D) Aaron
+22. [Exode 40] Qu'est-ce qui remplit le tabernacle une fois terminé ? A) Des chants B) De la fumée noire C) De la lumière du soleil D) La gloire de Jéhovah
+23. [Lévitique 10] Quels fils d'Aaron offrirent un feu non autorisé ? A) Éléazar et Itamar B) Nadab et Abihou C) Coré et Datân D) Hophni et Phinéas
+24. [Lévitique 10] Que les prêtres ne devaient-ils pas boire avant d'entrer dans la tente de la réunion ? A) Du lait B) De l'eau C) Du jus de raisin D) Du vin ou de l'alcool
+25. [Lévitique 11] Quels animaux à quatre pattes les Israélites pouvaient-ils manger ? A) Seulement les oiseaux B) Ceux qui vivent dans l'eau C) Ceux qui ont le sabot fendu et qui ruminent D) Tous les animaux
+26. [Lévitique 11] Pourquoi les Israélites devaient-ils être saints, selon Lévitique 11:44 ? A) Parce que Jéhovah est saint B) Parce qu'ils étaient nombreux C) Parce qu'ils étaient riches D) Parce qu'ils vivaient au désert
+27. [Lévitique 16] Quel jour avait lieu le Jour de la réconciliation ? A) Le 10e jour du 7e mois B) Le 15e jour du 3e mois C) Le 1er jour de l'année D) Le 14e jour du 1er mois
+28. [Lévitique 16] Que faisait-on du bouc pour Azazel ? A) On le vendait B) On l'envoyait dans le désert C) On le gardait au tabernacle D) On le brûlait
+29. [Lévitique 17] Selon Lévitique 17:11, où est la vie de la chair ? A) Dans le souffle B) Dans les os C) Dans le cœur D) Dans le sang
+30. [Lévitique 19] Quel commandement se trouve en Lévitique 19:18 ? A) Ne jamais parler aux étrangers B) Ne pas travailler la nuit C) Aimer son prochain comme soi-même D) Offrir un sacrifice chaque jour
+31. [Lévitique 19] Que ne fallait-il pas moissonner complètement, selon Lévitique 19:9 ? A) Les bords de son champ B) Les arbres fruitiers C) Les jardins D) Le milieu du champ
+32. [Lévitique 19] Comment fallait-il se comporter devant une personne aux cheveux blancs ? A) Lui demander son âge B) Se lever devant elle C) L'ignorer D) La faire attendre
+33. [Lévitique 23] Quel jour était célébrée la Pâque de Jéhovah ? A) Le 10e jour du 7e mois B) Le 15e jour du 7e mois C) Le 1er jour du mois D) Le 14e jour du 1er mois, au crépuscule
+34. [Lévitique 25] Comment s'appelait la 50e année en Israël ? A) La fête des huttes B) Le Jubilé C) Le sabbat D) La Pâque
+35. [Lévitique 25] Que devait-on faire de la terre la septième année ? A) La donner aux Lévites B) La labourer deux fois C) La vendre D) La laisser se reposer
