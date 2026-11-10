@@ -1,0 +1,54 @@
+Vérification d'une banque de questions bibliques (lot 033, 50 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+numéro|lettre|référence|OK ou DOUTE: raison courte
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+
+1. [1 Rois 1] Que fit Adoniya pour montrer qu'il voulait devenir roi ? A) Il partit combattre les Philistins B) Il se fit faire un char et prit des cavaliers et 50 hommes pour courir devant lui C) Il réunit les prêtres à Silo D) Il construisit un temple à Hébron
+2. [1 Rois 1] Qui offrit son aide et son soutien à Adoniya ? A) Bethsabée et Shiméï B) Joab fils de Zerouya et le prêtre Abiatar C) Le prophète Nathan et le prêtre Zadok D) Salomon et Benaya
+3. [1 Rois 1] Où Adoniya alla-t-il quand il eut peur de Salomon ? A) Au tabernacle, où il saisit les cornes de l'autel B) Dans une grotte près d'Adoulam C) Dans le palais de David D) Chez les Philistins
+4. [1 Rois 2] Quelle femme Adoniya voulut-il obtenir comme épouse ? A) La reine de Saba B) Abishag la Sunamite C) Bethsabée D) Une fille de Pharaon
+5. [1 Rois 2] Pourquoi Salomon jugea-t-il grave la demande d'Adoniya au sujet d'Abishag ? A) C'était comme demander qu'on lui donne la royauté B) Adoniya était trop jeune C) Abishag était déjà mariée D) Abishag était une étrangère
+6. [1 Rois 2] Où Salomon renvoya-t-il le prêtre Abiatar ? A) À Hébron B) À Silo C) À Anatoth, là où il avait ses champs D) À Béthel
+7. [1 Rois 2] Quelle malédiction s'accomplit quand Salomon retira à Abiatar la fonction de prêtre ? A) Celle prononcée contre Jéroboam B) Celle que Jéhovah avait prononcée contre la famille d'Héli à Silo C) Celle prononcée contre Caïn D) Celle prononcée contre Saül
+8. [1 Rois 2] Quelle restriction Salomon imposa-t-il à Shiméï ? A) Il devait vivre dans le désert B) Il ne devait plus parler en public C) Il ne devait plus posséder de terres D) Il devait habiter à Jérusalem sans quitter la ville
+9. [1 Rois 3] Pourquoi les Israélites eurent-ils une grande admiration pour Salomon après son jugement ? A) Il avait fait emprisonner les deux femmes B) Il avait consulté les anciens C) Ils voyaient que Dieu lui avait donné la sagesse pour rendre la justice D) Il était très riche
+10. [1 Rois 4] À quelle sagesse celle de Salomon était-elle bien supérieure ? A) À celle des prêtres de Baal B) À celle des marchands de Tyr C) À celle de tous les peuples de l'Orient et à toute la sagesse égyptienne D) À celle des soldats philistins
+11. [1 Rois 4] De quoi Salomon savait-il parler ? A) Des plantes, des quadrupèdes, des oiseaux, des reptiles, des insectes et des poissons B) Seulement des étoiles C) Seulement des lois D) Seulement des batailles
+12. [1 Rois 5] Comment Hiram prévoyait-il d'envoyer le bois pour le temple ? A) Par un canal jusqu'à Jérusalem B) Par des caravanes de chameaux C) En l'assemblant en radeaux envoyés par la mer D) Sur des chars
+13. [1 Rois 5] Combien d'hommes Salomon envoyait-il au Liban chaque mois ? A) 10 000 B) 3 000 C) 70 000 D) 30 000
+14. [1 Rois 6] Avec quoi Salomon recouvrit-il complètement l'intérieur du temple ? A) De l'argent B) Du cuivre C) De l'or D) Du bois de cèdre peint
+15. [1 Rois 7] Quels noms Salomon donna-t-il aux deux colonnes du porche du temple ? A) Sion et Moria B) Dan et Béthel C) Élim et Mara D) Jakîn et Boaz
+16. [1 Rois 7] Sur combien de taureaux reposait la grande cuve en métal ? A) 4 B) 7 C) 24 D) 12
+17. [1 Rois 8] Que contenait l'Arche quand elle fut placée dans le temple ? A) Le bâton d'Aaron B) Une couronne royale C) Une jarre de manne D) Seulement les deux tablettes de pierre déposées par Moïse
+18. [1 Rois 8] Quelle vérité Salomon reconnut-il dans sa prière ? A) Israël ne pouvait jamais pécher B) Seuls les rois pèchent C) Tous peuvent devenir parfaits par leurs efforts D) Il n'existe pas d'homme qui ne pèche pas
+19. [1 Rois 8] Qu'encouragea Salomon le peuple à faire après sa prière ? A) Construire d'autres temples B) Conquérir d'autres nations C) Avoir un cœur entier pour Jéhovah et obéir à ses lois D) Conclure des alliances militaires
+20. [1 Rois 9] Qu'arriverait-il au temple si Israël abandonnait Jéhovah ? A) Il deviendrait une ruine qui stupéfierait les passants B) Il serait agrandi C) Il serait déplacé à Samarie D) Il deviendrait un palais
+21. [1 Rois 9] Combien de villes de Galilée Salomon donna-t-il au roi Hiram ? A) 20 B) 7 C) 40 D) 12
+22. [1 Rois 10] Qu'apportait la reine de Saba sur ses chameaux ? A) Des troupeaux de moutons B) De l'huile de baumier, beaucoup d'or et des pierres précieuses C) Des chevaux et des armes D) Du bois et du fer
+23. [1 Rois 10] Combien de talents d'or la reine de Saba donna-t-elle à Salomon ? A) 1 000 B) 30 C) 666 D) 120
+24. [1 Rois 11] En combien de morceaux le prophète Ahiya déchira-t-il son vêtement neuf ? A) 2 B) 12 C) 10 D) 7
+25. [1 Rois 11] Pourquoi Jéhovah laissa-t-il une tribu à la famille de Salomon ? A) Parce que toutes les tribus étaient fidèles B) Parce que Jéroboam refusait le trône C) Par égard pour David et pour Jérusalem D) Parce que Salomon n'avait jamais péché
+26. [1 Rois 11] Pendant combien d'années Salomon régna-t-il sur tout Israël ? A) 20 ans B) 40 ans C) 50 ans D) 30 ans
+27. [1 Rois 12] Par quel homme de Dieu Jéhovah interdit-il à Roboam de combattre les tribus du Nord ? A) Shemaya B) Ahiya C) Élie D) Élisée
+28. [1 Rois 12] Quand Jéroboam institua-t-il sa propre fête ? A) Le 14e jour du 1er mois B) Le premier jour de l'année C) Le 10e jour du 7e mois D) Le 15e jour du 8e mois
+29. [1 Rois 13] Qu'arriva-t-il à la main de Jéroboam quand il ordonna d'attraper l'homme de Dieu ? A) Elle se dessécha, et il ne put pas la ramener B) Elle fut blessée par un soldat C) Elle fut brûlée D) Elle devint lépreuse
+30. [1 Rois 13] Comment le vieux prophète poussa-t-il l'homme de Dieu à désobéir ? A) Il mentit en disant qu'un ange lui avait parlé B) Il le menaça de mort C) Il lui offrit de l'argent D) Il l'emprisonna
+31. [1 Rois 13] Qu'avait d'étonnant la scène trouvée après la mort de l'homme de Dieu ? A) Le lion se tenait près du cadavre sans l'avoir mangé ni dévoré l'âne B) L'âne s'était enfui C) Le corps avait disparu D) Le lion avait emporté l'âne
+32. [1 Rois 14] Comment Ahiya sut-il que la femme déguisée qui venait le voir était celle de Jéroboam ? A) Il reconnut sa voix B) Un serviteur le lui dit C) Jéhovah l'avait prévenu D) Il avait reçu une lettre
+33. [1 Rois 14] Quel roi d'Égypte attaqua Jérusalem sous le règne de Roboam ? A) Tirhaqa B) Sheshonq C) Néko D) Hophra
+34. [1 Rois 14] Qu'emporta le roi d'Égypte à Jérusalem ? A) Les tablettes de pierre B) L'Arche de l'alliance C) Le trône de Salomon seulement D) Les trésors du temple et du palais, et les boucliers en or
+35. [1 Rois 15] Pourquoi Asa retira-t-il à Maaka le titre de reine mère ? A) Elle avait quitté Jérusalem B) Elle avait fait une idole obscène pour le culte du poteau sacré C) Elle refusait de payer l'impôt D) Elle avait conspiré avec l'Égypte
+36. [1 Rois 15] Pendant combien d'années Asa régna-t-il à Jérusalem ? A) 41 ans B) 52 ans C) 20 ans D) 7 ans
+37. [1 Rois 16] Combien de temps Zimri régna-t-il ? A) Sept jours B) Sept mois C) Quarante jours D) Sept ans
+38. [1 Rois 16] Comment Zimri mourut-il ? A) Il se jeta dans un fleuve B) Il mourut de maladie C) Il fut exécuté par Omri D) Il incendia la tour du palais et mourut dans l'incendie
+39. [1 Rois 16] À qui Omri acheta-t-il la montagne de Samarie ? A) À Hiram B) À Shémèr C) À Jéroboam D) À Achab
+40. [1 Rois 17] Où Jéhovah envoya-t-il Élie se cacher au début de la sécheresse ? A) Près du Jabok B) Dans la vallée du Kerith, à l'est du Jourdain C) Au bord de l'Arnon D) Dans la vallée du Cédron
+41. [1 Rois 17] Que demanda Élie à la veuve de Sarepta de faire d'abord ? A) Partir en Égypte B) Garder sa farine pour son fils C) Demander du pain au roi D) Lui préparer un petit pain rond avec ce qui lui restait
+42. [1 Rois 18] Combien de fois Élie renvoya-t-il son serviteur regarder vers la mer ? A) Douze fois B) Sept fois C) Deux fois D) Trois fois
+43. [1 Rois 19] Que fit Élie quand il trouva Élisée en train de labourer ? A) Il lui donna son bâton B) Il lui construisit un autel C) Il lui remit une couronne D) Il jeta sur lui son vêtement
+44. [1 Rois 20] Pourquoi Jéhovah donna-t-il la victoire à Achab sur les Syriens dans la plaine ? A) Les Syriens avaient dit que Jéhovah était un Dieu de montagnes, pas de plaines B) Achab avait plus de chars C) Les Syriens étaient malades D) Achab avait payé des mercenaires
+45. [1 Rois 20] Pourquoi Achab fut-il condamné après sa victoire sur Ben-Hadad ? A) Il avait abandonné son armée B) Il avait refusé de bâtir une forteresse C) Il avait renoncé à son trône D) Il avait laissé s'échapper l'homme que Jéhovah avait condamné à mort
+46. [1 Rois 22] Quel prophète Achab détestait-il parce qu'il ne lui annonçait jamais de bonnes choses ? A) Élisée B) Nathan C) Shemaya D) Mikaya fils d'Imla
+47. [1 Rois 22] Que répondit Mikaya quand on lui demanda de parler comme les autres prophètes ? A) Il promit de dire du bien du roi B) Il demanda de l'argent C) « J'annoncerai ce que Jéhovah me dira. » D) Il refusa de venir
+48. [1 Rois 22] Que fit Sédécias fils de Kenaana à Mikaya ? A) Il le libéra de prison B) Il le gifla C) Il lui demanda pardon D) Il lui offrit un présent
+49. [1 Rois 22] Que fit Achab avant d'aller au combat contre les Syriens ? A) Il donna son armure à Josaphat B) Il partit sans armes C) Il resta caché dans une tente D) Il se déguisa
+50. [1 Rois 22] Comment le roi Josaphat est-il décrit ? A) Il imposa le culte de Baal B) Il abandonna complètement Jéhovah C) Il fut pire qu'Achab D) Il imita Asa, son père, et fit ce qui est bien aux yeux de Jéhovah
