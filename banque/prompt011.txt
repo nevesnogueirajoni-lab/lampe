@@ -1,13 +1,13 @@
-Vérification d'une banque de questions bibliques (lot 011, 30 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau 2018) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
+Vérification d'une banque de questions bibliques (lot 011, 30 questions). Réponds à chaque question en t'appuyant sur la Bible (Traduction du monde nouveau, texte actuel de wol.jw.org) ET sur les publications des Témoins de Jéhovah (La Tour de Garde, Réveillez-vous !, livres comme « Étude perspicace des Écritures », « Prête attention à la prophétie de Daniel », cahiers Vie et ministère…), consultables sur wol.jw.org. Les exemples, métaphores et prophéties doivent être compris comme ces publications les expliquent, pas seulement d'après le texte biblique seul. En cas d'hésitation, vérifie sur wol.jw.org avant de répondre. Pour chaque question, une ligne exactement au format :
 numéro|lettre|référence|OK ou DOUTE: raison courte
-Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation de la TMN 2018), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
+Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être justes, si aucune n'est juste, si un détail est inexact (nom, chiffre, chapitre, formulation du texte actuel de la TMN sur wol.jw.org), ou si l'explication ne correspond pas à ce qu'enseignent les publications ; dans ce cas, indique la publication qui appuie ton doute. Sois sévère. Aucune autre phrase.
 
 1. [Juges 2] Pourquoi Jéhovah suscitait-il des juges en Israël ? A) Pour sauver le peuple de la main des pillards B) Pour remplacer les prêtres C) Pour construire le temple D) Pour lever des impôts
 2. [Juges 3] Quel sauveur Jéhovah donna-t-il en premier, selon Juges 3 ? A) Gédéon B) Otniel C) Samson D) Jephté
 3. [Juges 3] Avec quoi Éhoud tua-t-il Églon, roi de Moab ? A) L'épée attachée sur sa cuisse droite B) Un arc C) Une pierre D) Une lance
-4. [Juges 4] Quelle prophétesse jugeait Israël à l'époque de Barak ? A) Rahab B) Anne C) Débora D) Miriam
+4. [Juges 4] Quelle prophétesse jugeait Israël à l'époque de Barak ? A) Rahab B) Anne C) Déborah D) Miriam
 5. [Juges 4] Qui était le chef de l'armée de Jabîn ? A) Goliath B) Barak C) Sissera D) Hébèr
-6. [Juges 4] Quelle femme tua Sissera ? A) Rahab B) Débora C) Dalila D) Jael
+6. [Juges 4] Quelle femme tua Sissera ? A) Rahab B) Déborah C) Dalila D) Jael
 7. [Juges 6] Que faisait Gédéon quand l'ange de Jéhovah lui apparut ? A) Il gardait les moutons B) Il battait le blé dans le pressoir à vin C) Il construisait un autel D) Il dormait
 8. [Juges 6] Quel objet Gédéon utilisa-t-il pour demander un signe à Dieu ? A) Un bâton B) Une lampe C) Une pierre D) Une peau de mouton
 9. [Juges 7] Avec combien d'hommes Jéhovah sauva-t-il Israël des Madianites par Gédéon ? A) 32 000 B) 10 000 C) 1 000 D) 300
@@ -18,12 +18,12 @@ Mets DOUTE si la question est ambiguë, si plusieurs réponses peuvent être jus
 14. [Juges 13] Que ne devait jamais toucher la tête de Samson ? A) Une couronne B) De l'eau C) De l'huile D) Un rasoir
 15. [Juges 14] Quel animal Samson déchira-t-il à mains nues ? A) Un ours B) Un lion C) Un loup D) Un taureau
 16. [Juges 15] Avec quoi Samson tua-t-il 1 000 hommes ? A) Une pierre B) Une mâchoire d'âne C) Une épée D) Une massue
-17. [Juges 16] Quelle femme livra Samson aux Philistins ? A) Jael B) Orpa C) Dalila D) Débora
+17. [Juges 16] Quelle femme livra Samson aux Philistins ? A) Jael B) Orpa C) Dalila D) Déborah
 18. [Juges 16] Quel était le secret de la force de Samson, selon ce qu'il révéla à Dalila ? A) Il portait une armure magique B) Il mangeait du miel C) Il buvait du vin chaque jour D) Le rasoir n'était jamais passé sur sa tête
 19. [Juges 16] Comment Samson mourut-il ? A) En prison de faim B) En faisant s'écrouler le temple sur les Philistins C) Au combat contre un lion D) De vieillesse
 20. [Juges 21] Comment est décrite l'époque des juges à la fin du livre ? A) Tout le monde obéissait au roi B) Les prêtres gouvernaient le pays C) C'était une époque de grande paix D) Chacun faisait ce qu'il estimait être bien
 21. [Ruth 1] Pourquoi Élimélek quitta-t-il Bethléem avec sa famille ? A) Pour fuir un roi B) Pour faire du commerce C) À cause d'une famine D) À cause d'une guerre
-22. [Ruth 1] Comment s'appelaient les deux belles-filles moabites de Noémi ? A) Orpa et Ruth B) Miriam et Séphora C) Léa et Rachel D) Débora et Jaël
+22. [Ruth 1] Comment s'appelaient les deux belles-filles moabites de Noémi ? A) Orpa et Ruth B) Miriam et Séphora C) Léa et Rachel D) Déborah et Jael
 23. [Ruth 1] Que dit Ruth à Noémi pour montrer sa loyauté ? A) « Je retourne chez ma mère » B) « Je vais me remarier à Moab » C) « Ton peuple sera mon peuple, et ton Dieu sera mon Dieu » D) « Je te rejoindrai plus tard »
 24. [Ruth 1] Quel nom Noémi voulut-elle qu'on lui donne en revenant à Bethléem ? A) Orpa B) Mara C) Ruth D) Lo-Rouama
 25. [Ruth 2] Dans le champ de qui Ruth glana-t-elle ? A) Obed B) Boaz C) Élimélek D) Mahlôn
