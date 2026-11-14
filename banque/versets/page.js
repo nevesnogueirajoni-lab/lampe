@@ -8,7 +8,7 @@ const sh=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+
 const today=()=>{const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")};
 /* ---------- état ---------- */
 let S={};try{S=JSON.parse(localStorage.getItem("txt_s")||"{}")}catch(e){}
-function norm(){S.th=S.th||[];S.lv=S.lv||1;S.mode=S.mode||"mix";S.k=S.k||{};S.T=S.T||{};S.H=S.H||{};S.tot=S.tot||0;S.good=S.good||0;S.len=S.len||10}
+function norm(){S.th=S.th||[];S.lv=S.lv||1;S.mode=S.mode||"mix";S.k=S.k||{};S.T=S.T||{};S.H=S.H||{};S.tot=S.tot||0;S.good=S.good||0;S.len=S.len||10;S.L=S.L||{}}
 norm();
 let DB=null,DOC=null,wTimer=null,writing=false,dirty=false;
 function save(){try{localStorage.setItem("txt_s",JSON.stringify(S))}catch(e){}if(DOC){dirty=true;clearTimeout(wTimer);wTimer=setTimeout(flush,1500)}}
@@ -17,7 +17,7 @@ async function flush(){if(!DOC||writing||!dirty)return;writing=true;dirty=false;
  DOC=db.doc("progres/"+id);let done=false;const t=setTimeout(()=>{done=true},10000);
  const snap=await DOC.get();clearTimeout(t);if(done)return;const d=snap&&(snap.data?snap.data():snap);
  if(d&&d.s){const R=JSON.parse(d.s);if((R.tot||0)>=(S.tot||0)){S=R;norm();try{localStorage.setItem("txt_s",JSON.stringify(S))}catch(e){}}else{dirty=true;flush()}}else if(S.tot){dirty=true;flush()}
- $("#sync").textContent="☁️ Progrès sauvegardés sur ton compte";if(curView!=="jeu"||!cur)view(curView)}catch(e){}})();
+ $("#sync").textContent="☁️ Progrès sauvegardés sur ton compte";if(!cur&&!LS)view(curView)}catch(e){}})();
 /* ---------- statistiques ---------- */
 const kk=i=>S.k[i]||[0,0,0];
 const mastered=i=>{const k=kk(i);return k[0]>=2&&k[2]>=2};   // k = [bonnes, erreurs, série de bonnes actuelle]
@@ -28,9 +28,9 @@ function pick(P,avoid){let Q=P.filter(c=>!avoid.has(c.i));if(!Q.length)Q=P;let t
 function pool(){if(cur&&cur.only)return C.filter(c=>cur.only.includes(c.i));return C.filter(c=>c.n<=S.lv&&(!S.th.length||S.th.includes(c.theme)))}
 function distract(c,key,n){const same=sh(C.filter(x=>x.theme===c.theme&&x[key]!==c[key]&&x.ref!==c.ref));const other=sh(C.filter(x=>x.theme!==c.theme&&x[key]!==c[key]&&x.ref!==c.ref));const out=[],seen=new Set([c[key]]);for(const x of same.concat(other)){if(!seen.has(x[key])){seen.add(x[key]);out.push(x[key])}if(out.length===n)break}return out}
 /* ---------- vues ---------- */
-let cur=null,curView="jeu";
-function view(v){curView=v;document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t.dataset.v===v));({jeu:setup,fiches:fiches,stats:stats})[v]();window.scrollTo(0,0)}
-document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{cur=null;view(t.dataset.v)});
+let cur=null,curView="cours";
+function view(v){curView=v;document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t.dataset.v===v));({cours:cours,jeu:setup,fiches:fiches,stats:stats})[v]();window.scrollTo(0,0)}
+document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{cur=null;LS=null;view(t.dataset.v)});
 function filters(){return`<div class="box"><p class="lbl">Thèmes (aucun = tous)</p><div class="chips">${THEMES.map(t=>`<button class="chip ${S.th.includes(t)?"on":""}" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>
 <p class="lbl" style="margin-top:14px">Niveau</p><div class="row">${[[1,"Incontournables"],[2,"+ Courants"],[3,"Tous"]].map(([n,l])=>`<button class="chip ${S.lv===n?"on":""}" data-lv="${n}">${l}</button>`).join("")}</div></div>`}
 function bindF(after){document.querySelectorAll("[data-t]").forEach(b=>b.onclick=()=>{const t=b.dataset.t;S.th=S.th.includes(t)?S.th.filter(x=>x!==t):S.th.concat(t);save();after()});document.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>{S.lv=+b.dataset.lv;save();after()})}
@@ -89,4 +89,3 @@ $("#v").innerHTML=`<div class="stat"><div><b>${S.tot}</b>réponses</div><div><b>
 ${wl.length?`<div class="box"><p class="lbl">Textes à revoir en priorité</p>${wl.map(card).join("")}</div>`:""}`;
 if($("#focus"))$("#focus").onclick=()=>start(C.filter(c=>weak(c.i)).map(c=>c.i));
 document.querySelectorAll("[data-tt]").forEach(e=>e.onclick=()=>{S.th=[e.dataset.tt];S.lv=3;save();start(null)})}
-view("jeu");

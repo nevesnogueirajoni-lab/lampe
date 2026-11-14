@@ -33,16 +33,26 @@ a.lk{color:var(--acc2);font-weight:600;text-decoration:none}
 .dg{margin:6px 0;line-height:1.45;font-size:15px}
 .hb{margin:10px 0;cursor:pointer}.hbl{display:flex;justify-content:space-between;font-size:14px;gap:8px}.hbl span:last-child{color:var(--soft);white-space:nowrap;font-size:12px}
 .hbb{height:9px;background:#f3ebe3;border-radius:6px;overflow:hidden;margin-top:4px}.hbb i{display:block;height:100%;border-radius:6px}
+.steps{display:flex;gap:6px;margin-bottom:12px}.steps span{flex:1;text-align:center;font-size:12px;padding:6px 2px;border-radius:999px;background:#f3ebe3;color:var(--soft);font-weight:600}.steps span.on{background:var(--acc);color:#fff}.steps span.done{background:#eaf6ef;color:var(--ok)}
+.bigref{font-size:28px;font-weight:800;margin:6px 0 8px;color:var(--ink)}
+.tip{background:#fff7e8;border-radius:14px;padding:10px 12px;margin:10px 0;font-size:15px;line-height:1.45}.tip.book{background:#eef3f9}
+.flip{min-height:200px;border:2px dashed var(--line);border-radius:18px;padding:18px;cursor:pointer;text-align:center}.flip .tip{text-align:left}.tap{color:var(--soft);font-size:13px;margin-top:18px}
+.half{width:auto;flex:1;margin-top:0}.ok2{background:var(--ok)}.ko2{background:#fff;color:var(--ko);border:2px solid var(--ko)}
+.les{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:9px 0;border-bottom:1px solid var(--line);cursor:pointer;font-size:15px}.les small{display:block;color:var(--soft);font-size:12px;margin-top:2px}
+.peg{display:inline-block;background:#f3ebe3;border-radius:8px;padding:3px 8px;margin:3px 4px 0 0;font-size:13px}
 '''
-js=open('page.js',encoding='utf-8').read()
+js=open('page.js',encoding='utf-8').read()+'\n'+open('cours.js',encoding='utf-8').read()+'\nview("cours");'
+AST={l.split('|',1)[0]:l.split('|',1)[1].strip() for l in open('astuces.txt',encoding='utf-8') if '|' in l}
+astj=json.dumps(AST,ensure_ascii=False,separators=(',',':'))
 html=f'''<!DOCTYPE html>
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Textes à retenir</title><style>{css}</style></head><body><div class="wrap">
 <h1>📖 Textes à retenir</h1><p class="sub">Retrouve où c'est écrit et ce que ça dit en gros, thème par thème.</p><div id="sync"></div>
-<div class="tabs"><button class="tab on" data-v="jeu">Quiz</button><button class="tab" data-v="fiches">Fiches</button><button class="tab" data-v="stats">Progrès</button></div>
+<div class="tabs"><button class="tab on" data-v="cours">Cours</button><button class="tab" data-v="jeu">Quiz</button><button class="tab" data-v="fiches">Fiches</button><button class="tab" data-v="stats">Progrès</button></div>
 <div id="v"></div></div>
 <script>
 const D={data};
+const AST={astj};
 {js}
 </script></body></html>'''
 open('textes.html','w',encoding='utf-8').write(html);print(len(html))
