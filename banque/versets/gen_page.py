@@ -29,7 +29,7 @@ a.lk{color:var(--acc2);font-weight:600;text-decoration:none}
 .card{border-bottom:1px solid var(--line);padding:10px 0}.card:last-child{border:0}.card .r{font-weight:700}.card .s{color:#4d443d;font-size:15px;margin-top:2px}
 .lv{display:inline-block;font-size:11px;border-radius:6px;padding:1px 6px;margin-left:6px;background:#f3ebe3;color:var(--soft)}
 .qb{font-weight:700;margin:14px 0 4px;color:var(--acc2)}
-.stat{display:flex;gap:10px}.stat div{flex:1;background:#fff;border-radius:16px;padding:12px 6px;text-align:center;box-shadow:0 1px 3px #0001;font-size:12px;color:var(--soft)}.stat b{display:block;font-size:22px;color:var(--ink)}
+.stat{display:flex;gap:10px}.stat div{flex:1;background:#fff;border-radius:16px;padding:12px 6px;text-align:center;box-shadow:0 1px 3px #0001;font-size:12px;color:var(--soft)}.stat b{display:block;font-size:20px;color:var(--ink)}.stat{gap:6px}
 .dg{margin:6px 0;line-height:1.45;font-size:15px}
 .hb{margin:10px 0;cursor:pointer}.hbl{display:flex;justify-content:space-between;font-size:14px;gap:8px}.hbl span:last-child{color:var(--soft);white-space:nowrap;font-size:12px}
 .hbb{height:9px;background:#f3ebe3;border-radius:6px;overflow:hidden;margin-top:4px}.hbb i{display:block;height:100%;border-radius:6px}
