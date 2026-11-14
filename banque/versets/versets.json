@@ -1,0 +1,5266 @@
+[
+{
+"id": 1,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 1,
+"ref": "Psaume 83:18",
+"sens": "Le nom de Dieu est Jéhovah ; lui seul est le Très-Haut sur toute la terre."
+},
+{
+"id": 2,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 1,
+"ref": "Exode 3:15",
+"sens": "Jéhovah dit à Moïse que Jéhovah est son nom pour toujours, son souvenir de génération en génération."
+},
+{
+"id": 3,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 1,
+"ref": "Isaïe 42:8",
+"sens": "« Je suis Jéhovah. C'est là mon nom » : il ne donne sa gloire à personne d'autre."
+},
+{
+"id": 4,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 1,
+"ref": "Matthieu 6:9",
+"sens": "Jésus apprend à prier : « Notre Père… que ton nom soit sanctifié. »"
+},
+{
+"id": 5,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 2,
+"ref": "Jean 17:6",
+"sens": "Jésus a fait connaître le nom de son Père à ses disciples."
+},
+{
+"id": 6,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 2,
+"ref": "Jean 17:26",
+"sens": "Jésus a fait connaître le nom de Dieu et le fera encore connaître."
+},
+{
+"id": 7,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 2,
+"ref": "Actes 15:14",
+"sens": "Dieu tire des nations un peuple pour son nom."
+},
+{
+"id": 8,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 2,
+"ref": "Romains 10:13",
+"sens": "Quiconque invoque le nom de Jéhovah sera sauvé."
+},
+{
+"id": 9,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 2,
+"ref": "Exode 6:3",
+"sens": "Dieu s'est révélé à Abraham, Isaac et Jacob, mais ne s'était pas fait connaître pleinement par son nom Jéhovah."
+},
+{
+"id": 10,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 2,
+"ref": "Proverbes 18:10",
+"sens": "Le nom de Jéhovah est une tour solide où le juste trouve protection."
+},
+{
+"id": 11,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 3,
+"ref": "Malachie 3:16",
+"sens": "Un livre de souvenir est écrit pour ceux qui craignent Jéhovah et pensent à son nom."
+},
+{
+"id": 12,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 3,
+"ref": "Joël 2:32",
+"sens": "Quiconque invoquera le nom de Jéhovah sera sauvé."
+},
+{
+"id": 13,
+"theme": "Dieu et son nom",
+"question": "Dieu a-t-il un nom ?",
+"niveau": 3,
+"ref": "Ézéchiel 38:23",
+"sens": "Jéhovah se fera connaître aux nations, qui sauront qu'il est Jéhovah."
+},
+{
+"id": 14,
+"theme": "Dieu et son nom",
+"question": "Que signifie le nom Jéhovah ?",
+"niveau": 2,
+"ref": "Exode 3:14",
+"sens": "Dieu se présente comme « Je Deviendrai ce que Je choisis de Devenir »."
+},
+{
+"id": 15,
+"theme": "Dieu et son nom",
+"question": "Que signifie le nom Jéhovah ?",
+"niveau": 3,
+"ref": "Isaïe 55:11",
+"sens": "La parole de Jéhovah ne revient pas sans résultat : elle réalise ce qu'il veut."
+},
+{
+"id": 16,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 1,
+"ref": "1 Jean 4:8",
+"sens": "Dieu est amour ; celui qui n'aime pas ne connaît pas Dieu."
+},
+{
+"id": 17,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 1,
+"ref": "Jean 4:24",
+"sens": "Dieu est Esprit ; on doit l'adorer avec l'esprit et la vérité."
+},
+{
+"id": 18,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 1,
+"ref": "Psaume 90:2",
+"sens": "Jéhovah existe depuis toujours et pour toujours."
+},
+{
+"id": 19,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 2,
+"ref": "Deutéronome 32:4",
+"sens": "Jéhovah est le Rocher : son œuvre est parfaite, toutes ses voies sont justes."
+},
+{
+"id": 20,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 2,
+"ref": "Exode 34:6",
+"sens": "Jéhovah est miséricordieux, compatissant, lent à la colère, riche en amour fidèle et en vérité."
+},
+{
+"id": 21,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 2,
+"ref": "Psaume 103:13",
+"sens": "Comme un père a de la compassion pour ses fils, Jéhovah en a pour ceux qui le craignent."
+},
+{
+"id": 22,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 2,
+"ref": "Isaïe 40:26",
+"sens": "Dieu appelle chaque étoile par son nom ; sa puissance est immense."
+},
+{
+"id": 23,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 2,
+"ref": "Jérémie 10:10",
+"sens": "Jéhovah est le vrai Dieu, le Dieu vivant, le Roi éternel."
+},
+{
+"id": 24,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 2,
+"ref": "Psaume 86:5",
+"sens": "Jéhovah est bon et prêt à pardonner."
+},
+{
+"id": 25,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 2,
+"ref": "Jacques 1:17",
+"sens": "Tout beau cadeau vient du Père, qui ne change pas."
+},
+{
+"id": 26,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 3,
+"ref": "Psaume 145:9",
+"sens": "Jéhovah est bon envers tous ; sa miséricorde s'étend à toutes ses œuvres."
+},
+{
+"id": 27,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 3,
+"ref": "Malachie 3:6",
+"sens": "« Je suis Jéhovah ; je ne change pas. »"
+},
+{
+"id": 28,
+"theme": "Dieu et son nom",
+"question": "Qui est Dieu ? Comment est-il ?",
+"niveau": 3,
+"ref": "Romains 11:33",
+"sens": "La richesse, la sagesse et la connaissance de Dieu sont immenses."
+},
+{
+"id": 29,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 1,
+"ref": "1 Pierre 5:7",
+"sens": "Jetez sur Dieu toutes vos inquiétudes, car il prend soin de vous."
+},
+{
+"id": 30,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 1,
+"ref": "Actes 17:27",
+"sens": "Dieu n'est pas loin de chacun de nous ; on peut le chercher et le trouver."
+},
+{
+"id": 31,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 1,
+"ref": "Jacques 4:8",
+"sens": "Approchez-vous de Dieu, et il s'approchera de vous."
+},
+{
+"id": 32,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 2,
+"ref": "Psaume 34:18",
+"sens": "Jéhovah est près de ceux qui ont le cœur brisé."
+},
+{
+"id": 33,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 2,
+"ref": "Matthieu 10:29-31",
+"sens": "Pas un moineau ne tombe sans que le Père le sache ; vous valez plus que beaucoup de moineaux."
+},
+{
+"id": 34,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 2,
+"ref": "Psaume 139:1-3",
+"sens": "Jéhovah nous connaît à fond : nos actions, nos pensées, nos chemins."
+},
+{
+"id": 35,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 2,
+"ref": "Psaume 56:8",
+"sens": "Jéhovah garde nos larmes et note nos souffrances."
+},
+{
+"id": 36,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 3,
+"ref": "Hébreux 6:10",
+"sens": "Dieu n'oublie pas l'amour que nous avons montré pour son nom."
+},
+{
+"id": 37,
+"theme": "Dieu et son nom",
+"question": "Dieu s'intéresse-t-il à nous ?",
+"niveau": 3,
+"ref": "2 Chroniques 16:9",
+"sens": "Les yeux de Jéhovah parcourent la terre pour soutenir ceux dont le cœur est complet envers lui."
+},
+{
+"id": 38,
+"theme": "Dieu et son nom",
+"question": "Comment savoir que Dieu existe ?",
+"niveau": 1,
+"ref": "Hébreux 3:4",
+"sens": "Toute maison est construite par quelqu'un ; celui qui a tout construit, c'est Dieu."
+},
+{
+"id": 39,
+"theme": "Dieu et son nom",
+"question": "Comment savoir que Dieu existe ?",
+"niveau": 1,
+"ref": "Romains 1:20",
+"sens": "Les qualités invisibles de Dieu se voient clairement à travers la création."
+},
+{
+"id": 40,
+"theme": "Dieu et son nom",
+"question": "Comment savoir que Dieu existe ?",
+"niveau": 2,
+"ref": "Psaume 19:1",
+"sens": "Les cieux annoncent la gloire de Dieu."
+},
+{
+"id": 41,
+"theme": "Dieu et son nom",
+"question": "Comment savoir que Dieu existe ?",
+"niveau": 2,
+"ref": "Psaume 104:24",
+"sens": "Jéhovah a fait toutes ses œuvres avec sagesse ; la terre est pleine de ses créations."
+},
+{
+"id": 42,
+"theme": "Dieu et son nom",
+"question": "Comment savoir que Dieu existe ?",
+"niveau": 2,
+"ref": "Isaïe 40:22",
+"sens": "Dieu habite au-dessus du cercle de la terre."
+},
+{
+"id": 43,
+"theme": "Dieu et son nom",
+"question": "Comment savoir que Dieu existe ?",
+"niveau": 3,
+"ref": "Job 26:7",
+"sens": "Dieu suspend la terre sur le néant."
+},
+{
+"id": 44,
+"theme": "Dieu et son nom",
+"question": "Comment savoir que Dieu existe ?",
+"niveau": 3,
+"ref": "Psaume 139:14",
+"sens": "Je suis fait de façon merveilleuse ; tes œuvres sont admirables."
+},
+{
+"id": 45,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 1,
+"ref": "Jean 3:16",
+"sens": "Dieu a tant aimé le monde qu'il a donné son Fils unique, pour que ceux qui ont foi en lui aient la vie éternelle."
+},
+{
+"id": 46,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 1,
+"ref": "Matthieu 16:16",
+"sens": "Pierre déclare : « Tu es le Christ, le Fils du Dieu vivant. »"
+},
+{
+"id": 47,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 1,
+"ref": "Colossiens 1:15",
+"sens": "Jésus est l'image du Dieu invisible, le premier-né de toute la création."
+},
+{
+"id": 48,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 1,
+"ref": "Jean 14:6",
+"sens": "Jésus est le chemin, la vérité et la vie ; personne ne va au Père sans passer par lui."
+},
+{
+"id": 49,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 2,
+"ref": "Révélation 3:14",
+"sens": "Jésus est le commencement de la création de Dieu."
+},
+{
+"id": 50,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 2,
+"ref": "Proverbes 8:22",
+"sens": "La sagesse personnifiée (Jésus avant sa vie humaine) est le commencement de l'œuvre de Jéhovah."
+},
+{
+"id": 51,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 2,
+"ref": "Jean 1:14",
+"sens": "La Parole est devenue chair et a vécu parmi nous."
+},
+{
+"id": 52,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 2,
+"ref": "Colossiens 1:16",
+"sens": "Par le moyen du Fils, toutes les autres choses ont été créées, au ciel et sur la terre."
+},
+{
+"id": 53,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 2,
+"ref": "Jean 6:38",
+"sens": "Jésus est descendu du ciel pour faire la volonté de celui qui l'a envoyé, non la sienne."
+},
+{
+"id": 54,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 2,
+"ref": "Philippiens 2:9-11",
+"sens": "Dieu a élevé Jésus et lui a donné un nom supérieur à tout autre nom."
+},
+{
+"id": 55,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 3,
+"ref": "Michée 5:2",
+"sens": "Celui qui doit diriger Israël viendrait de Bethléem ; son origine remonte aux temps anciens."
+},
+{
+"id": 56,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 3,
+"ref": "Daniel 7:13, 14",
+"sens": "Quelqu'un comme un fils d'homme reçoit de l'Ancien des jours la domination et un royaume éternels."
+},
+{
+"id": 57,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 3,
+"ref": "1 Thessaloniciens 4:16",
+"sens": "Le Seigneur descendra du ciel avec la voix d'un archange (Jésus est l'archange Michel)."
+},
+{
+"id": 58,
+"theme": "Jésus Christ",
+"question": "Qui est Jésus ?",
+"niveau": 3,
+"ref": "Jude 1:9",
+"sens": "Michel l'archange discuta avec le Diable au sujet du corps de Moïse."
+},
+{
+"id": 59,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 1,
+"ref": "Matthieu 20:28",
+"sens": "Le Fils de l'homme est venu donner sa vie comme rançon en échange de beaucoup."
+},
+{
+"id": 60,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 1,
+"ref": "Jean 3:16",
+"sens": "Grâce au don de son Fils, ceux qui exercent la foi peuvent avoir la vie éternelle."
+},
+{
+"id": 61,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 1,
+"ref": "Romains 6:23",
+"sens": "Le salaire du péché, c'est la mort, mais le don de Dieu, c'est la vie éternelle par Christ."
+},
+{
+"id": 62,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 2,
+"ref": "1 Jean 2:2",
+"sens": "Jésus est un sacrifice de réconciliation pour nos péchés et pour ceux du monde entier."
+},
+{
+"id": 63,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 2,
+"ref": "1 Timothée 2:5, 6",
+"sens": "Il y a un seul médiateur, Christ Jésus, qui s'est donné comme rançon correspondante pour tous."
+},
+{
+"id": 64,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 2,
+"ref": "Romains 5:12",
+"sens": "Le péché et la mort sont entrés dans le monde par un seul homme, Adam."
+},
+{
+"id": 65,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 2,
+"ref": "Romains 5:8",
+"sens": "Dieu montre son amour : Christ est mort pour nous alors que nous étions pécheurs."
+},
+{
+"id": 66,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 2,
+"ref": "1 Pierre 2:24",
+"sens": "Jésus a porté nos péchés dans son propre corps sur le poteau."
+},
+{
+"id": 67,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 3,
+"ref": "Hébreux 9:22",
+"sens": "Sans que du sang soit versé, il n'y a pas de pardon."
+},
+{
+"id": 68,
+"theme": "Jésus Christ",
+"question": "Pourquoi Jésus est-il mort ?",
+"niveau": 3,
+"ref": "1 Corinthiens 15:22",
+"sens": "Comme en Adam tous meurent, en Christ tous seront rendus vivants."
+},
+{
+"id": 69,
+"theme": "Jésus Christ",
+"question": "Comment Jésus est-il mort ?",
+"niveau": 2,
+"ref": "Actes 5:30",
+"sens": "Jésus a été mis à mort en étant suspendu à un poteau (un arbre)."
+},
+{
+"id": 70,
+"theme": "Jésus Christ",
+"question": "Comment Jésus est-il mort ?",
+"niveau": 2,
+"ref": "Galates 3:13",
+"sens": "Maudit est tout homme pendu à un poteau ; Christ nous a libérés de la malédiction de la Loi."
+},
+{
+"id": 71,
+"theme": "Jésus Christ",
+"question": "Faut-il commémorer la mort de Jésus ?",
+"niveau": 1,
+"ref": "Luc 22:19",
+"sens": "Jésus demande : « Continuez à faire ceci en souvenir de moi. »"
+},
+{
+"id": 72,
+"theme": "Jésus Christ",
+"question": "Faut-il commémorer la mort de Jésus ?",
+"niveau": 2,
+"ref": "1 Corinthiens 11:26",
+"sens": "Chaque fois qu'on mange ce pain et boit cette coupe, on proclame la mort du Seigneur jusqu'à ce qu'il vienne."
+},
+{
+"id": 73,
+"theme": "Jésus Christ",
+"question": "Faut-il commémorer la mort de Jésus ?",
+"niveau": 3,
+"ref": "1 Corinthiens 5:7",
+"sens": "Christ, notre agneau pascal, a été sacrifié."
+},
+{
+"id": 74,
+"theme": "Le saint esprit et la Trinité",
+"question": "Qu'est-ce que l'esprit saint ?",
+"niveau": 1,
+"ref": "Actes 1:8",
+"sens": "Les disciples recevront de la puissance quand l'esprit saint viendra sur eux."
+},
+{
+"id": 75,
+"theme": "Le saint esprit et la Trinité",
+"question": "Qu'est-ce que l'esprit saint ?",
+"niveau": 2,
+"ref": "Genèse 1:2",
+"sens": "La force agissante de Dieu se déplaçait au-dessus des eaux."
+},
+{
+"id": 76,
+"theme": "Le saint esprit et la Trinité",
+"question": "Qu'est-ce que l'esprit saint ?",
+"niveau": 2,
+"ref": "Luc 11:13",
+"sens": "Le Père donne l'esprit saint à ceux qui le lui demandent."
+},
+{
+"id": 77,
+"theme": "Le saint esprit et la Trinité",
+"question": "Qu'est-ce que l'esprit saint ?",
+"niveau": 2,
+"ref": "Actes 2:4",
+"sens": "Les disciples furent remplis d'esprit saint et se mirent à parler en d'autres langues."
+},
+{
+"id": 78,
+"theme": "Le saint esprit et la Trinité",
+"question": "Qu'est-ce que l'esprit saint ?",
+"niveau": 2,
+"ref": "Galates 5:22, 23",
+"sens": "Le fruit de l'esprit : amour, joie, paix, patience, gentillesse, bonté, foi, douceur, maîtrise de soi."
+},
+{
+"id": 79,
+"theme": "Le saint esprit et la Trinité",
+"question": "Qu'est-ce que l'esprit saint ?",
+"niveau": 3,
+"ref": "Psaume 104:30",
+"sens": "Quand Dieu envoie son esprit, des êtres sont créés."
+},
+{
+"id": 80,
+"theme": "Le saint esprit et la Trinité",
+"question": "Qu'est-ce que l'esprit saint ?",
+"niveau": 3,
+"ref": "Michée 3:8",
+"sens": "Le prophète est rempli de force par l'esprit de Jéhovah."
+},
+{
+"id": 81,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 1,
+"ref": "Jean 14:28",
+"sens": "Jésus dit : « Le Père est plus grand que moi. »"
+},
+{
+"id": 82,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 1,
+"ref": "Marc 12:29",
+"sens": "Jésus enseigne que Jéhovah notre Dieu est un seul Jéhovah."
+},
+{
+"id": 83,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 2,
+"ref": "Jean 17:3",
+"sens": "La vie éternelle, c'est connaître le seul vrai Dieu et celui qu'il a envoyé, Jésus Christ."
+},
+{
+"id": 84,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 2,
+"ref": "1 Corinthiens 11:3",
+"sens": "La tête du Christ, c'est Dieu."
+},
+{
+"id": 85,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 2,
+"ref": "1 Corinthiens 15:28",
+"sens": "À la fin, le Fils lui-même se soumettra à Dieu."
+},
+{
+"id": 86,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 2,
+"ref": "Jean 20:17",
+"sens": "Jésus monte vers « mon Père et votre Père, mon Dieu et votre Dieu »."
+},
+{
+"id": 87,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 2,
+"ref": "Matthieu 24:36",
+"sens": "Personne ne connaît le jour et l'heure, ni les anges ni le Fils, mais seulement le Père."
+},
+{
+"id": 88,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 2,
+"ref": "Deutéronome 6:4",
+"sens": "Jéhovah notre Dieu est un seul Jéhovah."
+},
+{
+"id": 89,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 3,
+"ref": "Actes 7:55, 56",
+"sens": "Étienne voit Jésus debout à la droite de Dieu."
+},
+{
+"id": 90,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 3,
+"ref": "Matthieu 26:39",
+"sens": "Jésus prie : « Non pas comme je veux, mais comme tu veux. »"
+},
+{
+"id": 91,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 3,
+"ref": "Jean 5:19",
+"sens": "Le Fils ne peut rien faire de sa propre initiative, seulement ce qu'il voit faire au Père."
+},
+{
+"id": 92,
+"theme": "Le saint esprit et la Trinité",
+"question": "Jésus est-il Dieu ? La Trinité est-elle biblique ?",
+"niveau": 3,
+"ref": "Psaume 110:1",
+"sens": "Jéhovah dit à mon Seigneur : « Assieds-toi à ma droite. »"
+},
+{
+"id": 93,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 1,
+"ref": "2 Timothée 3:16, 17",
+"sens": "Toute Écriture est inspirée de Dieu et utile pour enseigner, réprimander, redresser et discipliner."
+},
+{
+"id": 94,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 1,
+"ref": "2 Pierre 1:21",
+"sens": "Les prophètes ont parlé de la part de Dieu, poussés par l'esprit saint."
+},
+{
+"id": 95,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 2,
+"ref": "1 Thessaloniciens 2:13",
+"sens": "Les chrétiens ont accueilli la parole de Dieu non comme une parole humaine, mais comme ce qu'elle est vraiment."
+},
+{
+"id": 96,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 2,
+"ref": "Hébreux 4:12",
+"sens": "La parole de Dieu est vivante, puissante et pénètre jusqu'aux pensées du cœur."
+},
+{
+"id": 97,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 2,
+"ref": "Isaïe 46:10",
+"sens": "Dieu annonce dès le commencement ce qui arrivera."
+},
+{
+"id": 98,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 2,
+"ref": "Psaume 119:105",
+"sens": "La parole de Dieu est une lampe pour mon pied et une lumière sur mon chemin."
+},
+{
+"id": 99,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 2,
+"ref": "Jean 17:17",
+"sens": "La parole de Dieu est la vérité."
+},
+{
+"id": 100,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 3,
+"ref": "Isaïe 40:8",
+"sens": "L'herbe se dessèche, mais la parole de notre Dieu dure pour toujours."
+},
+{
+"id": 101,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 3,
+"ref": "Romains 15:4",
+"sens": "Tout ce qui a été écrit autrefois l'a été pour notre instruction, pour que nous ayons l'espérance."
+},
+{
+"id": 102,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 3,
+"ref": "Josué 1:8",
+"sens": "Lire la Loi à voix basse jour et nuit pour agir avec sagesse et réussir."
+},
+{
+"id": 103,
+"theme": "La Bible",
+"question": "La Bible vient-elle vraiment de Dieu ?",
+"niveau": 3,
+"ref": "Psaume 1:2, 3",
+"sens": "Heureux celui qui prend plaisir à la loi de Jéhovah : il est comme un arbre planté près de l'eau."
+},
+{
+"id": 104,
+"theme": "La Bible",
+"question": "Pourquoi lire et étudier la Bible ?",
+"niveau": 1,
+"ref": "Jean 17:3",
+"sens": "Connaître Dieu et Jésus mène à la vie éternelle."
+},
+{
+"id": 105,
+"theme": "La Bible",
+"question": "Pourquoi lire et étudier la Bible ?",
+"niveau": 2,
+"ref": "Actes 17:11",
+"sens": "Les Béréens examinaient soigneusement les Écritures chaque jour."
+},
+{
+"id": 106,
+"theme": "La Bible",
+"question": "Pourquoi lire et étudier la Bible ?",
+"niveau": 2,
+"ref": "Matthieu 4:4",
+"sens": "L'homme doit vivre de toute parole qui sort de la bouche de Jéhovah."
+},
+{
+"id": 107,
+"theme": "La Bible",
+"question": "Pourquoi lire et étudier la Bible ?",
+"niveau": 2,
+"ref": "Proverbes 2:4, 5",
+"sens": "Chercher la sagesse comme un trésor caché permet de trouver la connaissance de Dieu."
+},
+{
+"id": 108,
+"theme": "La Bible",
+"question": "Pourquoi lire et étudier la Bible ?",
+"niveau": 3,
+"ref": "1 Pierre 2:2",
+"sens": "Comme des nouveau-nés, désirez ardemment le lait de la parole."
+},
+{
+"id": 109,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 1,
+"ref": "Daniel 2:44",
+"sens": "Le Royaume de Dieu écrasera tous les royaumes humains et durera pour toujours."
+},
+{
+"id": 110,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 1,
+"ref": "Matthieu 6:10",
+"sens": "Que ton Royaume vienne ; que ta volonté se fasse sur la terre comme au ciel."
+},
+{
+"id": 111,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 1,
+"ref": "Matthieu 24:14",
+"sens": "La bonne nouvelle du Royaume sera prêchée dans toute la terre habitée, puis la fin viendra."
+},
+{
+"id": 112,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 2,
+"ref": "Isaïe 9:6, 7",
+"sens": "Le Prince de la paix régnera ; la paix sera sans fin."
+},
+{
+"id": 113,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 2,
+"ref": "Luc 4:43",
+"sens": "Jésus devait annoncer la bonne nouvelle du Royaume de Dieu."
+},
+{
+"id": 114,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 2,
+"ref": "Révélation 11:15",
+"sens": "Le royaume du monde est devenu le Royaume de notre Seigneur et de son Christ."
+},
+{
+"id": 115,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 2,
+"ref": "Matthieu 6:33",
+"sens": "Continuez à chercher d'abord le Royaume et la justice de Dieu."
+},
+{
+"id": 116,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 2,
+"ref": "Jean 18:36",
+"sens": "Le royaume de Jésus ne fait pas partie de ce monde."
+},
+{
+"id": 117,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 2,
+"ref": "Psaume 2:6",
+"sens": "Jéhovah a installé son roi sur Sion, sa montagne sainte."
+},
+{
+"id": 118,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 3,
+"ref": "Isaïe 11:3-5",
+"sens": "Le roi messianique jugera avec justice et équité, pas selon les apparences."
+},
+{
+"id": 119,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 3,
+"ref": "Daniel 7:14",
+"sens": "Le fils d'homme reçoit une domination éternelle qui ne sera jamais détruite."
+},
+{
+"id": 120,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 3,
+"ref": "Luc 1:32, 33",
+"sens": "Jésus régnera, et son royaume n'aura pas de fin."
+},
+{
+"id": 121,
+"theme": "Le Royaume de Dieu",
+"question": "Qu'est-ce que le Royaume de Dieu ?",
+"niveau": 3,
+"ref": "Psaume 72:12-14",
+"sens": "Le roi délivrera le pauvre qui appelle au secours et sauvera la vie des pauvres."
+},
+{
+"id": 122,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 1,
+"ref": "Révélation 14:1, 3",
+"sens": "Les 144 000 se tiennent avec l'Agneau sur le mont Sion ; ils ont été achetés de la terre."
+},
+{
+"id": 123,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 1,
+"ref": "Luc 12:32",
+"sens": "Jésus parle à son « petit troupeau » à qui le Père a donné le Royaume."
+},
+{
+"id": 124,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 2,
+"ref": "Révélation 5:9, 10",
+"sens": "Des gens de toute tribu et nation deviendront rois et prêtres et régneront sur la terre."
+},
+{
+"id": 125,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 2,
+"ref": "Révélation 20:6",
+"sens": "Ceux de la première résurrection régneront avec Christ pendant 1 000 ans."
+},
+{
+"id": 126,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 2,
+"ref": "Jean 14:2, 3",
+"sens": "Jésus va préparer une place à ses disciples dans la maison de son Père."
+},
+{
+"id": 127,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 2,
+"ref": "Romains 8:16, 17",
+"sens": "L'esprit témoigne avec l'esprit des oints qu'ils sont enfants de Dieu, cohéritiers de Christ."
+},
+{
+"id": 128,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 3,
+"ref": "Jean 3:13",
+"sens": "Personne n'est monté au ciel, sauf celui qui en est descendu, le Fils de l'homme."
+},
+{
+"id": 129,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 3,
+"ref": "1 Corinthiens 15:50",
+"sens": "La chair et le sang ne peuvent pas hériter du Royaume de Dieu."
+},
+{
+"id": 130,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 3,
+"ref": "Jean 10:16",
+"sens": "Jésus a d'autres brebis, qui ne sont pas de cet enclos ; il y aura un seul troupeau et un seul berger."
+},
+{
+"id": 131,
+"theme": "Le Royaume de Dieu",
+"question": "Qui ira au ciel ?",
+"niveau": 3,
+"ref": "Révélation 7:9",
+"sens": "Une grande foule de toutes les nations se tient devant le trône et devant l'Agneau."
+},
+{
+"id": 132,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 1,
+"ref": "Psaume 37:29",
+"sens": "Les justes posséderont la terre et y habiteront pour toujours."
+},
+{
+"id": 133,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 1,
+"ref": "Révélation 21:3, 4",
+"sens": "Dieu essuiera toute larme ; la mort, le deuil, les cris et la douleur n'existeront plus."
+},
+{
+"id": 134,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 1,
+"ref": "Matthieu 5:5",
+"sens": "Heureux ceux qui sont doux, puisqu'ils hériteront de la terre."
+},
+{
+"id": 135,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 1,
+"ref": "Psaume 37:10, 11",
+"sens": "Encore un peu de temps, et le méchant ne sera plus ; les humbles posséderont la terre."
+},
+{
+"id": 136,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Isaïe 45:18",
+"sens": "Dieu a formé la terre pour qu'elle soit habitée, pas pour rien."
+},
+{
+"id": 137,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Ecclésiaste 1:4",
+"sens": "Une génération s'en va, une autre vient, mais la terre subsiste pour toujours."
+},
+{
+"id": 138,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Luc 23:43",
+"sens": "Jésus promet au malfaiteur : « Tu seras avec moi dans le Paradis. »"
+},
+{
+"id": 139,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Isaïe 65:21, 22",
+"sens": "Ils bâtiront des maisons et les habiteront, planteront des vignes et en mangeront le fruit."
+},
+{
+"id": 140,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Isaïe 33:24",
+"sens": "Aucun habitant ne dira : « Je suis malade. »"
+},
+{
+"id": 141,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Isaïe 35:5, 6",
+"sens": "Les aveugles verront, les sourds entendront, le boiteux bondira comme un cerf."
+},
+{
+"id": 142,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Isaïe 11:6-9",
+"sens": "Le loup habitera avec l'agneau ; on ne fera aucun mal sur toute la montagne sainte de Dieu."
+},
+{
+"id": 143,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Psaume 46:9",
+"sens": "Dieu met fin aux guerres jusqu'au bout de la terre."
+},
+{
+"id": 144,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Isaïe 2:4",
+"sens": "Ils forgeront leurs épées en socs de charrue ; ils n'apprendront plus la guerre."
+},
+{
+"id": 145,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 2,
+"ref": "Psaume 72:16",
+"sens": "Il y aura du blé en abondance sur la terre, jusqu'au sommet des montagnes."
+},
+{
+"id": 146,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 3,
+"ref": "Isaïe 25:8",
+"sens": "Dieu engloutira la mort pour toujours et essuiera les larmes de tous les visages."
+},
+{
+"id": 147,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 3,
+"ref": "Michée 4:4",
+"sens": "Chacun s'assiéra sous sa vigne et sous son figuier, sans personne pour l'effrayer."
+},
+{
+"id": 148,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 3,
+"ref": "2 Pierre 3:13",
+"sens": "Nous attendons de nouveaux cieux et une nouvelle terre où habitera la justice."
+},
+{
+"id": 149,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 3,
+"ref": "Proverbes 2:21, 22",
+"sens": "Les droits habiteront la terre ; les méchants en seront retranchés."
+},
+{
+"id": 150,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 3,
+"ref": "Révélation 11:18",
+"sens": "Dieu détruira ceux qui détruisent la terre."
+},
+{
+"id": 151,
+"theme": "Le paradis sur la terre",
+"question": "Quel avenir Dieu réserve-t-il à la terre ?",
+"niveau": 3,
+"ref": "Isaïe 65:17",
+"sens": "Dieu crée de nouveaux cieux et une nouvelle terre ; on ne se rappellera plus les choses d'autrefois."
+},
+{
+"id": 152,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 1,
+"ref": "Ecclésiaste 9:5",
+"sens": "Les vivants savent qu'ils mourront, mais les morts ne savent rien."
+},
+{
+"id": 153,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 1,
+"ref": "Psaume 146:4",
+"sens": "Quand l'homme meurt, il retourne au sol et ses pensées périssent."
+},
+{
+"id": 154,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 1,
+"ref": "Jean 11:11",
+"sens": "Jésus compare la mort de Lazare à un sommeil."
+},
+{
+"id": 155,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 2,
+"ref": "Ecclésiaste 9:10",
+"sens": "Il n'y a ni activité, ni réflexion, ni connaissance, ni sagesse dans la Tombe."
+},
+{
+"id": 156,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 2,
+"ref": "Genèse 3:19",
+"sens": "Tu es poussière et tu retourneras à la poussière."
+},
+{
+"id": 157,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 2,
+"ref": "Ecclésiaste 3:20",
+"sens": "Tous vont au même endroit : tous viennent de la poussière et retournent à la poussière."
+},
+{
+"id": 158,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 2,
+"ref": "Psaume 115:17",
+"sens": "Les morts ne louent pas Jéhovah, ni ceux qui descendent dans le silence de la mort."
+},
+{
+"id": 159,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 3,
+"ref": "Ecclésiaste 12:7",
+"sens": "La poussière retourne à la terre et l'esprit (la force de vie) retourne au vrai Dieu."
+},
+{
+"id": 160,
+"theme": "La mort et l'âme",
+"question": "Que se passe-t-il quand on meurt ?",
+"niveau": 3,
+"ref": "Jean 11:25",
+"sens": "Jésus est la résurrection et la vie."
+},
+{
+"id": 161,
+"theme": "La mort et l'âme",
+"question": "L'âme est-elle immortelle ?",
+"niveau": 1,
+"ref": "Ézéchiel 18:4",
+"sens": "L'âme qui pèche, c'est elle qui mourra."
+},
+{
+"id": 162,
+"theme": "La mort et l'âme",
+"question": "L'âme est-elle immortelle ?",
+"niveau": 1,
+"ref": "Genèse 2:7",
+"sens": "L'homme est devenu une âme vivante (une personne vivante)."
+},
+{
+"id": 163,
+"theme": "La mort et l'âme",
+"question": "L'âme est-elle immortelle ?",
+"niveau": 2,
+"ref": "Ézéchiel 18:20",
+"sens": "L'âme qui pèche mourra ; un fils ne portera pas la faute de son père."
+},
+{
+"id": 164,
+"theme": "La mort et l'âme",
+"question": "L'âme est-elle immortelle ?",
+"niveau": 3,
+"ref": "Actes 3:23",
+"sens": "Toute âme qui n'écoute pas ce prophète sera complètement détruite."
+},
+{
+"id": 165,
+"theme": "La mort et l'âme",
+"question": "L'âme est-elle immortelle ?",
+"niveau": 3,
+"ref": "Genèse 2:17",
+"sens": "Le jour où l'homme mangerait de l'arbre interdit, il mourrait."
+},
+{
+"id": 166,
+"theme": "La mort et l'âme",
+"question": "L'enfer est-il un lieu de tourments ?",
+"niveau": 1,
+"ref": "Romains 6:23",
+"sens": "Le salaire du péché, c'est la mort (pas des tourments éternels)."
+},
+{
+"id": 167,
+"theme": "La mort et l'âme",
+"question": "L'enfer est-il un lieu de tourments ?",
+"niveau": 2,
+"ref": "Jérémie 7:31",
+"sens": "Brûler des enfants au feu est une chose à laquelle Dieu n'a jamais pensé."
+},
+{
+"id": 168,
+"theme": "La mort et l'âme",
+"question": "L'enfer est-il un lieu de tourments ?",
+"niveau": 2,
+"ref": "Actes 2:31",
+"sens": "Jésus n'a pas été abandonné dans la Tombe (shéol, hadès)."
+},
+{
+"id": 169,
+"theme": "La mort et l'âme",
+"question": "L'enfer est-il un lieu de tourments ?",
+"niveau": 2,
+"ref": "Matthieu 10:28",
+"sens": "Dieu peut détruire âme et corps dans la géhenne (destruction définitive)."
+},
+{
+"id": 170,
+"theme": "La mort et l'âme",
+"question": "L'enfer est-il un lieu de tourments ?",
+"niveau": 3,
+"ref": "Révélation 20:14",
+"sens": "La mort et la Tombe sont jetées dans le lac de feu, qui représente la seconde mort."
+},
+{
+"id": 171,
+"theme": "La mort et l'âme",
+"question": "L'enfer est-il un lieu de tourments ?",
+"niveau": 3,
+"ref": "Job 14:13",
+"sens": "Job demande à Dieu de le cacher dans la Tombe jusqu'à ce que sa colère passe."
+},
+{
+"id": 172,
+"theme": "La mort et l'âme",
+"question": "Peut-on parler avec les morts ?",
+"niveau": 2,
+"ref": "Deutéronome 18:10-12",
+"sens": "Dieu condamne la divination, la magie et celui qui interroge les morts."
+},
+{
+"id": 173,
+"theme": "La mort et l'âme",
+"question": "Peut-on parler avec les morts ?",
+"niveau": 2,
+"ref": "Isaïe 8:19",
+"sens": "Faut-il consulter les morts pour les vivants ? On doit consulter Dieu."
+},
+{
+"id": 174,
+"theme": "La mort et l'âme",
+"question": "Peut-on parler avec les morts ?",
+"niveau": 3,
+"ref": "Lévitique 19:31",
+"sens": "Ne vous tournez pas vers les médiums et les diseurs de bonne aventure."
+},
+{
+"id": 175,
+"theme": "La mort et l'âme",
+"question": "Peut-on parler avec les morts ?",
+"niveau": 3,
+"ref": "Galates 5:19-21",
+"sens": "Le spiritisme fait partie des œuvres de la chair."
+},
+{
+"id": 176,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 1,
+"ref": "Jean 5:28, 29",
+"sens": "Tous ceux qui sont dans les tombes entendront la voix de Jésus et sortiront."
+},
+{
+"id": 177,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 1,
+"ref": "Actes 24:15",
+"sens": "Il y aura une résurrection des justes et des injustes."
+},
+{
+"id": 178,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 2,
+"ref": "Job 14:14, 15",
+"sens": "Job était sûr que Dieu l'appellerait et qu'il lui répondrait."
+},
+{
+"id": 179,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 2,
+"ref": "Jean 11:43, 44",
+"sens": "Jésus crie : « Lazare, sors ! » et le mort sort."
+},
+{
+"id": 180,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 2,
+"ref": "Luc 8:54, 55",
+"sens": "Jésus prend la main de la fille de Jaïre ; son esprit revient et elle se lève."
+},
+{
+"id": 181,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 2,
+"ref": "Daniel 12:13",
+"sens": "Daniel se reposera et se lèvera pour recevoir sa part à la fin des jours."
+},
+{
+"id": 182,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 2,
+"ref": "Révélation 20:13",
+"sens": "La mer, la mort et la Tombe rendent les morts qu'elles contiennent."
+},
+{
+"id": 183,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 3,
+"ref": "1 Corinthiens 15:26",
+"sens": "Le dernier ennemi, la mort, sera réduit à néant."
+},
+{
+"id": 184,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 3,
+"ref": "Osée 13:14",
+"sens": "Dieu rachètera les morts du pouvoir de la Tombe."
+},
+{
+"id": 185,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 3,
+"ref": "Marc 5:42",
+"sens": "La fillette de 12 ans se lève et marche ; tous sont stupéfaits."
+},
+{
+"id": 186,
+"theme": "La résurrection",
+"question": "Les morts reviendront-ils à la vie ?",
+"niveau": 3,
+"ref": "1 Rois 17:22",
+"sens": "Jéhovah écoute Élie, et le fils de la veuve revient à la vie."
+},
+{
+"id": 187,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 1,
+"ref": "2 Timothée 3:1-5",
+"sens": "Dans les derniers jours, les gens seront égoïstes, amis de l'argent, orgueilleux, sans affection naturelle."
+},
+{
+"id": 188,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 1,
+"ref": "Matthieu 24:7",
+"sens": "Nation contre nation, famines et tremblements de terre d'un endroit à l'autre."
+},
+{
+"id": 189,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 1,
+"ref": "Luc 21:11",
+"sens": "Grands tremblements de terre, épidémies et famines d'un endroit à l'autre."
+},
+{
+"id": 190,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 2,
+"ref": "Matthieu 24:3",
+"sens": "Les disciples demandent quel sera le signe de la présence de Jésus et de la conclusion du système."
+},
+{
+"id": 191,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 2,
+"ref": "Matthieu 24:12",
+"sens": "À cause de l'augmentation du mépris de la loi, l'amour du plus grand nombre se refroidira."
+},
+{
+"id": 192,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 2,
+"ref": "Révélation 6:4",
+"sens": "Le cavalier du cheval rouge enlève la paix de la terre (la guerre)."
+},
+{
+"id": 193,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 2,
+"ref": "Révélation 12:12",
+"sens": "Le Diable est descendu sur la terre avec une grande colère, sachant qu'il a peu de temps."
+},
+{
+"id": 194,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 2,
+"ref": "Daniel 12:4",
+"sens": "Au temps de la fin, la vraie connaissance deviendra abondante."
+},
+{
+"id": 195,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 2,
+"ref": "2 Pierre 3:3, 4",
+"sens": "Dans les derniers jours viendront des moqueurs disant : « Où est sa présence promise ? »"
+},
+{
+"id": 196,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 3,
+"ref": "Matthieu 24:37-39",
+"sens": "Comme aux jours de Noé, les gens ne prêteront pas attention jusqu'à la destruction."
+},
+{
+"id": 197,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 3,
+"ref": "1 Thessaloniciens 5:3",
+"sens": "Quand on dira « Paix et sécurité ! », une destruction soudaine viendra."
+},
+{
+"id": 198,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 3,
+"ref": "Matthieu 24:21",
+"sens": "Il y aura alors une grande tribulation comme il n'y en a jamais eu."
+},
+{
+"id": 199,
+"theme": "Les derniers jours",
+"question": "Vivons-nous les derniers jours ?",
+"niveau": 3,
+"ref": "Révélation 16:16",
+"sens": "Les rois de la terre sont rassemblés au lieu appelé Har-Maguédôn."
+},
+{
+"id": 200,
+"theme": "Les derniers jours",
+"question": "Qu'est-ce que la fin du monde ?",
+"niveau": 1,
+"ref": "1 Jean 2:17",
+"sens": "Le monde passe, mais celui qui fait la volonté de Dieu demeure pour toujours."
+},
+{
+"id": 201,
+"theme": "Les derniers jours",
+"question": "Qu'est-ce que la fin du monde ?",
+"niveau": 2,
+"ref": "Matthieu 24:44",
+"sens": "Restez prêts, car le Fils de l'homme vient à une heure à laquelle vous ne vous attendez pas."
+},
+{
+"id": 202,
+"theme": "Les derniers jours",
+"question": "Qu'est-ce que la fin du monde ?",
+"niveau": 2,
+"ref": "Sophonie 2:3",
+"sens": "Cherchez Jéhovah, la justice et la douceur ; peut-être serez-vous cachés au jour de sa colère."
+},
+{
+"id": 203,
+"theme": "Les derniers jours",
+"question": "Qu'est-ce que la fin du monde ?",
+"niveau": 2,
+"ref": "2 Pierre 3:9",
+"sens": "Jéhovah est patient : il ne veut pas que quelqu'un soit détruit, mais que tous se repentent."
+},
+{
+"id": 204,
+"theme": "Les derniers jours",
+"question": "Qu'est-ce que la fin du monde ?",
+"niveau": 3,
+"ref": "Habacuc 2:3",
+"sens": "La vision se réalisera : même si elle tarde, attends-la, elle ne sera pas en retard."
+},
+{
+"id": 205,
+"theme": "Les derniers jours",
+"question": "Qu'est-ce que la fin du monde ?",
+"niveau": 3,
+"ref": "Révélation 19:11",
+"sens": "Jésus, Fidèle et Vrai, juge et fait la guerre avec justice."
+},
+{
+"id": 206,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 1,
+"ref": "Révélation 12:9",
+"sens": "Le grand dragon, le serpent originel, appelé Diable et Satan, égare toute la terre habitée."
+},
+{
+"id": 207,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 1,
+"ref": "1 Jean 5:19",
+"sens": "Le monde entier est au pouvoir du méchant."
+},
+{
+"id": 208,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 2,
+"ref": "Jean 8:44",
+"sens": "Le Diable est un meurtrier et le père du mensonge."
+},
+{
+"id": 209,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 2,
+"ref": "2 Corinthiens 4:4",
+"sens": "Le dieu de ce système a aveuglé l'esprit des incroyants."
+},
+{
+"id": 210,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 2,
+"ref": "Jean 12:31",
+"sens": "Le chef de ce monde sera jeté dehors."
+},
+{
+"id": 211,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 2,
+"ref": "1 Pierre 5:8",
+"sens": "Le Diable rôde comme un lion rugissant, cherchant à dévorer quelqu'un."
+},
+{
+"id": 212,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 2,
+"ref": "Jacques 4:7",
+"sens": "Résistez au Diable, et il fuira loin de vous."
+},
+{
+"id": 213,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 2,
+"ref": "Genèse 3:4, 5",
+"sens": "Le serpent ment à Ève : « Vous ne mourrez pas. »"
+},
+{
+"id": 214,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 3,
+"ref": "2 Corinthiens 11:14",
+"sens": "Satan se déguise en ange de lumière."
+},
+{
+"id": 215,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 3,
+"ref": "Éphésiens 6:11, 12",
+"sens": "Revêtez l'armure de Dieu pour tenir face aux ruses du Diable et aux forces spirituelles méchantes."
+},
+{
+"id": 216,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 3,
+"ref": "Romains 16:20",
+"sens": "Le Dieu de paix écrasera bientôt Satan."
+},
+{
+"id": 217,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 3,
+"ref": "Révélation 20:1-3",
+"sens": "Un ange enchaîne Satan et le jette dans l'abîme pour 1 000 ans."
+},
+{
+"id": 218,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 3,
+"ref": "Genèse 6:2",
+"sens": "Des fils du vrai Dieu prirent pour femmes des filles des hommes (anges rebelles devenus démons)."
+},
+{
+"id": 219,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 3,
+"ref": "Jude 1:6",
+"sens": "Des anges n'ont pas gardé leur position d'origine et ont quitté leur demeure."
+},
+{
+"id": 220,
+"theme": "Satan et les démons",
+"question": "Satan existe-t-il vraiment ?",
+"niveau": 3,
+"ref": "Job 1:7",
+"sens": "Satan dit qu'il vient de parcourir la terre."
+},
+{
+"id": 221,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 1,
+"ref": "Jacques 1:13",
+"sens": "Quand on est éprouvé, que personne ne dise : « C'est Dieu qui m'éprouve. »"
+},
+{
+"id": 222,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 1,
+"ref": "Ecclésiaste 9:11",
+"sens": "Le temps et l'imprévu arrivent à tous."
+},
+{
+"id": 223,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 1,
+"ref": "Ecclésiaste 8:9",
+"sens": "L'homme a dominé l'homme à son détriment."
+},
+{
+"id": 224,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 2,
+"ref": "Jérémie 10:23",
+"sens": "L'homme n'a pas le pouvoir de diriger ses pas."
+},
+{
+"id": 225,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 2,
+"ref": "Romains 8:20, 21",
+"sens": "La création a été soumise à la futilité, mais avec l'espoir d'être libérée."
+},
+{
+"id": 226,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 2,
+"ref": "Job 34:10",
+"sens": "Le vrai Dieu ne peut absolument pas agir méchamment."
+},
+{
+"id": 227,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 2,
+"ref": "2 Pierre 3:9",
+"sens": "Si Dieu attend, c'est par patience, pour que des gens se repentent."
+},
+{
+"id": 228,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 2,
+"ref": "Genèse 3:6",
+"sens": "Ève mange du fruit défendu et en donne à Adam : le péché entre dans le monde."
+},
+{
+"id": 229,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 3,
+"ref": "Proverbes 27:11",
+"sens": "Sois sage, mon fils, et réjouis mon cœur, pour que je puisse répondre à celui qui me provoque."
+},
+{
+"id": 230,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 3,
+"ref": "Job 1:9-11",
+"sens": "Satan prétend que Job ne sert Dieu que par intérêt."
+},
+{
+"id": 231,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 3,
+"ref": "Romains 5:12",
+"sens": "Par un seul homme, le péché et la mort sont passés à tous les humains."
+},
+{
+"id": 232,
+"theme": "Pourquoi la souffrance ?",
+"question": "Pourquoi Dieu permet-il la souffrance ?",
+"niveau": 3,
+"ref": "Psaume 34:19",
+"sens": "Les malheurs du juste sont nombreux, mais Jéhovah le délivre de tous."
+},
+{
+"id": 233,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 1,
+"ref": "Psaume 65:2",
+"sens": "Jéhovah est celui qui entend la prière."
+},
+{
+"id": 234,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 1,
+"ref": "1 Jean 5:14",
+"sens": "Si nous demandons quelque chose selon la volonté de Dieu, il nous écoute."
+},
+{
+"id": 235,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 1,
+"ref": "Philippiens 4:6, 7",
+"sens": "Ne vous inquiétez de rien, mais faites connaître vos demandes à Dieu ; sa paix gardera vos cœurs."
+},
+{
+"id": 236,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 2,
+"ref": "Matthieu 6:7",
+"sens": "Ne répétez pas toujours les mêmes choses quand vous priez."
+},
+{
+"id": 237,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 2,
+"ref": "Jean 14:6",
+"sens": "On va au Père par Jésus : on prie au nom de Jésus."
+},
+{
+"id": 238,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 2,
+"ref": "Proverbes 15:29",
+"sens": "Jéhovah entend la prière des justes."
+},
+{
+"id": 239,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 2,
+"ref": "1 Thessaloniciens 5:17",
+"sens": "Priez sans cesse."
+},
+{
+"id": 240,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 2,
+"ref": "Psaume 145:18",
+"sens": "Jéhovah est près de tous ceux qui l'invoquent avec sincérité."
+},
+{
+"id": 241,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 2,
+"ref": "Psaume 62:8",
+"sens": "Épanchez votre cœur devant Dieu ; il est un refuge."
+},
+{
+"id": 242,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 3,
+"ref": "Isaïe 1:15",
+"sens": "Jéhovah n'écoute pas les prières de ceux qui ont les mains pleines de sang."
+},
+{
+"id": 243,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 3,
+"ref": "Luc 18:1",
+"sens": "Jésus montre qu'il faut toujours prier et ne pas abandonner."
+},
+{
+"id": 244,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 3,
+"ref": "Romains 12:12",
+"sens": "Persévérez dans la prière."
+},
+{
+"id": 245,
+"theme": "La prière",
+"question": "Dieu écoute-t-il nos prières ?",
+"niveau": 3,
+"ref": "Psaume 55:22",
+"sens": "Jette ton fardeau sur Jéhovah, et il te soutiendra."
+},
+{
+"id": 246,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 1,
+"ref": "Matthieu 7:13, 14",
+"sens": "La route qui mène à la vie est étroite, et peu la trouvent."
+},
+{
+"id": 247,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 1,
+"ref": "Jean 13:35",
+"sens": "On reconnaîtra les disciples de Jésus à l'amour qu'ils ont entre eux."
+},
+{
+"id": 248,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 1,
+"ref": "Matthieu 7:21",
+"sens": "Ce n'est pas celui qui dit « Seigneur, Seigneur » qui entrera, mais celui qui fait la volonté du Père."
+},
+{
+"id": 249,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 2,
+"ref": "Matthieu 15:9",
+"sens": "Ils adorent Dieu en vain, car ils enseignent des commandements d'hommes."
+},
+{
+"id": 250,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 2,
+"ref": "Jacques 1:27",
+"sens": "Le culte pur : aider orphelins et veuves et rester sans tache du monde."
+},
+{
+"id": 251,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 2,
+"ref": "Matthieu 7:16",
+"sens": "On reconnaît les gens à leurs fruits."
+},
+{
+"id": 252,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 2,
+"ref": "2 Corinthiens 6:17",
+"sens": "Sortez du milieu d'eux et séparez-vous, ne touchez plus à ce qui est impur."
+},
+{
+"id": 253,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 2,
+"ref": "Révélation 18:4",
+"sens": "Sortez de Babylone la Grande, mon peuple, si vous ne voulez pas partager ses péchés."
+},
+{
+"id": 254,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 2,
+"ref": "Éphésiens 4:4-6",
+"sens": "Un seul corps, un seul esprit, un seul Seigneur, une seule foi, un seul baptême, un seul Dieu."
+},
+{
+"id": 255,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 2,
+"ref": "Jean 4:23",
+"sens": "Les vrais adorateurs adoreront le Père avec l'esprit et la vérité."
+},
+{
+"id": 256,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 3,
+"ref": "1 Corinthiens 1:10",
+"sens": "Soyez unis, sans divisions, dans le même esprit et la même pensée."
+},
+{
+"id": 257,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 3,
+"ref": "Michée 4:1, 2",
+"sens": "Dans les derniers jours, beaucoup de peuples monteront à la montagne de Jéhovah."
+},
+{
+"id": 258,
+"theme": "Le vrai culte",
+"question": "Toutes les religions plaisent-elles à Dieu ?",
+"niveau": 3,
+"ref": "Isaïe 43:10",
+"sens": "« Vous êtes mes témoins », déclare Jéhovah."
+},
+{
+"id": 259,
+"theme": "Le vrai culte",
+"question": "Faut-il utiliser des images ou des statues dans le culte ?",
+"niveau": 1,
+"ref": "Exode 20:4, 5",
+"sens": "Tu ne feras pas d'image sculptée pour te prosterner devant elle."
+},
+{
+"id": 260,
+"theme": "Le vrai culte",
+"question": "Faut-il utiliser des images ou des statues dans le culte ?",
+"niveau": 2,
+"ref": "1 Jean 5:21",
+"sens": "Petits enfants, gardez-vous des idoles."
+},
+{
+"id": 261,
+"theme": "Le vrai culte",
+"question": "Faut-il utiliser des images ou des statues dans le culte ?",
+"niveau": 2,
+"ref": "Psaume 115:4-8",
+"sens": "Les idoles ont une bouche mais ne parlent pas, des yeux mais ne voient pas."
+},
+{
+"id": 262,
+"theme": "Le vrai culte",
+"question": "Faut-il utiliser des images ou des statues dans le culte ?",
+"niveau": 2,
+"ref": "Isaïe 42:8",
+"sens": "Jéhovah ne donne pas sa louange à des statues."
+},
+{
+"id": 263,
+"theme": "Le vrai culte",
+"question": "Faut-il utiliser des images ou des statues dans le culte ?",
+"niveau": 3,
+"ref": "2 Corinthiens 5:7",
+"sens": "Nous marchons par la foi, non par la vue."
+},
+{
+"id": 264,
+"theme": "Le vrai culte",
+"question": "Faut-il utiliser des images ou des statues dans le culte ?",
+"niveau": 3,
+"ref": "Actes 17:29",
+"sens": "Le Divin n'est pas semblable à de l'or, de l'argent ou de la pierre sculptée."
+},
+{
+"id": 265,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Pourquoi se faire baptiser ?",
+"niveau": 1,
+"ref": "Matthieu 28:19, 20",
+"sens": "Faites des disciples de gens de toutes les nations, baptisez-les et enseignez-leur."
+},
+{
+"id": 266,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Pourquoi se faire baptiser ?",
+"niveau": 2,
+"ref": "1 Pierre 3:21",
+"sens": "Le baptême, en rapport avec la résurrection de Jésus, nous sauve ; c'est une demande de bonne conscience."
+},
+{
+"id": 267,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Pourquoi se faire baptiser ?",
+"niveau": 2,
+"ref": "Actes 2:38",
+"sens": "Repentez-vous et que chacun de vous se fasse baptiser."
+},
+{
+"id": 268,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Pourquoi se faire baptiser ?",
+"niveau": 2,
+"ref": "Actes 8:36",
+"sens": "L'eunuque demande : « Qu'est-ce qui m'empêche de me faire baptiser ? »"
+},
+{
+"id": 269,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Pourquoi se faire baptiser ?",
+"niveau": 2,
+"ref": "Marc 1:9, 10",
+"sens": "Jésus est baptisé par Jean dans le Jourdain, en sortant de l'eau."
+},
+{
+"id": 270,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Pourquoi se faire baptiser ?",
+"niveau": 3,
+"ref": "Luc 14:27",
+"sens": "Celui qui ne porte pas son poteau de supplice et ne me suit pas ne peut pas être mon disciple."
+},
+{
+"id": 271,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Pourquoi se faire baptiser ?",
+"niveau": 3,
+"ref": "Actes 22:16",
+"sens": "Pourquoi tardes-tu ? Lève-toi, fais-toi baptiser."
+},
+{
+"id": 272,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Comment devenir l'ami de Dieu ?",
+"niveau": 1,
+"ref": "Jacques 2:23",
+"sens": "Abraham a été appelé ami de Jéhovah."
+},
+{
+"id": 273,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Comment devenir l'ami de Dieu ?",
+"niveau": 1,
+"ref": "Psaume 15:1, 2",
+"sens": "Celui qui sera invité dans la tente de Jéhovah est celui qui marche sans défaut et dit la vérité."
+},
+{
+"id": 274,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Comment devenir l'ami de Dieu ?",
+"niveau": 2,
+"ref": "Proverbes 3:32",
+"sens": "Jéhovah est intime avec les gens droits."
+},
+{
+"id": 275,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Comment devenir l'ami de Dieu ?",
+"niveau": 2,
+"ref": "Psaume 25:14",
+"sens": "L'amitié avec Jéhovah est pour ceux qui le craignent."
+},
+{
+"id": 276,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Comment devenir l'ami de Dieu ?",
+"niveau": 2,
+"ref": "Jean 15:14",
+"sens": "Vous êtes mes amis si vous faites ce que je vous commande."
+},
+{
+"id": 277,
+"theme": "Le baptême et la vie chrétienne",
+"question": "Comment devenir l'ami de Dieu ?",
+"niveau": 3,
+"ref": "Psaume 73:28",
+"sens": "S'approcher de Dieu, c'est bon pour moi."
+},
+{
+"id": 278,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 1,
+"ref": "Matthieu 24:14",
+"sens": "La bonne nouvelle du Royaume sera prêchée dans toute la terre habitée."
+},
+{
+"id": 279,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 1,
+"ref": "Matthieu 28:19, 20",
+"sens": "Allez donc et faites des disciples de gens de toutes les nations."
+},
+{
+"id": 280,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 1,
+"ref": "Actes 20:20",
+"sens": "Paul enseignait en public et de maison en maison."
+},
+{
+"id": 281,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 2,
+"ref": "Romains 10:14",
+"sens": "Comment entendront-ils si personne ne leur prêche ?"
+},
+{
+"id": 282,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 2,
+"ref": "Actes 1:8",
+"sens": "Vous serez mes témoins jusqu'à la région la plus éloignée de la terre."
+},
+{
+"id": 283,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 2,
+"ref": "Actes 5:42",
+"sens": "Chaque jour, au Temple et de maison en maison, ils annonçaient la bonne nouvelle."
+},
+{
+"id": 284,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 2,
+"ref": "1 Corinthiens 9:16",
+"sens": "Malheur à moi si je n'annonce pas la bonne nouvelle !"
+},
+{
+"id": 285,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 2,
+"ref": "2 Timothée 4:2",
+"sens": "Prêche la parole, fais-le avec urgence, que le moment soit favorable ou difficile."
+},
+{
+"id": 286,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 2,
+"ref": "Ézéchiel 3:19",
+"sens": "Si tu avertis le méchant et qu'il ne se détourne pas, tu sauveras ta vie."
+},
+{
+"id": 287,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 3,
+"ref": "Isaïe 6:8",
+"sens": "« Me voici ! Envoie-moi ! »"
+},
+{
+"id": 288,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 3,
+"ref": "Actes 4:20",
+"sens": "Nous ne pouvons pas cesser de parler de ce que nous avons vu et entendu."
+},
+{
+"id": 289,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 3,
+"ref": "Romains 10:15",
+"sens": "Qu'ils sont beaux, les pieds de ceux qui annoncent de bonnes nouvelles !"
+},
+{
+"id": 290,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 3,
+"ref": "Matthieu 10:7",
+"sens": "En chemin, prêchez : « Le Royaume des cieux s'est approché. »"
+},
+{
+"id": 291,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 3,
+"ref": "Colossiens 4:6",
+"sens": "Que vos paroles soient toujours aimables, assaisonnées de sel."
+},
+{
+"id": 292,
+"theme": "La prédication",
+"question": "Pourquoi prêcher ?",
+"niveau": 3,
+"ref": "1 Pierre 3:15",
+"sens": "Soyez toujours prêts à vous défendre devant ceux qui vous demandent la raison de votre espérance, avec douceur et profond respect."
+},
+{
+"id": 293,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 1,
+"ref": "Éphésiens 5:33",
+"sens": "Que chaque mari aime sa femme comme lui-même, et que la femme ait un profond respect pour son mari."
+},
+{
+"id": 294,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 1,
+"ref": "Matthieu 19:6",
+"sens": "Que l'homme ne sépare pas ce que Dieu a uni."
+},
+{
+"id": 295,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 1,
+"ref": "Genèse 2:24",
+"sens": "L'homme quitte son père et sa mère, s'attache à sa femme, et ils deviennent une seule chair."
+},
+{
+"id": 296,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 2,
+"ref": "Colossiens 3:13",
+"sens": "Supportez-vous et pardonnez-vous généreusement."
+},
+{
+"id": 297,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 2,
+"ref": "1 Corinthiens 13:4-7",
+"sens": "L'amour est patient et bon ; il n'est pas jaloux, ne garde pas le compte du mal."
+},
+{
+"id": 298,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 2,
+"ref": "Éphésiens 5:25",
+"sens": "Maris, aimez vos femmes comme Christ a aimé l'assemblée."
+},
+{
+"id": 299,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 2,
+"ref": "1 Pierre 3:7",
+"sens": "Maris, vivez avec votre femme avec compréhension et honorez-la."
+},
+{
+"id": 300,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 2,
+"ref": "Hébreux 13:4",
+"sens": "Que le mariage soit honoré par tous et le lit conjugal sans souillure."
+},
+{
+"id": 301,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 2,
+"ref": "Matthieu 19:9",
+"sens": "Celui qui divorce, sauf pour immoralité sexuelle, et en épouse une autre commet l'adultère."
+},
+{
+"id": 302,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 2,
+"ref": "Proverbes 31:10",
+"sens": "Une femme capable, qui peut la trouver ? Elle vaut bien plus que des coraux."
+},
+{
+"id": 303,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 3,
+"ref": "1 Corinthiens 7:39",
+"sens": "Se marier « seulement dans le Seigneur »."
+},
+{
+"id": 304,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 3,
+"ref": "2 Corinthiens 6:14",
+"sens": "Ne formez pas d'attelage disparate avec des non-croyants."
+},
+{
+"id": 305,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 3,
+"ref": "Proverbes 15:1",
+"sens": "Une réponse douce calme la fureur."
+},
+{
+"id": 306,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 3,
+"ref": "Ecclésiaste 4:12",
+"sens": "Un cordon triple ne se rompt pas vite."
+},
+{
+"id": 307,
+"theme": "Mariage et famille",
+"question": "Comment réussir son mariage ?",
+"niveau": 3,
+"ref": "Colossiens 3:18, 19",
+"sens": "Femmes, soyez soumises à vos maris ; maris, aimez vos femmes et ne soyez pas durs avec elles."
+},
+{
+"id": 308,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 1,
+"ref": "Deutéronome 6:6, 7",
+"sens": "Inculquez les paroles de Dieu à vos fils ; parlez-en à la maison, en chemin, en vous couchant et en vous levant."
+},
+{
+"id": 309,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 1,
+"ref": "Proverbes 22:6",
+"sens": "Forme le garçon selon la voie qu'il doit suivre ; même vieux, il ne s'en détournera pas."
+},
+{
+"id": 310,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 2,
+"ref": "Éphésiens 6:4",
+"sens": "Pères, n'irritez pas vos enfants, mais élevez-les dans la discipline et les conseils de Jéhovah."
+},
+{
+"id": 311,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 2,
+"ref": "Éphésiens 6:1-3",
+"sens": "Enfants, obéissez à vos parents ; honore ton père et ta mère."
+},
+{
+"id": 312,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 2,
+"ref": "Psaume 127:3",
+"sens": "Les fils sont un héritage de Jéhovah ; le fruit du ventre est une récompense."
+},
+{
+"id": 313,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 2,
+"ref": "Colossiens 3:21",
+"sens": "Pères, n'exaspérez pas vos enfants, pour qu'ils ne se découragent pas."
+},
+{
+"id": 314,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 2,
+"ref": "Proverbes 29:15",
+"sens": "Le bâton et le reproche donnent la sagesse ; l'enfant livré à lui-même fait honte à sa mère."
+},
+{
+"id": 315,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 3,
+"ref": "2 Timothée 3:15",
+"sens": "Depuis sa petite enfance, Timothée connaissait les écrits sacrés."
+},
+{
+"id": 316,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 3,
+"ref": "Proverbes 1:8",
+"sens": "Écoute la discipline de ton père et ne néglige pas l'enseignement de ta mère."
+},
+{
+"id": 317,
+"theme": "Mariage et famille",
+"question": "Comment bien élever ses enfants ?",
+"niveau": 3,
+"ref": "Proverbes 23:24",
+"sens": "Le père d'un juste sera très joyeux."
+},
+{
+"id": 318,
+"theme": "Conduite morale",
+"question": "Que pense Dieu de l'immoralité sexuelle ?",
+"niveau": 1,
+"ref": "1 Corinthiens 6:9, 10",
+"sens": "Les gens immoraux, adultères, voleurs, ivrognes n'hériteront pas du Royaume de Dieu."
+},
+{
+"id": 319,
+"theme": "Conduite morale",
+"question": "Que pense Dieu de l'immoralité sexuelle ?",
+"niveau": 1,
+"ref": "1 Corinthiens 6:18",
+"sens": "Fuyez l'immoralité sexuelle."
+},
+{
+"id": 320,
+"theme": "Conduite morale",
+"question": "Que pense Dieu de l'immoralité sexuelle ?",
+"niveau": 2,
+"ref": "Hébreux 13:4",
+"sens": "Dieu jugera les gens immoraux et les adultères."
+},
+{
+"id": 321,
+"theme": "Conduite morale",
+"question": "Que pense Dieu de l'immoralité sexuelle ?",
+"niveau": 2,
+"ref": "Galates 5:19-21",
+"sens": "Les œuvres de la chair : immoralité, impureté, débauche, idolâtrie, colère, disputes…"
+},
+{
+"id": 322,
+"theme": "Conduite morale",
+"question": "Que pense Dieu de l'immoralité sexuelle ?",
+"niveau": 2,
+"ref": "1 Thessaloniciens 4:3",
+"sens": "La volonté de Dieu : vous abstenir de l'immoralité sexuelle."
+},
+{
+"id": 323,
+"theme": "Conduite morale",
+"question": "Que pense Dieu de l'immoralité sexuelle ?",
+"niveau": 2,
+"ref": "Matthieu 5:28",
+"sens": "Celui qui regarde une femme avec désir a déjà commis l'adultère dans son cœur."
+},
+{
+"id": 324,
+"theme": "Conduite morale",
+"question": "Que pense Dieu de l'immoralité sexuelle ?",
+"niveau": 3,
+"ref": "Genèse 39:9",
+"sens": "Joseph refuse : « Comment pourrais-je commettre ce grand mal et pécher contre Dieu ? »"
+},
+{
+"id": 325,
+"theme": "Conduite morale",
+"question": "Que pense Dieu de l'immoralité sexuelle ?",
+"niveau": 3,
+"ref": "Colossiens 3:5",
+"sens": "Faites mourir vos membres : immoralité, impureté, désir sexuel, désir mauvais, avidité."
+},
+{
+"id": 326,
+"theme": "Conduite morale",
+"question": "Que dit la Bible de l'honnêteté ?",
+"niveau": 1,
+"ref": "Hébreux 13:18",
+"sens": "Nous voulons nous conduire honnêtement en toutes choses."
+},
+{
+"id": 327,
+"theme": "Conduite morale",
+"question": "Que dit la Bible de l'honnêteté ?",
+"niveau": 2,
+"ref": "Éphésiens 4:25",
+"sens": "Rejetez le mensonge ; dites la vérité chacun à son prochain."
+},
+{
+"id": 328,
+"theme": "Conduite morale",
+"question": "Que dit la Bible de l'honnêteté ?",
+"niveau": 2,
+"ref": "Éphésiens 4:28",
+"sens": "Que le voleur ne vole plus, qu'il travaille dur pour avoir de quoi partager."
+},
+{
+"id": 329,
+"theme": "Conduite morale",
+"question": "Que dit la Bible de l'honnêteté ?",
+"niveau": 2,
+"ref": "Proverbes 6:16-19",
+"sens": "Jéhovah déteste la langue mensongère, les mains qui versent le sang innocent…"
+},
+{
+"id": 330,
+"theme": "Conduite morale",
+"question": "Que dit la Bible de l'honnêteté ?",
+"niveau": 3,
+"ref": "Proverbes 11:1",
+"sens": "Jéhovah déteste les balances truquées."
+},
+{
+"id": 331,
+"theme": "Conduite morale",
+"question": "Que dit la Bible de l'honnêteté ?",
+"niveau": 3,
+"ref": "Colossiens 3:9",
+"sens": "Ne vous mentez pas les uns aux autres."
+},
+{
+"id": 332,
+"theme": "Conduite morale",
+"question": "Alcool, tabac, drogue : qu'en dit la Bible ?",
+"niveau": 1,
+"ref": "2 Corinthiens 7:1",
+"sens": "Purifions-nous de toute souillure de la chair et de l'esprit."
+},
+{
+"id": 333,
+"theme": "Conduite morale",
+"question": "Alcool, tabac, drogue : qu'en dit la Bible ?",
+"niveau": 2,
+"ref": "Proverbes 23:20, 21",
+"sens": "Ne sois pas parmi ceux qui boivent trop de vin ; l'ivrogne s'appauvrira."
+},
+{
+"id": 334,
+"theme": "Conduite morale",
+"question": "Alcool, tabac, drogue : qu'en dit la Bible ?",
+"niveau": 2,
+"ref": "Éphésiens 5:18",
+"sens": "Ne vous enivrez pas de vin, car cela mène à la débauche."
+},
+{
+"id": 335,
+"theme": "Conduite morale",
+"question": "Alcool, tabac, drogue : qu'en dit la Bible ?",
+"niveau": 2,
+"ref": "Romains 12:1",
+"sens": "Présentez vos corps comme un sacrifice vivant, saint et agréable à Dieu."
+},
+{
+"id": 336,
+"theme": "Conduite morale",
+"question": "Alcool, tabac, drogue : qu'en dit la Bible ?",
+"niveau": 3,
+"ref": "Psaume 104:15",
+"sens": "Le vin réjouit le cœur de l'homme (avec modération)."
+},
+{
+"id": 337,
+"theme": "Conduite morale",
+"question": "Alcool, tabac, drogue : qu'en dit la Bible ?",
+"niveau": 3,
+"ref": "1 Timothée 3:8",
+"sens": "Les assistants ministériels ne doivent pas boire beaucoup de vin."
+},
+{
+"id": 338,
+"theme": "Le sang et la vie",
+"question": "Que dit la Bible sur le sang ?",
+"niveau": 1,
+"ref": "Actes 15:28, 29",
+"sens": "S'abstenir de ce qui est sacrifié aux idoles, du sang, de ce qui est étouffé et de l'immoralité sexuelle."
+},
+{
+"id": 339,
+"theme": "Le sang et la vie",
+"question": "Que dit la Bible sur le sang ?",
+"niveau": 1,
+"ref": "Genèse 9:4",
+"sens": "Vous ne devez pas manger la chair avec son âme, son sang."
+},
+{
+"id": 340,
+"theme": "Le sang et la vie",
+"question": "Que dit la Bible sur le sang ?",
+"niveau": 2,
+"ref": "Lévitique 17:14",
+"sens": "L'âme (la vie) de toute chair est son sang."
+},
+{
+"id": 341,
+"theme": "Le sang et la vie",
+"question": "Que dit la Bible sur le sang ?",
+"niveau": 2,
+"ref": "Lévitique 17:11",
+"sens": "L'âme de la chair est dans le sang ; Dieu l'a donné sur l'autel pour faire la réconciliation."
+},
+{
+"id": 342,
+"theme": "Le sang et la vie",
+"question": "Que dit la Bible sur le sang ?",
+"niveau": 2,
+"ref": "Deutéronome 12:23",
+"sens": "Sois fermement résolu à ne pas manger le sang, car le sang est l'âme."
+},
+{
+"id": 343,
+"theme": "Le sang et la vie",
+"question": "Que dit la Bible sur le sang ?",
+"niveau": 3,
+"ref": "Actes 21:25",
+"sens": "Les chrétiens des nations doivent se garder du sang."
+},
+{
+"id": 344,
+"theme": "Le sang et la vie",
+"question": "La vie a-t-elle de la valeur pour Dieu ?",
+"niveau": 2,
+"ref": "Exode 21:22, 23",
+"sens": "Blesser une femme enceinte et causer la mort de l'enfant : âme pour âme."
+},
+{
+"id": 345,
+"theme": "Le sang et la vie",
+"question": "La vie a-t-elle de la valeur pour Dieu ?",
+"niveau": 2,
+"ref": "Psaume 139:16",
+"sens": "Les yeux de Dieu ont vu l'embryon ; tout était écrit dans son livre."
+},
+{
+"id": 346,
+"theme": "Le sang et la vie",
+"question": "La vie a-t-elle de la valeur pour Dieu ?",
+"niveau": 2,
+"ref": "Psaume 36:9",
+"sens": "Auprès de Dieu est la source de la vie."
+},
+{
+"id": 347,
+"theme": "Le sang et la vie",
+"question": "La vie a-t-elle de la valeur pour Dieu ?",
+"niveau": 3,
+"ref": "Actes 17:28",
+"sens": "Par lui nous avons la vie, nous bougeons et nous existons."
+},
+{
+"id": 348,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 1,
+"ref": "Jean 17:16",
+"sens": "Les disciples ne font pas partie du monde, comme Jésus ne fait pas partie du monde."
+},
+{
+"id": 349,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 1,
+"ref": "Jean 18:36",
+"sens": "Mon royaume ne fait pas partie de ce monde."
+},
+{
+"id": 350,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 2,
+"ref": "Jean 6:15",
+"sens": "Jésus se retire quand la foule veut le faire roi."
+},
+{
+"id": 351,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 2,
+"ref": "Jacques 4:4",
+"sens": "L'amitié avec le monde est inimitié avec Dieu."
+},
+{
+"id": 352,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 2,
+"ref": "Isaïe 2:4",
+"sens": "Ils forgeront leurs épées en socs de charrue et n'apprendront plus la guerre."
+},
+{
+"id": 353,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 2,
+"ref": "Matthieu 26:52",
+"sens": "Tous ceux qui prennent l'épée périront par l'épée."
+},
+{
+"id": 354,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 2,
+"ref": "Romains 13:1",
+"sens": "Soyez soumis aux autorités supérieures."
+},
+{
+"id": 355,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 2,
+"ref": "Matthieu 22:21",
+"sens": "Rendez à César ce qui est à César, et à Dieu ce qui est à Dieu."
+},
+{
+"id": 356,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 2,
+"ref": "Actes 5:29",
+"sens": "Nous devons obéir à Dieu comme chef plutôt qu'aux hommes."
+},
+{
+"id": 357,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 3,
+"ref": "Romains 13:7",
+"sens": "Rendez à chacun ce qui lui est dû : l'impôt à qui on doit l'impôt."
+},
+{
+"id": 358,
+"theme": "Neutralité et fêtes",
+"question": "Les chrétiens doivent-ils se mêler de politique ?",
+"niveau": 3,
+"ref": "Jean 15:19",
+"sens": "Parce que vous ne faites pas partie du monde, le monde vous hait."
+},
+{
+"id": 359,
+"theme": "Neutralité et fêtes",
+"question": "Que penser de Noël, des anniversaires et des fêtes religieuses ?",
+"niveau": 2,
+"ref": "Genèse 40:20-22",
+"sens": "Pharaon fête son anniversaire en faisant pendre le chef des panetiers."
+},
+{
+"id": 360,
+"theme": "Neutralité et fêtes",
+"question": "Que penser de Noël, des anniversaires et des fêtes religieuses ?",
+"niveau": 2,
+"ref": "Matthieu 14:6-10",
+"sens": "À l'anniversaire d'Hérode, Jean le Baptiseur est décapité."
+},
+{
+"id": 361,
+"theme": "Neutralité et fêtes",
+"question": "Que penser de Noël, des anniversaires et des fêtes religieuses ?",
+"niveau": 2,
+"ref": "2 Corinthiens 6:14-17",
+"sens": "Quelle relation entre la lumière et les ténèbres ? Ne touchez plus à ce qui est impur."
+},
+{
+"id": 362,
+"theme": "Neutralité et fêtes",
+"question": "Que penser de Noël, des anniversaires et des fêtes religieuses ?",
+"niveau": 2,
+"ref": "Luc 2:8",
+"sens": "Les bergers passaient la nuit dehors (pas en hiver) à la naissance de Jésus."
+},
+{
+"id": 363,
+"theme": "Neutralité et fêtes",
+"question": "Que penser de Noël, des anniversaires et des fêtes religieuses ?",
+"niveau": 3,
+"ref": "Colossiens 2:8",
+"sens": "Attention à la philosophie et aux traditions humaines."
+},
+{
+"id": 364,
+"theme": "Neutralité et fêtes",
+"question": "Que penser de Noël, des anniversaires et des fêtes religieuses ?",
+"niveau": 3,
+"ref": "Éphésiens 5:10",
+"sens": "Assurez-vous de ce qui plaît au Seigneur."
+},
+{
+"id": 365,
+"theme": "Neutralité et fêtes",
+"question": "Que penser de Noël, des anniversaires et des fêtes religieuses ?",
+"niveau": 3,
+"ref": "Marc 7:13",
+"sens": "Vous annulez la parole de Dieu par votre tradition."
+},
+{
+"id": 366,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 1,
+"ref": "Matthieu 7:12",
+"sens": "Tout ce que vous voulez que les hommes fassent pour vous, faites-le pour eux."
+},
+{
+"id": 367,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 1,
+"ref": "Matthieu 22:39",
+"sens": "Tu dois aimer ton prochain comme toi-même."
+},
+{
+"id": 368,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 1,
+"ref": "Matthieu 22:37",
+"sens": "Tu dois aimer Jéhovah de tout ton cœur, de toute ton âme et de toute ta pensée."
+},
+{
+"id": 369,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 2,
+"ref": "Matthieu 5:44",
+"sens": "Aimez vos ennemis et priez pour ceux qui vous persécutent."
+},
+{
+"id": 370,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 2,
+"ref": "Romains 12:18",
+"sens": "Autant que cela dépend de vous, soyez en paix avec tous."
+},
+{
+"id": 371,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 2,
+"ref": "Romains 12:17",
+"sens": "Ne rendez à personne le mal pour le mal."
+},
+{
+"id": 372,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 2,
+"ref": "Proverbes 17:17",
+"sens": "Le vrai ami aime en tout temps ; c'est un frère né pour les jours de détresse."
+},
+{
+"id": 373,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 2,
+"ref": "Proverbes 13:20",
+"sens": "Celui qui marche avec les sages deviendra sage ; celui qui fréquente les stupides s'en trouvera mal."
+},
+{
+"id": 374,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 2,
+"ref": "1 Corinthiens 15:33",
+"sens": "Les mauvaises compagnies ruinent les bonnes habitudes."
+},
+{
+"id": 375,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 2,
+"ref": "Philippiens 2:3",
+"sens": "Avec humilité, considérez les autres comme supérieurs à vous."
+},
+{
+"id": 376,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 2,
+"ref": "Galates 6:10",
+"sens": "Faisons du bien à tous, surtout à ceux qui ont la même foi."
+},
+{
+"id": 377,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 3,
+"ref": "Actes 20:35",
+"sens": "Il y a plus de bonheur à donner qu'à recevoir."
+},
+{
+"id": 378,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 3,
+"ref": "Proverbes 19:11",
+"sens": "La perspicacité calme la colère ; il est beau de passer sur une offense."
+},
+{
+"id": 379,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 3,
+"ref": "1 Pierre 4:8",
+"sens": "L'amour couvre une multitude de péchés."
+},
+{
+"id": 380,
+"theme": "Amour et relations",
+"question": "Comment bien traiter les autres ?",
+"niveau": 3,
+"ref": "Romains 12:10",
+"sens": "Montrez-vous de l'affection ; prenez l'initiative d'honorer les autres."
+},
+{
+"id": 381,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 1,
+"ref": "Colossiens 3:13",
+"sens": "Comme Jéhovah vous a pardonné généreusement, faites de même."
+},
+{
+"id": 382,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 2,
+"ref": "Matthieu 18:21, 22",
+"sens": "Pardonner non pas 7 fois, mais 77 fois."
+},
+{
+"id": 383,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 2,
+"ref": "Éphésiens 4:32",
+"sens": "Soyez bons, pleins de tendre compassion, pardonnez-vous comme Dieu vous a pardonné."
+},
+{
+"id": 384,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 2,
+"ref": "Matthieu 6:14",
+"sens": "Si vous pardonnez aux hommes leurs fautes, votre Père vous pardonnera aussi."
+},
+{
+"id": 385,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 2,
+"ref": "Isaïe 1:18",
+"sens": "Même si vos péchés sont comme l'écarlate, ils deviendront blancs comme la neige."
+},
+{
+"id": 386,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 2,
+"ref": "Psaume 103:12",
+"sens": "Aussi loin que l'est est de l'ouest, Dieu éloigne de nous nos fautes."
+},
+{
+"id": 387,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 3,
+"ref": "Proverbes 28:13",
+"sens": "Celui qui cache ses fautes ne réussira pas ; celui qui les confesse et les abandonne obtiendra la miséricorde."
+},
+{
+"id": 388,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 3,
+"ref": "Actes 3:19",
+"sens": "Repentez-vous et retournez-vous, pour que vos péchés soient effacés."
+},
+{
+"id": 389,
+"theme": "Amour et relations",
+"question": "Comment pardonner ?",
+"niveau": 3,
+"ref": "Michée 7:18",
+"sens": "Dieu pardonne la faute et passe sur la transgression."
+},
+{
+"id": 390,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 1,
+"ref": "Philippiens 4:6, 7",
+"sens": "Faites connaître vos demandes à Dieu, et la paix de Dieu gardera vos cœurs."
+},
+{
+"id": 391,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 1,
+"ref": "1 Pierre 5:7",
+"sens": "Jetez sur Dieu toutes vos inquiétudes, car il prend soin de vous."
+},
+{
+"id": 392,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 1,
+"ref": "Isaïe 41:10",
+"sens": "N'aie pas peur, car je suis avec toi ; je te fortifierai, je t'aiderai."
+},
+{
+"id": 393,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 2,
+"ref": "Matthieu 6:34",
+"sens": "Ne vous inquiétez jamais du lendemain ; à chaque jour suffit sa peine."
+},
+{
+"id": 394,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 2,
+"ref": "Psaume 55:22",
+"sens": "Jette ton fardeau sur Jéhovah, et il te soutiendra."
+},
+{
+"id": 395,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 2,
+"ref": "Matthieu 11:28",
+"sens": "Venez à moi, vous tous qui êtes fatigués et chargés, et je vous réconforterai."
+},
+{
+"id": 396,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 2,
+"ref": "Proverbes 12:25",
+"sens": "L'anxiété accable le cœur, mais une bonne parole le réjouit."
+},
+{
+"id": 397,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 2,
+"ref": "2 Corinthiens 1:3, 4",
+"sens": "Le Dieu de tout réconfort nous réconforte dans toutes nos épreuves."
+},
+{
+"id": 398,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 2,
+"ref": "Psaume 94:19",
+"sens": "Quand les inquiétudes m'envahissaient, ton réconfort m'a apaisé."
+},
+{
+"id": 399,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 3,
+"ref": "Isaïe 40:29",
+"sens": "Jéhovah donne de la force à celui qui est fatigué."
+},
+{
+"id": 400,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 3,
+"ref": "Isaïe 40:31",
+"sens": "Ceux qui espèrent en Jéhovah retrouveront des forces ; ils s'élèveront comme des aigles."
+},
+{
+"id": 401,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 3,
+"ref": "Psaume 23:4",
+"sens": "Même si je marche dans la vallée de l'ombre profonde, je ne crains rien, car tu es avec moi."
+},
+{
+"id": 402,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 3,
+"ref": "1 Corinthiens 10:13",
+"sens": "Dieu ne permettra pas que vous soyez tentés au-delà de ce que vous pouvez supporter."
+},
+{
+"id": 403,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face à l'anxiété et à la tristesse ?",
+"niveau": 3,
+"ref": "Josué 1:9",
+"sens": "Sois courageux et fort ; Jéhovah est avec toi partout où tu vas."
+},
+{
+"id": 404,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face au deuil ?",
+"niveau": 2,
+"ref": "Jean 11:35",
+"sens": "Jésus a pleuré (à la mort de son ami Lazare)."
+},
+{
+"id": 405,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face au deuil ?",
+"niveau": 2,
+"ref": "1 Thessaloniciens 4:13",
+"sens": "Ne soyez pas tristes comme ceux qui n'ont pas d'espérance."
+},
+{
+"id": 406,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face au deuil ?",
+"niveau": 2,
+"ref": "Révélation 21:4",
+"sens": "Il n'y aura plus de mort, ni de deuil, ni de cris, ni de douleur."
+},
+{
+"id": 407,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face au deuil ?",
+"niveau": 3,
+"ref": "Ecclésiaste 7:2",
+"sens": "Mieux vaut aller dans une maison en deuil que dans une maison de festin."
+},
+{
+"id": 408,
+"theme": "Réconfort et soucis",
+"question": "Comment faire face au deuil ?",
+"niveau": 3,
+"ref": "Psaume 147:3",
+"sens": "Jéhovah guérit ceux qui ont le cœur brisé et panse leurs blessures."
+},
+{
+"id": 409,
+"theme": "Argent, travail et bonheur",
+"question": "Qu'est-ce qui rend vraiment heureux ?",
+"niveau": 1,
+"ref": "Matthieu 5:3",
+"sens": "Heureux ceux qui sont conscients de leur besoin spirituel."
+},
+{
+"id": 410,
+"theme": "Argent, travail et bonheur",
+"question": "Qu'est-ce qui rend vraiment heureux ?",
+"niveau": 1,
+"ref": "Luc 11:28",
+"sens": "Heureux ceux qui écoutent la parole de Dieu et y obéissent."
+},
+{
+"id": 411,
+"theme": "Argent, travail et bonheur",
+"question": "Qu'est-ce qui rend vraiment heureux ?",
+"niveau": 2,
+"ref": "Actes 20:35",
+"sens": "Il y a plus de bonheur à donner qu'à recevoir."
+},
+{
+"id": 412,
+"theme": "Argent, travail et bonheur",
+"question": "Qu'est-ce qui rend vraiment heureux ?",
+"niveau": 2,
+"ref": "Psaume 144:15",
+"sens": "Heureux le peuple dont le Dieu est Jéhovah."
+},
+{
+"id": 413,
+"theme": "Argent, travail et bonheur",
+"question": "Qu'est-ce qui rend vraiment heureux ?",
+"niveau": 2,
+"ref": "Psaume 1:1, 2",
+"sens": "Heureux l'homme qui ne suit pas le conseil des méchants mais aime la loi de Jéhovah."
+},
+{
+"id": 414,
+"theme": "Argent, travail et bonheur",
+"question": "Qu'est-ce qui rend vraiment heureux ?",
+"niveau": 3,
+"ref": "Proverbes 10:22",
+"sens": "La bénédiction de Jéhovah enrichit, et il n'y ajoute aucune souffrance."
+},
+{
+"id": 415,
+"theme": "Argent, travail et bonheur",
+"question": "Qu'est-ce qui rend vraiment heureux ?",
+"niveau": 3,
+"ref": "Ecclésiaste 3:12, 13",
+"sens": "Se réjouir et faire le bien, manger, boire et profiter de son travail est un don de Dieu."
+},
+{
+"id": 416,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 1,
+"ref": "1 Timothée 6:10",
+"sens": "L'amour de l'argent est une racine de toutes sortes de choses mauvaises."
+},
+{
+"id": 417,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 1,
+"ref": "Hébreux 13:5",
+"sens": "Ne soyez pas amis de l'argent ; contentez-vous de ce que vous avez."
+},
+{
+"id": 418,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 2,
+"ref": "1 Timothée 6:8",
+"sens": "Si nous avons nourriture et vêtements, nous nous en contenterons."
+},
+{
+"id": 419,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 2,
+"ref": "Ecclésiaste 5:10",
+"sens": "Celui qui aime l'argent n'en a jamais assez."
+},
+{
+"id": 420,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 2,
+"ref": "Matthieu 6:24",
+"sens": "On ne peut pas être esclave de Dieu et de l'Argent."
+},
+{
+"id": 421,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 2,
+"ref": "Proverbes 10:4",
+"sens": "La main paresseuse appauvrit, la main active enrichit."
+},
+{
+"id": 422,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 2,
+"ref": "2 Thessaloniciens 3:10",
+"sens": "Si quelqu'un ne veut pas travailler, qu'il ne mange pas non plus."
+},
+{
+"id": 423,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 2,
+"ref": "Colossiens 3:23",
+"sens": "Quoi que vous fassiez, travaillez de toute votre âme, comme pour Jéhovah."
+},
+{
+"id": 424,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 2,
+"ref": "Luc 12:15",
+"sens": "La vie de quelqu'un ne dépend pas de ce qu'il possède."
+},
+{
+"id": 425,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 3,
+"ref": "Matthieu 6:19-21",
+"sens": "Accumulez des trésors dans le ciel ; là où est ton trésor, là sera ton cœur."
+},
+{
+"id": 426,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 3,
+"ref": "Proverbes 30:8, 9",
+"sens": "Ne me donne ni pauvreté ni richesse ; donne-moi juste ma part de nourriture."
+},
+{
+"id": 427,
+"theme": "Argent, travail et bonheur",
+"question": "Que dit la Bible sur l'argent et le travail ?",
+"niveau": 3,
+"ref": "1 Timothée 5:8",
+"sens": "Celui qui ne pourvoit pas aux besoins des siens a renié la foi."
+},
+{
+"id": 428,
+"theme": "Les assemblées et les réunions",
+"question": "Pourquoi assister aux réunions ?",
+"niveau": 1,
+"ref": "Hébreux 10:24, 25",
+"sens": "N'abandonnons pas nos réunions ; encourageons-nous, d'autant plus que le jour approche."
+},
+{
+"id": 429,
+"theme": "Les assemblées et les réunions",
+"question": "Pourquoi assister aux réunions ?",
+"niveau": 2,
+"ref": "Psaume 122:1",
+"sens": "Je me suis réjoui quand on m'a dit : « Allons à la maison de Jéhovah. »"
+},
+{
+"id": 430,
+"theme": "Les assemblées et les réunions",
+"question": "Pourquoi assister aux réunions ?",
+"niveau": 2,
+"ref": "Matthieu 18:20",
+"sens": "Là où deux ou trois sont réunis en mon nom, je suis au milieu d'eux."
+},
+{
+"id": 431,
+"theme": "Les assemblées et les réunions",
+"question": "Pourquoi assister aux réunions ?",
+"niveau": 2,
+"ref": "Psaume 133:1",
+"sens": "Qu'il est bon et agréable que des frères vivent ensemble dans l'unité !"
+},
+{
+"id": 432,
+"theme": "Les assemblées et les réunions",
+"question": "Pourquoi assister aux réunions ?",
+"niveau": 3,
+"ref": "Actes 2:42",
+"sens": "Les disciples se consacraient à l'enseignement des apôtres, au partage et aux prières."
+},
+{
+"id": 433,
+"theme": "Les assemblées et les réunions",
+"question": "Pourquoi assister aux réunions ?",
+"niveau": 3,
+"ref": "Psaume 84:10",
+"sens": "Un jour dans tes cours vaut mieux que mille ailleurs."
+},
+{
+"id": 434,
+"theme": "Les assemblées et les réunions",
+"question": "Qui dirige l'assemblée chrétienne ?",
+"niveau": 1,
+"ref": "Matthieu 24:45-47",
+"sens": "L'esclave fidèle et avisé donne la nourriture au bon moment."
+},
+{
+"id": 435,
+"theme": "Les assemblées et les réunions",
+"question": "Qui dirige l'assemblée chrétienne ?",
+"niveau": 2,
+"ref": "Éphésiens 1:22",
+"sens": "Dieu a donné Christ comme tête de l'assemblée."
+},
+{
+"id": 436,
+"theme": "Les assemblées et les réunions",
+"question": "Qui dirige l'assemblée chrétienne ?",
+"niveau": 2,
+"ref": "Actes 20:28",
+"sens": "L'esprit saint établit les anciens pour faire paître l'assemblée de Dieu."
+},
+{
+"id": 437,
+"theme": "Les assemblées et les réunions",
+"question": "Qui dirige l'assemblée chrétienne ?",
+"niveau": 2,
+"ref": "Hébreux 13:17",
+"sens": "Obéissez à ceux qui vous dirigent et soyez soumis."
+},
+{
+"id": 438,
+"theme": "Les assemblées et les réunions",
+"question": "Qui dirige l'assemblée chrétienne ?",
+"niveau": 3,
+"ref": "Actes 15:2",
+"sens": "La question de la circoncision est portée devant les apôtres et les anciens de Jérusalem."
+},
+{
+"id": 439,
+"theme": "Les assemblées et les réunions",
+"question": "Qui dirige l'assemblée chrétienne ?",
+"niveau": 3,
+"ref": "1 Timothée 3:1-7",
+"sens": "Les qualités requises pour être surveillant (ancien)."
+},
+{
+"id": 440,
+"theme": "Les assemblées et les réunions",
+"question": "Qui dirige l'assemblée chrétienne ?",
+"niveau": 3,
+"ref": "1 Pierre 5:2, 3",
+"sens": "Faites paître le troupeau de Dieu de bon cœur, en étant des exemples."
+},
+{
+"id": 441,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Isaïe 44:28",
+"sens": "Cyrus est nommé longtemps à l'avance comme celui qui fera reconstruire Jérusalem."
+},
+{
+"id": 442,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Isaïe 45:1",
+"sens": "Jéhovah ouvre les portes devant Cyrus, son oint."
+},
+{
+"id": 443,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Daniel 8:20, 21",
+"sens": "Le bélier représente les rois de Médie et de Perse, le bouc la Grèce."
+},
+{
+"id": 444,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Isaïe 53:5",
+"sens": "Il a été transpercé pour nos fautes ; grâce à ses blessures nous sommes guéris."
+},
+{
+"id": 445,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Zacharie 9:9",
+"sens": "Ton roi vient à toi, humble, monté sur un âne."
+},
+{
+"id": 446,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Psaume 22:18",
+"sens": "Ils se partagent mes vêtements et tirent au sort mes habits."
+},
+{
+"id": 447,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Psaume 34:20",
+"sens": "Il garde tous ses os ; pas un n'est brisé."
+},
+{
+"id": 448,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Zacharie 11:12",
+"sens": "Le prix fixé : 30 pièces d'argent."
+},
+{
+"id": 449,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Daniel 9:25",
+"sens": "Du rétablissement de Jérusalem jusqu'au Messie : 69 semaines (d'années)."
+},
+{
+"id": 450,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Luc 19:43, 44",
+"sens": "Les ennemis entoureront Jérusalem de pieux et ne laisseront pas pierre sur pierre."
+},
+{
+"id": 451,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 2,
+"ref": "Isaïe 7:14",
+"sens": "La jeune femme deviendra enceinte et donnera naissance à un fils."
+},
+{
+"id": 452,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 3,
+"ref": "Psaume 16:10",
+"sens": "Tu ne laisseras pas ton fidèle voir la fosse (résurrection de Jésus)."
+},
+{
+"id": 453,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 3,
+"ref": "Isaïe 53:9",
+"sens": "On lui a donné une tombe avec les riches, bien qu'il n'ait commis aucune violence."
+},
+{
+"id": 454,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 3,
+"ref": "Daniel 4:16",
+"sens": "Sept temps passeront sur lui."
+},
+{
+"id": 455,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 3,
+"ref": "Jérémie 25:11",
+"sens": "Ces nations serviront le roi de Babylone pendant 70 ans."
+},
+{
+"id": 456,
+"theme": "Prophéties accomplies",
+"question": "Les prophéties de la Bible se sont-elles réalisées ?",
+"niveau": 3,
+"ref": "Isaïe 13:19, 20",
+"sens": "Babylone deviendra comme Sodome et Gomorrhe, jamais plus habitée."
+},
+{
+"id": 457,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il juste ?",
+"niveau": 1,
+"ref": "Deutéronome 32:4",
+"sens": "Toutes les voies de Jéhovah sont justes ; c'est un Dieu fidèle, en qui il n'y a pas d'injustice."
+},
+{
+"id": 458,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il juste ?",
+"niveau": 2,
+"ref": "Psaume 37:28",
+"sens": "Jéhovah aime la justice ; il n'abandonnera pas ses fidèles."
+},
+{
+"id": 459,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il juste ?",
+"niveau": 2,
+"ref": "Actes 10:34, 35",
+"sens": "Dieu n'est pas partial : dans toute nation, celui qui le craint et fait le bien lui est agréable."
+},
+{
+"id": 460,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il juste ?",
+"niveau": 2,
+"ref": "Romains 2:11",
+"sens": "Il n'y a pas de partialité chez Dieu."
+},
+{
+"id": 461,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il juste ?",
+"niveau": 3,
+"ref": "Genèse 18:25",
+"sens": "Le Juge de toute la terre ne fera-t-il pas ce qui est juste ?"
+},
+{
+"id": 462,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il juste ?",
+"niveau": 3,
+"ref": "Psaume 89:14",
+"sens": "La justice et le droit sont la base de son trône."
+},
+{
+"id": 463,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il juste ?",
+"niveau": 3,
+"ref": "Job 34:12",
+"sens": "Dieu n'agit pas méchamment ; le Tout-Puissant ne pervertit pas la justice."
+},
+{
+"id": 464,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il puissant et sage ?",
+"niveau": 1,
+"ref": "Jérémie 32:17",
+"sens": "Rien n'est trop extraordinaire pour Jéhovah, qui a fait le ciel et la terre."
+},
+{
+"id": 465,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il puissant et sage ?",
+"niveau": 2,
+"ref": "Isaïe 40:28",
+"sens": "Jéhovah, Créateur des extrémités de la terre, ne se fatigue jamais ; son intelligence est insondable."
+},
+{
+"id": 466,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il puissant et sage ?",
+"niveau": 2,
+"ref": "Proverbes 3:19",
+"sens": "Par sa sagesse, Jéhovah a fondé la terre."
+},
+{
+"id": 467,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il puissant et sage ?",
+"niveau": 2,
+"ref": "Matthieu 19:26",
+"sens": "Pour Dieu, tout est possible."
+},
+{
+"id": 468,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il puissant et sage ?",
+"niveau": 2,
+"ref": "Genèse 17:1",
+"sens": "Jéhovah se présente à Abraham comme le Dieu Tout-Puissant."
+},
+{
+"id": 469,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il puissant et sage ?",
+"niveau": 3,
+"ref": "Romains 16:27",
+"sens": "Gloire au Dieu seul sage, par Jésus Christ."
+},
+{
+"id": 470,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il puissant et sage ?",
+"niveau": 3,
+"ref": "Job 37:23",
+"sens": "Le Tout-Puissant est grand en puissance ; il ne viole jamais la justice."
+},
+{
+"id": 471,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il patient et miséricordieux ?",
+"niveau": 2,
+"ref": "Néhémie 9:17",
+"sens": "Jéhovah est un Dieu prêt à pardonner, compatissant, lent à la colère."
+},
+{
+"id": 472,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il patient et miséricordieux ?",
+"niveau": 2,
+"ref": "Lamentations 3:22, 23",
+"sens": "Grâce à l'amour fidèle de Jéhovah nous ne sommes pas anéantis ; ses miséricordes sont nouvelles chaque matin."
+},
+{
+"id": 473,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il patient et miséricordieux ?",
+"niveau": 2,
+"ref": "Psaume 103:14",
+"sens": "Dieu sait de quoi nous sommes faits ; il se souvient que nous sommes poussière."
+},
+{
+"id": 474,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il patient et miséricordieux ?",
+"niveau": 3,
+"ref": "Ézéchiel 33:11",
+"sens": "Jéhovah ne prend pas plaisir à la mort du méchant, mais à ce qu'il change de conduite et vive."
+},
+{
+"id": 475,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il patient et miséricordieux ?",
+"niveau": 3,
+"ref": "Jonas 4:11",
+"sens": "Jéhovah a pitié de Ninive, où vivent plus de 120 000 personnes."
+},
+{
+"id": 476,
+"theme": "Les qualités de Jéhovah",
+"question": "Jéhovah est-il patient et miséricordieux ?",
+"niveau": 3,
+"ref": "Luc 15:7",
+"sens": "Il y aura plus de joie au ciel pour un pécheur qui se repent."
+},
+{
+"id": 477,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 1,
+"ref": "Genèse 1:1",
+"sens": "Au commencement, Dieu créa les cieux et la terre."
+},
+{
+"id": 478,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 1,
+"ref": "Révélation 4:11",
+"sens": "Jéhovah est digne de recevoir la gloire, car il a créé toutes choses."
+},
+{
+"id": 479,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 2,
+"ref": "Psaume 36:9",
+"sens": "Auprès de Dieu est la source de la vie."
+},
+{
+"id": 480,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 2,
+"ref": "Néhémie 9:6",
+"sens": "Toi seul es Jéhovah ; tu as fait les cieux, la terre, la mer et tout ce qu'ils contiennent."
+},
+{
+"id": 481,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 2,
+"ref": "Genèse 1:27",
+"sens": "Dieu créa l'homme à son image ; il les créa homme et femme."
+},
+{
+"id": 482,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 2,
+"ref": "Psaume 100:3",
+"sens": "C'est Jéhovah qui nous a faits, et non nous-mêmes."
+},
+{
+"id": 483,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 3,
+"ref": "Genèse 1:24",
+"sens": "Dieu dit que la terre produise des êtres vivants selon leurs espèces."
+},
+{
+"id": 484,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 3,
+"ref": "Ecclésiaste 1:7",
+"sens": "Les fleuves se jettent dans la mer, et elle ne déborde pas (cycle de l'eau)."
+},
+{
+"id": 485,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 3,
+"ref": "Job 38:4",
+"sens": "Où étais-tu quand j'ai fondé la terre ?"
+},
+{
+"id": 486,
+"theme": "La création et la science",
+"question": "La vie est-elle le fruit du hasard ?",
+"niveau": 3,
+"ref": "Isaïe 45:12",
+"sens": "C'est moi qui ai fait la terre et créé l'homme sur elle."
+},
+{
+"id": 487,
+"theme": "La création et la science",
+"question": "Pourquoi Dieu a-t-il créé les humains ?",
+"niveau": 1,
+"ref": "Genèse 1:28",
+"sens": "Soyez féconds, remplissez la terre et soumettez-la."
+},
+{
+"id": 488,
+"theme": "La création et la science",
+"question": "Pourquoi Dieu a-t-il créé les humains ?",
+"niveau": 2,
+"ref": "Genèse 2:15",
+"sens": "Dieu installa l'homme dans le jardin d'Éden pour le cultiver et s'en occuper."
+},
+{
+"id": 489,
+"theme": "La création et la science",
+"question": "Pourquoi Dieu a-t-il créé les humains ?",
+"niveau": 2,
+"ref": "Ecclésiaste 3:11",
+"sens": "Dieu a mis l'éternité dans le cœur des humains."
+},
+{
+"id": 490,
+"theme": "La création et la science",
+"question": "Pourquoi Dieu a-t-il créé les humains ?",
+"niveau": 2,
+"ref": "Ecclésiaste 12:13",
+"sens": "Crains le vrai Dieu et observe ses commandements : c'est le devoir de l'homme."
+},
+{
+"id": 491,
+"theme": "La création et la science",
+"question": "Pourquoi Dieu a-t-il créé les humains ?",
+"niveau": 3,
+"ref": "Isaïe 43:7",
+"sens": "Dieu a créé les humains pour sa gloire."
+},
+{
+"id": 492,
+"theme": "Les anges",
+"question": "Qui sont les anges ?",
+"niveau": 2,
+"ref": "Psaume 103:20",
+"sens": "Les anges de Jéhovah, puissants en force, accomplissent sa parole."
+},
+{
+"id": 493,
+"theme": "Les anges",
+"question": "Qui sont les anges ?",
+"niveau": 2,
+"ref": "Hébreux 1:14",
+"sens": "Les anges sont des esprits au service de Dieu, envoyés pour aider ceux qui hériteront du salut."
+},
+{
+"id": 494,
+"theme": "Les anges",
+"question": "Qui sont les anges ?",
+"niveau": 2,
+"ref": "Daniel 7:10",
+"sens": "Des milliers de milliers servaient Dieu, et dix mille fois dix mille se tenaient devant lui."
+},
+{
+"id": 495,
+"theme": "Les anges",
+"question": "Qui sont les anges ?",
+"niveau": 2,
+"ref": "Job 38:7",
+"sens": "Les fils de Dieu poussaient des cris de joie quand Dieu fonda la terre."
+},
+{
+"id": 496,
+"theme": "Les anges",
+"question": "Qui sont les anges ?",
+"niveau": 3,
+"ref": "Psaume 34:7",
+"sens": "L'ange de Jéhovah campe autour de ceux qui le craignent."
+},
+{
+"id": 497,
+"theme": "Les anges",
+"question": "Qui sont les anges ?",
+"niveau": 3,
+"ref": "Révélation 14:6",
+"sens": "Un ange vole dans le ciel avec une bonne nouvelle éternelle pour toute nation."
+},
+{
+"id": 498,
+"theme": "Les anges",
+"question": "Qui sont les anges ?",
+"niveau": 3,
+"ref": "Matthieu 26:53",
+"sens": "Jésus pourrait demander plus de douze légions d'anges."
+},
+{
+"id": 499,
+"theme": "Le péché et Adam",
+"question": "D'où viennent le péché et la mort ?",
+"niveau": 1,
+"ref": "Romains 5:12",
+"sens": "Par un seul homme le péché est entré dans le monde, et par le péché la mort."
+},
+{
+"id": 500,
+"theme": "Le péché et Adam",
+"question": "D'où viennent le péché et la mort ?",
+"niveau": 2,
+"ref": "Genèse 2:16, 17",
+"sens": "Dieu interdit à Adam de manger de l'arbre de la connaissance du bien et du mal."
+},
+{
+"id": 501,
+"theme": "Le péché et Adam",
+"question": "D'où viennent le péché et la mort ?",
+"niveau": 2,
+"ref": "Genèse 3:17-19",
+"sens": "À cause d'Adam, le sol est maudit ; il retournera à la poussière."
+},
+{
+"id": 502,
+"theme": "Le péché et Adam",
+"question": "D'où viennent le péché et la mort ?",
+"niveau": 2,
+"ref": "Romains 3:23",
+"sens": "Tous ont péché et n'atteignent pas la gloire de Dieu."
+},
+{
+"id": 503,
+"theme": "Le péché et Adam",
+"question": "D'où viennent le péché et la mort ?",
+"niveau": 2,
+"ref": "1 Jean 1:8",
+"sens": "Si nous disons que nous n'avons pas de péché, nous nous trompons nous-mêmes."
+},
+{
+"id": 504,
+"theme": "Le péché et Adam",
+"question": "D'où viennent le péché et la mort ?",
+"niveau": 3,
+"ref": "Psaume 51:5",
+"sens": "Je suis né dans la faute ; ma mère m'a conçu dans le péché."
+},
+{
+"id": 505,
+"theme": "Le péché et Adam",
+"question": "D'où viennent le péché et la mort ?",
+"niveau": 3,
+"ref": "Romains 7:19",
+"sens": "Je ne fais pas le bien que je veux, mais le mal que je ne veux pas."
+},
+{
+"id": 506,
+"theme": "Le péché et Adam",
+"question": "D'où viennent le péché et la mort ?",
+"niveau": 3,
+"ref": "Genèse 3:15",
+"sens": "Inimitié entre le serpent et la femme, entre sa descendance et celle de la femme."
+},
+{
+"id": 507,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 1,
+"ref": "Hébreux 11:1",
+"sens": "La foi, c'est l'attente assurée de ce qu'on espère et la démonstration évidente de réalités qu'on ne voit pas."
+},
+{
+"id": 508,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 1,
+"ref": "Hébreux 11:6",
+"sens": "Sans foi il est impossible de plaire à Dieu ; il récompense ceux qui le cherchent."
+},
+{
+"id": 509,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 2,
+"ref": "Jacques 2:26",
+"sens": "La foi sans œuvres est morte."
+},
+{
+"id": 510,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 2,
+"ref": "Romains 10:17",
+"sens": "La foi vient de ce qu'on entend."
+},
+{
+"id": 511,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 2,
+"ref": "Luc 17:5",
+"sens": "Les apôtres demandent : « Donne-nous plus de foi. »"
+},
+{
+"id": 512,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 2,
+"ref": "Matthieu 17:20",
+"sens": "Une foi grosse comme une graine de moutarde déplacerait une montagne."
+},
+{
+"id": 513,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 3,
+"ref": "2 Corinthiens 5:7",
+"sens": "Nous marchons par la foi, non par la vue."
+},
+{
+"id": 514,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 3,
+"ref": "Hébreux 11:7",
+"sens": "Par la foi, Noé construisit une arche pour sauver sa famille."
+},
+{
+"id": 515,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 3,
+"ref": "Hébreux 11:17",
+"sens": "Par la foi, Abraham offrit pour ainsi dire Isaac."
+},
+{
+"id": 516,
+"theme": "La foi",
+"question": "Qu'est-ce que la vraie foi ?",
+"niveau": 3,
+"ref": "Jacques 1:6",
+"sens": "Demander avec foi, sans douter, car celui qui doute ressemble à une vague agitée."
+},
+{
+"id": 517,
+"theme": "L'espérance",
+"question": "L'espérance chrétienne est-elle sûre ?",
+"niveau": 1,
+"ref": "Romains 15:13",
+"sens": "Que le Dieu de l'espérance vous remplisse de joie et de paix."
+},
+{
+"id": 518,
+"theme": "L'espérance",
+"question": "L'espérance chrétienne est-elle sûre ?",
+"niveau": 2,
+"ref": "Hébreux 6:19",
+"sens": "L'espérance est comme une ancre pour l'âme, sûre et ferme."
+},
+{
+"id": 519,
+"theme": "L'espérance",
+"question": "L'espérance chrétienne est-elle sûre ?",
+"niveau": 2,
+"ref": "Romains 8:20, 21",
+"sens": "La création sera libérée de l'esclavage de la corruption."
+},
+{
+"id": 520,
+"theme": "L'espérance",
+"question": "L'espérance chrétienne est-elle sûre ?",
+"niveau": 2,
+"ref": "Tite 1:2",
+"sens": "L'espérance de la vie éternelle a été promise par Dieu, qui ne peut pas mentir."
+},
+{
+"id": 521,
+"theme": "L'espérance",
+"question": "L'espérance chrétienne est-elle sûre ?",
+"niveau": 3,
+"ref": "Romains 12:12",
+"sens": "Réjouissez-vous dans l'espérance."
+},
+{
+"id": 522,
+"theme": "L'espérance",
+"question": "L'espérance chrétienne est-elle sûre ?",
+"niveau": 3,
+"ref": "1 Thessaloniciens 5:8",
+"sens": "Mettons comme casque l'espérance du salut."
+},
+{
+"id": 523,
+"theme": "L'espérance",
+"question": "L'espérance chrétienne est-elle sûre ?",
+"niveau": 3,
+"ref": "Psaume 37:4",
+"sens": "Trouve ton plaisir en Jéhovah, et il t'accordera ce que ton cœur demande."
+},
+{
+"id": 524,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 1,
+"ref": "Matthieu 24:13",
+"sens": "Celui qui aura enduré jusqu'à la fin sera sauvé."
+},
+{
+"id": 525,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 1,
+"ref": "2 Timothée 3:12",
+"sens": "Tous ceux qui veulent vivre avec piété seront persécutés."
+},
+{
+"id": 526,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 2,
+"ref": "Jean 15:20",
+"sens": "Si on m'a persécuté, on vous persécutera aussi."
+},
+{
+"id": 527,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 2,
+"ref": "Matthieu 5:11, 12",
+"sens": "Heureux êtes-vous quand on vous insulte à cause de moi ; votre récompense est grande."
+},
+{
+"id": 528,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 2,
+"ref": "Jacques 1:2, 3",
+"sens": "Considérez comme une joie de rencontrer des épreuves ; elles produisent l'endurance."
+},
+{
+"id": 529,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 2,
+"ref": "Romains 8:38, 39",
+"sens": "Rien ne pourra nous séparer de l'amour de Dieu."
+},
+{
+"id": 530,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 2,
+"ref": "Philippiens 4:13",
+"sens": "Pour tout, j'ai la force grâce à celui qui me donne de la puissance."
+},
+{
+"id": 531,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 2,
+"ref": "Hébreux 12:2",
+"sens": "Gardons les yeux fixés sur Jésus, qui a enduré le poteau de supplice."
+},
+{
+"id": 532,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 3,
+"ref": "Psaume 27:10",
+"sens": "Même si mon père et ma mère m'abandonnaient, Jéhovah me recueillerait."
+},
+{
+"id": 533,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 3,
+"ref": "Isaïe 54:17",
+"sens": "Aucune arme fabriquée contre toi ne réussira."
+},
+{
+"id": 534,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 3,
+"ref": "Jacques 5:11",
+"sens": "Vous avez entendu parler de l'endurance de Job et de la façon dont Jéhovah l'a traité."
+},
+{
+"id": 535,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 3,
+"ref": "1 Pierre 5:10",
+"sens": "Après que vous aurez un peu souffert, Dieu achèvera votre formation et vous rendra forts."
+},
+{
+"id": 536,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 3,
+"ref": "Galates 6:9",
+"sens": "Ne renonçons pas à faire le bien ; au moment voulu, nous moissonnerons."
+},
+{
+"id": 537,
+"theme": "Endurance et persécution",
+"question": "Comment tenir bon dans les épreuves ?",
+"niveau": 3,
+"ref": "Révélation 2:10",
+"sens": "Montre-toi fidèle jusqu'à la mort, et je te donnerai la couronne de vie."
+},
+{
+"id": 538,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 1,
+"ref": "Éphésiens 4:29",
+"sens": "Qu'aucune parole pourrie ne sorte de votre bouche, mais seulement ce qui fortifie."
+},
+{
+"id": 539,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 1,
+"ref": "Proverbes 18:21",
+"sens": "La mort et la vie sont au pouvoir de la langue."
+},
+{
+"id": 540,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 2,
+"ref": "Jacques 1:19",
+"sens": "Soyez prompts à écouter, lents à parler, lents à la colère."
+},
+{
+"id": 541,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 2,
+"ref": "Proverbes 12:18",
+"sens": "Les paroles irréfléchies blessent comme une épée, mais la langue des sages guérit."
+},
+{
+"id": 542,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 2,
+"ref": "Proverbes 10:19",
+"sens": "Quand on parle beaucoup, on n'évite pas la faute ; celui qui retient ses lèvres est avisé."
+},
+{
+"id": 543,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 2,
+"ref": "Jacques 3:5",
+"sens": "La langue est un petit membre, mais elle se vante beaucoup ; un petit feu embrase une grande forêt."
+},
+{
+"id": 544,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 2,
+"ref": "Proverbes 16:24",
+"sens": "Les paroles agréables sont un rayon de miel, douces pour l'âme."
+},
+{
+"id": 545,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 3,
+"ref": "Proverbes 25:11",
+"sens": "Une parole dite au bon moment est comme des pommes d'or dans un ornement d'argent."
+},
+{
+"id": 546,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 3,
+"ref": "Matthieu 12:34",
+"sens": "La bouche exprime ce dont le cœur est rempli."
+},
+{
+"id": 547,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 3,
+"ref": "Proverbes 11:13",
+"sens": "Le calomniateur révèle les secrets, mais celui qui est fidèle les garde."
+},
+{
+"id": 548,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment surveiller ses paroles ?",
+"niveau": 3,
+"ref": "Psaume 141:3",
+"sens": "Jéhovah, place une garde devant ma bouche."
+},
+{
+"id": 549,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment contrôler sa colère ?",
+"niveau": 1,
+"ref": "Éphésiens 4:26",
+"sens": "Soyez en colère, mais ne péchez pas ; que le soleil ne se couche pas sur votre colère."
+},
+{
+"id": 550,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment contrôler sa colère ?",
+"niveau": 2,
+"ref": "Proverbes 16:32",
+"sens": "Celui qui est lent à la colère vaut mieux qu'un homme fort."
+},
+{
+"id": 551,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment contrôler sa colère ?",
+"niveau": 2,
+"ref": "Proverbes 29:11",
+"sens": "Le stupide laisse éclater sa colère, le sage la contient."
+},
+{
+"id": 552,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment contrôler sa colère ?",
+"niveau": 2,
+"ref": "Romains 12:19",
+"sens": "Ne vous vengez pas ; laissez place à la colère de Dieu."
+},
+{
+"id": 553,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment contrôler sa colère ?",
+"niveau": 3,
+"ref": "Psaume 37:8",
+"sens": "Abandonne la colère et laisse la fureur ; ne t'énerve pas, cela ne mène qu'au mal."
+},
+{
+"id": 554,
+"theme": "Paroles et maîtrise de soi",
+"question": "Comment contrôler sa colère ?",
+"niveau": 3,
+"ref": "Proverbes 22:24",
+"sens": "Ne fréquente pas un homme coléreux."
+},
+{
+"id": 555,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 1,
+"ref": "Proverbes 16:18",
+"sens": "L'orgueil précède l'effondrement."
+},
+{
+"id": 556,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 1,
+"ref": "Jacques 4:6",
+"sens": "Dieu s'oppose aux orgueilleux, mais il accorde sa faveur aux humbles."
+},
+{
+"id": 557,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 2,
+"ref": "Michée 6:8",
+"sens": "Ce que Jéhovah demande : pratiquer la justice, aimer la fidélité et marcher humblement avec ton Dieu."
+},
+{
+"id": 558,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 2,
+"ref": "Proverbes 11:2",
+"sens": "La sagesse est avec les humbles."
+},
+{
+"id": 559,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 2,
+"ref": "1 Pierre 5:5, 6",
+"sens": "Revêtez-vous d'humilité ; humiliez-vous sous la main puissante de Dieu."
+},
+{
+"id": 560,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 2,
+"ref": "Philippiens 2:5-8",
+"sens": "Ayez l'état d'esprit de Jésus, qui s'est humilié jusqu'à la mort."
+},
+{
+"id": 561,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 3,
+"ref": "Matthieu 23:12",
+"sens": "Celui qui s'élève sera abaissé, celui qui s'abaisse sera élevé."
+},
+{
+"id": 562,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 3,
+"ref": "Romains 12:3",
+"sens": "Ne pas se croire plus important qu'on ne l'est."
+},
+{
+"id": 563,
+"theme": "Humilité et orgueil",
+"question": "Pourquoi être humble ?",
+"niveau": 3,
+"ref": "Proverbes 22:4",
+"sens": "Le résultat de l'humilité et de la crainte de Jéhovah : richesse, gloire et vie."
+},
+{
+"id": 564,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 1,
+"ref": "Ecclésiaste 12:1",
+"sens": "Souviens-toi de ton grand Créateur pendant ta jeunesse."
+},
+{
+"id": 565,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 1,
+"ref": "1 Timothée 4:12",
+"sens": "Que personne ne méprise ta jeunesse ; sois un exemple pour les fidèles."
+},
+{
+"id": 566,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 2,
+"ref": "Psaume 119:9",
+"sens": "Comment un jeune gardera-t-il sa conduite pure ? En se laissant guider par la parole de Dieu."
+},
+{
+"id": 567,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 2,
+"ref": "2 Timothée 2:22",
+"sens": "Fuis les désirs de la jeunesse et poursuis la justice, la foi, l'amour et la paix."
+},
+{
+"id": 568,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 2,
+"ref": "Ecclésiaste 11:9",
+"sens": "Réjouis-toi, jeune homme, mais sache que Dieu te fera passer en jugement."
+},
+{
+"id": 569,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 2,
+"ref": "Proverbes 1:10",
+"sens": "Mon fils, si des pécheurs cherchent à t'entraîner, n'accepte pas."
+},
+{
+"id": 570,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 3,
+"ref": "Psaume 110:3",
+"sens": "Ton peuple s'offrira volontairement ; tes jeunes sont comme les gouttes de rosée."
+},
+{
+"id": 571,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 3,
+"ref": "Lamentations 3:27",
+"sens": "Il est bon que l'homme porte le joug dans sa jeunesse."
+},
+{
+"id": 572,
+"theme": "Les jeunes",
+"question": "Que dit la Bible aux jeunes ?",
+"niveau": 3,
+"ref": "Proverbes 20:29",
+"sens": "La beauté des jeunes, c'est leur force ; la splendeur des vieux, ce sont leurs cheveux gris."
+},
+{
+"id": 573,
+"theme": "Les personnes âgées et les malades",
+"question": "Comment Dieu voit-il les personnes âgées ?",
+"niveau": 2,
+"ref": "Proverbes 16:31",
+"sens": "Les cheveux gris sont une couronne de beauté quand ils se trouvent dans le chemin de la justice."
+},
+{
+"id": 574,
+"theme": "Les personnes âgées et les malades",
+"question": "Comment Dieu voit-il les personnes âgées ?",
+"niveau": 2,
+"ref": "Lévitique 19:32",
+"sens": "Lève-toi devant les cheveux gris et honore la personne âgée."
+},
+{
+"id": 575,
+"theme": "Les personnes âgées et les malades",
+"question": "Comment Dieu voit-il les personnes âgées ?",
+"niveau": 2,
+"ref": "Psaume 71:9",
+"sens": "Ne me rejette pas quand je suis vieux ; ne m'abandonne pas quand mes forces déclinent."
+},
+{
+"id": 576,
+"theme": "Les personnes âgées et les malades",
+"question": "Comment Dieu voit-il les personnes âgées ?",
+"niveau": 2,
+"ref": "Isaïe 46:4",
+"sens": "Jusqu'à votre vieillesse je serai le même ; je vous porterai."
+},
+{
+"id": 577,
+"theme": "Les personnes âgées et les malades",
+"question": "Comment Dieu voit-il les personnes âgées ?",
+"niveau": 3,
+"ref": "Psaume 92:14",
+"sens": "Même dans leur vieillesse, ils continueront de prospérer."
+},
+{
+"id": 578,
+"theme": "Les personnes âgées et les malades",
+"question": "Comment Dieu voit-il les personnes âgées ?",
+"niveau": 3,
+"ref": "1 Timothée 5:4",
+"sens": "Les enfants et petits-enfants doivent rendre à leurs parents ce qui leur est dû."
+},
+{
+"id": 579,
+"theme": "Les personnes âgées et les malades",
+"question": "Dieu se soucie-t-il des malades ?",
+"niveau": 2,
+"ref": "Psaume 41:3",
+"sens": "Jéhovah soutiendra le malade sur son lit de souffrance."
+},
+{
+"id": 580,
+"theme": "Les personnes âgées et les malades",
+"question": "Dieu se soucie-t-il des malades ?",
+"niveau": 2,
+"ref": "Matthieu 9:12",
+"sens": "Ce ne sont pas les bien-portants qui ont besoin de médecin, mais les malades."
+},
+{
+"id": 581,
+"theme": "Les personnes âgées et les malades",
+"question": "Dieu se soucie-t-il des malades ?",
+"niveau": 3,
+"ref": "Isaïe 33:24",
+"sens": "Aucun habitant ne dira : « Je suis malade. »"
+},
+{
+"id": 582,
+"theme": "Les personnes âgées et les malades",
+"question": "Dieu se soucie-t-il des malades ?",
+"niveau": 3,
+"ref": "Matthieu 15:30, 31",
+"sens": "Jésus guérit les boiteux, les aveugles, les infirmes et les muets."
+},
+{
+"id": 583,
+"theme": "Unité et égalité",
+"question": "Dieu fait-il des différences entre les peuples ?",
+"niveau": 1,
+"ref": "Actes 10:34, 35",
+"sens": "Dieu n'est pas partial : toute nation peut lui plaire."
+},
+{
+"id": 584,
+"theme": "Unité et égalité",
+"question": "Dieu fait-il des différences entre les peuples ?",
+"niveau": 2,
+"ref": "Actes 17:26",
+"sens": "Dieu a fait d'un seul homme toutes les nations des humains."
+},
+{
+"id": 585,
+"theme": "Unité et égalité",
+"question": "Dieu fait-il des différences entre les peuples ?",
+"niveau": 2,
+"ref": "Galates 3:28",
+"sens": "Il n'y a ni Juif ni Grec, ni esclave ni homme libre ; vous êtes tous un en Christ."
+},
+{
+"id": 586,
+"theme": "Unité et égalité",
+"question": "Dieu fait-il des différences entre les peuples ?",
+"niveau": 2,
+"ref": "Révélation 7:9",
+"sens": "Une grande foule de toutes les nations, tribus, peuples et langues."
+},
+{
+"id": 587,
+"theme": "Unité et égalité",
+"question": "Dieu fait-il des différences entre les peuples ?",
+"niveau": 3,
+"ref": "Colossiens 3:11",
+"sens": "Il n'y a ni Grec ni Juif, ni étranger ni Scythe ; Christ est tout."
+},
+{
+"id": 588,
+"theme": "Unité et égalité",
+"question": "Dieu fait-il des différences entre les peuples ?",
+"niveau": 3,
+"ref": "Jean 4:9",
+"sens": "Les Juifs n'avaient pas de relations avec les Samaritains, mais Jésus parla à une Samaritaine."
+},
+{
+"id": 589,
+"theme": "Loisirs et choix personnels",
+"question": "Comment choisir ses divertissements ?",
+"niveau": 2,
+"ref": "Philippiens 4:8",
+"sens": "Tout ce qui est vrai, juste, pur, aimable : continuez à penser à ces choses."
+},
+{
+"id": 590,
+"theme": "Loisirs et choix personnels",
+"question": "Comment choisir ses divertissements ?",
+"niveau": 2,
+"ref": "Psaume 101:3",
+"sens": "Je ne mettrai rien de vil devant mes yeux."
+},
+{
+"id": 591,
+"theme": "Loisirs et choix personnels",
+"question": "Comment choisir ses divertissements ?",
+"niveau": 2,
+"ref": "Psaume 11:5",
+"sens": "Jéhovah déteste celui qui aime la violence."
+},
+{
+"id": 592,
+"theme": "Loisirs et choix personnels",
+"question": "Comment choisir ses divertissements ?",
+"niveau": 2,
+"ref": "1 Corinthiens 10:31",
+"sens": "Que vous mangiez, buviez ou fassiez autre chose, faites tout pour la gloire de Dieu."
+},
+{
+"id": 593,
+"theme": "Loisirs et choix personnels",
+"question": "Comment choisir ses divertissements ?",
+"niveau": 2,
+"ref": "Éphésiens 5:3, 4",
+"sens": "Que l'immoralité et la plaisanterie obscène ne soient même pas mentionnées parmi vous."
+},
+{
+"id": 594,
+"theme": "Loisirs et choix personnels",
+"question": "Comment choisir ses divertissements ?",
+"niveau": 3,
+"ref": "Éphésiens 5:15, 16",
+"sens": "Veillez à vous conduire comme des sages, en tirant le meilleur parti de votre temps."
+},
+{
+"id": 595,
+"theme": "Loisirs et choix personnels",
+"question": "Comment choisir ses divertissements ?",
+"niveau": 3,
+"ref": "Romains 12:2",
+"sens": "Cessez de vous conformer à ce monde ; transformez-vous en renouvelant votre façon de penser."
+},
+{
+"id": 596,
+"theme": "Loisirs et choix personnels",
+"question": "Comment choisir ses divertissements ?",
+"niveau": 3,
+"ref": "Galates 6:5",
+"sens": "Chacun portera sa propre charge de responsabilités."
+},
+{
+"id": 597,
+"theme": "Loisirs et choix personnels",
+"question": "Comment prendre une bonne décision ?",
+"niveau": 2,
+"ref": "Proverbes 3:5, 6",
+"sens": "Fais confiance à Jéhovah de tout ton cœur et ne t'appuie pas sur ta propre intelligence."
+},
+{
+"id": 598,
+"theme": "Loisirs et choix personnels",
+"question": "Comment prendre une bonne décision ?",
+"niveau": 2,
+"ref": "Proverbes 15:22",
+"sens": "Sans conseil, les projets échouent ; avec beaucoup de conseillers, ils réussissent."
+},
+{
+"id": 599,
+"theme": "Loisirs et choix personnels",
+"question": "Comment prendre une bonne décision ?",
+"niveau": 2,
+"ref": "Hébreux 5:14",
+"sens": "Les adultes ont exercé leur discernement pour distinguer le bien du mal."
+},
+{
+"id": 600,
+"theme": "Loisirs et choix personnels",
+"question": "Comment prendre une bonne décision ?",
+"niveau": 3,
+"ref": "Proverbes 14:15",
+"sens": "L'inexpérimenté croit tout ce qu'on lui dit, mais l'avisé réfléchit à chaque pas."
+},
+{
+"id": 601,
+"theme": "Loisirs et choix personnels",
+"question": "Comment prendre une bonne décision ?",
+"niveau": 3,
+"ref": "Luc 14:28",
+"sens": "Celui qui veut bâtir une tour calcule d'abord la dépense."
+},
+{
+"id": 602,
+"theme": "Loisirs et choix personnels",
+"question": "Comment prendre une bonne décision ?",
+"niveau": 3,
+"ref": "1 Timothée 1:19",
+"sens": "Gardez la foi et une bonne conscience."
+},
+{
+"id": 603,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 1,
+"ref": "Luc 2:7",
+"sens": "Marie met au monde son fils premier-né et le couche dans une mangeoire."
+},
+{
+"id": 604,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 1,
+"ref": "Matthieu 3:16, 17",
+"sens": "Au baptême de Jésus, l'esprit descend sur lui et une voix dit : « Celui-ci est mon Fils, le bien-aimé. »"
+},
+{
+"id": 605,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Luc 3:23",
+"sens": "Jésus a environ 30 ans quand il commence son ministère."
+},
+{
+"id": 606,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Luc 2:46, 47",
+"sens": "À 12 ans, Jésus est trouvé au Temple, assis au milieu des enseignants."
+},
+{
+"id": 607,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Matthieu 4:1",
+"sens": "Après son baptême, Jésus est conduit dans le désert pour être tenté par le Diable."
+},
+{
+"id": 608,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Jean 2:11",
+"sens": "Aux noces de Cana, Jésus accomplit son premier miracle."
+},
+{
+"id": 609,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Matthieu 5:1, 2",
+"sens": "Jésus monte sur la montagne et enseigne (le Sermon sur la montagne)."
+},
+{
+"id": 610,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Marc 3:14",
+"sens": "Jésus choisit douze apôtres pour être avec lui et les envoyer prêcher."
+},
+{
+"id": 611,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Matthieu 17:1, 2",
+"sens": "Jésus est transfiguré devant Pierre, Jacques et Jean."
+},
+{
+"id": 612,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Jean 11:43, 44",
+"sens": "Jésus ressuscite Lazare à Béthanie."
+},
+{
+"id": 613,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Matthieu 21:9",
+"sens": "Les foules acclament Jésus à son entrée dans Jérusalem."
+},
+{
+"id": 614,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Luc 22:19, 20",
+"sens": "Jésus institue le repas du Seigneur la nuit de la Pâque."
+},
+{
+"id": 615,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Luc 23:46",
+"sens": "Jésus meurt en disant : « Père, je remets mon esprit entre tes mains. »"
+},
+{
+"id": 616,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Matthieu 28:6",
+"sens": "L'ange dit aux femmes : « Il n'est pas ici, car il a été ressuscité. »"
+},
+{
+"id": 617,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 2,
+"ref": "Actes 1:9",
+"sens": "Jésus est élevé et un nuage le cache à leurs yeux (ascension)."
+},
+{
+"id": 618,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 3,
+"ref": "Jean 2:13-16",
+"sens": "Jésus chasse les marchands du Temple au début de son ministère."
+},
+{
+"id": 619,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 3,
+"ref": "Marc 6:41-44",
+"sens": "Avec cinq pains et deux poissons, Jésus nourrit 5 000 hommes."
+},
+{
+"id": 620,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 3,
+"ref": "Matthieu 14:25",
+"sens": "Jésus marche sur la mer."
+},
+{
+"id": 621,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 3,
+"ref": "Luc 7:14, 15",
+"sens": "Jésus ressuscite le fils de la veuve de Naïn."
+},
+{
+"id": 622,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 3,
+"ref": "Jean 13:5",
+"sens": "Jésus lave les pieds de ses disciples."
+},
+{
+"id": 623,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 3,
+"ref": "Actes 1:3",
+"sens": "Après sa résurrection, Jésus apparaît à ses disciples pendant 40 jours."
+},
+{
+"id": 624,
+"theme": "La vie de Jésus",
+"question": "Que sait-on de la vie terrestre de Jésus ? (appendice A7)",
+"niveau": 3,
+"ref": "1 Corinthiens 15:6",
+"sens": "Jésus ressuscité apparaît à plus de 500 frères en même temps."
+},
+{
+"id": 625,
+"theme": "La vie de Jésus",
+"question": "Comment Jésus enseignait-il ?",
+"niveau": 2,
+"ref": "Matthieu 7:28, 29",
+"sens": "Les foules étaient frappées par sa façon d'enseigner, avec autorité."
+},
+{
+"id": 626,
+"theme": "La vie de Jésus",
+"question": "Comment Jésus enseignait-il ?",
+"niveau": 2,
+"ref": "Matthieu 13:34",
+"sens": "Jésus parlait aux foules au moyen d'exemples (paraboles)."
+},
+{
+"id": 627,
+"theme": "La vie de Jésus",
+"question": "Comment Jésus enseignait-il ?",
+"niveau": 2,
+"ref": "Jean 7:46",
+"sens": "Jamais un homme n'a parlé comme lui."
+},
+{
+"id": 628,
+"theme": "La vie de Jésus",
+"question": "Comment Jésus enseignait-il ?",
+"niveau": 3,
+"ref": "Matthieu 11:29",
+"sens": "Jésus est doux et humble de cœur ; son joug est agréable."
+},
+{
+"id": 629,
+"theme": "La vie de Jésus",
+"question": "Comment Jésus enseignait-il ?",
+"niveau": 3,
+"ref": "Marc 6:34",
+"sens": "Jésus a pitié de la foule, car ils sont comme des brebis sans berger."
+},
+{
+"id": 630,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 1,
+"ref": "Psaume 83:18",
+"sens": "Le nom Jéhovah apparaît dans les Écritures hébraïques (environ 7 000 fois)."
+},
+{
+"id": 631,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 2,
+"ref": "Genèse 2:4",
+"sens": "Première mention du nom Jéhovah : « Jéhovah Dieu fit la terre et le ciel. »"
+},
+{
+"id": 632,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 2,
+"ref": "Matthieu 4:10",
+"sens": "Jésus cite : « C'est Jéhovah ton Dieu que tu dois adorer. »"
+},
+{
+"id": 633,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 2,
+"ref": "Luc 4:18",
+"sens": "Jésus lit dans Isaïe : « L'esprit de Jéhovah est sur moi. »"
+},
+{
+"id": 634,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 2,
+"ref": "Actes 2:34",
+"sens": "Pierre cite le Psaume 110 : « Jéhovah a dit à mon Seigneur. »"
+},
+{
+"id": 635,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 2,
+"ref": "Révélation 19:1",
+"sens": "« Louez Jah ! » (Alléluia) : Jah est la forme abrégée du nom divin."
+},
+{
+"id": 636,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 3,
+"ref": "Psaume 68:4",
+"sens": "Chantez à Dieu ; son nom est Jah."
+},
+{
+"id": 637,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 3,
+"ref": "Matthieu 22:44",
+"sens": "Jésus cite le Psaume 110:1 où figure le nom de Jéhovah."
+},
+{
+"id": 638,
+"theme": "Le nom de Dieu dans la Bible (appendices A4 et A5)",
+"question": "Le nom de Dieu figure-t-il dans les Écritures ?",
+"niveau": 3,
+"ref": "Jean 12:28",
+"sens": "Jésus prie : « Père, glorifie ton nom », et une voix répond du ciel."
+},
+{
+"id": 639,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 2,
+"ref": "1 Samuel 10:24",
+"sens": "Samuel présente Saül, le premier roi d'Israël."
+},
+{
+"id": 640,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 2,
+"ref": "1 Samuel 16:13",
+"sens": "Samuel oint David au milieu de ses frères."
+},
+{
+"id": 641,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 2,
+"ref": "1 Rois 1:39",
+"sens": "Le prêtre Tsadok oint Salomon roi."
+},
+{
+"id": 642,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 2,
+"ref": "1 Rois 12:20",
+"sens": "Jéroboam devient roi sur Israël ; seule la tribu de Juda suit la maison de David."
+},
+{
+"id": 643,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 2,
+"ref": "2 Rois 17:6",
+"sens": "Le roi d'Assyrie prend Samarie et déporte Israël."
+},
+{
+"id": 644,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 2,
+"ref": "2 Rois 25:8, 9",
+"sens": "Nebouzaradân brûle la maison de Jéhovah et Jérusalem."
+},
+{
+"id": 645,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 3,
+"ref": "1 Rois 18:21",
+"sens": "Élie dit au peuple : « Jusqu'à quand boiterez-vous entre deux opinions ? »"
+},
+{
+"id": 646,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 3,
+"ref": "2 Rois 2:11",
+"sens": "Élie est emporté dans un tourbillon."
+},
+{
+"id": 647,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 3,
+"ref": "2 Rois 22:8",
+"sens": "Le grand prêtre Hilkia trouve le livre de la Loi sous le roi Josias."
+},
+{
+"id": 648,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 3,
+"ref": "Jérémie 1:5",
+"sens": "Jéhovah a établi Jérémie prophète pour les nations avant sa naissance."
+},
+{
+"id": 649,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 3,
+"ref": "Isaïe 6:8",
+"sens": "Isaïe répond : « Me voici ! Envoie-moi ! »"
+},
+{
+"id": 650,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 3,
+"ref": "Ézéchiel 3:17",
+"sens": "Jéhovah établit Ézéchiel comme guetteur pour la maison d'Israël."
+},
+{
+"id": 651,
+"theme": "Prophètes et rois (appendice A6)",
+"question": "Qui furent les rois et les prophètes d'Israël ?",
+"niveau": 3,
+"ref": "Jonas 3:4",
+"sens": "Jonas annonce : « Encore 40 jours, et Ninive sera renversée. »"
+},
+{
+"id": 652,
+"theme": "La transmission de la Bible (appendice A3)",
+"question": "Comment la Bible nous est-elle parvenue ?",
+"niveau": 2,
+"ref": "Isaïe 40:8",
+"sens": "La parole de notre Dieu dure pour toujours."
+},
+{
+"id": 653,
+"theme": "La transmission de la Bible (appendice A3)",
+"question": "Comment la Bible nous est-elle parvenue ?",
+"niveau": 2,
+"ref": "1 Pierre 1:25",
+"sens": "La parole de Jéhovah demeure pour toujours."
+},
+{
+"id": 654,
+"theme": "La transmission de la Bible (appendice A3)",
+"question": "Comment la Bible nous est-elle parvenue ?",
+"niveau": 2,
+"ref": "Romains 3:2",
+"sens": "Les déclarations sacrées de Dieu ont été confiées aux Juifs."
+},
+{
+"id": 655,
+"theme": "La transmission de la Bible (appendice A3)",
+"question": "Comment la Bible nous est-elle parvenue ?",
+"niveau": 3,
+"ref": "Psaume 12:6, 7",
+"sens": "Les paroles de Jéhovah sont pures ; il les préservera pour toujours."
+},
+{
+"id": 656,
+"theme": "La transmission de la Bible (appendice A3)",
+"question": "Comment la Bible nous est-elle parvenue ?",
+"niveau": 3,
+"ref": "Luc 24:44",
+"sens": "Jésus cite la Loi de Moïse, les Prophètes et les Psaumes comme parties des Écritures."
+},
+{
+"id": 657,
+"theme": "La transmission de la Bible (appendice A3)",
+"question": "Comment la Bible nous est-elle parvenue ?",
+"niveau": 3,
+"ref": "Jérémie 36:32",
+"sens": "Jérémie fait réécrire le rouleau brûlé par le roi, avec des paroles en plus."
+},
+{
+"id": 658,
+"theme": "La transmission de la Bible (appendice A3)",
+"question": "Comment la Bible nous est-elle parvenue ?",
+"niveau": 3,
+"ref": "Deutéronome 31:24-26",
+"sens": "Moïse écrit la Loi dans un livre placé à côté de l'Arche."
+}
+]
